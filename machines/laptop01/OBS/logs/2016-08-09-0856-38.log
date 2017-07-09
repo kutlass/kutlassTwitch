@@ -1,0 +1,270 @@
+﻿08:56:38: CLR host plugin strings not found, dynamically loading 4 strings
+08:56:38: CLRHost::Initialize() attempting to load and start the .NET runtime (null)
+08:56:38: CLRHost::Initialize() Found version v2.0.50727 .NET runtime
+08:56:38: CLRHost::Initialize() Found version v4.0.30319 .NET runtime
+08:56:38: CLRHost::Initialize() attempting to use v4.0.30319 .NET runtime
+08:56:38: CLRHost::LoadInteropLibrary() load the assembly plugins\CLRHostPlugin\CLRHost.Interop.dll
+08:56:39: CLRHost::LoadPlugins() attempting to load the plugin assembly CLRBrowserSourcePlugin
+08:56:39: CLRHost:: Could not find/load browser settings at location C:\Users\kutla\AppData\Roaming\OBS\pluginData\browser.json
+08:56:39: CLRHost:: Exception: System.IO.FileNotFoundException: Could not find file 'C:\Users\kutla\AppData\Roaming\OBS\pluginData\browser.json'.
+08:56:39: File name: 'C:\Users\kutla\AppData\Roaming\OBS\pluginData\browser.json'
+08:56:39:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+08:56:39:    at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+08:56:39:    at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+08:56:39:    at CLRBrowserSourcePlugin.Shared.BrowserSettings.Reload()
+08:56:40: CLRHost::LoadPlugins() successfully added CLR plugin [Type: CLRBrowserSourcePlugin.CLRBrowserSourcePlugin, Name: CLR Browser Source Plugin]
+08:56:43: Open Broadcaster Software v0.658b - 32bit (´・ω・｀)
+08:56:43: -------------------------------
+08:56:43: CPU Name: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+08:56:43: CPU Speed: 2496MHz
+08:56:43: Physical Memory:  4022MB Total, 1376MB Free
+08:56:43: stepping id: 3, model 78, family 6, type 0, extmodel 2, extfamily 0, HTT 1, logical cores 4, total cores 2
+08:56:43: monitor 1: pos={0, 0}, size={2736, 1824}
+08:56:43: Windows Version: 10.0 Build 10586 (revision 0)
+08:56:43: Aero is Enabled
+08:56:43: -------------------------------
+08:56:43: OBS Modules:
+08:56:43: Base Address     Module
+08:56:43: 00D90000         OBS.exe
+08:56:43: 61550000         OBSApi.dll
+08:56:43: 61520000         CLRHostPlugin.dll
+08:56:43: 5BEC0000         DShowPlugin.dll
+08:56:43: 60A00000         GraphicsCapture.dll
+08:56:43: 5AE50000         NoiseGate.dll
+08:56:43: 5CF50000         PSVPlugin.dll
+08:56:43: 5BEA0000         scenesw.dll
+08:56:43: ------------------------------------------
+08:56:43: Adapter 1
+08:56:43:   Video Adapter: Intel(R) HD Graphics 520
+08:56:43:   Video Adapter Dedicated Video Memory: 134217728
+08:56:43:   Video Adapter Shared System Memory: 2108901376
+08:56:43:   Video Adapter Output 1: pos={0, 0}, size={2736, 1824}, attached=true
+08:56:43: =====Stream Start: 2016-08-09, 08:56:43===============================================
+08:56:43:   Multithreaded optimizations: On
+08:56:43:   Base resolution: 1920x1080
+08:56:43:   Output resolution: 768x432
+08:56:43: ------------------------------------------
+08:56:43: Loading up D3D10 on Intel(R) HD Graphics 520 (Adapter 1)...
+08:56:43: ------------------------------------------
+08:56:43: Audio Format: 48000 Hz
+08:56:43: ------------------------------------------
+08:56:43: Audio Channels: 2 Ch
+08:56:43: Playback device Default
+08:56:43: ------------------------------------------
+08:56:43: Using desktop audio input: Speakers (Yeti Stereo Microphone)
+08:56:43: Global Audio time adjust: 0
+08:56:43: ------------------------------------------
+08:56:43: Using auxilary audio input: Microphone (Yeti Stereo Microphone)
+08:56:43: Mic time offset: 0
+08:56:43: ------------------------------------------
+08:56:43: Audio Encoding: AAC
+08:56:43:     bitrate: 128
+08:56:43: Using text output
+08:56:43: Using text output
+08:56:43: Using text output
+08:56:43: Using text output
+08:56:43: Using text output
+08:56:43: Using text output
+08:56:44: Using text output
+08:56:44: ------------------------------------------
+08:56:44:     device: Logitech HD Pro Webcam C920,
+08:56:44:     device id \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083},
+08:56:44:     chosen type: I420, usingFourCC: false, res: 1920x1080 - 1920x1080, frameIntervals: 333333-2000000
+08:56:44:     use buffering: false - 0, fourCC: 'I420'
+08:56:44:     audio device: Disable,
+08:56:44:     audio device id Disabled,
+08:56:44:     audio time offset 0,
+08:56:44: 
+08:56:44: Using directshow input
+08:56:44: CLRHost:: Browser 1: Status message: 
+08:56:44: CLRHost:: Browser 2: Status message: 
+08:56:44: CLRHost:: Browser 2: Failed to set referrer policy: The value 'no-referrer' is not one of 'always', 'default', 'never', or 'origin'. Defaulting to 'never'. @http://www.twitchalerts.com/alert-box/v3/B704783E09C40661165510
+08:56:45: ------------------------------------------
+08:56:45:     device: Elgato Game Capture HD,
+08:56:45:     device id {39F50F4C-99E1-464A-B6F9-D605B4FB5918},
+08:56:45:     chosen type: UYVY, usingFourCC: false, res: 1920x1080 - 1920x1080, frameIntervals: 333333-333333
+08:56:45:     use buffering: true - 0, fourCC: 'UYVY'
+08:56:45: 
+08:56:45:     device audio info - bits per sample: 16, channels: 2, samples per sec: 48000, block size: 4
+08:56:46: CLRHost:: Browser 2: [blocked] The page at 'https://www.youtube.com/embed/?autoplay=1&controls=0&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&enablejsapi=1&origin=http%3A%2F%2Fwww.twitchalerts.com&widgetid=1' was loaded over HTTPS, but ran insecure content from 'chrome-extension://pkedcjkdefgpdelpbcmbmeomcjbeemfm/cast_sender.js': this content should also be loaded over HTTPS.
+08:56:46:  @https://www.youtube.com/embed/?autoplay=1&controls=0&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&enablejsapi=1&origin=http%3A%2F%2Fwww.twitchalerts.com&widgetid=10
+08:56:46: CLRHost:: Browser 2: [blocked] The page at 'https://www.youtube.com/embed/?autoplay=1&controls=0&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&enablejsapi=1&origin=http%3A%2F%2Fwww.twitchalerts.com&widgetid=1' was loaded over HTTPS, but ran insecure content from 'chrome-extension://fjhoaacokmgbjemoflkofnenfaiekifl/cast_sender.js': this content should also be loaded over HTTPS.
+08:56:46:  @https://www.youtube.com/embed/?autoplay=1&controls=0&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&enablejsapi=1&origin=http%3A%2F%2Fwww.twitchalerts.com&widgetid=10
+08:56:47:     Elgato Game Capture: force buffering with 1 msec
+08:56:47: Using directshow input
+08:56:48: Scene buffering time set to 700
+08:56:48: ------------------------------------------
+08:56:48: Video Encoding: x264
+08:56:48:     fps: 30
+08:56:48:     width: 768, height: 432
+08:56:48:     preset: veryfast
+08:56:48:     profile: main
+08:56:48:     keyint: 60
+08:56:48:     CBR: yes
+08:56:48:     CFR: yes
+08:56:48:     max bitrate: 2500
+08:56:48:     buffer size: 2500
+08:56:48: ------------------------------------------
+09:07:41: FlushBufferedVideo: Flushing 3 packets over 67 ms
+09:07:41: Total frames encoded: 19569, total frames duplicated: 604 (3.09%)
+09:07:41: Number of frames skipped due to encoder lag: 132 (0.67%)
+09:07:41: Total frames rendered: 19438, number of late frames: 24 (0.12%) (it's okay for some frames to be late)
+09:07:43: 
+09:07:43: Profiler time results:
+09:07:43: 
+09:07:43: ==============================================================
+09:07:43: video thread frame - [100%] [avg time: 9.58 ms] [children: 90.9%] [unaccounted: 9.08%]
+09:07:43: | scene->Preprocess - [89.1%] [avg time: 8.54 ms]
+09:07:43: | GPU download and conversion - [1.77%] [avg time: 0.17 ms] [children: 1.42%] [unaccounted: 0.355%]
+09:07:43: | | flush - [0.908%] [avg time: 0.087 ms]
+09:07:43: | | CopyResource - [0.334%] [avg time: 0.032 ms]
+09:07:43: | | conversion to 4:2:0 - [0.177%] [avg time: 0.017 ms]
+09:07:43: Convert444Thread - [100%] [avg time: 0.547 ms] [children: 97.4%] [unaccounted: 2.56%]
+09:07:43: | Convert444toNV12 - [97.4%] [avg time: 0.533 ms]
+09:07:43: encoder thread frame - [100%] [avg time: 1.713 ms] [children: 0.759%] [unaccounted: 99.2%]
+09:07:43: | sending stuff out - [0.759%] [avg time: 0.013 ms]
+09:07:43: ==============================================================
+09:07:43: 
+09:07:43: 
+09:07:43: Profiler CPU results:
+09:07:43: 
+09:07:43: ==============================================================
+09:07:43: video thread frame - [cpu time: avg 8.751 ms, total 170109 ms] [avg calls per frame: 1]
+09:07:43: | scene->Preprocess - [cpu time: avg 7.872 ms, total 153031 ms] [avg calls per frame: 1]
+09:07:43: | GPU download and conversion - [cpu time: avg 0.098 ms, total 1921.88 ms] [avg calls per frame: 1]
+09:07:43: | | flush - [cpu time: avg 0.065 ms, total 1281.25 ms] [avg calls per frame: 1]
+09:07:43: | | CopyResource - [cpu time: avg 0.016 ms, total 328.125 ms] [avg calls per frame: 1]
+09:07:43: | | conversion to 4:2:0 - [cpu time: avg 0.001 ms, total 31.25 ms] [avg calls per frame: 1]
+09:07:43: Convert444Thread - [cpu time: avg 0.454 ms, total 8828.13 ms] [avg calls per frame: 1]
+09:07:43: | Convert444toNV12 - [cpu time: avg 0.446 ms, total 8671.88 ms] [avg calls per frame: 1]
+09:07:43: encoder thread frame - [cpu time: avg 0.858 ms, total 16796.9 ms] [avg calls per frame: 1]
+09:07:43: | sending stuff out - [cpu time: avg 0.005 ms, total 109.375 ms] [avg calls per frame: 1]
+09:07:43: ==============================================================
+09:07:43: 
+09:07:43: =====Stream End: 2016-08-09, 09:07:43=================================================
+09:07:53: =====Stream Start: 2016-08-09, 09:07:53===============================================
+09:07:53:   Multithreaded optimizations: On
+09:07:53:   Base resolution: 1920x1080
+09:07:53:   Output resolution: 768x432
+09:07:53: ------------------------------------------
+09:07:53: Loading up D3D10 on Intel(R) HD Graphics 520 (Adapter 1)...
+09:07:53: ------------------------------------------
+09:07:53: Audio Format: 48000 Hz
+09:07:53: ------------------------------------------
+09:07:53: Audio Channels: 2 Ch
+09:07:53: Playback device Default
+09:07:53: ------------------------------------------
+09:07:53: Using desktop audio input: Speakers (Yeti Stereo Microphone)
+09:07:53: Global Audio time adjust: 0
+09:07:53: ------------------------------------------
+09:07:53: Using auxilary audio input: Microphone (Yeti Stereo Microphone)
+09:07:53: Mic time offset: 0
+09:07:53: ------------------------------------------
+09:07:53: Audio Encoding: AAC
+09:07:53:     bitrate: 128
+09:07:53: Using text output
+09:07:53: Using text output
+09:07:53: Using text output
+09:07:53: Using text output
+09:07:53: Using text output
+09:07:53: Using text output
+09:07:53: Using text output
+09:07:53: ------------------------------------------
+09:07:53:     device: Logitech HD Pro Webcam C920,
+09:07:53:     device id \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083},
+09:07:53:     chosen type: I420, usingFourCC: false, res: 1920x1080 - 1920x1080, frameIntervals: 333333-2000000
+09:07:53:     use buffering: false - 0, fourCC: 'I420'
+09:07:53:     audio device: Disable,
+09:07:53:     audio device id Disabled,
+09:07:53:     audio time offset 0,
+09:07:53: 
+09:07:53: Using directshow input
+09:07:54: CLRHost:: Browser 4: Status message: 
+09:07:54: CLRHost:: Browser 3: Status message: 
+09:07:54: CLRHost:: Browser 4: Failed to set referrer policy: The value 'no-referrer' is not one of 'always', 'default', 'never', or 'origin'. Defaulting to 'never'. @http://www.twitchalerts.com/alert-box/v3/B704783E09C40661165510
+09:07:54: ------------------------------------------
+09:07:54:     device: Elgato Game Capture HD,
+09:07:54:     device id {39F50F4C-99E1-464A-B6F9-D605B4FB5918},
+09:07:54:     chosen type: UYVY, usingFourCC: false, res: 1920x1080 - 1920x1080, frameIntervals: 333333-333333
+09:07:54:     use buffering: true - 0, fourCC: 'UYVY'
+09:07:54: 
+09:07:54:     device audio info - bits per sample: 16, channels: 2, samples per sec: 48000, block size: 4
+09:07:55:     Elgato Game Capture: force buffering with 1 msec
+09:07:55: Using directshow input
+09:07:55: CLRHost:: Browser 4: [blocked] The page at 'https://www.youtube.com/embed/?autoplay=1&controls=0&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&enablejsapi=1&origin=http%3A%2F%2Fwww.twitchalerts.com&widgetid=1' was loaded over HTTPS, but ran insecure content from 'chrome-extension://pkedcjkdefgpdelpbcmbmeomcjbeemfm/cast_sender.js': this content should also be loaded over HTTPS.
+09:07:55:  @https://www.youtube.com/embed/?autoplay=1&controls=0&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&enablejsapi=1&origin=http%3A%2F%2Fwww.twitchalerts.com&widgetid=10
+09:07:55: CLRHost:: Browser 4: [blocked] The page at 'https://www.youtube.com/embed/?autoplay=1&controls=0&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&enablejsapi=1&origin=http%3A%2F%2Fwww.twitchalerts.com&widgetid=1' was loaded over HTTPS, but ran insecure content from 'chrome-extension://fjhoaacokmgbjemoflkofnenfaiekifl/cast_sender.js': this content should also be loaded over HTTPS.
+09:07:55:  @https://www.youtube.com/embed/?autoplay=1&controls=0&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&enablejsapi=1&origin=http%3A%2F%2Fwww.twitchalerts.com&widgetid=10
+09:07:55: Scene buffering time set to 700
+09:07:55: ------------------------------------------
+09:07:55: Video Encoding: x264
+09:07:55:     fps: 30
+09:07:55:     width: 768, height: 432
+09:07:55:     preset: veryfast
+09:07:55:     profile: main
+09:07:55:     keyint: 60
+09:07:55:     CBR: yes
+09:07:55:     CFR: yes
+09:07:55:     max bitrate: 2500
+09:07:55:     buffer size: 2500
+09:07:55: ------------------------------------------
+09:07:57: Using RTMP service: Twitch
+09:07:57:   Server selection: rtmp://live.twitch.tv/app
+09:07:57:   Interface: Marvell AVASTAR Wireless-AC Network Controller (802.11, 144 mbps)
+09:07:57: Completed handshake with rtmp://live.twitch.tv/app in 108 ms.
+09:07:58: SO_SNDBUF was at 65536
+10:00:58: FlushBufferedVideo: Flushing 3 packets over 66 ms
+10:00:58: Total frames encoded: 95473, total frames duplicated: 4739 (4.96%)
+10:00:58: Number of frames skipped due to encoder lag: 97 (0.10%)
+10:00:58: Total frames rendered: 95354, number of late frames: 41 (0.04%) (it's okay for some frames to be late)
+10:00:59: ~RTMPPublisher: Packet flush completed in 138 ms
+10:00:59: ~RTMPPublisher: Send thread terminated in 1 ms
+10:00:59: RTMPPublisher::SocketLoop: Graceful loop exit
+10:00:59: ~RTMPPublisher: Socket thread terminated in 1 ms
+10:01:01: 
+10:01:01: Profiler time results:
+10:01:01: 
+10:01:01: ==============================================================
+10:01:01: video thread frame - [100%] [avg time: 8.575 ms] [children: 94%] [unaccounted: 6.04%]
+10:01:01: | scene->Preprocess - [92.2%] [avg time: 7.903 ms]
+10:01:01: | GPU download and conversion - [1.8%] [avg time: 0.154 ms] [children: 1.43%] [unaccounted: 0.362%]
+10:01:01: | | flush - [1.06%] [avg time: 0.091 ms]
+10:01:01: | | CopyResource - [0.303%] [avg time: 0.026 ms]
+10:01:01: | | conversion to 4:2:0 - [0.07%] [avg time: 0.006 ms]
+10:01:01: Convert444Thread - [100%] [avg time: 0.392 ms] [children: 98%] [unaccounted: 2.04%]
+10:01:01: | Convert444toNV12 - [98%] [avg time: 0.384 ms]
+10:01:01: encoder thread frame - [100%] [avg time: 1.238 ms] [children: 17.5%] [unaccounted: 82.5%]
+10:01:01: | sending stuff out - [17.5%] [avg time: 0.217 ms]
+10:01:01: ==============================================================
+10:01:01: 
+10:01:01: 
+10:01:01: Profiler CPU results:
+10:01:01: 
+10:01:01: ==============================================================
+10:01:01: video thread frame - [cpu time: avg 7.943 ms, total 757422 ms] [avg calls per frame: 1]
+10:01:01: | scene->Preprocess - [cpu time: avg 7.366 ms, total 702453 ms] [avg calls per frame: 1]
+10:01:01: | GPU download and conversion - [cpu time: avg 0.123 ms, total 11781.3 ms] [avg calls per frame: 1]
+10:01:01: | | flush - [cpu time: avg 0.075 ms, total 7218.75 ms] [avg calls per frame: 1]
+10:01:01: | | CopyResource - [cpu time: avg 0.029 ms, total 2781.25 ms] [avg calls per frame: 1]
+10:01:01: | | conversion to 4:2:0 - [cpu time: avg 0.004 ms, total 390.625 ms] [avg calls per frame: 1]
+10:01:01: Convert444Thread - [cpu time: avg 0.361 ms, total 34500 ms] [avg calls per frame: 1]
+10:01:01: | Convert444toNV12 - [cpu time: avg 0.358 ms, total 34171.9 ms] [avg calls per frame: 1]
+10:01:01: encoder thread frame - [cpu time: avg 0.457 ms, total 43656.3 ms] [avg calls per frame: 1]
+10:01:01: | sending stuff out - [cpu time: avg 0.044 ms, total 4218.75 ms] [avg calls per frame: 1]
+10:01:01: ==============================================================
+10:01:01: 
+10:01:01: =====Stream End: 2016-08-09, 10:01:01=================================================
+10:01:04: ~RTMPPublisher: Final socket shutdown completed in 5046 ms
+10:01:04: Average send payload: 5227 bytes, average send interval: 15 ms
+10:01:04: Number of times waited to send: 0, Waited for a total of 0 bytes
+10:01:04: Number of b-frames dropped: 0 (0%), Number of p-frames dropped: 0 (0%), Total 0 (0%)
+10:01:04: Number of bytes sent: 1047421677
+10:04:30: CLR host plugin instance deleted; removing dynamically loaded localization strings
+10:04:30: Terminating 0x1d6c
+10:04:30: Terminating 0x1348
+
+
+Last game capture log:
+2016-07-31, 15:55:31: we're booting up: 
+15:55:31: CaptureThread: attached to process SoundCapture.exe
+

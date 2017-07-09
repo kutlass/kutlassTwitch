@@ -1,0 +1,551 @@
+scenes : {
+  console : {
+    class : Scene
+    sources : {
+      logitech : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : logitech
+        }
+        cx : 764
+        cy : 430
+        x : 624
+        y : 696
+        crop.left : 350.409
+        crop.top : 207.816
+        crop.right : 586.617
+        crop.bottom : 115.452
+      }
+      Followers Marquee (Text Label) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : Followers Marquee (Text Label)
+        }
+        cx : 229
+        cy : 57
+        x : 0
+        y : 1032
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      Followers Train (Text Stream Label) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : Followers Marquee (Text Stream Label)
+        }
+        cx : 1137
+        cy : 51
+        x : 235
+        y : 1021
+        crop.left : 0
+        crop.top : 0
+        crop.right : 382.691
+        crop.bottom : 0
+      }
+      Latest donation (Text Label) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : Latest donation (Text Label)
+        }
+        cx : 334.108
+        cy : 32
+        x : 1027
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      Top Monthly Donation (Text Label) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : Top Monthly Donation (Text Label)
+        }
+        cx : 402.377
+        cy : 32
+        x : 362
+        y : 9
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      Top Monthly Donation (Text) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : Top Monthly Donation (Text)
+        }
+        cx : 524.681
+        cy : 68
+        x : 1026
+        y : 26
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      Latest donation : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : Latest donation
+        }
+        cx : 519.684
+        cy : 67
+        x : 358
+        y : 33
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      ChatBox CLR Browser : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : ChatBox CLR Browser
+        }
+        cx : 630
+        cy : 472
+        x : 1244
+        y : 343
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      Most Recent Follower : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : Most Recent Follower
+        }
+        cx : 595
+        cy : 42
+        x : 91
+        y : 308
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      TwitchAlerts CLR Browser : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : TwitchAlerts CLR Browser
+        }
+        cx : 640
+        cy : 480
+        x : 636
+        y : 145
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      elgato : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : elgato
+        }
+        cx : 1920
+        cy : 1080
+        y : 0
+      }
+    }
+  }
+}
+global sources : {
+  elgato : {
+    class : DeviceCapture
+    data : {
+      deinterlacingGPU : 1
+      device : Elgato Game Capture HD
+      deviceName : Elgato Game Capture HD
+      deviceID : "{39F50F4C-99E1-464A-B6F9-D605B4FB5918}"
+      customResolution : 0
+      scaleFactor_x : 1
+      scaleFactor_y : 1
+      resolutionWidth : 1920
+      resolutionHeight : 1080
+      frameInterval : 333333
+      flipImage : 0
+      flipImageHorizontal : 0
+      usePointFiltering : 0
+      gamma : 100
+      preserveSourceSize : 0
+      deinterlacingType : 0
+      deinterlacingFieldOrder : 0
+      deinterlacingProcessor : 1
+      deinterlacingDoublesFramerate : 0
+      fullrange : 0
+      colorspace : 0
+      opacity : 100
+      usePreferredType : 0
+      preferredType : 10
+      useBuffering : 1
+      bufferTime : 0
+      audioDevice : (Use Device Audio)
+      audioDeviceName : (Use Device Audio)
+      audioDeviceID : 
+      forceCustomAudioDevice : 0
+      soundOutputType : 1
+      soundTimeOffset : 0
+      volume : 0.59887
+      useAudioRender : 0
+      useChromaKey : 0
+      keyColor : -1
+      keySimilarity : 0
+      keyBlend : 80
+      keySpillReduction : 50
+    }
+    cx : 1920
+    cy : 1080
+  }
+  logitech : {
+    class : DeviceCapture
+    data : {
+      deinterlacingGPU : 1
+      device : Logitech HD Pro Webcam C920
+      deviceName : Logitech HD Pro Webcam C920
+      deviceID : \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+      customResolution : 0
+      scaleFactor_x : 1
+      scaleFactor_y : 1
+      resolutionWidth : 1920
+      resolutionHeight : 1080
+      frameInterval : 333333
+      flipImage : 0
+      flipImageHorizontal : 0
+      usePointFiltering : 0
+      gamma : 112
+      preserveSourceSize : 0
+      deinterlacingType : 0
+      deinterlacingFieldOrder : 0
+      deinterlacingProcessor : 1
+      deinterlacingDoublesFramerate : 0
+      fullrange : 0
+      colorspace : 0
+      opacity : 100
+      usePreferredType : 0
+      preferredType : 4
+      useBuffering : 0
+      bufferTime : 0
+      audioDevice : Disable
+      audioDeviceName : Disable
+      audioDeviceID : Disabled
+      forceCustomAudioDevice : 1
+      soundOutputType : 1
+      soundTimeOffset : 0
+      volume : 1
+      useAudioRender : 0
+      useChromaKey : 1
+      keyColor : -13253217
+      keySimilarity : 90
+      keyBlend : 341
+      keySpillReduction : 0
+    }
+    cx : 1920
+    cy : 1080
+  }
+  TwitchAlerts CLR Browser : {
+    class : CLRBrowserSource
+    data : {
+      sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0Ijo0ODAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHA6XC9cL3d3dy50d2l0Y2hhbGVydHMuY29tXC9hbGVydC1ib3hcL3YzXC9CNzA0NzgzRTA5QzQwNjYxMTY1NSIsIlZvbHVtZSI6MCwiV2lkdGgiOjY0MH0=
+      instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+    }
+    cx : 640
+    cy : 480
+  }
+  Most Recent Follower : {
+    class : TextSource
+    data : {
+      baseSizeCX : 525.672
+      baseSizeCY : 37.75
+      font : Arial
+      color : -16711872
+      fontSize : 37
+      textOpacity : 100
+      scrollSpeed : 0
+      bold : 1
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 0
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -16777216
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : "C:\\Users\\kutla\\Desktop\\TwitchStreamLabels\\most_recent_follower.txt"
+      text : 
+      mode : 1
+    }
+    cx : 525.672
+    cy : 37.75
+  }
+  DonationTicker CLR Browser : {
+    class : CLRBrowserSource
+    data : {
+      sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0Ijo0ODAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHA6XC9cL3d3dy50d2l0Y2hhbGVydHMuY29tXC93aWRnZXRzXC9kb25hdGlvbi10aWNrZXI/dG9rZW49QjcwNDc4M0UwOUM0MDY2MTE2NTUiLCJWb2x1bWUiOjAsIldpZHRoIjo2NDB9
+      instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+    }
+    cx : 640
+    cy : 480
+  }
+  ChatBox CLR Browser : {
+    class : CLRBrowserSource
+    data : {
+      sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0Ijo0ODAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHA6XC9cL3d3dy50d2l0Y2hhbGVydHMuY29tXC93aWRnZXRzXC9jaGF0LWJveFwvdjFcL0I3MDQ3ODNFMDlDNDA2NjExNjU1IiwiVm9sdW1lIjowLCJXaWR0aCI6NjQwfQ==
+      instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+    }
+    cx : 640
+    cy : 480
+  }
+  Latest donation : {
+    class : TextSource
+    data : {
+      baseSizeCX : 247.15
+      baseSizeCY : 32
+      font : Arial
+      color : -16711681
+      fontSize : 24
+      textOpacity : 100
+      scrollSpeed : 0
+      bold : 0
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 0
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -16777216
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : "C:\\Users\\kutla\\Desktop\\TwitchStreamLabels\\most_recent_donator.txt"
+      text : 
+      mode : 1
+    }
+    cx : 247.15
+    cy : 32
+  }
+  Top Monthly Donation (Text) : {
+    class : TextSource
+    data : {
+      baseSizeCX : 247.15
+      baseSizeCY : 32
+      font : Arial
+      color : -16711872
+      fontSize : 24
+      textOpacity : 100
+      scrollSpeed : 0
+      bold : 0
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 0
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -16777216
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : "C:\\Users\\kutla\\Desktop\\TwitchStreamLabels\\monthly_top_donations.txt"
+      text : 
+      mode : 1
+    }
+    cx : 247.15
+    cy : 32
+  }
+  Monitor : {
+    class : MonitorCaptureSource
+    data : {
+      captureType : 0
+      monitor : 0
+      innerWindow : 0
+      regionCapture : 0
+      captureMouse : 1
+      captureLayered : 0
+      compatibilityMode : 0
+      usePointFiltering : 0
+      captureX : 0
+      captureY : 0
+      captureCX : 2736
+      captureCY : 1824
+      useColorKey : 0
+      keyColor : -1
+      keySimilarity : 10
+      keyBlend : 0
+      opacity : 100
+      gamma : 100
+    }
+    cx : 2736
+    cy : 1824
+  }
+  Top Monthly Donation (Text Label) : {
+    class : TextSource
+    data : {
+      baseSizeCX : 407.667
+      baseSizeCY : 32
+      font : Arial
+      color : -1
+      fontSize : 27
+      textOpacity : 100
+      scrollSpeed : 0
+      bold : 1
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 1
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -16777216
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : 
+      text : "Top Montly Donation: Thank you!! <3"
+      mode : 0
+    }
+    cx : 407.667
+    cy : 32
+  }
+  Latest donation (Text Label) : {
+    class : TextSource
+    data : {
+      baseSizeCX : 335.072
+      baseSizeCY : 32
+      font : Arial
+      color : -1
+      fontSize : 26
+      textOpacity : 100
+      scrollSpeed : 0
+      bold : 1
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 1
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -16777216
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : 
+      text : "Latest donation: Thank you!! <3"
+      mode : 0
+    }
+    cx : 335.072
+    cy : 32
+  }
+  Followers Marquee (Text Stream Label) : {
+    class : TextSource
+    data : {
+      baseSizeCX : 716.261
+      baseSizeCY : 32.1641
+      font : Arial
+      color : -8323073
+      fontSize : 32
+      textOpacity : 100
+      scrollSpeed : 20
+      bold : 1
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 0
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -16777216
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : "C:\\Users\\kutla\\Desktop\\TwitchStreamLabels\\session_followers.txt"
+      text : 
+      mode : 1
+    }
+    cx : 716.261
+    cy : 32.1641
+  }
+  Followers Marquee (Text Label) : {
+    class : TextSource
+    data : {
+      baseSizeCX : 129.703
+      baseSizeCY : 32
+      font : Arial
+      color : -1
+      fontSize : 22
+      textOpacity : 100
+      scrollSpeed : 0
+      bold : 1
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 0
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -16777216
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : 
+      text : "FOLLOWERS:"
+      mode : 0
+    }
+    cx : 129.703
+    cy : 32
+  }
+}

@@ -1,0 +1,25 @@
+﻿23:06:22: CLR host plugin strings not found, dynamically loading 4 strings
+23:06:22: CLRHost::Initialize() attempting to load and start the .NET runtime (null)
+23:06:22: CLRHost::Initialize() Found version v2.0.50727 .NET runtime
+23:06:22: CLRHost::Initialize() Found version v4.0.30319 .NET runtime
+23:06:22: CLRHost::Initialize() attempting to use v4.0.30319 .NET runtime
+23:06:23: CLRHost::LoadInteropLibrary() load the assembly plugins\CLRHostPlugin\CLRHost.Interop.dll
+23:06:23: CLRHost::LoadPlugins() attempting to load the plugin assembly CLRBrowserSourcePlugin
+23:06:24: CLRHost:: Could not find/load browser settings at location C:\Users\kutla\AppData\Roaming\OBS\pluginData\browser.json
+23:06:24: CLRHost:: Exception: System.IO.FileNotFoundException: Could not find file 'C:\Users\kutla\AppData\Roaming\OBS\pluginData\browser.json'.
+23:06:24: File name: 'C:\Users\kutla\AppData\Roaming\OBS\pluginData\browser.json'
+23:06:24:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+23:06:24:    at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+23:06:24:    at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+23:06:24:    at CLRBrowserSourcePlugin.Shared.BrowserSettings.Reload()
+23:06:25: CLRHost::LoadPlugins() successfully added CLR plugin [Type: CLRBrowserSourcePlugin.CLRBrowserSourcePlugin, Name: CLR Browser Source Plugin]
+23:07:08: Failed loading CUDA dll
+00:47:39: CLR host plugin instance deleted; removing dynamically loaded localization strings
+
+
+Last game capture log:
+2016-07-31, 15:55:31: we're booting up: 
+15:55:31: CaptureThread: attached to process SoundCapture.exe
+
+00:47:39: Memory Leaks Were Detected.
+00:47:39: 
