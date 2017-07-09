@@ -1,0 +1,146 @@
+﻿10:03:47: CLR host plugin strings not found, dynamically loading 4 strings
+10:03:47: CLRHost::Initialize() attempting to load and start the .NET runtime (null)
+10:03:47: CLRHost::Initialize() Found version v2.0.50727 .NET runtime
+10:03:47: CLRHost::Initialize() Found version v4.0.30319 .NET runtime
+10:03:47: CLRHost::Initialize() attempting to use v4.0.30319 .NET runtime
+10:03:47: CLRHost::LoadInteropLibrary() load the assembly plugins\CLRHostPlugin\CLRHost.Interop.dll
+10:03:47: CLRHost::LoadPlugins() attempting to load the plugin assembly CLRBrowserSourcePlugin
+10:03:47: CLRHost:: Could not find/load browser settings at location C:\Users\kutlass\AppData\Roaming\OBS\pluginData\browser.json
+10:03:47: CLRHost:: Exception: System.IO.FileNotFoundException: Could not find file 'C:\Users\kutlass\AppData\Roaming\OBS\pluginData\browser.json'.
+10:03:47: File name: 'C:\Users\kutlass\AppData\Roaming\OBS\pluginData\browser.json'
+10:03:47:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+10:03:47:    at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+10:03:47:    at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+10:03:47:    at CLRBrowserSourcePlugin.Shared.BrowserSettings.Reload()
+10:03:47: CLRHost::LoadPlugins() successfully added CLR plugin [Type: CLRBrowserSourcePlugin.CLRBrowserSourcePlugin, Name: CLR Browser Source Plugin]
+10:03:49: Open Broadcaster Software v0.659b - 32bit (´・ω・｀)
+10:03:49: -------------------------------
+10:03:49: CPU Name: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+10:03:49: CPU Speed: 4008MHz
+10:03:49: Physical Memory:  4095MB Total, 4095MB Free
+10:03:49: stepping id: 3, model 94, family 6, type 0, extmodel 2, extfamily 0, HTT 1, logical cores 8, total cores 4
+10:03:49: monitor 1: pos={0, 0}, size={2560, 1440}
+10:03:49: monitor 2: pos={2560, 127}, size={1920, 1080}
+10:03:49: Windows Version: 10.0 Build 14393 (revision 0)
+10:03:49: Aero is Enabled
+10:03:49: -------------------------------
+10:03:49: OBS Modules:
+10:03:49: Base Address     Module
+10:03:49: 013E0000         OBS.exe
+10:03:49: 56010000         OBSApi.dll
+10:03:49: 55FE0000         CLRHostPlugin.dll
+10:03:49: 55BF0000         DShowPlugin.dll
+10:03:49: 55BC0000         GraphicsCapture.dll
+10:03:49: 55B90000         NoiseGate.dll
+10:03:49: 55C60000         PSVPlugin.dll
+10:03:49: 55B70000         scenesw.dll
+10:03:49: ------------------------------------------
+10:03:49: Adapter 1
+10:03:49:   Video Adapter: NVIDIA GeForce GTX 1080
+10:03:49:   Video Adapter Dedicated Video Memory: 3221225472
+10:03:49:   Video Adapter Shared System Memory: 1073676288
+10:03:49:   Video Adapter Output 1: pos={0, 0}, size={2560, 1440}, attached=true
+10:03:49:   Video Adapter Output 2: pos={2560, 127}, size={1920, 1080}, attached=true
+10:03:49: =====Stream Start: 2016-12-01, 10:03:49===============================================
+10:03:49:   Multithreaded optimizations: On
+10:03:49:   Base resolution: 1920x1080
+10:03:49:   Output resolution: 1096x616
+10:03:49: ------------------------------------------
+10:03:49: Loading up D3D10 on NVIDIA GeForce GTX 1080 (Adapter 1)...
+10:03:50: ------------------------------------------
+10:03:50: Audio Format: 48000 Hz
+10:03:50: ------------------------------------------
+10:03:50: Audio Channels: 2 Ch
+10:03:50: Playback device Default
+10:03:50: ------------------------------------------
+10:03:50: Using desktop audio input: Speakers (Sennheiser 3D G4ME1)
+10:03:50: Global Audio time adjust: 0
+10:03:50: Using 5.1 speaker setup
+10:03:50: ------------------------------------------
+10:03:50: Using auxilary audio input: Microphone (Yeti Stereo Microphone)
+10:03:50: Mic time offset: 0
+10:03:50: ------------------------------------------
+10:03:50: Audio Encoding: AAC
+10:03:50:     bitrate: 128
+10:03:50: Using text output
+10:03:50: Using text output
+10:03:50: ------------------------------------------
+10:03:50:     device: Logitech HD Pro Webcam C920,
+10:03:50:     device id \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083},
+10:03:50:     chosen type: I420, usingFourCC: false, res: 640x480 - 640x480, frameIntervals: 333333-2000000
+10:03:50:     use buffering: false - 0, fourCC: 'I420'
+10:03:50:     audio device: Disable,
+10:03:50:     audio device id Disabled,
+10:03:50:     audio time offset 0,
+10:03:50: 
+10:03:51: Using directshow input
+10:03:52: Using text output
+10:03:52: Using text output
+10:03:52: Using text output
+10:03:52: Using text output
+10:03:52: Using Monitor Capture
+10:03:52: Scene buffering time set to 700
+10:03:52: ------------------------------------------
+10:03:52: Video Encoding: x264
+10:03:52:     fps: 30
+10:03:52:     width: 1096, height: 616
+10:03:52:     preset: veryfast
+10:03:52:     profile: main
+10:03:52:     keyint: 60
+10:03:52:     CBR: yes
+10:03:52:     CFR: yes
+10:03:52:     max bitrate: 1500
+10:03:52:     buffer size: 1500
+10:03:52: ------------------------------------------
+10:03:52: CLRHost:: Browser 2: Status message: 
+10:03:52: CLRHost:: Browser 2: Failed to set referrer policy: The value 'no-referrer' is not one of 'always', 'default', 'never', or 'origin'. Defaulting to 'never'. @http://streamlabs.com/alert-box/v3/B704783E09C40661165510
+10:03:52: CLRHost:: Browser 1: Status message: 
+10:03:53: Using RTMP service: Twitch
+10:03:53:   Server selection: rtmp://live-sea.twitch.tv/app
+10:03:53:   Interface: Intel(R) Ethernet Connection (2) I219-V (ethernet, 1000 mbps)
+10:04:07: librtmp error: RTMPSockBuf_Fill, remote host closed connection
+10:04:07: librtmp error: RTMP_Connect1, handshake failed.
+10:04:07: Connection to rtmp://live-sea.twitch.tv/app failed: Could not connect to server
+10:04:07: 
+10:04:07: RTMPSockBuf_Fill, remote host closed connection
+10:04:07: RTMP_Connect1, handshake failed.
+10:04:07: 
+10:04:08: Total frames encoded: 470, total frames duplicated: 6 (1.28%)
+10:04:08: Total frames rendered: 488, number of late frames: 2 (0.41%) (it's okay for some frames to be late)
+10:04:08: ~RTMPPublisher: Packet flush completed in 0 ms
+10:04:08: Number of times waited to send: 0, Waited for a total of 0 bytes
+10:04:08: Number of b-frames dropped: 0 (0%), Number of p-frames dropped: 0 (0%), Total 0 (0%)
+10:04:08: Number of bytes sent: 0
+10:04:08: 
+10:04:08: Profiler time results:
+10:04:08: 
+10:04:08: ==============================================================
+10:04:08: video thread frame - [100%] [avg time: 1.539 ms] [children: 81.8%] [unaccounted: 18.2%]
+10:04:08: | scene->Preprocess - [59.7%] [avg time: 0.919 ms]
+10:04:08: | GPU download and conversion - [22.1%] [avg time: 0.34 ms] [children: 21.6%] [unaccounted: 0.52%]
+10:04:08: | | flush - [21.2%] [avg time: 0.327 ms]
+10:04:08: | | CopyResource - [0.195%] [avg time: 0.003 ms]
+10:04:08: | | conversion to 4:2:0 - [0.13%] [avg time: 0.002 ms]
+10:04:08: Convert444Threads - [100%] [avg time: 0.28 ms] [children: 98.6%] [unaccounted: 1.43%]
+10:04:08: | Convert444toNV12 - [98.6%] [avg time: 0.276 ms]
+10:04:08: encoder thread frame - [100%] [avg time: 0.573 ms] [children: 4.01%] [unaccounted: 96%]
+10:04:08: | sending stuff out - [4.01%] [avg time: 0.023 ms]
+10:04:08: ==============================================================
+10:04:08: 
+10:04:08: 
+10:04:08: Profiler CPU results:
+10:04:08: 
+10:04:08: ==============================================================
+10:04:08: video thread frame - [cpu time: avg 1.152 ms, total 562.5 ms] [avg calls per frame: 1]
+10:04:08: | scene->Preprocess - [cpu time: avg 0.64 ms, total 312.5 ms] [avg calls per frame: 1]
+10:04:08: | GPU download and conversion - [cpu time: avg 0.032 ms, total 15.625 ms] [avg calls per frame: 1]
+10:04:08: | | flush - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+10:04:08: | | CopyResource - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+10:04:08: | | conversion to 4:2:0 - [cpu time: avg 0.033 ms, total 15.625 ms] [avg calls per frame: 1]
+10:04:08: Convert444Threads - [cpu time: avg 0.467 ms, total 437.5 ms] [avg calls per frame: 2]
+10:04:08: | Convert444toNV12 - [cpu time: avg 0.467 ms, total 437.5 ms] [avg calls per frame: 2]
+10:04:08: encoder thread frame - [cpu time: avg 0.531 ms, total 250 ms] [avg calls per frame: 1]
+10:04:08: | sending stuff out - [cpu time: avg 0.066 ms, total 31.25 ms] [avg calls per frame: 1]
+10:04:08: ==============================================================
+10:04:08: 
+10:04:08: =====Stream End: 2016-12-01, 10:04:08=================================================

@@ -1,0 +1,155 @@
+﻿00:01:32: CLR host plugin strings not found, dynamically loading 4 strings
+00:01:32: CLRHost::Initialize() attempting to load and start the .NET runtime (null)
+00:01:32: CLRHost::Initialize() Found version v2.0.50727 .NET runtime
+00:01:32: CLRHost::Initialize() Found version v4.0.30319 .NET runtime
+00:01:32: CLRHost::Initialize() attempting to use v4.0.30319 .NET runtime
+00:01:32: CLRHost::LoadInteropLibrary() load the assembly plugins\CLRHostPlugin\CLRHost.Interop.dll
+00:01:32: CLRHost::LoadPlugins() attempting to load the plugin assembly CLRBrowserSourcePlugin
+00:01:32: CLRHost:: Could not find/load browser settings at location C:\Users\kutlass\AppData\Roaming\OBS\pluginData\browser.json
+00:01:32: CLRHost:: Exception: System.IO.FileNotFoundException: Could not find file 'C:\Users\kutlass\AppData\Roaming\OBS\pluginData\browser.json'.
+00:01:32: File name: 'C:\Users\kutlass\AppData\Roaming\OBS\pluginData\browser.json'
+00:01:32:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+00:01:32:    at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+00:01:32:    at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+00:01:32:    at CLRBrowserSourcePlugin.Shared.BrowserSettings.Reload()
+00:01:32: CLRHost::LoadPlugins() successfully added CLR plugin [Type: CLRBrowserSourcePlugin.CLRBrowserSourcePlugin, Name: CLR Browser Source Plugin]
+00:01:34: Open Broadcaster Software v0.659b - 32bit (´・ω・｀)
+00:01:34: -------------------------------
+00:01:34: CPU Name: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+00:01:34: CPU Speed: 4008MHz
+00:01:34: Physical Memory:  4095MB Total, 4095MB Free
+00:01:34: stepping id: 3, model 94, family 6, type 0, extmodel 2, extfamily 0, HTT 1, logical cores 8, total cores 4
+00:01:34: monitor 1: pos={0, 0}, size={2560, 1440}
+00:01:34: monitor 2: pos={2560, 127}, size={1920, 1080}
+00:01:34: Windows Version: 10.0 Build 14393 (revision 0)
+00:01:34: Aero is Enabled
+00:01:34: -------------------------------
+00:01:34: OBS Modules:
+00:01:34: Base Address     Module
+00:01:34: 003D0000         OBS.exe
+00:01:34: 0F570000         OBSApi.dll
+00:01:34: 51270000         CLRHostPlugin.dll
+00:01:34: 506F0000         DShowPlugin.dll
+00:01:34: 506C0000         GraphicsCapture.dll
+00:01:34: 505B0000         NoiseGate.dll
+00:01:34: 73010000         PSVPlugin.dll
+00:01:34: 6CE90000         scenesw.dll
+00:01:34: ------------------------------------------
+00:01:34: Adapter 1
+00:01:34:   Video Adapter: NVIDIA GeForce GTX 1080
+00:01:34:   Video Adapter Dedicated Video Memory: 3221225472
+00:01:34:   Video Adapter Shared System Memory: 1073676288
+00:01:34:   Video Adapter Output 1: pos={0, 0}, size={2560, 1440}, attached=true
+00:01:34:   Video Adapter Output 2: pos={2560, 127}, size={1920, 1080}, attached=true
+00:01:34: =====Stream Start: 2016-12-06, 00:01:34===============================================
+00:01:34:   Multithreaded optimizations: On
+00:01:34:   Base resolution: 1920x1080
+00:01:34:   Output resolution: 1280x720
+00:01:34: ------------------------------------------
+00:01:34: Loading up D3D10 on NVIDIA GeForce GTX 1080 (Adapter 1)...
+00:01:35: ------------------------------------------
+00:01:35: Audio Format: 48000 Hz
+00:01:35: ------------------------------------------
+00:01:35: Audio Channels: 2 Ch
+00:01:35: Playback device Default
+00:01:35: ------------------------------------------
+00:01:35: Using desktop audio input: Speakers (Sennheiser 3D G4ME1)
+00:01:35: Global Audio time adjust: 0
+00:01:35: Using 5.1 speaker setup
+00:01:35: ------------------------------------------
+00:01:35: Using auxilary audio input: Microphone (Yeti Stereo Microphone)
+00:01:35: Mic time offset: 0
+00:01:35: ------------------------------------------
+00:01:35: Audio Encoding: AAC
+00:01:35:     bitrate: 128
+00:01:35: Using text output
+00:01:35: Using text output
+00:01:35: ------------------------------------------
+00:01:35:     device: Logitech HD Pro Webcam C920,
+00:01:35:     device id \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083},
+00:01:35:     chosen type: I420, usingFourCC: false, res: 640x480 - 640x480, frameIntervals: 333333-2000000
+00:01:35:     use buffering: false - 0, fourCC: 'I420'
+00:01:35:     audio device: Disable,
+00:01:35:     audio device id Disabled,
+00:01:35:     audio time offset 0,
+00:01:35: 
+00:01:36: Using directshow input
+Warning -- DShowPlugin: control->Run failed, result = 8007001F
+00:01:37: Using text output
+00:01:37: Using text output
+00:01:37: Using text output
+00:01:37: Using text output
+00:01:37: Using Monitor Capture
+00:01:37: Scene buffering time set to 700
+00:01:37: ------------------------------------------
+00:01:37: Video Encoding: x264
+00:01:37:     fps: 30
+00:01:37:     width: 1280, height: 720
+00:01:37:     preset: veryfast
+00:01:37:     profile: main
+00:01:37:     keyint: 60
+00:01:37:     CBR: yes
+00:01:37:     CFR: yes
+00:01:37:     max bitrate: 2000
+00:01:37:     buffer size: 2000
+00:01:37: ------------------------------------------
+00:01:37: CLRHost:: Browser 1: Status message: 
+00:01:37: CLRHost:: Browser 2: Status message: 
+00:01:37: CLRHost:: Browser 2: Failed to set referrer policy: The value 'no-referrer' is not one of 'always', 'default', 'never', or 'origin'. Defaulting to 'never'. @http://streamlabs.com/alert-box/v3/B704783E09C40661165510
+00:01:40: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+00:01:40:   New Scene
+00:01:41: ------------------------------------------
+00:01:41:     device: Elgato Game Capture HD,
+00:01:41:     device id {39F50F4C-99E1-464A-B6F9-D605B4FB5918},
+00:01:41:     chosen type: UYVY, usingFourCC: false, res: 1920x1080 - 1920x1080, frameIntervals: 333333-333333
+00:01:41:     use buffering: true - 0, fourCC: 'UYVY'
+00:01:41: 
+00:01:41:     device audio info - bits per sample: 16, channels: 2, samples per sec: 48000, block size: 4
+00:01:42:     Elgato Game Capture: force buffering with 1 msec
+00:01:43: Using directshow input
+00:01:43: PERFORMANCE WARNING: Scene change took 3093 ms, maybe some sources should be global sources?
+00:01:56: Total frames encoded: 569, total frames duplicated: 89 (15.64%)
+00:01:56: Total frames rendered: 497, number of late frames: 4 (0.80%) (it's okay for some frames to be late)
+00:01:58: 
+00:01:58: Profiler time results:
+00:01:58: 
+00:01:58: ==============================================================
+00:01:58: video thread frame - [100%] [avg time: 9.111 ms] [children: 26.9%] [unaccounted: 73.1%]
+00:01:58: | scene->Preprocess - [21.6%] [avg time: 1.972 ms]
+00:01:58: | GPU download and conversion - [5.26%] [avg time: 0.479 ms] [children: 5.15%] [unaccounted: 0.11%]
+00:01:58: | | flush - [5.06%] [avg time: 0.461 ms]
+00:01:58: | | CopyResource - [0.0549%] [avg time: 0.005 ms]
+00:01:58: | | conversion to 4:2:0 - [0.0329%] [avg time: 0.003 ms]
+00:01:58: Convert444Threads - [100%] [avg time: 0.486 ms] [children: 99%] [unaccounted: 1.03%]
+00:01:58: | Convert444toNV12 - [99%] [avg time: 0.481 ms]
+00:01:58: encoder thread frame - [100%] [avg time: 0.838 ms] [children: 0.239%] [unaccounted: 99.8%]
+00:01:58: | sending stuff out - [0.239%] [avg time: 0.002 ms]
+00:01:58: ==============================================================
+00:01:58: 
+00:01:58: 
+00:01:58: Profiler CPU results:
+00:01:58: 
+00:01:58: ==============================================================
+00:01:58: video thread frame - [cpu time: avg 2.357 ms, total 1171.88 ms] [avg calls per frame: 1]
+00:01:58: | scene->Preprocess - [cpu time: avg 1.792 ms, total 890.625 ms] [avg calls per frame: 1]
+00:01:58: | GPU download and conversion - [cpu time: avg 0.031 ms, total 15.625 ms] [avg calls per frame: 1]
+00:01:58: | | flush - [cpu time: avg 0.031 ms, total 15.625 ms] [avg calls per frame: 1]
+00:01:58: | | CopyResource - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+00:01:58: | | conversion to 4:2:0 - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+00:01:58: Convert444Threads - [cpu time: avg 0.42 ms, total 406.25 ms] [avg calls per frame: 2]
+00:01:58: | Convert444toNV12 - [cpu time: avg 0.42 ms, total 406.25 ms] [avg calls per frame: 2]
+00:01:58: encoder thread frame - [cpu time: avg 0.631 ms, total 359.375 ms] [avg calls per frame: 1]
+00:01:58: | sending stuff out - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+00:01:58: ==============================================================
+00:01:58: 
+00:01:58: =====Stream End: 2016-12-06, 00:01:58=================================================
+00:01:58: CLR host plugin instance deleted; removing dynamically loaded localization strings
+00:01:58: Terminating 0x361c
+
+
+Last game capture log:
+2016-08-15, 11:47:18: we're booting up: 
+11:47:18: CaptureThread: attached to process TESV.exe
+11:47:18: D3D9 Present
+11:47:18: (half life scientist) everything..  seems to be in order
+

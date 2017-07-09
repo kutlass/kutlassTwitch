@@ -1,0 +1,382 @@
+06:30:07.347: CPU Name: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+06:30:07.347: CPU Speed: 4008MHz
+06:30:07.347: Physical Cores: 4, Logical Cores: 8
+06:30:07.347: Physical Memory: 32688MB Total, 24065MB Free
+06:30:07.347: Windows Version: 10.0 Build 14393 (revision: 1198; 64-bit)
+06:30:07.347: Running as administrator: false
+06:30:07.347: Aero is Enabled (Aero is always on for windows 8 and above)
+06:30:07.347: Portable mode: false
+06:30:07.357: OBS 19.0.3 (64bit, windows)
+06:30:07.357: ---------------------------------
+06:30:07.357: ---------------------------------
+06:30:07.357: audio settings reset:
+06:30:07.357: 	samples per sec: 44100
+06:30:07.357: 	speakers:        2
+06:30:07.366: ---------------------------------
+06:30:07.366: Initializing D3D11...
+06:30:07.366: Available Video Adapters: 
+06:30:07.367: 	Adapter 1: NVIDIA GeForce GTX 1080
+06:30:07.367: 	  Dedicated VRAM: 4094361600
+06:30:07.367: 	  Shared VRAM:    4253374464
+06:30:07.367: 	  output 1: pos={0, 0}, size={2560, 1440}, attached=true
+06:30:07.367: 	  output 2: pos={2560, 127}, size={1920, 1080}, attached=true
+06:30:07.369: Loading up D3D11 on adapter NVIDIA GeForce GTX 1080 (0)
+06:30:07.407: D3D11 loaded successfully, feature level used: 45056
+06:30:07.978: ---------------------------------
+06:30:07.978: video settings reset:
+06:30:07.978: 	base resolution:   1920x1080
+06:30:07.978: 	output resolution: 1280x720
+06:30:07.978: 	downscale filter:  Bicubic
+06:30:07.978: 	fps:               30/1
+06:30:07.978: 	format:            NV12
+06:30:07.979: Audio monitoring device:
+06:30:07.979: 	name: Default
+06:30:07.979: 	id: default
+06:30:07.979: ---------------------------------
+06:30:08.020: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+06:30:08.032: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+06:30:08.048: [AMF] Encountered Exception during AMF initialization: Unable to load 'amfrt64.dll', error code 126.
+06:30:08.048: Failed to initialize module 'enc-amf.dll'
+06:30:08.105: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libcef.dll' not found, loading of module failed
+06:30:08.112: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+06:30:08.120: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+06:30:08.131: Failed to load 'en-US' text for module: 'obs-browser.dll'
+06:30:08.131: [browser_source: 'Version: 1.29.0']
+06:30:08.175: NVENC supported
+06:30:08.646: Couldn't find VLC installation, VLC video source disabled
+06:30:08.676: No blackmagic support
+06:30:08.795: ---------------------------------
+06:30:08.795:   Loaded Modules:
+06:30:08.795:     win-wasapi.dll
+06:30:08.795:     win-mf.dll
+06:30:08.795:     win-dshow.dll
+06:30:08.795:     win-decklink.dll
+06:30:08.795:     win-capture.dll
+06:30:08.795:     vlc-video.dll
+06:30:08.795:     text-freetype2.dll
+06:30:08.795:     rtmp-services.dll
+06:30:08.795:     obs-x264.dll
+06:30:08.795:     obs-vst.dll
+06:30:08.795:     obs-transitions.dll
+06:30:08.795:     obs-text.dll
+06:30:08.795:     obs-qsv11.dll
+06:30:08.795:     obs-outputs.dll
+06:30:08.795:     obs-filters.dll
+06:30:08.795:     obs-ffmpeg.dll
+06:30:08.795:     obs-browser.dll
+06:30:08.795:     image-source.dll
+06:30:08.795:     frontend-tools.dll
+06:30:08.795:     enc-amf.dll
+06:30:08.795:     coreaudio-encoder.dll
+06:30:08.795: ==== Startup complete ===============================================
+06:30:08.811: All scene data cleared
+06:30:08.811: ------------------------------------------------
+06:30:08.837: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' initialized
+06:30:08.847: WASAPI: Device 'Microphone (Sennheiser 3D G4ME1)' initialized
+06:30:08.903: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+06:30:09.749: Failed to open file 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG': No such file or directory
+06:30:09.749: gs_image_file_init: Failed to load file 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG'
+06:30:09.749: [image_source: 'image_RyuCriticalArt_BackAndWhite'] failed to load texture 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG'
+06:30:09.838: warning: deprecated pixel format used, make sure you did set range correctly
+06:30:09.838: warning: Warning: data is not aligned! This can lead to a speedloss
+06:30:09.995: Switched to scene 'scene_SFV_PC'
+06:30:10.003: ------------------------------------------------
+06:30:10.003: Loaded scenes:
+06:30:10.003: - scene 'scene_SFV_PC':
+06:30:10.014:     - source: 'src_StreetFighteVPC' (scene)
+06:30:10.014:         - filter: 'Chroma Key' (chroma_key_filter)
+06:30:10.014:     - source: 'src_WindowedGame' (scene)
+06:30:10.014:     - source: 'prefab_Projector' (scene)
+06:30:10.014:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+06:30:10.014:     - source: 'prefab_TextAndAlertOverlays' (scene)
+06:30:10.014:     - source: 'src_LogitechC920' (scene)
+06:30:10.014:         - filter: 'Color Correction' (color_filter)
+06:30:10.014: - scene 'scene_SFV_PS4':
+06:30:10.014:     - source: 'image_RyuCriticalArt_BackAndWhite' (image_source)
+06:30:10.014:     - source: 'src_ElgatoS60' (scene)
+06:30:10.014:     - source: 'src_LogitechC920' (scene)
+06:30:10.014:         - filter: 'Color Correction' (color_filter)
+06:30:10.014:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+06:30:10.014:     - source: 'prefab_TextAndAlertOverlays' (scene)
+06:30:10.014: - scene 'scene_GamePC':
+06:30:10.014:     - source: 'src_WindowedGame' (scene)
+06:30:10.014:     - source: 'src_LogitechC920' (scene)
+06:30:10.014:         - filter: 'Color Correction' (color_filter)
+06:30:10.014:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+06:30:10.014:     - source: 'prefab_TextAndAlertOverlays' (scene)
+06:30:10.014: - scene 'scene_GameConsole':
+06:30:10.014:     - source: 'src_ElgatoS60' (scene)
+06:30:10.014:     - source: 'src_LogitechC920' (scene)
+06:30:10.014:         - filter: 'Color Correction' (color_filter)
+06:30:10.014:     - source: 'prefab_TextAndAlertOverlays' (scene)
+06:30:10.014:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+06:30:10.014: - scene 'scene_WatchYouTube':
+06:30:10.014:     - source: 'src_MonitorBenQ' (scene)
+06:30:10.014: - scene 'scene_DualScreenSymetric':
+06:30:10.014:     - source: 'scene_BattleLoungeConsole' (scene)
+06:30:10.014:     - source: 'scene_BattleLoungePC' (scene)
+06:30:10.014:     - source: 'src_LogitechC920' (scene)
+06:30:10.014:         - filter: 'Color Correction' (color_filter)
+06:30:10.014:     - source: 'prefab_TextAndAlertOverlays' (scene)
+06:30:10.014:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+06:30:10.014: - scene 'scene_DualScreenFocusPC':
+06:30:10.014:     - source: 'scene_BattleLoungePC' (scene)
+06:30:10.014:     - source: 'scene_BattleLoungeConsole' (scene)
+06:30:10.014:     - source: 'src_LogitechC920' (scene)
+06:30:10.014:         - filter: 'Color Correction' (color_filter)
+06:30:10.014:     - source: 'prefab_TextAndAlertOverlays' (scene)
+06:30:10.014:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+06:30:10.014: - scene 'scene_DualScreenFocusConsole':
+06:30:10.014:     - source: 'scene_BattleLoungeConsole' (scene)
+06:30:10.014:     - source: 'scene_BattleLoungePC' (scene)
+06:30:10.014:     - source: 'src_LogitechC920' (scene)
+06:30:10.014:         - filter: 'Color Correction' (color_filter)
+06:30:10.014:     - source: 'prefab_TextAndAlertOverlays' (scene)
+06:30:10.014:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+06:30:10.014: - scene 'scene_BattleLoungePC':
+06:30:10.014:     - source: 'src_StreetFighteVPC' (scene)
+06:30:10.014:         - filter: 'Chroma Key' (chroma_key_filter)
+06:30:10.014:     - source: 'txtConnectionInfoBattleLoungePC' (text_gdiplus)
+06:30:10.014: - scene 'scene_BattleLoungeConsole':
+06:30:10.014:     - source: 'src_ElgatoS60' (scene)
+06:30:10.014:     - source: 'txtConnectionInfoBattleLoungeConsole' (text_gdiplus)
+06:30:10.014: - scene 'prefab_TextAndAlertOverlays':
+06:30:10.014:     - source: 'prefab_TransparentBlack' (scene)
+06:30:10.014:     - source: 'prefab_TransparentBlack' (scene)
+06:30:10.015:     - source: 'browserBitJar' (browser_source)
+06:30:10.015:     - source: 'browserAlertBox' (browser_source)
+06:30:10.015:     - source: 'txtCurrentSong' (text_gdiplus)
+06:30:10.015:     - source: 'browserBitBossBattles1' (browser_source)
+06:30:10.015:     - source: 'prefab_SeattleStats' (scene)
+06:30:10.015:     - source: 'browserChatBox' (browser_source)
+06:30:10.015:     - source: 'prefab_SubscriptionHype' (scene)
+06:30:10.015:     - source: 'prefab_DonationHype' (scene)
+06:30:10.015:     - source: 'prefab_CheerHype' (scene)
+06:30:10.015:     - source: 'src_BrowserViewerCount' (scene)
+06:30:10.015: - scene 'prefab_TextAndAlertOverlays_staticShouts':
+06:30:10.015:     - source: 'prefab_TransparentBlack' (scene)
+06:30:10.015:     - source: 'txtMostRecentFollowerValue' (text_gdiplus)
+06:30:10.015:     - source: 'txtMonthlyTopDonatorValue' (text_gdiplus)
+06:30:10.015:     - source: 'txtLatestDonation' (text_gdiplus)
+06:30:10.015: - scene 'prefab_SeattleStats':
+06:30:10.015:     - source: 'src_BrowserDateTime' (scene)
+06:30:10.015:     - source: 'src_BrowserWeather' (scene)
+06:30:10.015:     - source: 'src_BrowserWeather' (scene)
+06:30:10.015:     - source: 'colorSourceBlackTop' (color_source)
+06:30:10.015: - scene 'src_BrowserDateTime':
+06:30:10.015:     - source: 'browserBrowserDateTime' (browser_source)
+06:30:10.015: - scene 'src_BrowserViewerCount':
+06:30:10.015:     - source: 'browserSourceViewerCount' (browser_source)
+06:30:10.015: - scene 'src_BrowserWeather':
+06:30:10.015:     - source: 'browserWeather' (browser_source)
+06:30:10.015: - scene 'src_StreetFighteVPC':
+06:30:10.015:     - source: 'StreetFighterV' (window_capture)
+06:30:10.015:     - filter: 'Chroma Key' (chroma_key_filter)
+06:30:10.015: - scene 'src_WindowedGame':
+06:30:10.015:     - source: 'sourceWindowedGame' (game_capture)
+06:30:10.015: - scene 'src_FullScreenGame':
+06:30:10.015:     - source: 'source_FullScreenGame' (game_capture)
+06:30:10.015: - scene 'prefab_SubscriptionHype':
+06:30:10.015:     - source: 'txtSubscriptionHypeValue' (text_gdiplus)
+06:30:10.015:         - filter: 'Scroll' (scroll_filter)
+06:30:10.015:     - source: 'txtSubscriptionHypeLabel' (text_gdiplus)
+06:30:10.015:     - source: 'prefab_SubscriptionCount' (scene)
+06:30:10.015: - scene 'prefab_SubscriptionCount':
+06:30:10.015:     - source: 'colorSouceRed 2' (color_source)
+06:30:10.015:     - source: 'txtSubscriptionCount 2' (text_gdiplus)
+06:30:10.015: - scene 'prefab_DonationHype':
+06:30:10.015:     - source: 'txtDonationHypeValue' (text_gdiplus)
+06:30:10.015:         - filter: 'Scroll' (scroll_filter)
+06:30:10.015:     - source: 'txtDonationHypeLabel' (text_gdiplus)
+06:30:10.015: - scene 'prefab_CheerHype':
+06:30:10.015:     - source: 'txtCheerHypeValue' (text_gdiplus)
+06:30:10.015:         - filter: 'Scroll' (scroll_filter)
+06:30:10.015:     - source: 'txtCheerHypeLabel' (text_gdiplus)
+06:30:10.015: - scene 'prefab_Toolbox':
+06:30:10.015:     - source: 'txtMusicNotes 2' (text_gdiplus)
+06:30:10.015:         - filter: 'Scroll' (scroll_filter)
+06:30:10.015:     - source: 'source_Image_TheCommission_Fightstick 2' (image_source)
+06:30:10.015:     - source: 'Window Capture' (window_capture)
+06:30:10.015:     - source: 'Game Capture' (game_capture)
+06:30:10.015: - scene 'prefab_Projector':
+06:30:10.015:     - source: 'source_Image_kutlasBlaze112' (image_source)
+06:30:10.015:     - source: 'source_Image_kutlasKappaNine112' (image_source)
+06:30:10.015:     - source: 'source_Image_kutlasRyu112' (image_source)
+06:30:10.015: - scene 'prefab_TransparentBlack':
+06:30:10.015:     - source: 'sourceColorBlack' (color_source)
+06:30:10.015: - scene 'src_MonitorAcer':
+06:30:10.015:     - source: 'source_AcerMonitor' (monitor_capture)
+06:30:10.015: - scene 'src_MonitorBenQ':
+06:30:10.015:     - source: 'source_MonitorBenQ' (monitor_capture)
+06:30:10.015: - scene 'src_ElgatoS60':
+06:30:10.015:     - source: 'source_ElgatoS60' (dshow_input)
+06:30:10.015: - scene 'src_LogitechC920':
+06:30:10.015:     - source: 'source_Logitechc920' (dshow_input)
+06:30:10.015:         - filter: 'Chroma Key' (chroma_key_filter)
+06:30:10.015:     - filter: 'Color Correction' (color_filter)
+06:30:10.015: ------------------------------------------------
+06:30:10.158: ---------------------------------
+06:30:10.159: [DShow Device: 'source_Logitechc920'] settings updated: 
+06:30:10.159: 	video device: Logitech HD Pro Webcam C920
+06:30:10.159: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+06:30:10.159: 	resolution: 640x480
+06:30:10.159: 	fps: 30.00 (interval: 333333)
+06:30:10.159: 	format: I420
+06:30:11.427: ---------------------------------
+06:30:11.427: [DShow Device: 'source_ElgatoS60'] settings updated: 
+06:30:11.427: 	video device: Elgato Game Capture HD
+06:30:11.427: 	video path: __elgato
+06:30:11.427: 	resolution: 1280x720
+06:30:11.427: 	fps: 60.00 (interval: 166666)
+06:30:11.427: 	format: UYVY
+06:30:11.427: 	using video device audio: yes
+06:30:11.427: 	sample rate: 48000
+06:30:11.427: 	channels: 2
+06:30:11.427: 	audio type: Capture
+06:30:12.164: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+06:36:09.829: User switched to scene 'src_WindowedGame'
+06:36:24.416: User added scene 'src_WindowCapture'
+06:36:24.417: User switched to scene 'src_WindowCapture'
+06:36:42.548: User added source 'source_WindowCapture' (window_capture) to scene 'src_WindowCapture'
+06:42:21.788: warning: Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+06:42:21.788: warning: Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+06:42:21.794: ==== Recording Start ===============================================
+06:42:45.970: Output 'adv_ffmpeg_output': stopping
+06:42:45.970: Output 'adv_ffmpeg_output': Total encoded frames: 4294946010
+06:42:45.970: Output 'adv_ffmpeg_output': Total drawn frames: 725
+06:42:45.970: Output 'adv_ffmpeg_output': Number of lagged frames due to rendering lag/stalls: 1 (0.1%)
+06:42:45.970: ==== Recording Stop ================================================
+06:42:45.990: warning: 2 frames left in the queue on closing
+06:45:22.133: Settings changed (outputs)
+06:45:22.133: ------------------------------------------------
+06:46:23.685: ==== Recording Start ===============================================
+06:46:49.675: Output 'adv_ffmpeg_output': stopping
+06:46:49.675: Output 'adv_ffmpeg_output': Total encoded frames: 4294960837
+06:46:49.675: Output 'adv_ffmpeg_output': Total drawn frames: 798
+06:46:49.675: Output 'adv_ffmpeg_output': Number of lagged frames due to rendering lag/stalls: 1 (0.1%)
+06:46:49.675: ==== Recording Stop ================================================
+06:52:04.305: Settings changed (outputs)
+06:52:04.305: ------------------------------------------------
+06:57:46.453: Couldn't find encoder 'mp3'
+06:57:46.453: ffmpeg_data_init failed
+06:57:46.460: ==== Recording Stop ================================================
+06:57:51.155: Couldn't find encoder 'mp3'
+06:57:51.155: ffmpeg_data_init failed
+06:57:51.163: ==== Recording Stop ================================================
+06:58:16.952: Settings changed (outputs)
+06:58:16.952: ------------------------------------------------
+06:58:19.542: ==== Recording Start ===============================================
+06:58:43.564: Output 'adv_ffmpeg_output': stopping
+06:58:43.565: Output 'adv_ffmpeg_output': Total encoded frames: 4294946542
+06:58:43.565: Output 'adv_ffmpeg_output': Total drawn frames: 721
+06:58:43.565: Output 'adv_ffmpeg_output': Number of lagged frames due to rendering lag/stalls: 1 (0.1%)
+06:58:43.565: ==== Recording Stop ================================================
+07:20:23.772: User switched to scene 'scene_SFV_PC'
+07:20:23.877: ---------------------------------
+07:20:23.877: [DShow Device: 'source_Logitechc920'] settings updated: 
+07:20:23.877: 	video device: Logitech HD Pro Webcam C920
+07:20:23.877: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+07:20:23.877: 	resolution: 640x480
+07:20:23.877: 	fps: 30.00 (interval: 333333)
+07:20:23.877: 	format: I420
+07:33:43.383: User switched to scene 'scene_SFV_PS4'
+07:35:30.726: User removed filter 'Color Correction' (color_filter) from source 'src_LogitechC920'
+07:35:58.373: User switched to scene 'prefab_TextAndAlertOverlays'
+07:39:08.878: User switched to scene 'scene_SFV_PS4'
+07:39:08.966: ---------------------------------
+07:39:08.966: [DShow Device: 'source_Logitechc920'] settings updated: 
+07:39:08.966: 	video device: Logitech HD Pro Webcam C920
+07:39:08.966: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+07:39:08.966: 	resolution: 640x480
+07:39:08.966: 	fps: 30.00 (interval: 333333)
+07:39:08.966: 	format: I420
+07:39:21.481: ---------------------------------
+07:39:21.481: [DShow Device: 'source_Logitechc920'] settings updated: 
+07:39:21.481: 	video device: Logitech HD Pro Webcam C920
+07:39:21.481: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+07:39:21.481: 	resolution: 640x480
+07:39:21.481: 	fps: 30.00 (interval: 333333)
+07:39:21.481: 	format: I420
+07:39:46.671: User switched to scene 'prefab_TextAndAlertOverlays'
+07:39:47.783: User switched to scene 'prefab_TextAndAlertOverlays_staticShouts'
+07:39:49.998: User switched to scene 'prefab_TextAndAlertOverlays'
+07:40:48.900: User switched to scene 'scene_SFV_PS4'
+07:40:48.978: ---------------------------------
+07:40:48.978: [DShow Device: 'source_Logitechc920'] settings updated: 
+07:40:48.978: 	video device: Logitech HD Pro Webcam C920
+07:40:48.978: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+07:40:48.978: 	resolution: 640x480
+07:40:48.978: 	fps: 30.00 (interval: 333333)
+07:40:48.978: 	format: I420
+07:46:11.310: User switched to scene 'scene_SFV_PC'
+07:46:13.458: User switched to scene 'scene_SFV_PS4'
+07:46:17.431: ==== Shutting down ==================================================
+07:46:17.441: Switched to scene '(null)'
+07:46:19.811: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' Terminated
+07:46:19.819: WASAPI: Device 'Microphone (Sennheiser 3D G4ME1)' Terminated
+07:46:19.823: All scene data cleared
+07:46:19.823: ------------------------------------------------
+07:46:19.900: Freeing OBS context data
+07:46:19.971: == Profiler Results =============================
+07:46:19.971: run_program_init: 2788.01 ms
+07:46:19.971:  ┣OBSApp::AppInit: 20.915 ms
+07:46:19.971:  ┃ ┗OBSApp::InitLocale: 7.198 ms
+07:46:19.971:  ┗OBSApp::OBSInit: 2755.55 ms
+07:46:19.971:    ┣obs_startup: 5.287 ms
+07:46:19.971:    ┗OBSBasic::OBSInit: 2719.5 ms
+07:46:19.971:      ┣OBSBasic::InitBasicConfig: 0.261 ms
+07:46:19.971:      ┣OBSBasic::ResetAudio: 0.486 ms
+07:46:19.971:      ┣OBSBasic::ResetVideo: 622.13 ms
+07:46:19.971:      ┣OBSBasic::InitOBSCallbacks: 0.003 ms
+07:46:19.971:      ┣OBSBasic::InitHotkeys: 0.03 ms
+07:46:19.971:      ┣obs_load_all_modules: 815.452 ms
+07:46:19.971:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 9.628 ms
+07:46:19.971:      ┃ ┣obs_init_module(enc-amf.dll): 0.684 ms
+07:46:19.971:      ┃ ┣obs_init_module(frontend-tools.dll): 1.1 ms
+07:46:19.971:      ┃ ┣obs_init_module(image-source.dll): 0.004 ms
+07:46:19.971:      ┃ ┣obs_init_module(obs-browser.dll): 0.041 ms
+07:46:19.971:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 31.42 ms
+07:46:19.971:      ┃ ┣obs_init_module(obs-filters.dll): 0.017 ms
+07:46:19.971:      ┃ ┣obs_init_module(obs-outputs.dll): 0.005 ms
+07:46:19.971:      ┃ ┣obs_init_module(obs-qsv11.dll): 283.864 ms
+07:46:19.971:      ┃ ┣obs_init_module(obs-text.dll): 0.318 ms
+07:46:19.971:      ┃ ┣obs_init_module(obs-transitions.dll): 0.005 ms
+07:46:19.971:      ┃ ┣obs_init_module(obs-vst.dll): 0.003 ms
+07:46:19.971:      ┃ ┣obs_init_module(obs-x264.dll): 0.001 ms
+07:46:19.971:      ┃ ┣obs_init_module(rtmp-services.dll): 0.217 ms
+07:46:19.971:      ┃ ┣obs_init_module(text-freetype2.dll): 0.056 ms
+07:46:19.971:      ┃ ┣obs_init_module(vlc-video.dll): 0.03 ms
+07:46:19.971:      ┃ ┣obs_init_module(win-capture.dll): 0.085 ms
+07:46:19.971:      ┃ ┣obs_init_module(win-decklink.dll): 3.18 ms
+07:46:19.971:      ┃ ┣obs_init_module(win-dshow.dll): 1.154 ms
+07:46:19.971:      ┃ ┣obs_init_module(win-mf.dll): 87.239 ms
+07:46:19.971:      ┃ ┣obs_init_module(win-wasapi.dll): 0.008 ms
+07:46:19.971:      ┃ ┗reset_win32_symbol_paths: 0.132 ms
+07:46:19.971:      ┣OBSBasic::ResetOutputs: 4.38 ms
+07:46:19.971:      ┣OBSBasic::CreateHotkeys: 0.141 ms
+07:46:19.971:      ┣OBSBasic::InitService: 2.627 ms
+07:46:19.971:      ┣OBSBasic::InitPrimitives: 0.244 ms
+07:46:19.971:      ┗OBSBasic::Load: 1212.44 ms
+07:46:19.971: obs_hotkey_thread(25 ms): min=0.002 ms, median=0.006 ms, max=9.898 ms, 99th percentile=0.085 ms, 100% below 25 ms
+07:46:19.972: audio_thread(Audio): min=0 ms, median=0.068 ms, max=29.2 ms, 99th percentile=0.699 ms
+07:46:19.972: obs_video_thread(33.3333 ms): min=0.202 ms, median=1.387 ms, max=1105.29 ms, 99th percentile=13.501 ms, 99.8252% below 33.333 ms
+07:46:19.972:  ┣tick_sources: min=0.001 ms, median=0.328 ms, max=1104.88 ms, 99th percentile=11.555 ms
+07:46:19.972:  ┣render_displays: min=0 ms, median=0.242 ms, max=20.433 ms, 99th percentile=1.208 ms
+07:46:19.972:  ┗output_frame: min=0.195 ms, median=0.705 ms, max=20.293 ms, 99th percentile=1.802 ms
+07:46:19.972:    ┣gs_context(video->graphics): min=0.072 ms, median=0.513 ms, max=20.054 ms, 99th percentile=1.483 ms
+07:46:19.972:    ┃ ┣render_video: min=0.016 ms, median=0.047 ms, max=11.537 ms, 99th percentile=0.196 ms
+07:46:19.972:    ┃ ┃ ┣render_main_texture: min=0.002 ms, median=0.019 ms, max=11.501 ms, 99th percentile=0.126 ms
+07:46:19.972:    ┃ ┃ ┣render_output_texture: min=0.002 ms, median=0.01 ms, max=1.735 ms, 99th percentile=0.036 ms
+07:46:19.972:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.011 ms, max=0.811 ms, 99th percentile=0.042 ms
+07:46:19.972:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.003 ms, max=0.854 ms, 99th percentile=0.006 ms
+07:46:19.972:    ┃ ┣download_frame: min=0 ms, median=0.002 ms, max=19.917 ms, 99th percentile=0.007 ms
+07:46:19.972:    ┃ ┗gs_flush: min=0.014 ms, median=0.455 ms, max=16.574 ms, 99th percentile=1.301 ms
+07:46:19.972:    ┗output_video_data: min=0.11 ms, median=0.181 ms, max=1.931 ms, 99th percentile=0.411 ms
+07:46:19.972: video_thread(video): min=0 ms, median=0.001 ms, max=1.975 ms, 99th percentile=0.606 ms
+07:46:19.972: OBSBasic::ResetOutputs: min=0.346 ms, median=0.378 ms, max=0.382 ms, 99th percentile=0.382 ms
+07:46:19.972: =================================================
+07:46:19.972: == Profiler Time Between Calls ==================
+07:46:19.972: obs_hotkey_thread(25 ms): min=24.581 ms, median=25.067 ms, max=72.857 ms, 99.014% within ±2% of 25 ms (0% lower, 0.98601% higher)
+07:46:19.972: obs_video_thread(33.3333 ms): min=2.359 ms, median=33.333 ms, max=1105.3 ms, 99.502% within ±2% of 33.333 ms (0.255218% lower, 0.242786% higher)
+07:46:19.972: =================================================
+07:46:20.092: Number of memory leaks: 61

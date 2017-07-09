@@ -1,0 +1,235 @@
+﻿10:16:22: CLR host plugin strings not found, dynamically loading 4 strings
+10:16:22: CLRHost::Initialize() attempting to load and start the .NET runtime (null)
+10:16:22: CLRHost::Initialize() Found version v2.0.50727 .NET runtime
+10:16:22: CLRHost::Initialize() Found version v4.0.30319 .NET runtime
+10:16:22: CLRHost::Initialize() attempting to use v4.0.30319 .NET runtime
+10:16:22: CLRHost::LoadInteropLibrary() load the assembly plugins\CLRHostPlugin\CLRHost.Interop.dll
+10:16:22: CLRHost::LoadPlugins() attempting to load the plugin assembly CLRBrowserSourcePlugin
+10:16:22: CLRHost:: Could not find/load browser settings at location C:\Users\kutlass\AppData\Roaming\OBS\pluginData\browser.json
+10:16:22: CLRHost:: Exception: System.IO.FileNotFoundException: Could not find file 'C:\Users\kutlass\AppData\Roaming\OBS\pluginData\browser.json'.
+10:16:22: File name: 'C:\Users\kutlass\AppData\Roaming\OBS\pluginData\browser.json'
+10:16:22:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+10:16:22:    at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+10:16:22:    at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+10:16:22:    at CLRBrowserSourcePlugin.Shared.BrowserSettings.Reload()
+10:16:23: CLRHost::LoadPlugins() successfully added CLR plugin [Type: CLRBrowserSourcePlugin.CLRBrowserSourcePlugin, Name: CLR Browser Source Plugin]
+10:16:51: Open Broadcaster Software v0.659b - 32bit (´・ω・｀)
+10:16:51: -------------------------------
+10:16:51: CPU Name: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+10:16:51: CPU Speed: 4008MHz
+10:16:51: Physical Memory:  4095MB Total, 4095MB Free
+10:16:51: stepping id: 3, model 94, family 6, type 0, extmodel 2, extfamily 0, HTT 1, logical cores 8, total cores 4
+10:16:51: monitor 1: pos={0, 0}, size={2560, 1440}
+10:16:51: monitor 2: pos={2560, 127}, size={1920, 1080}
+10:16:51: Windows Version: 10.0 Build 14393 (revision 0)
+10:16:51: Aero is Enabled
+10:16:51: -------------------------------
+10:16:51: OBS Modules:
+10:16:51: Base Address     Module
+10:16:51: 012A0000         OBS.exe
+10:16:51: 0FAC0000         OBSApi.dll
+10:16:51: 0F0C0000         CLRHostPlugin.dll
+10:16:51: 10CE0000         DShowPlugin.dll
+10:16:51: 0FFD0000         GraphicsCapture.dll
+10:16:51: 10D20000         NoiseGate.dll
+10:16:51: 0F980000         PSVPlugin.dll
+10:16:51: 0FED0000         scenesw.dll
+10:16:51: ------------------------------------------
+10:16:51: Adapter 1
+10:16:51:   Video Adapter: NVIDIA GeForce GTX 1080
+10:16:51:   Video Adapter Dedicated Video Memory: 3221225472
+10:16:51:   Video Adapter Shared System Memory: 1073676288
+10:16:51:   Video Adapter Output 1: pos={0, 0}, size={2560, 1440}, attached=true
+10:16:51:   Video Adapter Output 2: pos={2560, 127}, size={1920, 1080}, attached=true
+10:16:51: =====Stream Start: 2016-11-28, 10:16:51===============================================
+10:16:51:   Multithreaded optimizations: On
+10:16:51:   Base resolution: 1920x1080
+10:16:51:   Output resolution: 1280x720
+10:16:51: ------------------------------------------
+10:16:51: Loading up D3D10 on NVIDIA GeForce GTX 1080 (Adapter 1)...
+10:16:52: ------------------------------------------
+10:16:52: Audio Format: 48000 Hz
+10:16:52: ------------------------------------------
+10:16:52: Audio Channels: 2 Ch
+10:16:52: Playback device Default
+10:16:52: ------------------------------------------
+10:16:52: Using desktop audio input: Speakers (Sennheiser 3D G4ME1)
+10:16:52: Global Audio time adjust: 0
+10:16:52: Using 5.1 speaker setup
+10:16:52: ------------------------------------------
+10:16:52: Using auxilary audio input: Microphone (Yeti Stereo Microphone)
+10:16:52: Mic time offset: 0
+10:16:52: ------------------------------------------
+10:16:52: Audio Encoding: AAC
+10:16:52:     bitrate: 128
+10:16:52: Using text output
+10:16:52: Using bitmap image
+10:16:52: Using bitmap image
+10:16:52: ------------------------------------------
+10:16:52:     device: Logitech HD Pro Webcam C920,
+10:16:52:     device id \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083},
+10:16:52:     chosen type: I420, usingFourCC: false, res: 640x480 - 640x480, frameIntervals: 333333-2000000
+10:16:52:     use buffering: false - 0, fourCC: 'I420'
+10:16:52:     audio device: Disable,
+10:16:52:     audio device id Disabled,
+10:16:52:     audio time offset 0,
+10:16:52: 
+10:16:53: Using directshow input
+10:16:54: Using text output
+10:16:54: Using text output
+10:16:54: Using text output
+10:16:54: Using text output
+10:16:54: Using text output
+10:16:54: Using text output
+10:16:54: Using Monitor Capture
+10:16:54: Scene buffering time set to 700
+10:16:54: ------------------------------------------
+10:16:54: Video Encoding: x264
+10:16:54:     fps: 30
+10:16:54:     width: 1280, height: 720
+10:16:54:     preset: veryfast
+10:16:54:     profile: main
+10:16:54:     keyint: 60
+10:16:54:     CBR: yes
+10:16:54:     CFR: yes
+10:16:54:     max bitrate: 2000
+10:16:54:     buffer size: 2000
+10:16:54: ------------------------------------------
+10:16:54: CLRHost:: Browser 2: Status message: 
+10:16:54: CLRHost:: Browser 2: Failed to set referrer policy: The value 'no-referrer' is not one of 'always', 'default', 'never', or 'origin'. Defaulting to 'never'. @http://streamlabs.com/alert-box/v3/B704783E09C40661165510
+10:16:54: CLRHost:: Browser 1: Status message: 
+10:16:55: CLRHost:: Browser 2: Uncaught ReferenceError: ytcfg is not defined @https://www.youtube.com/embed/?autoplay=1&controls=0&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&enablejsapi=1&origin=http%3A%2F%2Fstreamlabs.com&widgetid=110
+10:26:28: Total frames encoded: 17175, total frames duplicated: 44 (0.26%)
+10:26:28: Total frames rendered: 17167, number of late frames: 10 (0.06%) (it's okay for some frames to be late)
+10:26:28: 
+10:26:28: Profiler time results:
+10:26:28: 
+10:26:28: ==============================================================
+10:26:28: video thread frame - [100%] [avg time: 1.332 ms] [children: 58.4%] [unaccounted: 41.6%]
+10:26:28: | scene->Preprocess - [21.8%] [avg time: 0.29 ms]
+10:26:28: | GPU download and conversion - [36.6%] [avg time: 0.488 ms] [children: 35.8%] [unaccounted: 0.826%]
+10:26:28: | | flush - [35.2%] [avg time: 0.469 ms]
+10:26:28: | | CopyResource - [0.375%] [avg time: 0.005 ms]
+10:26:28: | | conversion to 4:2:0 - [0.225%] [avg time: 0.003 ms]
+10:26:28: Convert444Threads - [100%] [avg time: 0.415 ms] [children: 98.6%] [unaccounted: 1.45%]
+10:26:28: | Convert444toNV12 - [98.6%] [avg time: 0.409 ms]
+10:26:28: encoder thread frame - [100%] [avg time: 0.929 ms] [children: 0.323%] [unaccounted: 99.7%]
+10:26:28: | sending stuff out - [0.323%] [avg time: 0.003 ms]
+10:26:28: ==============================================================
+10:26:28: 
+10:26:28: 
+10:26:28: Profiler CPU results:
+10:26:28: 
+10:26:28: ==============================================================
+10:26:28: video thread frame - [cpu time: avg 0.582 ms, total 10000 ms] [avg calls per frame: 1]
+10:26:28: | scene->Preprocess - [cpu time: avg 0.1 ms, total 1718.75 ms] [avg calls per frame: 1]
+10:26:28: | GPU download and conversion - [cpu time: avg 0.053 ms, total 921.875 ms] [avg calls per frame: 1]
+10:26:28: | | flush - [cpu time: avg 0.036 ms, total 625 ms] [avg calls per frame: 1]
+10:26:28: | | CopyResource - [cpu time: avg 0.007 ms, total 125 ms] [avg calls per frame: 1]
+10:26:28: | | conversion to 4:2:0 - [cpu time: avg 0 ms, total 15.625 ms] [avg calls per frame: 1]
+10:26:28: Convert444Threads - [cpu time: avg 0.376 ms, total 12921.9 ms] [avg calls per frame: 2]
+10:26:28: | Convert444toNV12 - [cpu time: avg 0.374 ms, total 12859.4 ms] [avg calls per frame: 2]
+10:26:28: encoder thread frame - [cpu time: avg 0.562 ms, total 9656.25 ms] [avg calls per frame: 1]
+10:26:28: | sending stuff out - [cpu time: avg 0.001 ms, total 31.25 ms] [avg calls per frame: 1]
+10:26:28: ==============================================================
+10:26:28: 
+10:26:28: =====Stream End: 2016-11-28, 10:26:28=================================================
+10:26:55: =====Stream Start: 2016-11-28, 10:26:55===============================================
+10:26:55:   Multithreaded optimizations: On
+10:26:55:   Base resolution: 1920x1080
+10:26:55:   Output resolution: 1280x720
+10:26:55: ------------------------------------------
+10:26:55: Loading up D3D10 on NVIDIA GeForce GTX 1080 (Adapter 1)...
+10:26:56: ------------------------------------------
+10:26:56: Audio Format: 48000 Hz
+10:26:56: ------------------------------------------
+10:26:56: Audio Channels: 2 Ch
+10:26:56: Playback device Default
+10:26:56: ------------------------------------------
+10:26:56: Using desktop audio input: Speakers (Sennheiser 3D G4ME1)
+10:26:56: Global Audio time adjust: 0
+10:26:56: Using 5.1 speaker setup
+10:26:56: ------------------------------------------
+10:26:56: Using auxilary audio input: Microphone (Yeti Stereo Microphone)
+10:26:56: Mic time offset: 0
+10:26:56: ------------------------------------------
+10:26:56: Audio Encoding: AAC
+10:26:56:     bitrate: 128
+10:26:56: Using text output
+10:26:56: Using text output
+10:26:56: ------------------------------------------
+10:26:56:     device: Logitech HD Pro Webcam C920,
+10:26:56:     device id \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083},
+10:26:56:     chosen type: I420, usingFourCC: false, res: 640x480 - 640x480, frameIntervals: 333333-2000000
+10:26:56:     use buffering: false - 0, fourCC: 'I420'
+10:26:56:     audio device: Disable,
+10:26:56:     audio device id Disabled,
+10:26:56:     audio time offset 0,
+10:26:56: 
+10:26:58: Using directshow input
+10:26:58: Using text output
+10:26:58: Using text output
+10:26:58: Using text output
+10:26:58: Using text output
+10:26:58: Using Monitor Capture
+10:26:58: Scene buffering time set to 700
+10:26:58: ------------------------------------------
+10:26:58: Video Encoding: x264
+10:26:58:     fps: 30
+10:26:58:     width: 1280, height: 720
+10:26:58:     preset: veryfast
+10:26:58:     profile: main
+10:26:58:     keyint: 60
+10:26:58:     CBR: yes
+10:26:58:     CFR: yes
+10:26:58:     max bitrate: 2000
+10:26:58:     buffer size: 2000
+10:26:58: ------------------------------------------
+10:26:58: CLRHost:: Browser 3: Status message: 
+10:26:58: CLRHost:: Browser 4: Status message: 
+10:26:58: CLRHost:: Browser 4: Failed to set referrer policy: The value 'no-referrer' is not one of 'always', 'default', 'never', or 'origin'. Defaulting to 'never'. @http://streamlabs.com/alert-box/v3/B704783E09C40661165510
+10:26:59: CLRHost:: Browser 4: Uncaught ReferenceError: ytcfg is not defined @https://www.youtube.com/embed/?autoplay=1&controls=0&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&enablejsapi=1&origin=http%3A%2F%2Fstreamlabs.com&widgetid=110
+10:27:00: Using RTMP service: Twitch
+10:27:00:   Server selection: rtmp://live-sea.twitch.tv/app
+10:27:00:   Interface: Intel(R) Ethernet Connection (2) I219-V (ethernet, 1000 mbps)
+10:27:00: Completed handshake with rtmp://live-sea.twitch.tv/app in 86 ms.
+10:27:01: SO_SNDBUF was at 65536
+10:34:14: Total frames encoded: 13045, total frames duplicated: 123 (0.94%)
+10:34:14: Total frames rendered: 12997, number of late frames: 24 (0.18%) (it's okay for some frames to be late)
+10:34:14: 
+10:34:14: Profiler time results:
+10:34:14: 
+10:34:14: ==============================================================
+10:34:14: video thread frame - [100%] [avg time: 1.207 ms] [children: 75.1%] [unaccounted: 24.9%]
+10:34:14: | scene->Preprocess - [45.8%] [avg time: 0.553 ms]
+10:34:14: | GPU download and conversion - [29.3%] [avg time: 0.354 ms] [children: 28.6%] [unaccounted: 0.746%]
+10:34:14: | | flush - [28.2%] [avg time: 0.34 ms]
+10:34:14: | | CopyResource - [0.249%] [avg time: 0.003 ms]
+10:34:14: | | conversion to 4:2:0 - [0.166%] [avg time: 0.002 ms]
+10:34:14: Convert444Threads - [100%] [avg time: 0.358 ms] [children: 98.9%] [unaccounted: 1.12%]
+10:34:14: | Convert444toNV12 - [98.9%] [avg time: 0.354 ms]
+10:34:14: encoder thread frame - [100%] [avg time: 0.746 ms] [children: 5.9%] [unaccounted: 94.1%]
+10:34:14: | sending stuff out - [5.9%] [avg time: 0.044 ms]
+10:34:14: ==============================================================
+10:34:14: 
+10:34:14: 
+10:34:14: Profiler CPU results:
+10:34:14: 
+10:34:14: ==============================================================
+10:34:14: video thread frame - [cpu time: avg 0.425 ms, total 5531.25 ms] [avg calls per frame: 1]
+10:34:14: | scene->Preprocess - [cpu time: avg 0.277 ms, total 3609.38 ms] [avg calls per frame: 1]
+10:34:14: | GPU download and conversion - [cpu time: avg 0.044 ms, total 578.125 ms] [avg calls per frame: 1]
+10:34:14: | | flush - [cpu time: avg 0.04 ms, total 531.25 ms] [avg calls per frame: 1]
+10:34:14: | | CopyResource - [cpu time: avg 0.001 ms, total 15.625 ms] [avg calls per frame: 1]
+10:34:14: | | conversion to 4:2:0 - [cpu time: avg 0.001 ms, total 15.625 ms] [avg calls per frame: 1]
+10:34:14: Convert444Threads - [cpu time: avg 0.277 ms, total 7203.13 ms] [avg calls per frame: 2]
+10:34:14: | Convert444toNV12 - [cpu time: avg 0.275 ms, total 7156.25 ms] [avg calls per frame: 2]
+10:34:14: encoder thread frame - [cpu time: avg 0.202 ms, total 2640.63 ms] [avg calls per frame: 1]
+10:34:14: | sending stuff out - [cpu time: avg 0.034 ms, total 453.125 ms] [avg calls per frame: 1]
+10:34:14: ==============================================================
+10:34:14: 
+10:34:14: =====Stream End: 2016-11-28, 10:34:14=================================================
+10:34:14: ~RTMPPublisher: Packet flush completed in 131 ms
+10:34:14: ~RTMPPublisher: Send thread terminated in 1 ms
+10:34:14: RTMPPublisher::SocketLoop: Graceful loop exit
+10:34:14: ~RTMPPublisher: Socket thread terminated in 0 ms

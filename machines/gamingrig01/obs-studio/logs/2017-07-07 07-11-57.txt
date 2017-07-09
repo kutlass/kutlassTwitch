@@ -1,0 +1,593 @@
+07:11:57.123: CPU Name: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+07:11:57.123: CPU Speed: 4008MHz
+07:11:57.123: Physical Cores: 4, Logical Cores: 8
+07:11:57.123: Physical Memory: 32688MB Total, 24669MB Free
+07:11:57.123: Windows Version: 10.0 Build 14393 (revision: 1198; 64-bit)
+07:11:57.123: Running as administrator: false
+07:11:57.123: Aero is Enabled (Aero is always on for windows 8 and above)
+07:11:57.123: Portable mode: false
+07:11:57.238: OBS 19.0.3 (64bit, windows)
+07:11:57.238: ---------------------------------
+07:11:57.239: ---------------------------------
+07:11:57.239: audio settings reset:
+07:11:57.239: 	samples per sec: 44100
+07:11:57.239: 	speakers:        2
+07:11:57.240: ---------------------------------
+07:11:57.240: Initializing D3D11...
+07:11:57.240: Available Video Adapters: 
+07:11:57.240: 	Adapter 1: NVIDIA GeForce GTX 1080
+07:11:57.240: 	  Dedicated VRAM: 4094361600
+07:11:57.240: 	  Shared VRAM:    4253374464
+07:11:57.240: 	  output 1: pos={0, 0}, size={2560, 1440}, attached=true
+07:11:57.240: 	  output 2: pos={2560, 127}, size={1920, 1080}, attached=true
+07:11:57.242: Loading up D3D11 on adapter NVIDIA GeForce GTX 1080 (0)
+07:11:57.271: D3D11 loaded successfully, feature level used: 45056
+07:11:57.815: ---------------------------------
+07:11:57.815: video settings reset:
+07:11:57.815: 	base resolution:   1920x1080
+07:11:57.815: 	output resolution: 1280x720
+07:11:57.815: 	downscale filter:  Bicubic
+07:11:57.815: 	fps:               30/1
+07:11:57.815: 	format:            NV12
+07:11:57.817: Audio monitoring device:
+07:11:57.817: 	name: Default
+07:11:57.817: 	id: default
+07:11:57.817: ---------------------------------
+07:11:57.818: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+07:11:57.821: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+07:11:57.822: [AMF] Encountered Exception during AMF initialization: Unable to load 'amfrt64.dll', error code 126.
+07:11:57.822: Failed to initialize module 'enc-amf.dll'
+07:11:57.831: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libcef.dll' not found, loading of module failed
+07:11:57.831: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+07:11:57.831: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+07:11:57.832: Failed to load 'en-US' text for module: 'obs-browser.dll'
+07:11:57.832: [browser_source: 'Version: 1.29.0']
+07:11:57.834: NVENC supported
+07:11:57.884: Couldn't find VLC installation, VLC video source disabled
+07:11:57.886: No blackmagic support
+07:11:57.923: ---------------------------------
+07:11:57.923:   Loaded Modules:
+07:11:57.923:     win-wasapi.dll
+07:11:57.923:     win-mf.dll
+07:11:57.923:     win-dshow.dll
+07:11:57.923:     win-decklink.dll
+07:11:57.923:     win-capture.dll
+07:11:57.923:     vlc-video.dll
+07:11:57.923:     text-freetype2.dll
+07:11:57.923:     rtmp-services.dll
+07:11:57.923:     obs-x264.dll
+07:11:57.923:     obs-vst.dll
+07:11:57.923:     obs-transitions.dll
+07:11:57.923:     obs-text.dll
+07:11:57.923:     obs-qsv11.dll
+07:11:57.923:     obs-outputs.dll
+07:11:57.923:     obs-filters.dll
+07:11:57.923:     obs-ffmpeg.dll
+07:11:57.923:     obs-browser.dll
+07:11:57.923:     image-source.dll
+07:11:57.923:     frontend-tools.dll
+07:11:57.923:     enc-amf.dll
+07:11:57.923:     coreaudio-encoder.dll
+07:11:57.923: ==== Startup complete ===============================================
+07:11:57.930: Switched to Preview/Program mode
+07:11:57.930: ------------------------------------------------
+07:11:57.936: All scene data cleared
+07:11:57.936: ------------------------------------------------
+07:11:57.957: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' initialized
+07:11:57.966: WASAPI: Device 'Microphone (Sennheiser 3D G4ME1)' initialized
+07:11:57.980: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' initialized
+07:11:58.013: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+07:11:58.631: Failed to open file 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG': No such file or directory
+07:11:58.631: gs_image_file_init: Failed to load file 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG'
+07:11:58.631: [image_source: 'image_RyuCriticalArt_BackAndWhite'] failed to load texture 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG'
+07:11:58.693: warning: deprecated pixel format used, make sure you did set range correctly
+07:11:58.853: Switched to scene 'scene_StreetFighterV'
+07:11:58.858: ------------------------------------------------
+07:11:58.858: Loaded scenes:
+07:11:58.858: - scene 'scene_WatchYouTube':
+07:11:58.858:     - source: 'src_MonitorBenQ' (scene)
+07:11:58.858:     - source: 'src_WindowCapture' (scene)
+07:11:58.858: - scene 'scene_GamePC':
+07:11:58.858:     - source: 'src_GameLibraryPC' (scene)
+07:11:58.858:     - source: 'src_LogitechC920' (scene)
+07:11:58.858:     - source: 'prefab_Projector' (scene)
+07:11:58.858: - scene 'scene_SFV_PC':
+07:11:58.858:     - source: 'src_StreetFighteVPC' (scene)
+07:11:58.858:     - source: 'src_WindowedGame' (scene)
+07:11:58.858:     - source: 'prefab_Projector' (scene)
+07:11:58.858:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+07:11:58.858:     - source: 'prefab_TextAndAlertOverlays' (scene)
+07:11:58.858:     - source: 'src_LogitechC920' (scene)
+07:11:58.858: - scene 'scene_SFV_PS4':
+07:11:58.858:     - source: 'src_WindowCapture' (scene)
+07:11:58.858:     - source: 'src_ElgatoS60' (scene)
+07:11:58.858:     - source: 'image_RyuCriticalArt_BackAndWhite' (image_source)
+07:11:58.858:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+07:11:58.858:     - source: 'prefab_TextAndAlertOverlays' (scene)
+07:11:58.858:     - source: 'src_LogitechC920' (scene)
+07:11:58.858:     - source: 'prefab_Projector' (scene)
+07:11:58.858: - scene 'scene_GameConsole':
+07:11:58.858:     - source: 'src_ElgatoS60' (scene)
+07:11:58.858:     - source: 'src_LogitechC920' (scene)
+07:11:58.858:     - source: 'prefab_TextAndAlertOverlays' (scene)
+07:11:58.858:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+07:11:58.858: - scene 'scene_DualScreenSymetric':
+07:11:58.858:     - source: 'scene_BattleLoungeConsole' (scene)
+07:11:58.858:     - source: 'scene_BattleLoungePC' (scene)
+07:11:58.858:     - source: 'src_LogitechC920' (scene)
+07:11:58.858:     - source: 'prefab_TextAndAlertOverlays' (scene)
+07:11:58.858:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+07:11:58.858: - scene 'scene_DualScreenFocusPC':
+07:11:58.858:     - source: 'scene_BattleLoungePC' (scene)
+07:11:58.858:     - source: 'scene_BattleLoungeConsole' (scene)
+07:11:58.858:     - source: 'src_LogitechC920' (scene)
+07:11:58.858:     - source: 'prefab_TextAndAlertOverlays' (scene)
+07:11:58.858:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+07:11:58.858: - scene 'scene_DualScreenFocusConsole':
+07:11:58.858:     - source: 'scene_BattleLoungeConsole' (scene)
+07:11:58.858:     - source: 'scene_BattleLoungePC' (scene)
+07:11:58.858:     - source: 'src_LogitechC920' (scene)
+07:11:58.858:     - source: 'prefab_TextAndAlertOverlays' (scene)
+07:11:58.858:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+07:11:58.858: - scene 'scene_BattleLoungePC':
+07:11:58.858:     - source: 'src_StreetFighteVPC' (scene)
+07:11:58.858:     - source: 'txtConnectionInfoBattleLoungePC' (text_gdiplus)
+07:11:58.858: - scene 'scene_BattleLoungeConsole':
+07:11:58.858:     - source: 'src_ElgatoS60' (scene)
+07:11:58.858:     - source: 'txtConnectionInfoBattleLoungeConsole' (text_gdiplus)
+07:11:58.858: - scene 'prefab_TextAndAlertOverlays':
+07:11:58.858:     - source: 'prefab_TransparentBlack' (scene)
+07:11:58.858:     - source: 'prefab_TransparentBlack' (scene)
+07:11:58.858:     - source: 'browserBitJar' (browser_source)
+07:11:58.858:     - source: 'browserAlertBox' (browser_source)
+07:11:58.858:     - source: 'txtCurrentSong' (text_gdiplus)
+07:11:58.858:     - source: 'browserBitBossBattles1' (browser_source)
+07:11:58.858:     - source: 'prefab_SeattleStats' (scene)
+07:11:58.858:     - source: 'browserChatBox' (browser_source)
+07:11:58.858:     - source: 'prefab_SubscriptionHype' (scene)
+07:11:58.858:     - source: 'prefab_DonationHype' (scene)
+07:11:58.858:     - source: 'prefab_CheerHype' (scene)
+07:11:58.858:     - source: 'src_BrowserViewerCount' (scene)
+07:11:58.858: - scene 'prefab_TextAndAlertOverlays_staticShouts':
+07:11:58.858:     - source: 'prefab_TransparentBlack' (scene)
+07:11:58.858:     - source: 'txtMostRecentFollowerValue' (text_gdiplus)
+07:11:58.858:     - source: 'txtMonthlyTopDonatorValue' (text_gdiplus)
+07:11:58.858:     - source: 'txtLatestDonation' (text_gdiplus)
+07:11:58.858: - scene 'prefab_SeattleStats':
+07:11:58.858:     - source: 'src_BrowserDateTime' (scene)
+07:11:58.858:     - source: 'src_BrowserWeather' (scene)
+07:11:58.858:     - source: 'src_BrowserWeather' (scene)
+07:11:58.858:     - source: 'colorSourceBlackTop' (color_source)
+07:11:58.858: - scene 'src_BrowserDateTime':
+07:11:58.858:     - source: 'browserBrowserDateTime' (browser_source)
+07:11:58.858: - scene 'src_BrowserViewerCount':
+07:11:58.858:     - source: 'browserSourceViewerCount' (browser_source)
+07:11:58.858: - scene 'src_BrowserWeather':
+07:11:58.858:     - source: 'browserWeather' (browser_source)
+07:11:58.858: - scene 'src_StreetFighteVPC':
+07:11:58.858:     - source: 'StreetFighterV' (window_capture)
+07:11:58.858: - scene 'src_WindowedGame':
+07:11:58.858:     - source: 'sourceWindowedGame' (game_capture)
+07:11:58.858: - scene 'src_FullScreenGame':
+07:11:58.858:     - source: 'source_FullScreenGame' (game_capture)
+07:11:58.858: - scene 'prefab_SubscriptionHype':
+07:11:58.858:     - source: 'txtSubscriptionHypeValue' (text_gdiplus)
+07:11:58.858:         - filter: 'Scroll' (scroll_filter)
+07:11:58.858:     - source: 'txtSubscriptionHypeLabel' (text_gdiplus)
+07:11:58.858:     - source: 'prefab_SubscriptionCount' (scene)
+07:11:58.858: - scene 'prefab_SubscriptionCount':
+07:11:58.858:     - source: 'colorSouceRed 2' (color_source)
+07:11:58.858:     - source: 'txtSubscriptionCount 2' (text_gdiplus)
+07:11:58.858: - scene 'prefab_DonationHype':
+07:11:58.858:     - source: 'txtDonationHypeValue' (text_gdiplus)
+07:11:58.858:         - filter: 'Scroll' (scroll_filter)
+07:11:58.858:     - source: 'txtDonationHypeLabel' (text_gdiplus)
+07:11:58.858: - scene 'prefab_CheerHype':
+07:11:58.858:     - source: 'txtCheerHypeValue' (text_gdiplus)
+07:11:58.858:         - filter: 'Scroll' (scroll_filter)
+07:11:58.858:     - source: 'txtCheerHypeLabel' (text_gdiplus)
+07:11:58.858: - scene 'prefab_Toolbox':
+07:11:58.858:     - source: 'txtMusicNotes 2' (text_gdiplus)
+07:11:58.858:         - filter: 'Scroll' (scroll_filter)
+07:11:58.858:     - source: 'source_Image_TheCommission_Fightstick 2' (image_source)
+07:11:58.859:     - source: 'Window Capture' (window_capture)
+07:11:58.859:     - source: 'Game Capture' (game_capture)
+07:11:58.859: - scene 'prefab_Projector':
+07:11:58.859:     - source: 'source_Image_kutlasBlaze112' (image_source)
+07:11:58.859:     - source: 'source_Image_kutlasKappaNine112' (image_source)
+07:11:58.859:     - source: 'source_Image_kutlasRyu112' (image_source)
+07:11:58.859: - scene 'prefab_TransparentBlack':
+07:11:58.859:     - source: 'sourceColorBlack' (color_source)
+07:11:58.859: - scene 'src_MonitorAcer':
+07:11:58.859:     - source: 'source_AcerMonitor' (monitor_capture)
+07:11:58.859: - scene 'src_MonitorBenQ':
+07:11:58.859:     - source: 'source_MonitorBenQ' (monitor_capture)
+07:11:58.859: - scene 'src_ElgatoS60':
+07:11:58.859:     - source: 'source_ElgatoS60' (dshow_input)
+07:11:58.859: - scene 'src_LogitechC920':
+07:11:58.859:     - source: 'source_Logitechc920' (dshow_input)
+07:11:58.859:         - filter: 'Chroma Key' (chroma_key_filter)
+07:11:58.859: - scene 'src_WindowCapture':
+07:11:58.859:     - source: 'source_WindowCapture' (window_capture)
+07:11:58.859: - scene 'src_GameLibraryPC':
+07:11:58.859:     - source: 'Enter the Gungeon' (game_capture)
+07:11:58.859:     - source: 'Street Fighter V' (game_capture)
+07:11:58.859: - scene 'scene_StreetFighterV':
+07:11:58.859:     - source: 'src_StreetFighteVPC' (scene)
+07:11:58.859:     - source: 'Audio Output Capture' (wasapi_output_capture)
+07:11:58.859: ------------------------------------------------
+07:11:58.887: [game-capture: 'Street Fighter V'] attempting to hook process: StreetFighterV.exe
+07:11:58.890: [game-capture: 'Street Fighter V'] using helper (compatibility hook)
+07:11:58.891: [game-capture: 'Street Fighter V'] hook not loaded yet, retrying..
+07:11:59.801: ---------------------------------
+07:11:59.801: [DShow Device: 'source_ElgatoS60'] settings updated: 
+07:11:59.801: 	video device: Elgato Game Capture HD
+07:11:59.801: 	video path: __elgato
+07:11:59.801: 	resolution: 1280x720
+07:11:59.801: 	fps: 60.00 (interval: 166666)
+07:11:59.801: 	format: UYVY
+07:11:59.801: 	using video device audio: yes
+07:11:59.801: 	sample rate: 48000
+07:11:59.801: 	channels: 2
+07:11:59.801: 	audio type: Capture
+07:12:00.918: [game-capture: 'Street Fighter V'] attempting to hook process: StreetFighterV.exe
+07:12:00.938: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+07:12:00.950: [game-capture: 'Street Fighter V'] shared texture capture successful
+07:14:00.525: Settings changed (audio)
+07:14:00.525: ------------------------------------------------
+07:14:00.556: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' Terminated
+07:14:15.040: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' initialized
+07:14:15.044: Settings changed (audio)
+07:14:15.044: ------------------------------------------------
+07:24:32.089: User changed audio monitoring for source 'Mic/Aux' to: monitor and output
+07:27:05.730: User changed audio monitoring for source 'Desktop Audio' to: monitor and output
+07:28:33.373: User added filter 'Noise Gate' (noise_gate_filter) to source 'Mic/Aux'
+07:31:49.965: User added filter 'VST 2.x Plug-in' (vst_filter) to source 'Mic/Aux'
+07:35:03.437: User removed filter 'VST 2.x Plug-in' (vst_filter) from source 'Mic/Aux'
+07:38:32.392: User added filter 'Noise Suppression' (noise_suppress_filter) to source 'Desktop Audio'
+07:41:07.879: User removed filter 'Noise Suppression' (noise_suppress_filter) from source 'Desktop Audio'
+07:41:13.153: User added filter 'Noise Gate' (noise_gate_filter) to source 'Desktop Audio'
+07:51:05.391: Settings changed (audio)
+07:51:05.391: ------------------------------------------------
+07:51:05.424: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' Terminated
+07:51:05.832: WASAPI: Device 'Microphone (Sennheiser 3D G4ME1)' Terminated
+07:52:47.372: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' initialized
+07:52:47.686: WASAPI: Device 'Microphone (Sennheiser 3D G4ME1)' initialized
+07:52:47.689: Settings changed (audio)
+07:52:47.689: ------------------------------------------------
+07:54:32.922: User changed audio monitoring for source 'Mic/Aux' to: monitor only
+07:54:56.443: User added filter 'Noise Gate' (noise_gate_filter) to source 'Desktop Audio'
+07:55:40.996: User removed filter 'Noise Gate' (noise_gate_filter) from source 'Desktop Audio'
+07:55:51.465: User added filter 'Noise Gate' (noise_gate_filter) to source 'Mic/Aux'
+07:59:55.334: User added filter 'Noise Gate' (noise_gate_filter) to source 'Desktop Audio'
+08:08:39.477: User switched to scene 'scene_GamePC'
+08:09:11.155: User Removed source 'src_GameLibraryPC' (scene) from scene 'scene_GamePC'
+08:11:17.077: User added source 'src_StreetFighteVPC' (scene) to scene 'scene_GamePC'
+08:11:35.319: User switched to scene 'scene_StreetFighterV'
+08:11:47.585: User Removed source 'Audio Output Capture' (wasapi_output_capture) from scene 'scene_StreetFighterV'
+08:11:47.585: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' Terminated
+08:16:32.242: User added source 'prefab_TextAndAlertOverlays' (scene) to scene 'scene_StreetFighterV'
+08:44:27.276: User added scene 'scene_StreetFighterV_Training'
+08:44:27.277: User switched to scene 'scene_StreetFighterV_Training'
+08:44:56.032: User added source 'src_StreetFighteVPC' (scene) to scene 'scene_StreetFighterV_Training'
+08:47:00.418: User added source 'src_StreetFighteVPC' (scene) to scene 'scene_StreetFighterV_Training'
+08:47:43.550: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+08:47:43.572: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+08:47:43.583: [game-capture: 'Street Fighter V'] shared texture capture successful
+08:50:43.025: User switched to scene 'scene_GamePC'
+08:50:47.107: User switched to scene 'scene_SFV_PC'
+08:50:47.118: [game-capture: 'sourceWindowedGame'] attempting to hook process: StreetFighterV.exe
+08:50:47.120: [game-capture: 'sourceWindowedGame'] init_pipe: failed to start pipe
+08:50:49.151: [game-capture: 'sourceWindowedGame'] attempting to hook process: StreetFighterV.exe
+08:50:49.153: [game-capture: 'sourceWindowedGame'] init_pipe: failed to start pipe
+08:50:51.185: [game-capture: 'sourceWindowedGame'] attempting to hook process: StreetFighterV.exe
+08:50:51.188: [game-capture: 'sourceWindowedGame'] init_pipe: failed to start pipe
+08:50:53.218: [game-capture: 'sourceWindowedGame'] attempting to hook process: StreetFighterV.exe
+08:50:53.220: [game-capture: 'sourceWindowedGame'] init_pipe: failed to start pipe
+08:50:55.251: [game-capture: 'sourceWindowedGame'] attempting to hook process: StreetFighterV.exe
+08:50:55.253: [game-capture: 'sourceWindowedGame'] init_pipe: failed to start pipe
+08:50:57.286: [game-capture: 'sourceWindowedGame'] attempting to hook process: StreetFighterV.exe
+08:50:57.288: [game-capture: 'sourceWindowedGame'] init_pipe: failed to start pipe
+08:50:58.382: User switched to scene 'scene_GamePC'
+08:51:17.697: User switched to scene 'src_GameLibraryPC'
+08:51:33.250: User switched to scene 'scene_StreetFighterV'
+08:51:36.672: User switched to scene 'src_GameLibraryPC'
+08:51:48.819: User switched to scene 'src_StreetFighteVPC'
+08:52:07.428: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+08:52:07.451: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+08:52:07.484: [game-capture: 'Street Fighter V'] shared texture capture successful
+08:52:11.714: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+08:52:11.736: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+08:52:11.750: [game-capture: 'Street Fighter V'] shared texture capture successful
+08:52:15.441: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+08:52:15.463: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+08:52:15.500: [game-capture: 'Street Fighter V'] shared texture capture successful
+08:52:40.632: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+08:52:40.657: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+08:52:40.684: [game-capture: 'Street Fighter V'] shared texture capture successful
+08:52:42.636: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+08:52:42.658: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+08:52:42.684: [game-capture: 'Street Fighter V'] shared texture capture successful
+08:53:15.310: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+08:53:15.332: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+08:53:15.350: [game-capture: 'Street Fighter V'] shared texture capture successful
+08:53:16.239: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+08:53:16.261: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+08:53:16.284: [game-capture: 'Street Fighter V'] shared texture capture successful
+08:53:18.085: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+08:53:18.107: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+08:53:18.117: [game-capture: 'Street Fighter V'] shared texture capture successful
+08:53:19.622: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+08:53:19.644: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+08:53:19.650: [game-capture: 'Street Fighter V'] shared texture capture successful
+08:53:35.264: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+08:53:35.286: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+08:53:35.317: [game-capture: 'Street Fighter V'] shared texture capture successful
+08:53:36.386: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+08:53:36.411: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+08:53:36.417: [game-capture: 'Street Fighter V'] shared texture capture successful
+08:53:37.268: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+08:53:37.291: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+08:53:37.317: [game-capture: 'Street Fighter V'] shared texture capture successful
+08:53:39.789: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+08:53:39.811: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+08:53:39.817: [game-capture: 'Street Fighter V'] shared texture capture successful
+08:57:55.124: User switched to scene 'scene_GamePC'
+08:58:16.038: User Removed source 'src_StreetFighteVPC' (scene) from scene 'scene_GamePC'
+08:58:22.605: User Removed source 'src_LogitechC920' (scene) from scene 'scene_GamePC'
+09:00:09.018: User added source 'scene_StreetFighterV' (scene) to scene 'scene_GamePC'
+09:02:11.691: User switched to scene 'scene_StreetFighterV_Training'
+09:03:11.619: User switched to scene 'src_GameLibraryPC'
+09:03:21.953: User switched to scene 'scene_StreetFighterV_Training'
+09:03:23.287: User switched to scene 'src_GameLibraryPC'
+09:03:24.020: User switched to scene 'scene_StreetFighterV_Training'
+09:03:24.788: User switched to scene 'src_GameLibraryPC'
+09:03:25.921: User switched to scene 'scene_StreetFighterV_Training'
+09:05:26.439: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+09:05:26.461: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+09:05:26.484: [game-capture: 'Street Fighter V'] shared texture capture successful
+09:05:48.821: [game-capture: 'Street Fighter V'] ----------------- d3d11 capture freed ----------------
+09:05:48.843: [game-capture: 'Street Fighter V'] d3d11 shared texture capture successful
+09:05:48.850: [game-capture: 'Street Fighter V'] shared texture capture successful
+09:06:17.720: User switched to scene 'src_GameLibraryPC'
+09:06:34.143: User switched to scene 'scene_GamePC'
+09:06:34.150: [game-capture: 'Street Fighter V'] capture stopped
+09:06:40.518: User switched to scene 'scene_StreetFighterV'
+09:06:41.547: User switched to scene 'scene_StreetFighterV_Training'
+09:06:45.471: User switched to scene 'scene_StreetFighterV'
+09:06:48.116: User switched to scene 'scene_StreetFighterV_Training'
+09:06:49.858: User switched to scene 'scene_StreetFighterV'
+09:06:50.374: User switched to scene 'scene_StreetFighterV_Training'
+09:06:51.160: User switched to scene 'scene_StreetFighterV'
+09:06:51.455: User switched to scene 'prefab_CheerHype'
+09:06:52.884: User switched to scene 'scene_StreetFighterV_Training'
+09:06:53.844: User switched to scene 'scene_StreetFighterV'
+09:06:54.467: User switched to scene 'scene_StreetFighterV_Training'
+09:06:56.315: User switched to scene 'scene_StreetFighterV'
+09:06:56.765: User switched to scene 'scene_StreetFighterV_Training'
+09:06:57.256: User switched to scene 'src_GameLibraryPC'
+09:06:57.285: [game-capture: 'Street Fighter V'] attempting to hook process: StreetFighterV.exe
+09:06:57.317: [game-capture: 'Street Fighter V'] shared texture capture successful
+09:06:58.146: User switched to scene 'scene_StreetFighterV_Training'
+09:06:58.151: [game-capture: 'Street Fighter V'] capture stopped
+09:08:20.335: User switched to scene 'scene_StreetFighterV_Training'
+09:08:20.337: Switched to regular Preview mode
+09:08:20.337: ------------------------------------------------
+09:11:53.278: User added source 'src_StreetFighteVPC' (scene) to scene 'scene_StreetFighterV_Training'
+09:19:29.982: User added source 'src_StreetFighteVPC' (scene) to scene 'scene_StreetFighterV_Training'
+09:30:43.348: User Removed source 'src_StreetFighteVPC' (scene) from scene 'scene_StreetFighterV_Training'
+09:34:38.538: User added source 'src_StreetFighteVPC 2' (scene) to scene 'scene_StreetFighterV_Training'
+09:38:07.838: Source 'src_StreetFighteVPC' renamed to 'input'
+09:39:07.079: Source 'input' renamed to 'src_StreetFighterVPC'
+10:04:35.524: User switched to scene 'src_StreetFighterVPC'
+10:04:51.424: Failed to add source to scene due to infinite source recursion
+10:05:11.478: Failed to add source to scene due to infinite source recursion
+10:05:20.547: User switched to scene 'prefab_TextAndAlertOverlays'
+10:05:21.372: User switched to scene 'src_StreetFighterVPC'
+10:05:29.649: User switched to scene 'scene_StreetFighterV'
+10:05:47.942: User added source 'scene_StreetFighterV_Training' (scene) to scene 'scene_StreetFighterV'
+10:07:26.276: User switched to scene 'prefab_TextAndAlertOverlays'
+10:07:37.459: Switched to Preview/Program mode
+10:07:37.459: ------------------------------------------------
+10:07:43.811: User switched to scene 'scene_StreetFighterV'
+10:08:09.986: User switched to scene 'src_WindowedGame'
+10:08:10.017: [game-capture: 'sourceWindowedGame'] attempting to hook process: StreetFighterV.exe
+10:08:10.050: [game-capture: 'sourceWindowedGame'] shared texture capture successful
+10:08:12.309: User switched to scene 'src_StreetFighterVPC'
+10:08:12.317: [game-capture: 'sourceWindowedGame'] capture stopped
+10:08:14.280: User switched to scene 'src_WindowedGame'
+10:08:14.285: [game-capture: 'sourceWindowedGame'] attempting to hook process: StreetFighterV.exe
+10:08:14.317: [game-capture: 'sourceWindowedGame'] shared texture capture successful
+10:08:22.561: User switched to scene 'src_FullScreenGame'
+10:08:22.561: User Removed scene 'src_WindowedGame'
+10:08:22.584: [game-capture: 'sourceWindowedGame'] capture stopped
+10:08:27.370: User switched to scene 'scene_StreetFighterV'
+10:08:29.603: User switched to scene 'src_FullScreenGame'
+10:08:36.369: User switched to scene 'prefab_SubscriptionHype'
+10:08:36.369: User Removed scene 'src_FullScreenGame'
+10:08:47.566: User switched to scene 'scene_StreetFighterV'
+10:08:57.464: User switched to scene 'prefab_TextAndAlertOverlays'
+10:09:01.616: User switched to scene 'scene_StreetFighterV'
+10:11:23.767: Settings changed (hotkeys)
+10:11:23.767: ------------------------------------------------
+10:12:19.431: Settings changed (hotkeys)
+10:12:19.431: ------------------------------------------------
+10:13:56.586: Settings changed (hotkeys)
+10:13:56.586: ------------------------------------------------
+10:15:02.343: Settings changed (hotkeys)
+10:15:02.343: ------------------------------------------------
+10:17:04.352: Settings changed (hotkeys)
+10:17:04.352: ------------------------------------------------
+10:17:22.510: User switched to scene 'scene_StreetFighterV'
+10:17:22.512: Switched to regular Preview mode
+10:17:22.512: ------------------------------------------------
+10:17:33.380: User switched to scene 'scene_StreetFighterV_Training'
+10:17:35.993: User switched to scene 'scene_StreetFighterV'
+10:18:03.587: Switched to Preview/Program mode
+10:18:03.587: ------------------------------------------------
+10:18:28.739: User switched to scene 'scene_StreetFighterV'
+10:18:28.741: Switched to regular Preview mode
+10:18:28.741: ------------------------------------------------
+10:18:36.151: User switched to scene 'scene_StreetFighterV_Training'
+10:19:37.483: User switched to scene 'scene_StreetFighterV'
+10:23:39.491: Switched to Preview/Program mode
+10:23:39.491: ------------------------------------------------
+10:24:14.408: User added source 'prefab_TextAndAlertOverlays_staticShouts' (scene) to scene 'scene_StreetFighterV'
+10:25:40.463: User switched to scene 'prefab_TextAndAlertOverlays'
+10:26:09.356: User switched to scene 'scene_StreetFighterV'
+10:26:19.264: User switched to scene 'prefab_TextAndAlertOverlays'
+10:26:39.763: User switched to scene 'scene_StreetFighterV'
+10:31:07.876: User switched to scene 'scene_StreetFighterV'
+10:31:07.880: Switched to regular Preview mode
+10:31:07.880: ------------------------------------------------
+10:36:00.386: User added source 'src_LogitechC920' (scene) to scene 'scene_StreetFighterV'
+10:36:53.629: ---------------------------------
+10:36:53.629: [DShow Device: 'source_Logitechc920'] settings updated: 
+10:36:53.629: 	video device: Logitech HD Pro Webcam C920
+10:36:53.629: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+10:36:53.629: 	resolution: 640x480
+10:36:53.629: 	fps: 30.00 (interval: 333333)
+10:36:53.629: 	format: I420
+10:39:52.005: User switched to scene 'prefab_TextAndAlertOverlays'
+10:43:33.284: User switched to scene 'scene_StreetFighterV'
+10:43:47.193: ---------------------------------
+10:43:47.193: [DShow Device: 'source_Logitechc920'] settings updated: 
+10:43:47.193: 	video device: Logitech HD Pro Webcam C920
+10:43:47.193: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+10:43:47.193: 	resolution: 640x480
+10:43:47.193: 	fps: 30.00 (interval: 333333)
+10:43:47.193: 	format: I420
+11:12:39.546: ---------------------------------
+11:12:39.546: [NVENC encoder: 'streaming_h264'] settings:
+11:12:39.546: 	rate_control: CBR
+11:12:39.546: 	bitrate:      2250
+11:12:39.546: 	cqp:          0
+11:12:39.546: 	keyint:       250
+11:12:39.546: 	preset:       default
+11:12:39.546: 	profile:      main
+11:12:39.546: 	level:        auto
+11:12:39.546: 	width:        1280
+11:12:39.546: 	height:       720
+11:12:39.546: 	2-pass:       true
+11:12:39.546: 	b-frames:     2
+11:12:39.546: 	GPU:          0
+11:12:39.546: 
+11:12:39.817: [CoreAudio AAC: 'Track1']: settings:
+11:12:39.817: 	mode:          AAC
+11:12:39.817: 	bitrate:       160
+11:12:39.817: 	sample rate:   44100
+11:12:39.817: 	cbr:           on
+11:12:39.817: 	output buffer: 1536
+11:12:39.818: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmp://live.twitch.tv/app...
+11:12:39.836: warning: Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+11:12:39.836: warning: Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+11:12:39.840: ==== Recording Start ===============================================
+11:12:39.846: [rtmp stream: 'adv_stream'] Interface: Intel(R) Ethernet Connection (2) I219-V (ethernet, 1000 mbps)
+11:12:41.042: [rtmp stream: 'adv_stream'] Connection to rtmp://live.twitch.tv/app successful
+11:12:41.043: ==== Streaming Start ===============================================
+11:18:25.375: User changed audio monitoring for source 'Mic/Aux' to: none
+13:40:12.794: Switched to Preview/Program mode
+13:40:12.794: ------------------------------------------------
+13:40:13.955: User switched to scene 'src_ElgatoS60'
+13:40:15.321: User switched to scene 'scene_StreetFighterV'
+13:40:16.751: User switched to scene 'scene_StreetFighterV_Training'
+13:40:21.960: User switched to scene 'scene_StreetFighterV'
+13:40:28.270: User switched to scene 'src_GameLibraryPC'
+13:40:28.285: [game-capture: 'Street Fighter V'] attempting to hook process: StreetFighterV.exe
+13:40:28.317: [game-capture: 'Street Fighter V'] shared texture capture successful
+13:40:29.792: User switched to scene 'scene_StreetFighterV_Training'
+13:40:29.817: [game-capture: 'Street Fighter V'] capture stopped
+13:40:30.292: User switched to scene 'scene_StreetFighterV'
+13:40:33.777: User switched to scene 'scene_StreetFighterV_Training'
+13:40:33.779: Switched to regular Preview mode
+13:40:33.780: ------------------------------------------------
+13:40:41.720: User switched to scene 'src_WindowCapture'
+13:40:42.228: User switched to scene 'scene_StreetFighterV'
+16:12:03.156: Output 'adv_ffmpeg_output': stopping
+16:12:03.156: Output 'adv_ffmpeg_output': Total encoded frames: 105643
+16:12:03.156: Output 'adv_ffmpeg_output': Total drawn frames: 538900
+16:12:03.156: Output 'adv_ffmpeg_output': Number of lagged frames due to rendering lag/stalls: 1731 (0.3%)
+16:12:03.156: ==== Recording Stop ================================================
+16:12:03.279: warning: 2 frames left in the queue on closing
+16:12:04.288: [rtmp stream: 'adv_stream'] User stopped the stream
+16:12:04.288: Output 'adv_stream': stopping
+16:12:04.288: Output 'adv_stream': Total encoded frames: 105678
+16:12:04.288: Output 'adv_stream': Total drawn frames: 538934
+16:12:04.288: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 1731 (0.3%)
+16:12:04.290: ==== Streaming Stop ================================================
+16:13:01.112: ==== Shutting down ==================================================
+16:13:01.123: Switched to scene '(null)'
+16:13:03.933: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' Terminated
+16:13:03.940: WASAPI: Device 'Microphone (Sennheiser 3D G4ME1)' Terminated
+16:13:03.944: All scene data cleared
+16:13:03.944: ------------------------------------------------
+16:13:04.025: Freeing OBS context data
+16:13:04.170: == Profiler Results =============================
+16:13:04.170: run_program_init: 1833.41 ms
+16:13:04.170:  ┣OBSApp::AppInit: 10.802 ms
+16:13:04.170:  ┃ ┗OBSApp::InitLocale: 0.759 ms
+16:13:04.170:  ┗OBSApp::OBSInit: 1811.7 ms
+16:13:04.170:    ┣obs_startup: 0.818 ms
+16:13:04.170:    ┗OBSBasic::OBSInit: 1679.29 ms
+16:13:04.170:      ┣OBSBasic::InitBasicConfig: 0.386 ms
+16:13:04.170:      ┣OBSBasic::ResetAudio: 0.244 ms
+16:13:04.170:      ┣OBSBasic::ResetVideo: 577.463 ms
+16:13:04.170:      ┣OBSBasic::InitOBSCallbacks: 0.005 ms
+16:13:04.170:      ┣OBSBasic::InitHotkeys: 0.043 ms
+16:13:04.170:      ┣obs_load_all_modules: 106.227 ms
+16:13:04.170:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 2.91 ms
+16:13:04.170:      ┃ ┣obs_init_module(enc-amf.dll): 0.43 ms
+16:13:04.170:      ┃ ┣obs_init_module(frontend-tools.dll): 1.517 ms
+16:13:04.170:      ┃ ┣obs_init_module(image-source.dll): 0.002 ms
+16:13:04.170:      ┃ ┣obs_init_module(obs-browser.dll): 0.05 ms
+16:13:04.170:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 0.51 ms
+16:13:04.170:      ┃ ┣obs_init_module(obs-filters.dll): 0.009 ms
+16:13:04.170:      ┃ ┣obs_init_module(obs-outputs.dll): 0.004 ms
+16:13:04.170:      ┃ ┣obs_init_module(obs-qsv11.dll): 45.579 ms
+16:13:04.170:      ┃ ┣obs_init_module(obs-text.dll): 0.308 ms
+16:13:04.170:      ┃ ┣obs_init_module(obs-transitions.dll): 0.004 ms
+16:13:04.170:      ┃ ┣obs_init_module(obs-vst.dll): 0.001 ms
+16:13:04.170:      ┃ ┣obs_init_module(obs-x264.dll): 0.001 ms
+16:13:04.170:      ┃ ┣obs_init_module(rtmp-services.dll): 0.218 ms
+16:13:04.170:      ┃ ┣obs_init_module(text-freetype2.dll): 0.036 ms
+16:13:04.170:      ┃ ┣obs_init_module(vlc-video.dll): 0.033 ms
+16:13:04.170:      ┃ ┣obs_init_module(win-capture.dll): 0.061 ms
+16:13:04.170:      ┃ ┣obs_init_module(win-decklink.dll): 0.741 ms
+16:13:04.170:      ┃ ┣obs_init_module(win-dshow.dll): 0.922 ms
+16:13:04.170:      ┃ ┣obs_init_module(win-mf.dll): 34.428 ms
+16:13:04.170:      ┃ ┣obs_init_module(win-wasapi.dll): 0.003 ms
+16:13:04.170:      ┃ ┗reset_win32_symbol_paths: 0.059 ms
+16:13:04.170:      ┣OBSBasic::ResetOutputs: 4.603 ms
+16:13:04.170:      ┣OBSBasic::CreateHotkeys: 0.191 ms
+16:13:04.170:      ┣OBSBasic::InitService: 0.159 ms
+16:13:04.170:      ┣OBSBasic::InitPrimitives: 0.263 ms
+16:13:04.170:      ┗OBSBasic::Load: 928.597 ms
+16:13:04.170: obs_hotkey_thread(25 ms): min=0.002 ms, median=0.004 ms, max=13.953 ms, 99th percentile=0.058 ms, 100% below 25 ms
+16:13:04.170: audio_thread(Audio): min=0 ms, median=0.8 ms, max=43.438 ms, 99th percentile=5.492 ms
+16:13:04.170:  ┗receive_audio: min=0.001 ms, median=0.358 ms, max=22.085 ms, 99th percentile=1.22 ms, 0.54952 calls per parent call
+16:13:04.170:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=1.545 ms, 99th percentile=0.002 ms
+16:13:04.170:    ┗do_encode: min=0.078 ms, median=0.354 ms, max=22.081 ms, 99th percentile=1.209 ms
+16:13:04.170:      ┗encode(Track1): min=0.078 ms, median=0.344 ms, max=22.009 ms, 99th percentile=1.152 ms
+16:13:04.170: obs_video_thread(33.3333 ms): min=0.201 ms, median=1.341 ms, max=867.972 ms, 99th percentile=3.648 ms, 99.8346% below 33.333 ms
+16:13:04.170:  ┣tick_sources: min=0.001 ms, median=0.252 ms, max=867.285 ms, 99th percentile=1.718 ms
+16:13:04.170:  ┣render_displays: min=0.001 ms, median=0.671 ms, max=70.083 ms, 99th percentile=1.552 ms
+16:13:04.170:  ┗output_frame: min=0.193 ms, median=0.397 ms, max=40.358 ms, 99th percentile=0.937 ms
+16:13:04.170:    ┣gs_context(video->graphics): min=0.079 ms, median=0.238 ms, max=40.047 ms, 99th percentile=0.641 ms
+16:13:04.170:    ┃ ┣render_video: min=0.017 ms, median=0.033 ms, max=8.273 ms, 99th percentile=0.133 ms
+16:13:04.170:    ┃ ┃ ┣render_main_texture: min=0.002 ms, median=0.015 ms, max=1.902 ms, 99th percentile=0.081 ms
+16:13:04.170:    ┃ ┃ ┣render_output_texture: min=0.002 ms, median=0.007 ms, max=0.908 ms, 99th percentile=0.037 ms
+16:13:04.170:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.007 ms, max=1.052 ms, 99th percentile=0.037 ms
+16:13:04.170:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.002 ms, max=8.23 ms, 99th percentile=0.007 ms
+16:13:04.170:    ┃ ┣download_frame: min=0 ms, median=0.002 ms, max=39.851 ms, 99th percentile=0.004 ms
+16:13:04.170:    ┃ ┗gs_flush: min=0.014 ms, median=0.195 ms, max=13.857 ms, 99th percentile=0.529 ms
+16:13:04.170:    ┗output_video_data: min=0.109 ms, median=0.152 ms, max=2.307 ms, 99th percentile=0.365 ms
+16:13:04.170: video_thread(video): min=0 ms, median=1.11 ms, max=10.918 ms, 99th percentile=2.617 ms
+16:13:04.170:  ┗receive_video: min=0.001 ms, median=0.683 ms, max=5.74 ms, 99th percentile=1.504 ms, 0.554772 calls per parent call
+16:13:04.170:    ┗do_encode: min=0.397 ms, median=0.682 ms, max=5.738 ms, 99th percentile=1.503 ms
+16:13:04.170:      ┗encode(streaming_h264): min=0.388 ms, median=0.667 ms, max=5.717 ms, 99th percentile=1.48 ms
+16:13:04.170: =================================================
+16:13:04.170: == Profiler Time Between Calls ==================
+16:13:04.170: obs_hotkey_thread(25 ms): min=24.579 ms, median=25.067 ms, max=423.702 ms, 98.6169% within ±2% of 25 ms (0% lower, 1.38314% higher)
+16:13:04.170: obs_video_thread(33.3333 ms): min=0.629 ms, median=33.333 ms, max=867.984 ms, 99.5088% within ±2% of 33.333 ms (0.251598% lower, 0.239554% higher)
+16:13:04.170: =================================================
+16:13:04.392: Number of memory leaks: 61

@@ -1,0 +1,8 @@
+{
+    "bitrate": 1800,
+    "gpu": 0,
+    "keyint_sec": 2,
+    "preset": "default",
+    "profile": "high",
+    "rate_control": "CBR"
+}

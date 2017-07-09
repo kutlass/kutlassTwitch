@@ -1,0 +1,1676 @@
+scenes : {
+  Gaming PC : {
+    class : Scene
+    sources : {
+      ConnectInfoPC : {
+        render : 0
+        class : GlobalSource
+        data : {
+          name : ConnectInfoPC
+        }
+        cx : 541
+        cy : 48
+        x : 688
+        y : 251
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      DezgodTier : {
+        render : 0
+        class : GlobalSource
+        data : {
+          name : DezgodTier
+        }
+        cx : 300
+        cy : 169
+        x : 655
+        y : 932
+        crop.left : 0
+        crop.top : 32.1969
+        crop.right : 0
+        crop.bottom : 29.1269
+      }
+      DezKata : {
+        render : 0
+        class : GlobalSource
+        data : {
+          name : DezKata
+        }
+        cx : 300
+        cy : 127
+        x : 954
+        y : 953
+        crop.left : 0
+        crop.top : 3.93538
+        crop.right : 0
+        crop.bottom : 0
+      }
+      KutlassChibiArt : {
+        render : 0
+        class : GlobalSource
+        data : {
+          name : KutlassChibiArt
+        }
+        cx : 487
+        cy : 170
+        x : 849
+        y : 910
+        crop.left : 0
+        crop.top : 36.9417
+        crop.right : 146.859
+        crop.bottom : 0
+      }
+      session_followers.txt (Stream Label) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : session_followers.txt (Stream Label)
+        }
+        cx : 2424
+        cy : 48
+        x : 283
+        y : 1032
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      "FOLLOWERS: (Text Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "FOLLOWERS: (Text Label)"
+        }
+        cx : 275.482
+        cy : 48
+        x : 0
+        y : 1032
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      logitech : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : logitech
+        }
+        cx : 762
+        cy : 571
+        x : 86
+        y : 721
+        crop.left : 30.2993
+        crop.top : 0
+        crop.right : 122.989
+        crop.bottom : 178.402
+      }
+      BenQ : {
+        render : 0
+        class : GlobalSource
+        data : {
+          name : BenQ
+        }
+        cx : 1040
+        cy : 585
+        x : 461
+        y : 827
+        crop.left : 1033.36
+        crop.top : 187.779
+        crop.right : 371.515
+        crop.bottom : 613.45
+      }
+      ChatBox (CLR Browser) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : ChatBox (CLR Browser)
+        }
+        cx : 640
+        cy : 480
+        x : 1252
+        y : 300
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      AlertBox v3.1 (CLR Browser) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : AlertBox v3.1 (CLR Browser)
+        }
+        cx : 640
+        cy : 480
+        x : 640
+        y : 300
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      "DONATION HYPE: (Text Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "DONATION HYPE: (Text Label)"
+        }
+        cx : 360.267
+        cy : 48
+        x : 0
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      all_time_top_donators.txt (STREAM LABEL) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : all_time_top_donators.txt (STREAM LABEL)
+        }
+        cx : 809
+        cy : 42
+        x : 374
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      most_recent_follower.txt (Stream Label) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "LATEST FOLLOWER: (Stream Label)"
+        }
+        cx : 626
+        cy : 40
+        x : 91
+        y : 286
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      monthly_top_donator.txt (Stream Label) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "MONTHLY TOP DONATOR: (Stream Label)"
+        }
+        cx : 870
+        cy : 41
+        x : 92
+        y : 233
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      Monitor Capture : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : Monitor Capture
+        }
+        cx : 1926
+        cy : 1083
+        x : 0
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+    }
+  }
+  Gaming Console : {
+    class : Scene
+    sources : {
+      logitech : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : logitech
+        }
+        cx : 710
+        cy : 532
+        x : 672
+        y : 798
+        crop.left : 24.9478
+        crop.top : 0
+        crop.right : 118.013
+        crop.bottom : 225.545
+      }
+      DezgodTier : {
+        render : 0
+        class : GlobalSource
+        data : {
+          name : DezgodTier
+        }
+        cx : 269
+        cy : 152
+        x : 889
+        y : 943
+        crop.left : 0
+        crop.top : 28.5987
+        crop.right : 0
+        crop.bottom : 23.6643
+      }
+      DezKata : {
+        render : 0
+        class : GlobalSource
+        data : {
+          name : DezKata
+        }
+        cx : 277
+        cy : 118
+        x : 616
+        y : 962
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      Monitor Capture : {
+        render : 0
+        class : GlobalSource
+        data : {
+          name : Monitor Capture
+        }
+        cx : 1468
+        cy : 826
+        x : 91
+        y : 768
+        crop.left : 1560.03
+        crop.top : 181.048
+        crop.right : 369.813
+        crop.bottom : 895.779
+      }
+      KutlassChibiArt : {
+        render : 0
+        class : GlobalSource
+        data : {
+          name : KutlassChibiArt
+        }
+        cx : 489
+        cy : 171
+        x : 784
+        y : 912
+        crop.left : 72.2584
+        crop.top : 30.8071
+        crop.right : 129.189
+        crop.bottom : 5.11627
+      }
+      ChatBox (CLR Browser) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : ChatBox (CLR Browser)
+        }
+        cx : 640
+        cy : 480
+        x : 1247
+        y : 300
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      AlertBox v3.1 (CLR Browser) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : AlertBox v3.1 (CLR Browser)
+        }
+        cx : 640
+        cy : 480
+        x : 605
+        y : 303
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      session_followers.txt (Stream Label) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : session_followers.txt (Stream Label)
+        }
+        cx : 2424
+        cy : 48
+        x : 284
+        y : 1032
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      all_time_top_donators.txt (STREAM LABEL) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : all_time_top_donators.txt (STREAM LABEL)
+        }
+        cx : 923.021
+        cy : 48
+        x : 363
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      "DONATION HYPE: (Text Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "DONATION HYPE: (Text Label)"
+        }
+        cx : 358.624
+        cy : 47.0955
+      }
+      "MONTHLY TOP DONATOR: (Stream Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "MONTHLY TOP DONATOR: (Stream Label)"
+        }
+        cx : 971
+        cy : 40
+        x : 36
+        y : 230
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      "LATEST FOLLOWER: (Stream Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "LATEST FOLLOWER: (Stream Label)"
+        }
+        cx : 627
+        cy : 40
+        x : 41
+        y : 179
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      "FOLLOWERS: (Text Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "FOLLOWERS: (Text Label)"
+        }
+        cx : 275
+        cy : 48
+        x : 0
+        y : 1032
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      elgato : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : elgato
+        }
+        cx : 1920
+        cy : 1080
+      }
+    }
+  }
+  Dual Screen PC & Console : {
+    class : Scene
+    sources : {
+      ConnectInfoConsole : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : ConnectInfoConsole
+        }
+        cx : 381
+        cy : 48
+        x : 1238
+        y : 599
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      ConnectInfoPC : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : ConnectInfoPC
+        }
+        cx : 417.348
+        cy : 37
+        x : 327
+        y : 143
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      DezgodTier : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : DezgodTier
+        }
+        cx : 338
+        cy : 190
+        x : 557
+        y : 855
+        crop.left : 0
+        crop.top : 28.5987
+        crop.right : 0
+        crop.bottom : 23.6643
+      }
+      DezKata : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : DezKata
+        }
+        cx : 499
+        cy : 212
+        x : 426
+        y : 623
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      KutlassChibiArt : {
+        render : 0
+        class : GlobalSource
+        data : {
+          name : KutlassChibiArt
+        }
+        cx : 489
+        cy : 171
+        x : 784
+        y : 912
+        crop.left : 72.2584
+        crop.top : 30.8071
+        crop.right : 129.189
+        crop.bottom : 5.11627
+      }
+      ChatBox (CLR Browser) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : ChatBox (CLR Browser)
+        }
+        cx : 640
+        cy : 480
+        x : 1118
+        y : 45
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      AlertBox v3.1 (CLR Browser) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : AlertBox v3.1 (CLR Browser)
+        }
+        cx : 640
+        cy : 480
+        x : 605
+        y : 303
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      session_followers.txt (Stream Label) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : session_followers.txt (Stream Label)
+        }
+        cx : 2424
+        cy : 48
+        x : 284
+        y : 1032
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      all_time_top_donators.txt (STREAM LABEL) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : all_time_top_donators.txt (STREAM LABEL)
+        }
+        cx : 923.021
+        cy : 48
+        x : 363
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      "DONATION HYPE: (Text Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "DONATION HYPE: (Text Label)"
+        }
+        cx : 358.624
+        cy : 47.0955
+      }
+      "MONTHLY TOP DONATOR: (Stream Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "MONTHLY TOP DONATOR: (Stream Label)"
+        }
+        cx : 970.997
+        cy : 39.9011
+        x : 31
+        y : 433
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      "LATEST FOLLOWER: (Stream Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "LATEST FOLLOWER: (Stream Label)"
+        }
+        cx : 627
+        cy : 40
+        x : 0
+        y : 832
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      "FOLLOWERS: (Text Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "FOLLOWERS: (Text Label)"
+        }
+        cx : 275
+        cy : 48
+        x : 0
+        y : 1032
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      elgato : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : elgato
+        }
+        cx : 978
+        cy : 550
+        x : 942
+        y : 530
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      Monitor Capture : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : Monitor Capture
+        }
+        cx : 1080
+        cy : 608
+        x : 0
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      logitech : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : logitech
+        }
+        cx : 694
+        cy : 521
+        x : 0
+        y : 778
+        crop.left : 0
+        crop.top : 0
+        crop.right : 66.8651
+        crop.bottom : 101.164
+      }
+    }
+    hotkey : 0
+  }
+  Dual Screen Big PC : {
+    class : Scene
+    sources : {
+      ConnectInfoConsole : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : ConnectInfoConsole
+        }
+        cx : 213
+        cy : 27
+        x : 1606
+        y : 863
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      ConnectInfoPC : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : ConnectInfoPC
+        }
+        cx : 416
+        cy : 37
+        x : 553
+        y : 139
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      DezgodTier : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : DezgodTier
+        }
+        cx : 238
+        cy : 134
+        x : 1682
+        y : 701
+        crop.left : 0
+        crop.top : 28.5987
+        crop.right : 0
+        crop.bottom : 23.6643
+      }
+      DezKata : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : DezKata
+        }
+        cx : 368
+        cy : 156
+        x : 315
+        y : 859
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      KutlassChibiArt : {
+        render : 0
+        class : GlobalSource
+        data : {
+          name : KutlassChibiArt
+        }
+        cx : 489
+        cy : 171
+        x : 784
+        y : 912
+        crop.left : 72.2584
+        crop.top : 30.8071
+        crop.right : 129.189
+        crop.bottom : 5.11627
+      }
+      ChatBox (CLR Browser) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : ChatBox (CLR Browser)
+        }
+        cx : 640
+        cy : 480
+        x : 1247
+        y : 300
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      AlertBox v3.1 (CLR Browser) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : AlertBox v3.1 (CLR Browser)
+        }
+        cx : 640
+        cy : 480
+        x : 605
+        y : 303
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      session_followers.txt (Stream Label) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : session_followers.txt (Stream Label)
+        }
+        cx : 2424
+        cy : 48
+        x : 284
+        y : 1032
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      all_time_top_donators.txt (STREAM LABEL) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : all_time_top_donators.txt (STREAM LABEL)
+        }
+        cx : 923.021
+        cy : 48
+        x : 363
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      "DONATION HYPE: (Text Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "DONATION HYPE: (Text Label)"
+        }
+        cx : 358.624
+        cy : 47.0955
+      }
+      "MONTHLY TOP DONATOR: (Stream Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "MONTHLY TOP DONATOR: (Stream Label)"
+        }
+        cx : 970.997
+        cy : 39.9011
+        x : 31
+        y : 433
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      "LATEST FOLLOWER: (Stream Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "LATEST FOLLOWER: (Stream Label)"
+        }
+        cx : 627
+        cy : 40
+        x : 1046
+        y : 82
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      "FOLLOWERS: (Text Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "FOLLOWERS: (Text Label)"
+        }
+        cx : 275
+        cy : 48
+        x : 0
+        y : 1032
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      Monitor Capture : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : Monitor Capture
+        }
+        cx : 1515
+        cy : 852
+        x : 0
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      elgato : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : elgato
+        }
+        cx : 452
+        cy : 254
+        x : 1468
+        y : 826
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      logitech : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : logitech
+        }
+        cx : 493
+        cy : 370
+        x : 0
+        y : 865
+        crop.left : 0
+        crop.top : 0
+        crop.right : 66.8651
+        crop.bottom : 101.164
+      }
+    }
+    hotkey : 0
+  }
+  Dual Screen Big Console : {
+    class : Scene
+    sources : {
+      ConnectInfoConsole : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : ConnectInfoConsole
+        }
+        cx : 424
+        cy : 53
+        x : 962
+        y : 395
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      ConnectInfoPC : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : ConnectInfoPC
+        }
+        cx : 231
+        cy : 21
+        x : 141
+        y : 68
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      DezgodTier : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : DezgodTier
+        }
+        cx : 455
+        cy : 256
+        x : 1444
+        y : 12
+        crop.left : 0
+        crop.top : 28.5987
+        crop.right : 0
+        crop.bottom : 23.6643
+      }
+      DezKata : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : DezKata
+        }
+        cx : 244
+        cy : 103
+        x : 0
+        y : 283
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      KutlassChibiArt : {
+        render : 0
+        class : GlobalSource
+        data : {
+          name : KutlassChibiArt
+        }
+        cx : 489
+        cy : 171
+        x : 784
+        y : 912
+        crop.left : 72.2584
+        crop.top : 30.8071
+        crop.right : 129.189
+        crop.bottom : 5.11627
+      }
+      ChatBox (CLR Browser) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : ChatBox (CLR Browser)
+        }
+        cx : 640
+        cy : 480
+        x : 1247
+        y : 300
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      AlertBox v3.1 (CLR Browser) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : AlertBox v3.1 (CLR Browser)
+        }
+        cx : 640
+        cy : 480
+        x : 605
+        y : 303
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      session_followers.txt (Stream Label) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : session_followers.txt (Stream Label)
+        }
+        cx : 2424
+        cy : 48
+        x : 284
+        y : 1032
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      all_time_top_donators.txt (STREAM LABEL) : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : all_time_top_donators.txt (STREAM LABEL)
+        }
+        cx : 923.021
+        cy : 48
+        x : 363
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      "DONATION HYPE: (Text Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "DONATION HYPE: (Text Label)"
+        }
+        cx : 358.624
+        cy : 47.0955
+      }
+      "MONTHLY TOP DONATOR: (Stream Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "MONTHLY TOP DONATOR: (Stream Label)"
+        }
+        cx : 970.997
+        cy : 39.9011
+        x : 31
+        y : 433
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      "LATEST FOLLOWER: (Stream Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "LATEST FOLLOWER: (Stream Label)"
+        }
+        cx : 627
+        cy : 40
+        x : 788
+        y : 66
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      "FOLLOWERS: (Text Label)" : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : "FOLLOWERS: (Text Label)"
+        }
+        cx : 275
+        cy : 48
+        x : 0
+        y : 1032
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      Monitor Capture : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : Monitor Capture
+        }
+        cx : 512
+        cy : 288
+        x : 0
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      elgato : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : elgato
+        }
+        cx : 1475
+        cy : 830
+        x : 445
+        y : 250
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      logitech : {
+        render : 1
+        class : GlobalSource
+        data : {
+          name : logitech
+        }
+        cx : 495
+        cy : 371
+        x : 0
+        y : 864
+        crop.left : 0
+        crop.top : 0
+        crop.right : 66.8651
+        crop.bottom : 101.164
+      }
+    }
+    hotkey : 0
+  }
+}
+global sources : {
+  elgato : {
+    class : DeviceCapture
+    data : {
+      deinterlacingGPU : 1
+      device : Elgato Game Capture HD
+      deviceName : Elgato Game Capture HD
+      deviceID : "{39F50F4C-99E1-464A-B6F9-D605B4FB5918}"
+      customResolution : 1
+      scaleFactor_x : 1
+      scaleFactor_y : 1
+      resolutionWidth : 1920
+      resolutionHeight : 1080
+      frameInterval : 333333
+      flipImage : 0
+      flipImageHorizontal : 0
+      usePointFiltering : 0
+      gamma : 100
+      preserveSourceSize : 0
+      deinterlacingType : 0
+      deinterlacingFieldOrder : 0
+      deinterlacingProcessor : 1
+      deinterlacingDoublesFramerate : 0
+      fullrange : 0
+      colorspace : 0
+      opacity : 100
+      usePreferredType : 0
+      preferredType : 10
+      useBuffering : 1
+      bufferTime : 0
+      audioDevice : (Use Device Audio)
+      audioDeviceName : (Use Device Audio)
+      audioDeviceID : 
+      forceCustomAudioDevice : 0
+      soundOutputType : 1
+      soundTimeOffset : 0
+      volume : 0.502825
+      useAudioRender : 0
+      useChromaKey : 0
+      keyColor : -1
+      keySimilarity : 0
+      keyBlend : 80
+      keySpillReduction : 50
+    }
+    cx : 1920
+    cy : 1080
+  }
+  logitech : {
+    class : DeviceCapture
+    data : {
+      deinterlacingGPU : 1
+      device : Logitech HD Pro Webcam C920
+      deviceName : Logitech HD Pro Webcam C920
+      deviceID : \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+      customResolution : 1
+      scaleFactor_x : 1
+      scaleFactor_y : 1
+      resolutionWidth : 640
+      resolutionHeight : 480
+      frameInterval : 333333
+      flipImage : 0
+      flipImageHorizontal : 0
+      usePointFiltering : 0
+      gamma : 100
+      preserveSourceSize : 0
+      deinterlacingType : 0
+      deinterlacingFieldOrder : 0
+      deinterlacingProcessor : 1
+      deinterlacingDoublesFramerate : 0
+      fullrange : 0
+      colorspace : 0
+      opacity : 100
+      usePreferredType : 0
+      preferredType : 17
+      useBuffering : 0
+      bufferTime : 0
+      audioDevice : Disable
+      audioDeviceName : Disable
+      audioDeviceID : Disabled
+      forceCustomAudioDevice : 1
+      soundOutputType : 1
+      soundTimeOffset : 0
+      volume : 1
+      useAudioRender : 0
+      useChromaKey : 1
+      keyColor : -8854099
+      keySimilarity : 28
+      keyBlend : 282
+      keySpillReduction : 0
+    }
+    cx : 640
+    cy : 480
+  }
+  Monitor Capture : {
+    class : MonitorCaptureSource
+    data : {
+      captureType : 0
+      monitor : 0
+      innerWindow : 0
+      regionCapture : 0
+      captureMouse : 1
+      captureLayered : 0
+      compatibilityMode : 0
+      usePointFiltering : 0
+      captureX : 0
+      captureY : 0
+      captureCX : 2560
+      captureCY : 1440
+      useColorKey : 0
+      keyColor : -1
+      keySimilarity : 10
+      keyBlend : 0
+      opacity : 100
+      gamma : 100
+    }
+    cx : 2560
+    cy : 1440
+  }
+  "FOLLOWERS: (Text Label)" : {
+    class : TextSource
+    data : {
+      baseSizeCX : 277.569
+      baseSizeCY : 48
+      font : Arial
+      color : -1
+      fontSize : 48
+      textOpacity : 100
+      scrollSpeed : 0
+      bold : 1
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 0
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -1
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : 
+      text : "FOLLOWERS:"
+      mode : 0
+    }
+    cx : 277.569
+    cy : 48
+  }
+  session_followers.txt (Stream Label) : {
+    class : TextSource
+    data : {
+      baseSizeCX : 2424.08
+      baseSizeCY : 48
+      font : Arial
+      color : -16711681
+      fontSize : 48
+      textOpacity : 100
+      scrollSpeed : 20
+      bold : 1
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 0
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -16777216
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : "C:\\Users\\kutlass\\Desktop\\session_followers.txt"
+      text : 
+      mode : 1
+    }
+    cx : 2424.08
+    cy : 48
+  }
+  "LATEST FOLLOWER: (Stream Label)" : {
+    class : TextSource
+    data : {
+      baseSizeCX : 629.368
+      baseSizeCY : 41.1016
+      font : Arial
+      color : -1
+      fontSize : 40
+      textOpacity : 100
+      scrollSpeed : 0
+      bold : 0
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 0
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -16777216
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : "C:\\Users\\kutlass\\Desktop\\most_recent_follower.txt"
+      text : 
+      mode : 1
+    }
+    cx : 629.368
+    cy : 41.1016
+  }
+  "MONTHLY TOP DONATOR: (Stream Label)" : {
+    class : TextSource
+    data : {
+      baseSizeCX : 898.003
+      baseSizeCY : 41.1016
+      font : Arial
+      color : -16711872
+      fontSize : 40
+      textOpacity : 100
+      scrollSpeed : 0
+      bold : 0
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 0
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -16777216
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : "C:\\Users\\kutlass\\Desktop\\monthly_top_donator.txt"
+      text : 
+      mode : 1
+    }
+    cx : 898.003
+    cy : 41.1016
+  }
+  "DONATION HYPE: (Text Label)" : {
+    class : TextSource
+    data : {
+      baseSizeCX : 361.379
+      baseSizeCY : 48.9219
+      font : Arial
+      color : -16711681
+      fontSize : 48
+      textOpacity : 100
+      scrollSpeed : 0
+      bold : 0
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 0
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -16777216
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : 
+      text : "DONATION HYPE:"
+      mode : 0
+    }
+    cx : 361.379
+    cy : 48.9219
+  }
+  AlertBox v3.1 (CLR Browser) : {
+    class : CLRBrowserSource
+    data : {
+      sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0Ijo0ODAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOnRydWUsIk9wYWNpdHkiOjEsIlRlbXBsYXRlIjoiPGh0bWw+XHUwMDBkXHUwMDBhICA8aGVhZD5cdTAwMGRcdTAwMGEgXHUwMDA5ICA8bWV0YSBjaGFyc2V0PSd1dGYtOCdcLz5cdTAwMGRcdTAwMGEgICAgICAgPHN0eWxlPlx1MDAwZFx1MDAwYSAgICAgICAgIGJvZHkge1x1MDAwZFx1MDAwYSAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLCAwLCAwLCAwKTtcdTAwMGRcdTAwMGEgICAgICAgICAgIG1hcmdpbjogMHB4IGF1dG87XHUwMDBkXHUwMDBhICAgICAgICAgICBvdmVyZmxvdzogaGlkZGVuO1x1MDAwZFx1MDAwYSAgICAgICAgIH1cdTAwMGRcdTAwMGEgICAgICAgPFwvc3R5bGU+XHUwMDBkXHUwMDBhICA8XC9oZWFkPlx1MDAwZFx1MDAwYSAgPGJvZHk+XHUwMDBkXHUwMDBhICAgIDxvYmplY3RcdTAwMGRcdTAwMGEgICAgICB0eXBlPSckKE1JTUVUWVBFKSdcdTAwMGRcdTAwMGEgICAgICB3aWR0aD0nJChXSURUSCknXHUwMDBkXHUwMDBhICAgICAgaGVpZ2h0PSckKEhFSUdIVCknXHUwMDBkXHUwMDBhICAgICAgZGF0YT0nJChGSUxFKSdcdTAwMGRcdTAwMGEgICAgICB3bW9kZT0ndHJhbnNwYXJlbnQnPlx1MDAwZFx1MDAwYSAgICA8XC9vYmplY3Q+XHUwMDBkXHUwMDBhICA8XC9ib2R5Plx1MDAwZFx1MDAwYTxcL2h0bWw+XHUwMDBkXHUwMDBhIiwiVXJsIjoiaHR0cDpcL1wvd3d3LnR3aXRjaGFsZXJ0cy5jb21cL2FsZXJ0LWJveFwvdjNcL0I3MDQ3ODNFMDlDNDA2NjExNjU1IiwiVm9sdW1lIjowLCJXaWR0aCI6NjQwfQ==
+      instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+    }
+    cx : 640
+    cy : 480
+  }
+  ChatBox (CLR Browser) : {
+    class : CLRBrowserSource
+    data : {
+      sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0Ijo0ODAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHA6XC9cL3d3dy50d2l0Y2hhbGVydHMuY29tXC93aWRnZXRzXC9jaGF0LWJveFwvdjFcL0I3MDQ3ODNFMDlDNDA2NjExNjU1IiwiVm9sdW1lIjowLCJXaWR0aCI6NjQwfQ==
+      instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+    }
+    cx : 640
+    cy : 480
+  }
+  YouTube : {
+    class : WindowCaptureSource
+    data : {
+      captureType : 1
+      monitor : 0
+      window : Suto Stream
+      windowClass : ApplicationFrameWindow
+      innerWindow : 0
+      regionCapture : 0
+      captureMouse : 0
+      captureLayered : 1
+      compatibilityMode : 0
+      usePointFiltering : 0
+      captureX : 0
+      captureY : 0
+      captureCX : 903
+      captureCY : 540
+      useColorKey : 0
+      keyColor : -1
+      keySimilarity : 10
+      keyBlend : 0
+      opacity : 100
+      gamma : 100
+    }
+    cx : 903
+    cy : 540
+  }
+  all_time_top_donators.txt (STREAM LABEL) : {
+    class : TextSource
+    data : {
+      baseSizeCX : 924.98
+      baseSizeCY : 48
+      font : Arial
+      color : -1
+      fontSize : 48
+      textOpacity : 100
+      scrollSpeed : 20
+      bold : 1
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 0
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -16777216
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : "C:\\Users\\kutlass\\Desktop\\all_time_top_donators.txt"
+      text : 
+      mode : 1
+    }
+    cx : 924.98
+    cy : 48
+  }
+  BenQ : {
+    class : MonitorCaptureSource
+    data : {
+      captureType : 0
+      monitor : 1
+      innerWindow : 0
+      regionCapture : 0
+      captureMouse : 1
+      captureLayered : 0
+      compatibilityMode : 0
+      usePointFiltering : 0
+      captureX : 2560
+      captureY : 0
+      captureCX : 1920
+      captureCY : 1080
+      useColorKey : 0
+      keyColor : -1
+      keySimilarity : 10
+      keyBlend : 0
+      opacity : 100
+      gamma : 100
+    }
+    cx : 1920
+    cy : 1080
+  }
+  KutlassChibiArt : {
+    class : BitmapImageSource
+    data : {
+      path : "C:\\Users\\kutlass\\Pictures\\Ct6Jc1vUAAATCIR.jpg"
+      opacity : 100
+      color : -1
+      useColorKey : 0
+      keyColor : -1
+      keySimilarity : 10
+      keyBlend : 0
+      monitor : 0
+    }
+    cx : 1021
+    cy : 357
+  }
+  DezKata : {
+    class : BitmapImageSource
+    data : {
+      path : "C:\\Users\\kutlass\\Pictures\\26BkO9XoLLpo2hbTG.gif"
+      opacity : 100
+      color : -1
+      useColorKey : 0
+      keyColor : -1
+      keySimilarity : 10
+      keyBlend : 0
+      monitor : 0
+    }
+    cx : 540
+    cy : 229
+  }
+  DezgodTier : {
+    class : BitmapImageSource
+    data : {
+      path : "C:\\Users\\kutlass\\Pictures\\stuff.gif"
+      opacity : 100
+      color : -1
+      useColorKey : 0
+      keyColor : -1
+      keySimilarity : 10
+      keyBlend : 0
+      monitor : 0
+    }
+    cx : 426
+    cy : 240
+  }
+  HalloweenArt : {
+    class : BitmapImageSource
+    data : {
+      path : "C:\\Users\\kutlass\\Pictures\\HallweenArt.jpg"
+      opacity : 100
+      color : -1
+      useColorKey : 0
+      keyColor : -1
+      keySimilarity : 10
+      keyBlend : 0
+      monitor : 0
+    }
+    cx : 297
+    cy : 300
+  }
+  ConnectInfoPC : {
+    class : TextSource
+    data : {
+      baseSizeCX : 541.253
+      baseSizeCY : 48.9219
+      font : Arial
+      color : -16711936
+      fontSize : 48
+      textOpacity : 100
+      scrollSpeed : 0
+      bold : 0
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 0
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -16777216
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : 
+      text : "BL: HypeGreenTV PW: 8675"
+      mode : 0
+    }
+    cx : 541.253
+    cy : 48.9219
+  }
+  ConnectInfoConsole : {
+    class : TextSource
+    data : {
+      baseSizeCX : 382.522
+      baseSizeCY : 48.9219
+      font : Arial
+      color : -16711936
+      fontSize : 48
+      textOpacity : 100
+      scrollSpeed : 0
+      bold : 0
+      italic : 0
+      vertical : 0
+      wrap : 0
+      scrollMode : 0
+      underline : 0
+      pointFiltering : 0
+      backgroundColor : -16777216
+      backgroundOpacity : 0
+      useOutline : 1
+      outlineColor : -16777216
+      outlineSize : 2
+      outlineOpacity : 100
+      useTextExtents : 0
+      extentWidth : 32
+      extentHeight : 32
+      align : 0
+      file : 
+      text : "BL: cutlas PW: 8675"
+      mode : 0
+    }
+    cx : 382.522
+    cy : 48.9219
+  }
+}

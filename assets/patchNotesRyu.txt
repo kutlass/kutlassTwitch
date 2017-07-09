@@ -1,0 +1,127 @@
+Hurtbox:  
+     o Adjusted hurtbox when changing direction while crouching 
+     o Forward throw: Increased recovery on-hit by 8F 
+     o Reduced stun damage from 170 to 120 
+     o Reduced CA gauge accrual 
+     o Increased distance from opponent after hit 
+     o Standing LP (Normal/V-Trigger): Shrunk hitbox in upwards direction 
+     o Increased horizontal knockback on-hit in the air 
+     o Expanded hitbox in forward direction 
+Standing LK:  
+     o Shrunk hitbox in forward direction 
+Standing MP (Normal/V-Trigger):  
+     o Changed advantage on-hit from +6F to +7F 
+     o Expanded hurtbox that appears during 3-12F of action in forward direction 
+     o Shrunk hitbox in forward direction 
+     o Standing HP (Normal/V-Trigger): Changed startup from 7F to 8F 
+     o Increased overall animation by 1F 
+     o Only V-Trigger HP is cancellable 
+Standing HK:  
+     o Changed action recovery from 18F to 20F 
+     o Recovery on-hit or block have not changed 
+Crouching LP (Normal/V-Trigger):  
+     o Increased duration of hitbox from 2F to 3F 
+     o Expanded distance of pushback on-hit and block 
+     o Fixed bug that when mash canceling into a normal Crouching LP, was not
+       recognized as not countered even when taking a hit before the first
+       frame of attack startup 
+Crouching MP  (Normal/V-Trigger):
+     o Changed startup from 5F to 6F 
+     o Increased overall animation by 1F 
+     o Somewhat expanded hitbox in forward direction 
+     o Expanded hurtbox around hitbox in forward direction 
+     o Shrunk upper hitbox 
+Crouching MK:  
+     o Changed startup from 6F to 7F 
+     o Increased overall animation by 1F 
+     o Changed duration of hitbox from 2F to 3F 
+Crouching HK:  
+     o Changed startup from 7F to 8F 
+     o Increased overall animation by 1F 
+     o Lowered damage from 100 to 90 
+     o Shrunk hitbox in forward direction 
+Jumping LK:  
+     o Expanded active hurtbox in downward direction 
+     o Shrunk hitbox in downward direction 
+Jumping MP (Normal/V-Trigger):  
+     o Changed damaged caused by normal version from 80(40+40) to 60(30+30) 
+     o Decreased damage caused by V-Trigger version from 80(40+40) to 60(30+30) 
+     o Block properties for 2nd hit changed from mid to high 
+Jumping MK:  
+     o Shrunk lower hitbox 
+     o Axe Kick: Changed recovery on-block from ±0F to -2F 
+     o First and 2nd hits can be cancelled into specials, CA, and V-Trigger 
+Collarbone Breaker (Normal/V-Trigger):  
+     o Changed startup from 20F to 22F 
+     o Increased overall animation by 2F 
+     o Changed recovery on-hit from ±0F to +1F 
+     o Changed recovery on-block from -4F to -6F 
+Solar Plexus Strike (Normal/V-Trigger):  
+     o Increased stun damage (for normal: 100  to  150, for V-Trigger: 130 to 180) 
+     o Changed advantage on-hit from +6F to +8F 
+Jodan Sanrengeki:  
+     o Increased damage of second hit from 60 to 70  
+     o Increased stun damage of second hit (for normal: 70 to 100, for V-Trigger: 100 to 130) 
+     o Increased stun damage of third hit from 80 to 100 
+     o Second hit can be cancelled by V-Trigger 
+     o Shrunk hit back on second hit 
+     o Increased duration that damaged side is suspended in when third hit hits 
+V-Reversal Hashogeki:  
+     o Changed startup 15F to 17F 
+     o Changed distance and advantage on-hit 
+V-Skill Mind's Eye:  
+     o Changed animation recovery on whiff from 29F to 32F 
+     o Increase V-Gauge accrual from 25 to 50 when successful 
+Hadoken:  
+     o Changed overall animation (L: 46F to 47F, H: 48F to 47F) 
+     o Decreased amount of CA gauge accrued on activation 
+     o Increased amount of CA gauge accrued on-hit or block 
+     o Changed advantage on-block from -7F to -6F 
+Hadoken (V-Trigger):  
+     o Decreased amount of CA gauge accrued on activation 
+     o Increased amount of CA gauge accrued on-hit or block 
+     o Fixed bug that even when hit during 1-7F of animation, was not
+       registered as a counter 
+EX Hadoken (Normal/V-Trigger):  
+     o Changed advantage on-block from -2F to +2F 
+     o Fixed bug that even when hit during 1-6F of animation during V-Trigger, was not
+       registered as a counter 
+L Shoryuken (Normal/V-Trigger):  
+     o Reduced damage from 120 to 110 during V-Trigger 
+     o Expanded hurtbox that appears during 1-3F in downward direction 
+     o Expanded hitbox on startup during V-Trigger in forward direction 
+M Shoryuken (Normal/V-Trigger):  
+     o Decreased damage during V-Trigger from 140 to 130 
+     o Added hurtbox and throwable box during 1-2F 
+     o Changed physical strike/projectile invincibility to 3-6F 
+     o Added collision box to lower body during 6F 
+     o Expanded hitbox on startup in upward direction 
+H Shoryuken (Normal/V-Trigger):  
+     o Decreased damage of normal version from 140 to 120 
+     o Decreased damage during V-Trigger from 160 to 130 
+     o Decreased stun damage of normal version from 200 to 150 
+     o Decreased stun damage during V-Trigger from 250  to  200 
+     o During 1-3F, removed invincibility and added hurtbox and throwable box 
+EX Shoryuken (Normal/V-Trigger):  
+     o Expanded hitbox on startup both in forward and downward directions 
+L Tatsumaki Senpukyaku:  
+     o Increased damage from 80 to 90 
+     o Decreased stun damage from 200 to 150 
+M Tatsumaki Senpukyaku:  
+     o Changed recovery when landing from 12F to 14F 
+     o Decreased chip damage on-block from 25x2 to 17x2 
+     o Decreased stun damage from 200 to 150 
+H Tatsumaki Senpukyaku:  
+     o Changed recovery when landing from 11F to 15F 
+     o Decreased damage from 120 to 110 
+     o Decreased chip damage on-block from 30x3 to 19x3 
+     o Decreased stun damage from 200 to 150 
+EX Tatsumaki Senpukyaku:  
+     o Decreased stun damage from 200 to 150 
+Airborne Tatsumaki Senpukyaku:  
+     o On-hit, can juggle with Shinku Hadoken or Denjin Hadoken 
+EX Airborne Tatsumaki Senpukyaku:  
+     o Increased damage from 160 to 170 
+     o Increased stun damage from 200 to 250 
+Shinku Hadoken:  
+     o Reduced pushback on-block 

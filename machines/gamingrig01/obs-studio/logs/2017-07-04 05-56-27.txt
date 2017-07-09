@@ -1,0 +1,888 @@
+05:56:27.927: CPU Name: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+05:56:27.927: CPU Speed: 4008MHz
+05:56:27.927: Physical Cores: 4, Logical Cores: 8
+05:56:27.927: Physical Memory: 32688MB Total, 27502MB Free
+05:56:27.927: Windows Version: 10.0 Build 14393 (revision: 1198; 64-bit)
+05:56:27.927: Running as administrator: false
+05:56:27.927: Aero is Enabled (Aero is always on for windows 8 and above)
+05:56:27.927: Portable mode: false
+05:56:27.936: OBS 19.0.3 (64bit, windows)
+05:56:27.936: ---------------------------------
+05:56:27.937: ---------------------------------
+05:56:27.937: audio settings reset:
+05:56:27.937: 	samples per sec: 44100
+05:56:27.937: 	speakers:        2
+05:56:27.948: ---------------------------------
+05:56:27.948: Initializing D3D11...
+05:56:27.948: Available Video Adapters: 
+05:56:27.949: 	Adapter 1: NVIDIA GeForce GTX 1080
+05:56:27.949: 	  Dedicated VRAM: 4094361600
+05:56:27.949: 	  Shared VRAM:    4253374464
+05:56:27.949: 	  output 1: pos={0, 0}, size={2560, 1440}, attached=true
+05:56:27.949: 	  output 2: pos={2560, 127}, size={1920, 1080}, attached=true
+05:56:27.951: Loading up D3D11 on adapter NVIDIA GeForce GTX 1080 (0)
+05:56:27.986: D3D11 loaded successfully, feature level used: 45056
+05:56:28.523: ---------------------------------
+05:56:28.523: video settings reset:
+05:56:28.523: 	base resolution:   1920x1080
+05:56:28.523: 	output resolution: 1280x720
+05:56:28.523: 	downscale filter:  Bicubic
+05:56:28.523: 	fps:               30/1
+05:56:28.523: 	format:            NV12
+05:56:28.524: Audio monitoring device:
+05:56:28.524: 	name: Default
+05:56:28.524: 	id: default
+05:56:28.524: ---------------------------------
+05:56:28.589: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+05:56:28.602: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+05:56:28.615: [AMF] Encountered Exception during AMF initialization: Unable to load 'amfrt64.dll', error code 126.
+05:56:28.615: Failed to initialize module 'enc-amf.dll'
+05:56:28.686: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libcef.dll' not found, loading of module failed
+05:56:28.692: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+05:56:28.702: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+05:56:28.714: Failed to load 'en-US' text for module: 'obs-browser.dll'
+05:56:28.714: [browser_source: 'Version: 1.29.0']
+05:56:28.767: NVENC supported
+05:56:29.214: Couldn't find VLC installation, VLC video source disabled
+05:56:29.242: No blackmagic support
+05:56:29.340: ---------------------------------
+05:56:29.341:   Loaded Modules:
+05:56:29.341:     win-wasapi.dll
+05:56:29.341:     win-mf.dll
+05:56:29.341:     win-dshow.dll
+05:56:29.341:     win-decklink.dll
+05:56:29.341:     win-capture.dll
+05:56:29.341:     vlc-video.dll
+05:56:29.341:     text-freetype2.dll
+05:56:29.341:     rtmp-services.dll
+05:56:29.341:     obs-x264.dll
+05:56:29.341:     obs-vst.dll
+05:56:29.341:     obs-transitions.dll
+05:56:29.341:     obs-text.dll
+05:56:29.341:     obs-qsv11.dll
+05:56:29.341:     obs-outputs.dll
+05:56:29.341:     obs-filters.dll
+05:56:29.341:     obs-ffmpeg.dll
+05:56:29.341:     obs-browser.dll
+05:56:29.341:     image-source.dll
+05:56:29.341:     frontend-tools.dll
+05:56:29.341:     enc-amf.dll
+05:56:29.341:     coreaudio-encoder.dll
+05:56:29.341: ==== Startup complete ===============================================
+05:56:29.356: All scene data cleared
+05:56:29.356: ------------------------------------------------
+05:56:29.379: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' initialized
+05:56:29.388: WASAPI: Device 'Microphone (Sennheiser 3D G4ME1)' initialized
+05:56:29.439: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+05:56:30.480: Failed to open file 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG': No such file or directory
+05:56:30.480: gs_image_file_init: Failed to load file 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG'
+05:56:30.480: [image_source: 'image_RyuCriticalArt_BackAndWhite'] failed to load texture 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG'
+05:56:30.635: Switched to scene 'scene_SFV_PC'
+05:56:30.640: ------------------------------------------------
+05:56:30.640: Loaded scenes:
+05:56:30.640: - scene 'scene_SFV_PC':
+05:56:30.641:     - source: 'src_StreetFighteVPC' (scene)
+05:56:30.641:     - source: 'src_WindowedGame' (scene)
+05:56:30.641:     - source: 'src_LogitechC920' (scene)
+05:56:30.641:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+05:56:30.641:     - source: 'prefab_TextAndAlertOverlays' (scene)
+05:56:30.641:     - source: 'prefab_Projector' (scene)
+05:56:30.641: - scene 'scene_SFV_PS4':
+05:56:30.641:     - source: 'image_RyuCriticalArt_BackAndWhite' (image_source)
+05:56:30.641:     - source: 'src_ElgatoS60' (scene)
+05:56:30.641:     - source: 'src_LogitechC920' (scene)
+05:56:30.641:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+05:56:30.641:     - source: 'prefab_TextAndAlertOverlays' (scene)
+05:56:30.641: - scene 'scene_GamePC':
+05:56:30.641:     - source: 'src_WindowedGame' (scene)
+05:56:30.641:     - source: 'src_LogitechC920' (scene)
+05:56:30.641:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+05:56:30.641:     - source: 'prefab_TextAndAlertOverlays' (scene)
+05:56:30.641: - scene 'scene_GameConsole':
+05:56:30.641:     - source: 'src_ElgatoS60' (scene)
+05:56:30.641:     - source: 'src_LogitechC920' (scene)
+05:56:30.641:     - source: 'prefab_TextAndAlertOverlays' (scene)
+05:56:30.641:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+05:56:30.641: - scene 'scene_WatchYouTube':
+05:56:30.641:     - source: 'src_MonitorBenQ' (scene)
+05:56:30.641: - scene 'scene_DualScreenSymetric':
+05:56:30.641:     - source: 'scene_BattleLoungeConsole' (scene)
+05:56:30.641:     - source: 'scene_BattleLoungePC' (scene)
+05:56:30.641:     - source: 'src_LogitechC920' (scene)
+05:56:30.641:     - source: 'prefab_TextAndAlertOverlays' (scene)
+05:56:30.641:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+05:56:30.641: - scene 'scene_DualScreenFocusPC':
+05:56:30.641:     - source: 'scene_BattleLoungePC' (scene)
+05:56:30.641:     - source: 'scene_BattleLoungeConsole' (scene)
+05:56:30.641:     - source: 'src_LogitechC920' (scene)
+05:56:30.641:     - source: 'prefab_TextAndAlertOverlays' (scene)
+05:56:30.641:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+05:56:30.641: - scene 'scene_DualScreenFocusConsole':
+05:56:30.641:     - source: 'scene_BattleLoungeConsole' (scene)
+05:56:30.641:     - source: 'scene_BattleLoungePC' (scene)
+05:56:30.641:     - source: 'src_LogitechC920' (scene)
+05:56:30.641:     - source: 'prefab_TextAndAlertOverlays' (scene)
+05:56:30.641:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+05:56:30.641: - scene 'scene_BattleLoungePC':
+05:56:30.641:     - source: 'src_StreetFighteVPC' (scene)
+05:56:30.641:     - source: 'txtConnectionInfoBattleLoungePC' (text_gdiplus)
+05:56:30.641: - scene 'scene_BattleLoungeConsole':
+05:56:30.641:     - source: 'src_ElgatoS60' (scene)
+05:56:30.641:     - source: 'txtConnectionInfoBattleLoungeConsole' (text_gdiplus)
+05:56:30.641: - scene 'prefab_TextAndAlertOverlays':
+05:56:30.641:     - source: 'prefab_TransparentBlack' (scene)
+05:56:30.641:     - source: 'prefab_TransparentBlack' (scene)
+05:56:30.641:     - source: 'browserBitJar' (browser_source)
+05:56:30.641:     - source: 'browserAlertBox' (browser_source)
+05:56:30.641:     - source: 'txtCurrentSong' (text_gdiplus)
+05:56:30.641:     - source: 'browserBitBossBattles1' (browser_source)
+05:56:30.641:     - source: 'prefab_SeattleStats' (scene)
+05:56:30.641:     - source: 'browserChatBox' (browser_source)
+05:56:30.641:     - source: 'prefab_SubscriptionHype' (scene)
+05:56:30.641:     - source: 'prefab_DonationHype' (scene)
+05:56:30.641:     - source: 'prefab_CheerHype' (scene)
+05:56:30.641:     - source: 'src_BrowserViewerCount' (scene)
+05:56:30.641: - scene 'prefab_TextAndAlertOverlays_staticShouts':
+05:56:30.641:     - source: 'prefab_TransparentBlack' (scene)
+05:56:30.641:     - source: 'txtMostRecentFollowerValue' (text_gdiplus)
+05:56:30.641:     - source: 'txtMonthlyTopDonatorValue' (text_gdiplus)
+05:56:30.641:     - source: 'txtLatestDonation' (text_gdiplus)
+05:56:30.641: - scene 'prefab_SeattleStats':
+05:56:30.641:     - source: 'src_BrowserDateTime' (scene)
+05:56:30.641:     - source: 'src_BrowserWeather' (scene)
+05:56:30.641:     - source: 'src_BrowserWeather' (scene)
+05:56:30.641:     - source: 'colorSourceBlackTop' (color_source)
+05:56:30.641: - scene 'src_BrowserDateTime':
+05:56:30.641:     - source: 'browserBrowserDateTime' (browser_source)
+05:56:30.641: - scene 'src_BrowserViewerCount':
+05:56:30.641:     - source: 'browserSourceViewerCount' (browser_source)
+05:56:30.641: - scene 'src_BrowserWeather':
+05:56:30.641:     - source: 'browserWeather' (browser_source)
+05:56:30.641: - scene 'src_StreetFighteVPC':
+05:56:30.641:     - source: 'StreetFighterV' (window_capture)
+05:56:30.641: - scene 'src_ElgatoS60':
+05:56:30.641:     - source: 'source_ElgatoS60' (dshow_input)
+05:56:30.641: - scene 'src_MonitorAcer':
+05:56:30.641:     - source: 'source_AcerMonitor' (monitor_capture)
+05:56:30.641: - scene 'src_LogitechC920':
+05:56:30.641:     - source: 'source_Logitechc920' (dshow_input)
+05:56:30.641:         - filter: 'Chroma Key' (chroma_key_filter)
+05:56:30.641: - scene 'src_MonitorBenQ':
+05:56:30.641:     - source: 'source_MonitorBenQ' (monitor_capture)
+05:56:30.641: - scene 'src_WindowedGame':
+05:56:30.641:     - source: 'sourceWindowedGame' (game_capture)
+05:56:30.641: - scene 'src_FullScreenGame':
+05:56:30.641:     - source: 'source_FullScreenGame' (game_capture)
+05:56:30.641: - scene 'prefab_SubscriptionHype':
+05:56:30.641:     - source: 'txtSubscriptionHypeValue' (text_gdiplus)
+05:56:30.641:         - filter: 'Scroll' (scroll_filter)
+05:56:30.641:     - source: 'txtSubscriptionHypeLabel' (text_gdiplus)
+05:56:30.641:     - source: 'prefab_SubscriptionCount' (scene)
+05:56:30.641: - scene 'prefab_SubscriptionCount':
+05:56:30.641:     - source: 'colorSouceRed 2' (color_source)
+05:56:30.641:     - source: 'txtSubscriptionCount 2' (text_gdiplus)
+05:56:30.641: - scene 'prefab_DonationHype':
+05:56:30.641:     - source: 'txtDonationHypeValue' (text_gdiplus)
+05:56:30.641:         - filter: 'Scroll' (scroll_filter)
+05:56:30.641:     - source: 'txtDonationHypeLabel' (text_gdiplus)
+05:56:30.641: - scene 'prefab_CheerHype':
+05:56:30.641:     - source: 'txtCheerHypeValue' (text_gdiplus)
+05:56:30.641:         - filter: 'Scroll' (scroll_filter)
+05:56:30.641:     - source: 'txtCheerHypeLabel' (text_gdiplus)
+05:56:30.641: - scene 'prefab_Toolbox':
+05:56:30.641:     - source: 'txtMusicNotes 2' (text_gdiplus)
+05:56:30.641:         - filter: 'Scroll' (scroll_filter)
+05:56:30.641:     - source: 'source_Image_TheCommission_Fightstick 2' (image_source)
+05:56:30.641: - scene 'prefab_Projector':
+05:56:30.641:     - source: 'source_Image_kutlasBlaze112' (image_source)
+05:56:30.641:     - source: 'source_Image_kutlasKappaNine112' (image_source)
+05:56:30.641:     - source: 'source_Image_kutlasRyu112' (image_source)
+05:56:30.641: - scene 'prefab_TransparentBlack':
+05:56:30.641:     - source: 'sourceColorBlack' (color_source)
+05:56:30.641: ------------------------------------------------
+05:56:31.814: ---------------------------------
+05:56:31.814: [DShow Device: 'source_ElgatoS60'] settings updated: 
+05:56:31.814: 	video device: Elgato Game Capture HD
+05:56:31.814: 	video path: __elgato
+05:56:31.814: 	resolution: 1280x720
+05:56:31.814: 	fps: 60.00 (interval: 166666)
+05:56:31.814: 	format: UYVY
+05:56:31.814: 	using video device audio: yes
+05:56:31.814: 	sample rate: 48000
+05:56:31.814: 	channels: 2
+05:56:31.814: 	audio type: Capture
+05:56:34.785: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+05:56:55.791: User switched to scene 'prefab_Toolbox'
+05:57:28.945: WASAPI: Device 'Line In (Realtek High Definition Audio)' initialized
+05:57:28.946: User added source 'Audio Input Capture' (wasapi_input_capture) to scene 'prefab_Toolbox'
+06:00:02.107: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' initialized
+06:00:02.108: User added source 'Audio Output Capture' (wasapi_output_capture) to scene 'prefab_Toolbox'
+06:02:20.208: User Removed source 'Audio Output Capture' (wasapi_output_capture) from scene 'prefab_Toolbox'
+06:02:20.224: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' Terminated
+06:02:30.336: User Removed source 'Audio Input Capture' (wasapi_input_capture) from scene 'prefab_Toolbox'
+06:02:30.358: WASAPI: Device 'Line In (Realtek High Definition Audio)' Terminated
+06:07:10.322: User switched to scene 'prefab_Projector'
+06:07:15.173: User switched to scene 'prefab_Toolbox'
+06:07:44.030: warning: deprecated pixel format used, make sure you did set range correctly
+06:08:18.906: User added source 'Window Capture' (window_capture) to scene 'prefab_Toolbox'
+06:17:04.200: User added source 'Game Capture' (game_capture) to scene 'prefab_Toolbox'
+06:17:16.858: [game-capture: 'Game Capture'] attempting to hook process: Discord.exe
+06:17:16.924: [game-capture: 'Game Capture'] using helper (compatibility hook)
+06:17:16.925: [game-capture: 'Game Capture'] hook not loaded yet, retrying..
+06:17:18.892: [game-capture: 'Game Capture'] attempting to hook process: Discord.exe
+06:17:21.025: [game-capture: 'Game Capture'] capture stopped
+06:17:22.924: [game-capture: 'Game Capture'] attempting to hook process: Discord.exe
+06:17:22.958: [game-capture: 'Game Capture'] capture stopped
+06:17:26.958: [game-capture: 'Game Capture'] attempting to hook process: Discord.exe
+06:17:26.991: [game-capture: 'Game Capture'] capture stopped
+06:17:30.992: [game-capture: 'Game Capture'] attempting to hook process: Discord.exe
+06:17:31.025: [game-capture: 'Game Capture'] capture stopped
+06:17:35.025: [game-capture: 'Game Capture'] attempting to hook process: Discord.exe
+06:17:35.058: [game-capture: 'Game Capture'] capture stopped
+06:17:37.059: [game-capture: 'Game Capture'] attempting to hook process: Discord.exe
+06:17:37.092: [game-capture: 'Game Capture'] capture stopped
+06:17:37.458: [game-capture: 'Game Capture'] error acquiring, scale is bad
+06:17:39.691: [game-capture: 'Game Capture'] error acquiring, scale is bad
+06:17:40.391: [game-capture: 'Game Capture'] error acquiring, scale is bad
+06:17:41.591: [game-capture: 'Game Capture'] error acquiring, scale is bad
+06:17:50.091: [game-capture: 'Game Capture'] error acquiring, scale is bad
+06:17:58.857: [game-capture: 'Game Capture'] error acquiring, scale is bad
+06:18:15.191: [game-capture: 'Game Capture'] error acquiring, scale is bad
+06:18:30.691: [game-capture: 'Game Capture'] error acquiring, scale is bad
+06:18:33.258: [game-capture: 'Game Capture'] error acquiring, scale is bad
+06:18:34.992: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:18:35.047: [game-capture: 'Game Capture'] using helper (compatibility hook)
+06:18:35.049: [game-capture: 'Game Capture'] hook not loaded yet, retrying..
+06:18:37.026: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:18:39.124: [game-capture: 'Game Capture'] capture stopped
+06:18:39.325: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:18:39.358: [game-capture: 'Game Capture'] capture stopped
+06:18:41.358: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:18:41.391: [game-capture: 'Game Capture'] capture stopped
+06:18:43.392: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:18:43.424: [game-capture: 'Game Capture'] capture stopped
+06:18:45.427: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:18:45.458: [game-capture: 'Game Capture'] capture stopped
+06:18:47.460: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:18:47.492: [game-capture: 'Game Capture'] capture stopped
+06:18:49.493: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:18:49.525: [game-capture: 'Game Capture'] capture stopped
+06:18:51.525: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:18:51.558: [game-capture: 'Game Capture'] capture stopped
+06:18:53.561: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:18:53.591: [game-capture: 'Game Capture'] capture stopped
+06:18:55.592: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:18:55.624: [game-capture: 'Game Capture'] capture stopped
+06:18:57.625: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:18:57.658: [game-capture: 'Game Capture'] capture stopped
+06:18:59.659: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:18:59.691: [game-capture: 'Game Capture'] capture stopped
+06:19:01.693: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:01.725: [game-capture: 'Game Capture'] capture stopped
+06:19:03.726: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:03.758: [game-capture: 'Game Capture'] capture stopped
+06:19:05.760: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:05.791: [game-capture: 'Game Capture'] capture stopped
+06:19:07.792: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:07.825: [game-capture: 'Game Capture'] capture stopped
+06:19:09.826: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:09.858: [game-capture: 'Game Capture'] capture stopped
+06:19:11.858: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:11.891: [game-capture: 'Game Capture'] capture stopped
+06:19:13.894: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:13.925: [game-capture: 'Game Capture'] capture stopped
+06:19:15.928: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:15.958: [game-capture: 'Game Capture'] capture stopped
+06:19:17.958: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:17.991: [game-capture: 'Game Capture'] capture stopped
+06:19:19.993: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:20.025: [game-capture: 'Game Capture'] capture stopped
+06:19:22.027: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:22.058: [game-capture: 'Game Capture'] capture stopped
+06:19:24.064: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:24.091: [game-capture: 'Game Capture'] capture stopped
+06:19:26.094: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:26.125: [game-capture: 'Game Capture'] capture stopped
+06:19:28.125: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:28.158: [game-capture: 'Game Capture'] capture stopped
+06:19:30.167: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:30.192: [game-capture: 'Game Capture'] capture stopped
+06:19:32.193: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:32.225: [game-capture: 'Game Capture'] capture stopped
+06:19:34.226: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:34.258: [game-capture: 'Game Capture'] capture stopped
+06:19:36.259: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:36.291: [game-capture: 'Game Capture'] capture stopped
+06:19:38.293: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:38.325: [game-capture: 'Game Capture'] capture stopped
+06:19:40.325: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:40.358: [game-capture: 'Game Capture'] capture stopped
+06:19:42.359: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:42.391: [game-capture: 'Game Capture'] capture stopped
+06:19:44.391: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:44.425: [game-capture: 'Game Capture'] capture stopped
+06:19:46.425: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:46.458: [game-capture: 'Game Capture'] capture stopped
+06:19:48.462: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:48.491: [game-capture: 'Game Capture'] capture stopped
+06:19:50.495: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:50.525: [game-capture: 'Game Capture'] capture stopped
+06:19:52.525: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:52.558: [game-capture: 'Game Capture'] capture stopped
+06:19:54.558: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:54.591: [game-capture: 'Game Capture'] capture stopped
+06:19:56.593: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:56.624: [game-capture: 'Game Capture'] capture stopped
+06:19:58.626: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:19:58.658: [game-capture: 'Game Capture'] capture stopped
+06:20:00.660: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:20:00.691: [game-capture: 'Game Capture'] capture stopped
+06:20:02.692: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:20:02.725: [game-capture: 'Game Capture'] capture stopped
+06:20:04.729: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:20:04.758: [game-capture: 'Game Capture'] capture stopped
+06:20:05.305: User switched to scene 'scene_SFV_PC'
+06:21:24.320: User switched to scene 'prefab_TransparentBlack'
+06:24:47.875: User switched to scene 'scene_SFV_PC'
+06:24:50.930: [game-capture: 'sourceWindowedGame'] attempting to hook process: StreetFighterV.exe
+06:24:50.933: [game-capture: 'sourceWindowedGame'] using helper (compatibility hook)
+06:24:50.936: [game-capture: 'sourceWindowedGame'] hook not loaded yet, retrying..
+06:24:53.959: [game-capture: 'sourceWindowedGame'] attempting to hook process: StreetFighterV.exe
+06:24:53.989: [game-capture: 'sourceWindowedGame'] d3d11 shared texture capture successful
+06:24:53.991: [game-capture: 'sourceWindowedGame'] shared texture capture successful
+06:33:12.625: User switched to scene 'prefab_Toolbox'
+06:33:12.627: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:12.658: [game-capture: 'Game Capture'] capture stopped
+06:33:14.660: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:14.691: [game-capture: 'Game Capture'] capture stopped
+06:33:16.692: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:16.725: [game-capture: 'Game Capture'] capture stopped
+06:33:17.232: [game-capture: 'sourceWindowedGame'] capture stopped
+06:33:18.730: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:18.758: [game-capture: 'Game Capture'] capture stopped
+06:33:20.759: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:20.791: [game-capture: 'Game Capture'] capture stopped
+06:33:22.793: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:22.825: [game-capture: 'Game Capture'] capture stopped
+06:33:24.825: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:24.858: [game-capture: 'Game Capture'] capture stopped
+06:33:26.859: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:26.891: [game-capture: 'Game Capture'] capture stopped
+06:33:28.892: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:28.925: [game-capture: 'Game Capture'] capture stopped
+06:33:30.926: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:30.958: [game-capture: 'Game Capture'] capture stopped
+06:33:32.959: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:32.991: [game-capture: 'Game Capture'] capture stopped
+06:33:34.992: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:35.025: [game-capture: 'Game Capture'] capture stopped
+06:33:37.026: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:37.058: [game-capture: 'Game Capture'] capture stopped
+06:33:39.061: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:39.092: [game-capture: 'Game Capture'] capture stopped
+06:33:41.092: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:41.124: [game-capture: 'Game Capture'] capture stopped
+06:33:43.127: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:43.158: [game-capture: 'Game Capture'] capture stopped
+06:33:45.161: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:45.191: [game-capture: 'Game Capture'] capture stopped
+06:33:47.193: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:47.225: [game-capture: 'Game Capture'] capture stopped
+06:33:49.226: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:49.258: [game-capture: 'Game Capture'] capture stopped
+06:33:51.258: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:51.291: [game-capture: 'Game Capture'] capture stopped
+06:33:53.292: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:53.324: [game-capture: 'Game Capture'] capture stopped
+06:33:55.327: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:55.358: [game-capture: 'Game Capture'] capture stopped
+06:33:57.360: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:57.391: [game-capture: 'Game Capture'] capture stopped
+06:33:59.393: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:33:59.425: [game-capture: 'Game Capture'] capture stopped
+06:34:01.427: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:01.458: [game-capture: 'Game Capture'] capture stopped
+06:34:03.459: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:03.491: [game-capture: 'Game Capture'] capture stopped
+06:34:05.492: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:05.524: [game-capture: 'Game Capture'] capture stopped
+06:34:07.526: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:07.558: [game-capture: 'Game Capture'] capture stopped
+06:34:09.560: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:09.591: [game-capture: 'Game Capture'] capture stopped
+06:34:11.593: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:11.625: [game-capture: 'Game Capture'] capture stopped
+06:34:13.626: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:13.658: [game-capture: 'Game Capture'] capture stopped
+06:34:15.659: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:15.691: [game-capture: 'Game Capture'] capture stopped
+06:34:17.695: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:17.725: [game-capture: 'Game Capture'] capture stopped
+06:34:19.728: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:19.758: [game-capture: 'Game Capture'] capture stopped
+06:34:21.761: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:21.791: [game-capture: 'Game Capture'] capture stopped
+06:34:23.792: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:23.824: [game-capture: 'Game Capture'] capture stopped
+06:34:25.826: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:25.858: [game-capture: 'Game Capture'] capture stopped
+06:34:27.860: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:27.891: [game-capture: 'Game Capture'] capture stopped
+06:34:29.892: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:29.925: [game-capture: 'Game Capture'] capture stopped
+06:34:31.926: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:31.958: [game-capture: 'Game Capture'] capture stopped
+06:34:33.960: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:33.992: [game-capture: 'Game Capture'] capture stopped
+06:34:35.992: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:36.024: [game-capture: 'Game Capture'] capture stopped
+06:34:38.026: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:38.058: [game-capture: 'Game Capture'] capture stopped
+06:34:40.059: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:40.091: [game-capture: 'Game Capture'] capture stopped
+06:34:42.093: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:42.125: [game-capture: 'Game Capture'] capture stopped
+06:34:44.126: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:44.158: [game-capture: 'Game Capture'] capture stopped
+06:34:46.159: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:46.191: [game-capture: 'Game Capture'] capture stopped
+06:34:48.193: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:48.225: [game-capture: 'Game Capture'] capture stopped
+06:34:50.228: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:50.258: [game-capture: 'Game Capture'] capture stopped
+06:34:52.262: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:52.291: [game-capture: 'Game Capture'] capture stopped
+06:34:54.295: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:54.325: [game-capture: 'Game Capture'] capture stopped
+06:34:56.326: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:56.358: [game-capture: 'Game Capture'] capture stopped
+06:34:58.359: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:34:58.391: [game-capture: 'Game Capture'] capture stopped
+06:35:00.396: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:00.425: [game-capture: 'Game Capture'] capture stopped
+06:35:02.428: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:02.458: [game-capture: 'Game Capture'] capture stopped
+06:35:04.459: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:04.492: [game-capture: 'Game Capture'] capture stopped
+06:35:06.492: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:06.524: [game-capture: 'Game Capture'] capture stopped
+06:35:08.526: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:08.558: [game-capture: 'Game Capture'] capture stopped
+06:35:10.559: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:10.591: [game-capture: 'Game Capture'] capture stopped
+06:35:12.594: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:12.625: [game-capture: 'Game Capture'] capture stopped
+06:35:14.626: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:14.658: [game-capture: 'Game Capture'] capture stopped
+06:35:16.659: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:16.691: [game-capture: 'Game Capture'] capture stopped
+06:35:18.692: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:18.724: [game-capture: 'Game Capture'] capture stopped
+06:35:20.726: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:20.758: [game-capture: 'Game Capture'] capture stopped
+06:35:22.760: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:22.791: [game-capture: 'Game Capture'] capture stopped
+06:35:24.793: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:24.825: [game-capture: 'Game Capture'] capture stopped
+06:35:26.827: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:26.859: [game-capture: 'Game Capture'] capture stopped
+06:35:28.865: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:28.891: [game-capture: 'Game Capture'] capture stopped
+06:35:30.893: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:30.925: [game-capture: 'Game Capture'] capture stopped
+06:35:32.927: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:32.958: [game-capture: 'Game Capture'] capture stopped
+06:35:34.960: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:34.991: [game-capture: 'Game Capture'] capture stopped
+06:35:36.993: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:37.025: [game-capture: 'Game Capture'] capture stopped
+06:35:39.025: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:39.058: [game-capture: 'Game Capture'] capture stopped
+06:35:41.060: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:41.091: [game-capture: 'Game Capture'] capture stopped
+06:35:43.093: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:43.125: [game-capture: 'Game Capture'] capture stopped
+06:35:45.126: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:45.158: [game-capture: 'Game Capture'] capture stopped
+06:35:47.159: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:47.191: [game-capture: 'Game Capture'] capture stopped
+06:35:49.192: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:49.224: [game-capture: 'Game Capture'] capture stopped
+06:35:51.237: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:51.258: [game-capture: 'Game Capture'] capture stopped
+06:35:53.259: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:53.291: [game-capture: 'Game Capture'] capture stopped
+06:35:55.293: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:55.325: [game-capture: 'Game Capture'] capture stopped
+06:35:57.327: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:57.358: [game-capture: 'Game Capture'] capture stopped
+06:35:59.358: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:35:59.391: [game-capture: 'Game Capture'] capture stopped
+06:36:01.392: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:01.425: [game-capture: 'Game Capture'] capture stopped
+06:36:03.426: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:03.458: [game-capture: 'Game Capture'] capture stopped
+06:36:05.459: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:05.491: [game-capture: 'Game Capture'] capture stopped
+06:36:07.493: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:07.525: [game-capture: 'Game Capture'] capture stopped
+06:36:09.526: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:09.558: [game-capture: 'Game Capture'] capture stopped
+06:36:11.559: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:11.591: [game-capture: 'Game Capture'] capture stopped
+06:36:13.594: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:13.625: [game-capture: 'Game Capture'] capture stopped
+06:36:15.626: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:15.658: [game-capture: 'Game Capture'] capture stopped
+06:36:17.659: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:17.691: [game-capture: 'Game Capture'] capture stopped
+06:36:19.693: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:19.725: [game-capture: 'Game Capture'] capture stopped
+06:36:21.726: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:21.758: [game-capture: 'Game Capture'] capture stopped
+06:36:23.758: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:23.791: [game-capture: 'Game Capture'] capture stopped
+06:36:25.792: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:25.824: [game-capture: 'Game Capture'] capture stopped
+06:36:27.827: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:27.858: [game-capture: 'Game Capture'] capture stopped
+06:36:29.860: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:29.891: [game-capture: 'Game Capture'] capture stopped
+06:36:31.893: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:31.924: [game-capture: 'Game Capture'] capture stopped
+06:36:33.925: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:33.958: [game-capture: 'Game Capture'] capture stopped
+06:36:35.959: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:35.991: [game-capture: 'Game Capture'] capture stopped
+06:36:37.992: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:38.025: [game-capture: 'Game Capture'] capture stopped
+06:36:40.027: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:40.058: [game-capture: 'Game Capture'] capture stopped
+06:36:42.059: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:42.091: [game-capture: 'Game Capture'] capture stopped
+06:36:44.098: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:44.124: [game-capture: 'Game Capture'] capture stopped
+06:36:46.127: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:46.158: [game-capture: 'Game Capture'] capture stopped
+06:36:48.159: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+06:36:48.176: User switched to scene 'scene_SFV_PC'
+06:36:48.191: [game-capture: 'Game Capture'] capture stopped
+06:36:48.196: [game-capture: 'sourceWindowedGame'] attempting to hook process: StreetFighterV.exe
+06:36:48.225: [game-capture: 'sourceWindowedGame'] shared texture capture successful
+06:36:54.486: User switched to scene 'src_WindowedGame'
+06:37:12.524: [game-capture: 'sourceWindowedGame'] d3d11 shared texture capture successful
+06:37:12.524: [game-capture: 'sourceWindowedGame'] shared texture capture successful
+06:37:13.518: [game-capture: 'sourceWindowedGame'] ----------------- d3d11 capture freed ----------------
+06:37:13.568: [game-capture: 'sourceWindowedGame'] d3d11 shared texture capture successful
+06:37:13.591: [game-capture: 'sourceWindowedGame'] shared texture capture successful
+06:38:51.791: [game-capture: 'sourceWindowedGame'] capture stopped
+06:38:51.792: [game-capture: 'sourceWindowedGame'] attempting to hook process: StreetFighterV.exe
+06:38:51.805: [game-capture: 'sourceWindowedGame'] d3d11 shared texture capture successful
+06:38:51.824: [game-capture: 'sourceWindowedGame'] shared texture capture successful
+06:39:00.463: User switched to scene 'src_FullScreenGame'
+06:39:00.825: [game-capture: 'sourceWindowedGame'] capture stopped
+06:39:01.895: User switched to scene 'src_WindowedGame'
+06:39:01.926: [game-capture: 'sourceWindowedGame'] attempting to hook process: StreetFighterV.exe
+06:39:01.958: [game-capture: 'sourceWindowedGame'] shared texture capture successful
+06:39:32.318: [game-capture: 'sourceWindowedGame'] d3d11 shared texture capture successful
+06:39:32.324: [game-capture: 'sourceWindowedGame'] shared texture capture successful
+06:39:34.217: [game-capture: 'sourceWindowedGame'] ----------------- d3d11 capture freed ----------------
+06:39:34.267: [game-capture: 'sourceWindowedGame'] d3d11 shared texture capture successful
+06:39:34.291: [game-capture: 'sourceWindowedGame'] shared texture capture successful
+06:40:17.129: User switched to scene 'scene_SFV_PC'
+06:43:58.453: User switched to scene 'prefab_TextAndAlertOverlays'
+06:46:58.460: User switched to scene 'prefab_SubscriptionHype'
+06:47:49.110: User switched to scene 'prefab_TextAndAlertOverlays'
+06:48:10.492: User switched to scene 'prefab_TransparentBlack'
+06:49:34.615: User switched to scene 'scene_DualScreenFocusConsole'
+06:49:48.439: User switched to scene 'scene_SFV_PC'
+06:50:22.736: User switched to scene 'prefab_TextAndAlertOverlays'
+07:00:57.536: Settings changed (hotkeys)
+07:00:57.536: ------------------------------------------------
+07:01:02.799: User switched to scene 'scene_SFV_PC'
+07:03:53.945: User switched to scene 'src_LogitechC920'
+07:04:17.568: ---------------------------------
+07:04:17.568: [DShow Device: 'source_Logitechc920'] settings updated: 
+07:04:17.568: 	video device: Logitech HD Pro Webcam C920
+07:04:17.568: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+07:04:17.568: 	resolution: 640x480
+07:04:17.568: 	fps: 30.00 (interval: 333333)
+07:04:17.568: 	format: I420
+07:04:33.072: ---------------------------------
+07:04:33.072: [DShow Device: 'source_Logitechc920'] settings updated: 
+07:04:33.072: 	video device: Logitech HD Pro Webcam C920
+07:04:33.072: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+07:04:33.072: 	resolution: 640x480
+07:04:33.072: 	fps: 30.00 (interval: 333333)
+07:04:33.072: 	format: I420
+07:04:35.095: ---------------------------------
+07:04:35.095: [DShow Device: 'source_Logitechc920'] settings updated: 
+07:04:35.095: 	video device: Logitech HD Pro Webcam C920
+07:04:35.095: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+07:04:35.095: 	resolution: 640x480
+07:04:35.095: 	fps: 30.00 (interval: 333333)
+07:04:35.095: 	format: I420
+07:04:41.654: User switched to scene 'scene_SFV_PC'
+07:04:55.065: ---------------------------------
+07:04:55.065: [DShow Device: 'source_Logitechc920'] settings updated: 
+07:04:55.065: 	video device: Logitech HD Pro Webcam C920
+07:04:55.065: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+07:04:55.065: 	resolution: 640x480
+07:04:55.065: 	fps: 30.00 (interval: 333333)
+07:04:55.065: 	format: I420
+07:05:51.332: User switched to scene 'src_ElgatoS60'
+07:05:57.935: User switched to scene 'src_LogitechC920'
+07:06:05.124: User switched to scene 'src_MonitorAcer'
+07:06:14.528: User switched to scene 'src_MonitorBenQ'
+07:06:20.499: User switched to scene 'src_LogitechC920'
+07:06:26.850: User switched to scene 'src_ElgatoS60'
+07:06:34.363: User switched to scene 'src_LogitechC920'
+07:09:12.239: User switched to scene 'scene_SFV_PC'
+07:11:22.103: User added source 'colorOrange' (color_source) to scene 'scene_SFV_PC'
+07:12:09.103: User added filter 'Chroma Key' (chroma_key_filter) to source 'colorOrange'
+07:12:53.538: User added filter 'Color Key' (color_key_filter) to source 'colorOrange'
+07:13:45.831: User added filter 'Chroma Key' (chroma_key_filter) to source 'src_LogitechC920'
+07:16:49.094: User removed filter 'Chroma Key' (chroma_key_filter) from source 'src_LogitechC920'
+07:16:58.444: User switched to scene 'prefab_Projector'
+07:16:59.506: User switched to scene 'src_MonitorAcer'
+07:16:59.976: User switched to scene 'prefab_TransparentBlack'
+07:17:02.223: User switched to scene 'src_LogitechC920'
+07:17:53.687: User switched to scene 'scene_SFV_PC'
+07:23:02.610: User added filter 'Image Mask/Blend' (mask_filter) to source 'src_LogitechC920'
+07:23:02.624: gs_image_file_init: Failed to load file ''
+07:23:13.624: gs_image_file_init: Failed to load file ''
+07:23:21.791: gs_image_file_init: Failed to load file ''
+07:24:28.161: User removed filter 'Image Mask/Blend' (mask_filter) from source 'src_LogitechC920'
+07:24:38.198: User added filter 'Color Correction' (color_filter) to source 'src_LogitechC920'
+07:31:50.303: User added source 'src_StreetFighteVPC' (scene) to scene 'scene_SFV_PC'
+07:32:20.602: User added filter 'Chroma Key' (chroma_key_filter) to source 'src_StreetFighteVPC'
+07:34:09.306: User removed filter 'Chroma Key' (chroma_key_filter) from source 'src_StreetFighteVPC'
+07:34:13.393: User added filter 'Color Key' (color_key_filter) to source 'src_StreetFighteVPC'
+07:34:55.342: User removed filter 'Color Key' (color_key_filter) from source 'src_StreetFighteVPC'
+07:35:07.773: User added filter 'Apply LUT' (clut_filter) to source 'src_StreetFighteVPC'
+07:35:07.791: gs_image_file_init: Failed to load file ''
+07:35:16.021: User removed filter 'Apply LUT' (clut_filter) from source 'src_StreetFighteVPC'
+07:35:27.716: User added filter 'Chroma Key' (chroma_key_filter) to source 'src_StreetFighteVPC'
+07:47:25.656: User switched to scene 'src_LogitechC920'
+07:47:29.301: User switched to scene 'scene_GamePC'
+07:47:33.083: User switched to scene 'scene_SFV_PC'
+07:53:41.986: User Removed source 'src_StreetFighteVPC' (scene) from scene 'scene_SFV_PC'
+07:53:48.234: User Removed source 'colorOrange' (color_source) from scene 'scene_SFV_PC'
+07:54:29.483: User switched to scene 'scene_SFV_PS4'
+07:54:52.626: User switched to scene 'scene_SFV_PC'
+07:58:44.786: ---------------------------------
+07:58:44.786: [DShow Device: 'source_Logitechc920'] settings updated: 
+07:58:44.786: 	video device: Logitech HD Pro Webcam C920
+07:58:44.786: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+07:58:44.786: 	resolution: 640x480
+07:58:44.786: 	fps: 30.00 (interval: 333333)
+07:58:44.786: 	format: I420
+07:58:46.719: ---------------------------------
+07:58:46.719: [DShow Device: 'source_Logitechc920'] settings updated: 
+07:58:46.719: 	video device: Logitech HD Pro Webcam C920
+07:58:46.719: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+07:58:46.719: 	resolution: 640x480
+07:58:46.719: 	fps: 30.00 (interval: 333333)
+07:58:46.719: 	format: I420
+07:58:51.038: ---------------------------------
+07:58:51.038: [DShow Device: 'source_Logitechc920'] settings updated: 
+07:58:51.038: 	video device: Logitech HD Pro Webcam C920
+07:58:51.038: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+07:58:51.038: 	resolution: 640x480
+07:58:51.038: 	fps: 30.00 (interval: 333333)
+07:58:51.038: 	format: I420
+07:59:10.371: ---------------------------------
+07:59:10.371: [DShow Device: 'source_Logitechc920'] settings updated: 
+07:59:10.371: 	video device: Logitech HD Pro Webcam C920
+07:59:10.371: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+07:59:10.371: 	resolution: 640x480
+07:59:10.371: 	fps: 30.00 (interval: 333333)
+07:59:10.371: 	format: I420
+07:59:13.432: ---------------------------------
+07:59:13.432: [DShow Device: 'source_Logitechc920'] settings updated: 
+07:59:13.432: 	video device: Logitech HD Pro Webcam C920
+07:59:13.432: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+07:59:13.432: 	resolution: 640x480
+07:59:13.432: 	fps: 30.00 (interval: 333333)
+07:59:13.432: 	format: I420
+08:02:19.878: ---------------------------------
+08:02:19.878: [DShow Device: 'source_Logitechc920'] settings updated: 
+08:02:19.878: 	video device: Logitech HD Pro Webcam C920
+08:02:19.878: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+08:02:19.878: 	resolution: 640x480
+08:02:19.878: 	fps: 30.00 (interval: 333333)
+08:02:19.878: 	format: I420
+08:02:22.698: ---------------------------------
+08:02:22.698: [DShow Device: 'source_Logitechc920'] settings updated: 
+08:02:22.698: 	video device: Logitech HD Pro Webcam C920
+08:02:22.698: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+08:02:22.698: 	resolution: 640x480
+08:02:22.698: 	fps: 30.00 (interval: 333333)
+08:02:22.698: 	format: I420
+08:02:32.833: ---------------------------------
+08:02:32.833: [DShow Device: 'source_Logitechc920'] settings updated: 
+08:02:32.833: 	video device: Logitech HD Pro Webcam C920
+08:02:32.833: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+08:02:32.833: 	resolution: 640x480
+08:02:32.833: 	fps: 30.00 (interval: 333333)
+08:02:32.833: 	format: I420
+08:04:09.079: Settings changed (hotkeys)
+08:04:09.079: ------------------------------------------------
+08:04:13.572: ---------------------------------
+08:04:13.572: [DShow Device: 'source_Logitechc920'] settings updated: 
+08:04:13.572: 	video device: Logitech HD Pro Webcam C920
+08:04:13.572: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+08:04:13.572: 	resolution: 640x480
+08:04:13.572: 	fps: 30.00 (interval: 333333)
+08:04:13.572: 	format: I420
+08:04:21.300: ---------------------------------
+08:04:21.300: [DShow Device: 'source_Logitechc920'] settings updated: 
+08:04:21.300: 	video device: Logitech HD Pro Webcam C920
+08:04:21.300: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+08:04:21.300: 	resolution: 640x480
+08:04:21.300: 	fps: 30.00 (interval: 333333)
+08:04:21.300: 	format: I420
+08:09:20.611: Switched to Preview/Program mode
+08:09:20.611: ------------------------------------------------
+08:09:27.975: User switched to scene 'scene_SFV_PC'
+08:09:27.979: Switched to regular Preview mode
+08:09:27.979: ------------------------------------------------
+08:15:39.232: User switched to scene 'prefab_SeattleStats'
+08:15:41.565: User switched to scene 'src_BrowserDateTime'
+08:15:42.265: User switched to scene 'prefab_SeattleStats'
+08:15:44.482: User switched to scene 'src_BrowserViewerCount'
+08:15:45.429: User switched to scene 'prefab_SeattleStats'
+08:16:09.331: User switched to scene 'scene_SFV_PC'
+08:18:19.937: ---------------------------------
+08:18:19.937: [DShow Device: 'source_Logitechc920'] settings updated: 
+08:18:19.937: 	video device: Logitech HD Pro Webcam C920
+08:18:19.937: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+08:18:19.937: 	resolution: 640x480
+08:18:19.937: 	fps: 30.00 (interval: 333333)
+08:18:19.937: 	format: I420
+08:19:26.022: ---------------------------------
+08:19:26.022: [NVENC encoder: 'streaming_h264'] settings:
+08:19:26.022: 	rate_control: CBR
+08:19:26.022: 	bitrate:      2250
+08:19:26.022: 	cqp:          0
+08:19:26.022: 	keyint:       250
+08:19:26.022: 	preset:       default
+08:19:26.022: 	profile:      main
+08:19:26.022: 	level:        auto
+08:19:26.022: 	width:        1280
+08:19:26.022: 	height:       720
+08:19:26.022: 	2-pass:       true
+08:19:26.022: 	b-frames:     2
+08:19:26.022: 	GPU:          0
+08:19:26.022: 
+08:19:26.272: [CoreAudio AAC: 'Track1']: settings:
+08:19:26.272: 	mode:          AAC
+08:19:26.272: 	bitrate:       160
+08:19:26.272: 	sample rate:   44100
+08:19:26.272: 	cbr:           on
+08:19:26.272: 	output buffer: 1536
+08:19:26.273: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmp://live.twitch.tv/app...
+08:19:26.288: warning: Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+08:19:26.288: warning: Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+08:19:26.291: ==== Recording Start ===============================================
+08:19:26.294: [rtmp stream: 'adv_stream'] Interface: Intel(R) Ethernet Connection (2) I219-V (ethernet, 1000 mbps)
+08:19:27.357: [rtmp stream: 'adv_stream'] Connection to rtmp://live.twitch.tv/app successful
+08:19:27.360: ==== Streaming Start ===============================================
+11:04:35.377: Output 'adv_ffmpeg_output': stopping
+11:04:35.377: Output 'adv_ffmpeg_output': Total encoded frames: 39944
+11:04:35.377: Output 'adv_ffmpeg_output': Total drawn frames: 297273
+11:04:35.377: Output 'adv_ffmpeg_output': Number of lagged frames due to rendering lag/stalls: 477 (0.2%)
+11:04:35.377: ==== Recording Stop ================================================
+11:04:35.436: warning: 2 frames left in the queue on closing
+11:04:35.859: warning: Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+11:04:35.859: warning: Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+11:04:35.864: ==== Recording Start ===============================================
+11:04:36.469: [rtmp stream: 'adv_stream'] User stopped the stream
+11:04:36.469: Output 'adv_stream': stopping
+11:04:36.469: Output 'adv_stream': Total encoded frames: 39977
+11:04:36.469: Output 'adv_stream': Total drawn frames: 297306
+11:04:36.469: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 477 (0.2%)
+11:04:36.470: ==== Streaming Stop ================================================
+11:04:37.237: Output 'adv_ffmpeg_output': stopping
+11:04:37.237: Output 'adv_ffmpeg_output': Total encoded frames: 42
+11:04:37.237: Output 'adv_ffmpeg_output': Total drawn frames: 42
+11:04:37.237: ==== Recording Stop ================================================
+11:04:37.254: warning: 2 frames left in the queue on closing
+11:08:32.624: [game-capture: 'sourceWindowedGame'] capture window no longer exists, terminating capture
+11:08:32.625: [game-capture: 'sourceWindowedGame'] capture stopped
+11:08:50.647: ==== Shutting down ==================================================
+11:08:50.664: Switched to scene '(null)'
+11:08:53.174: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' Terminated
+11:08:53.180: WASAPI: Device 'Microphone (Sennheiser 3D G4ME1)' Terminated
+11:08:53.185: All scene data cleared
+11:08:53.185: ------------------------------------------------
+11:08:53.276: Freeing OBS context data
+11:08:53.384: == Profiler Results =============================
+11:08:53.384: run_program_init: 2990.74 ms
+11:08:53.384:  ┣OBSApp::AppInit: 19.953 ms
+11:08:53.384:  ┃ ┗OBSApp::InitLocale: 6.388 ms
+11:08:53.384:  ┗OBSApp::OBSInit: 2959.76 ms
+11:08:53.384:    ┣obs_startup: 0.79 ms
+11:08:53.384:    ┗OBSBasic::OBSInit: 2930.92 ms
+11:08:53.384:      ┣OBSBasic::InitBasicConfig: 0.258 ms
+11:08:53.384:      ┣OBSBasic::ResetAudio: 0.177 ms
+11:08:53.384:      ┣OBSBasic::ResetVideo: 587.644 ms
+11:08:53.384:      ┣OBSBasic::InitOBSCallbacks: 0.003 ms
+11:08:53.384:      ┣OBSBasic::InitHotkeys: 0.03 ms
+11:08:53.384:      ┣obs_load_all_modules: 816.172 ms
+11:08:53.384:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 10.469 ms
+11:08:53.384:      ┃ ┣obs_init_module(enc-amf.dll): 0.634 ms
+11:08:53.384:      ┃ ┣obs_init_module(frontend-tools.dll): 1.072 ms
+11:08:53.384:      ┃ ┣obs_init_module(image-source.dll): 0.003 ms
+11:08:53.384:      ┃ ┣obs_init_module(obs-browser.dll): 0.042 ms
+11:08:53.384:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 41.798 ms
+11:08:53.384:      ┃ ┣obs_init_module(obs-filters.dll): 0.014 ms
+11:08:53.384:      ┃ ┣obs_init_module(obs-outputs.dll): 0.006 ms
+11:08:53.384:      ┃ ┣obs_init_module(obs-qsv11.dll): 255.277 ms
+11:08:53.384:      ┃ ┣obs_init_module(obs-text.dll): 0.423 ms
+11:08:53.384:      ┃ ┣obs_init_module(obs-transitions.dll): 0.005 ms
+11:08:53.384:      ┃ ┣obs_init_module(obs-vst.dll): 0.003 ms
+11:08:53.384:      ┃ ┣obs_init_module(obs-x264.dll): 0.001 ms
+11:08:53.384:      ┃ ┣obs_init_module(rtmp-services.dll): 0.222 ms
+11:08:53.384:      ┃ ┣obs_init_module(text-freetype2.dll): 0.235 ms
+11:08:53.384:      ┃ ┣obs_init_module(vlc-video.dll): 0.032 ms
+11:08:53.384:      ┃ ┣obs_init_module(win-capture.dll): 0.05 ms
+11:08:53.384:      ┃ ┣obs_init_module(win-decklink.dll): 1.793 ms
+11:08:53.384:      ┃ ┣obs_init_module(win-dshow.dll): 0.927 ms
+11:08:53.384:      ┃ ┣obs_init_module(win-mf.dll): 69.82 ms
+11:08:53.384:      ┃ ┣obs_init_module(win-wasapi.dll): 0.006 ms
+11:08:53.384:      ┃ ┗reset_win32_symbol_paths: 0.112 ms
+11:08:53.384:      ┣OBSBasic::ResetOutputs: 5.135 ms
+11:08:53.384:      ┣OBSBasic::CreateHotkeys: 0.145 ms
+11:08:53.384:      ┣OBSBasic::InitService: 2.621 ms
+11:08:53.384:      ┣OBSBasic::InitPrimitives: 0.222 ms
+11:08:53.384:      ┗OBSBasic::Load: 1292.62 ms
+11:08:53.384: obs_hotkey_thread(25 ms): min=0.002 ms, median=0.004 ms, max=18.64 ms, 99th percentile=0.053 ms, 100% below 25 ms
+11:08:53.384: audio_thread(Audio): min=0 ms, median=0.787 ms, max=20.178 ms, 99th percentile=4.823 ms
+11:08:53.384:  ┗receive_audio: min=0.001 ms, median=0.348 ms, max=10.671 ms, 99th percentile=0.957 ms, 0.525229 calls per parent call
+11:08:53.384:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.694 ms, 99th percentile=0.002 ms
+11:08:53.384:    ┗do_encode: min=0.242 ms, median=0.345 ms, max=10.667 ms, 99th percentile=0.948 ms
+11:08:53.384:      ┗encode(Track1): min=0.237 ms, median=0.334 ms, max=10.65 ms, 99th percentile=0.906 ms
+11:08:53.384: obs_video_thread(33.3333 ms): min=0.187 ms, median=1.346 ms, max=1234.9 ms, 99th percentile=3.932 ms, 99.9078% below 33.333 ms
+11:08:53.384:  ┣tick_sources: min=0.001 ms, median=0.225 ms, max=1227.72 ms, 99th percentile=2.212 ms
+11:08:53.384:  ┣render_displays: min=0 ms, median=0.691 ms, max=18.361 ms, 99th percentile=1.504 ms
+11:08:53.384:  ┗output_frame: min=0.183 ms, median=0.392 ms, max=25.277 ms, 99th percentile=1.271 ms
+11:08:53.384:    ┣gs_context(video->graphics): min=0.075 ms, median=0.24 ms, max=25.068 ms, 99th percentile=0.97 ms
+11:08:53.384:    ┃ ┣render_video: min=0.016 ms, median=0.042 ms, max=8.444 ms, 99th percentile=0.148 ms
+11:08:53.384:    ┃ ┃ ┣render_main_texture: min=0.002 ms, median=0.022 ms, max=8.423 ms, 99th percentile=0.093 ms
+11:08:53.384:    ┃ ┃ ┣render_output_texture: min=0.002 ms, median=0.007 ms, max=1.459 ms, 99th percentile=0.03 ms
+11:08:53.384:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.007 ms, max=1.466 ms, 99th percentile=0.034 ms
+11:08:53.384:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.002 ms, max=0.518 ms, 99th percentile=0.005 ms
+11:08:53.384:    ┃ ┣download_frame: min=0 ms, median=0.002 ms, max=24.926 ms, 99th percentile=0.005 ms
+11:08:53.384:    ┃ ┗gs_flush: min=0.014 ms, median=0.19 ms, max=9.268 ms, 99th percentile=0.853 ms
+11:08:53.384:    ┗output_video_data: min=0.107 ms, median=0.147 ms, max=3.1 ms, 99th percentile=0.355 ms
+11:08:53.384: video_thread(video): min=0 ms, median=1.017 ms, max=10.607 ms, 99th percentile=2.344 ms
+11:08:53.384:  ┗receive_video: min=0 ms, median=0.645 ms, max=3.782 ms, 99th percentile=1.374 ms, 0.529147 calls per parent call
+11:08:53.384:    ┗do_encode: min=0.372 ms, median=0.644 ms, max=3.781 ms, 99th percentile=1.373 ms
+11:08:53.384:      ┗encode(streaming_h264): min=0.365 ms, median=0.632 ms, max=3.768 ms, 99th percentile=1.354 ms
+11:08:53.384: =================================================
+11:08:53.384: == Profiler Time Between Calls ==================
+11:08:53.384: obs_hotkey_thread(25 ms): min=24.577 ms, median=25.067 ms, max=75.292 ms, 99.0538% within ±2% of 25 ms (0% lower, 0.946203% higher)
+11:08:53.384: obs_video_thread(33.3333 ms): min=2.5 ms, median=33.333 ms, max=1234.9 ms, 99.7515% within ±2% of 33.333 ms (0.123709% lower, 0.124777% higher)
+11:08:53.384: =================================================
+11:08:53.554: Number of memory leaks: 67

@@ -1,0 +1,9 @@
+{
+    "settings": {
+        "key": "live_17364792_jn8VtDWDZd6gVi53xh1diDXeteVotK",
+        "server": "rtmp://live-sea.twitch.tv/app",
+        "service": "Twitch",
+        "show_all": false
+    },
+    "type": "rtmp_common"
+}

@@ -1,0 +1,1 @@
+Failed to recreate D3D11: Failed to duplicate output (80070005)

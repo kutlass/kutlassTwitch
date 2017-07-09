@@ -1,0 +1,37 @@
+OBS has encountered an unhandled exception and has terminated. If you are able to
+reproduce this crash, please submit this crash report on the forums at
+https://obsproject.com/ - include the contents of this crash log and the
+minidump .dmp file (if available) as well as your regular OBS log files and
+a description of what you were doing at the time of the crash.
+
+This crash appears to have occured in the 'c:\program files (x86)\obs\plugins\clrhostplugin\clrbrowsersourceplugin\libcef.dll' module.
+
+**** UNHANDLED EXCEPTION: c0000005
+Fault address: 0A78816A (c:\program files (x86)\obs\plugins\clrhostplugin\clrbrowsersourceplugin\libcef.dll)
+OBS version: Open Broadcaster Software v0.659b
+Windows version: 10.0 (Build 14393) 
+CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+
+Crashing thread stack trace:
+Stack    EIP      Arg0     Arg1     Arg2     Arg3     Address
+0E39F608 0A78816A 0A86A2A0 0CE863D0 00000000 00000002 libcef.dll!0xa78816a
+0E39F630 0A86A3DB 0CDE3B00 0CDE3B00 0E39F834 0E39F7E4 libcef.dll!0xa86a3db
+0E39F714 0BB44D66 0CE863C0 0CDE3B00 0CEA7E80 00000001 libcef.dll!0xbb44d66
+0E39F728 0A4DD7E6 0E39F834 0CDD0700 00000001 0CDD0720 libcef.dll!0xa4dd7e6
+0E39F7EC 0A4DCDFD 00000000 0CDD0700 0CDD5B40 0004493E libcef.dll!0xa4dcdfd
+0E39F880 0A501E92 0CDE3B00 0CDE3B00 0CDE3B00 00000000 libcef.dll!0xa501e92
+0E39F8C8 0A50243D 0CDE3B00 0E39F904 0A4F0FC6 00000000 libcef.dll!0xa50243d
+0E39F8E8 0A4DD460 0CDE3B00 00000000 00000000 00000001 libcef.dll!0xa4dd460
+0E39F904 0A4DD416 0E39F9FC 0A4F1566 0CDE3B00 0CDD5B40 libcef.dll!0xa4dd416
+0E39F928 0A4F118B 0CDE3B00 0CDD5B40 00000778 0CDC0F38 libcef.dll!0xa4f118b
+0E39F930 0A4F1566 0A4DBA30 0A4DBA30 00000001 0CDD5B40 libcef.dll!0xa4f1566
+0E39FA04 0A4DBABA 0CDC0F38 779562A0 BE74C8F7 0E39FA78 libcef.dll!0xa4dbaba
+0E39FA24 779562C4 0CDC0F38 B7171FE4 00000000 00000000 kernel32.dll!0x779562c4
+0E39FA38 77E00719 FFFFFFFF 77E22649 00000000 00000000 ntdll.dll!0x77e00719
+0E39FA80 77E006E4 0A4DBA30 0CDC0F38 00000000 00000000 ntdll.dll!0x77e006e4
+
+A minidump was saved to C:\Users\kutlass\AppData\Roaming\OBS\crashDumps\OBSCrashDump2016-11-19_1.dmp.
+Please include this file when posting a crash report.
+
+List of loaded modules:
+Base Address      Module

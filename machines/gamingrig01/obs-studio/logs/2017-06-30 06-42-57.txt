@@ -1,0 +1,216 @@
+06:42:57.875: CPU Name: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+06:42:57.875: CPU Speed: 4008MHz
+06:42:57.875: Physical Cores: 4, Logical Cores: 8
+06:42:57.875: Physical Memory: 32688MB Total, 28062MB Free
+06:42:57.875: Windows Version: 10.0 Build 14393 (revision: 1198; 64-bit)
+06:42:57.875: Running as administrator: false
+06:42:57.875: Aero is Enabled (Aero is always on for windows 8 and above)
+06:42:57.875: Portable mode: false
+06:42:57.884: OBS 19.0.3 (64bit, windows)
+06:42:57.884: ---------------------------------
+06:42:57.884: ---------------------------------
+06:42:57.884: audio settings reset:
+06:42:57.884: 	samples per sec: 44100
+06:42:57.884: 	speakers:        2
+06:42:57.896: ---------------------------------
+06:42:57.896: Initializing D3D11...
+06:42:57.896: Available Video Adapters: 
+06:42:57.897: 	Adapter 1: NVIDIA GeForce GTX 1080
+06:42:57.897: 	  Dedicated VRAM: 4094361600
+06:42:57.897: 	  Shared VRAM:    4253374464
+06:42:57.897: 	  output 1: pos={0, 0}, size={2560, 1440}, attached=true
+06:42:57.897: 	  output 2: pos={2560, 127}, size={1920, 1080}, attached=true
+06:42:57.899: Loading up D3D11 on adapter NVIDIA GeForce GTX 1080 (0)
+06:42:58.309: D3D11 loaded successfully, feature level used: 45056
+06:42:58.872: ---------------------------------
+06:42:58.872: video settings reset:
+06:42:58.872: 	base resolution:   1920x1080
+06:42:58.872: 	output resolution: 1280x720
+06:42:58.872: 	downscale filter:  Bicubic
+06:42:58.872: 	fps:               30/1
+06:42:58.872: 	format:            NV12
+06:42:58.874: Audio monitoring device:
+06:42:58.874: 	name: Default
+06:42:58.874: 	id: default
+06:42:58.874: ---------------------------------
+06:42:58.918: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+06:42:58.930: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+06:42:58.945: [AMF] Encountered Exception during AMF initialization: Unable to load 'amfrt64.dll', error code 126.
+06:42:58.945: Failed to initialize module 'enc-amf.dll'
+06:42:59.015: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libcef.dll' not found, loading of module failed
+06:42:59.023: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+06:42:59.032: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+06:42:59.045: Failed to load 'en-US' text for module: 'obs-browser.dll'
+06:42:59.045: [browser_source: 'Version: 1.29.0']
+06:42:59.095: NVENC supported
+06:42:59.543: Couldn't find VLC installation, VLC video source disabled
+06:42:59.573: No blackmagic support
+06:42:59.681: ---------------------------------
+06:42:59.681:   Loaded Modules:
+06:42:59.681:     win-wasapi.dll
+06:42:59.681:     win-mf.dll
+06:42:59.681:     win-dshow.dll
+06:42:59.681:     win-decklink.dll
+06:42:59.681:     win-capture.dll
+06:42:59.681:     vlc-video.dll
+06:42:59.681:     text-freetype2.dll
+06:42:59.681:     rtmp-services.dll
+06:42:59.681:     obs-x264.dll
+06:42:59.681:     obs-vst.dll
+06:42:59.681:     obs-transitions.dll
+06:42:59.681:     obs-text.dll
+06:42:59.681:     obs-qsv11.dll
+06:42:59.681:     obs-outputs.dll
+06:42:59.681:     obs-filters.dll
+06:42:59.681:     obs-ffmpeg.dll
+06:42:59.681:     obs-browser.dll
+06:42:59.681:     image-source.dll
+06:42:59.681:     frontend-tools.dll
+06:42:59.681:     enc-amf.dll
+06:42:59.681:     coreaudio-encoder.dll
+06:42:59.681: ==== Startup complete ===============================================
+06:42:59.696: All scene data cleared
+06:42:59.696: ------------------------------------------------
+06:42:59.720: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' initialized
+06:42:59.729: WASAPI: Device 'Microphone (Sennheiser 3D G4ME1)' initialized
+06:42:59.806: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+06:43:00.686: Failed to open file 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG': No such file or directory
+06:43:00.686: gs_image_file_init: Failed to load file 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG'
+06:43:00.687: [image_source: 'image_RyuCriticalArt_BackAndWhite'] failed to load texture 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG'
+06:43:00.850: Switched to scene 'scene_SFV_PC'
+06:43:00.854: ------------------------------------------------
+06:43:00.854: Loaded scenes:
+06:43:00.854: - scene 'scene_SFV_PC':
+06:43:00.863:     - source: 'src_StreetFighteVPC' (scene)
+06:43:00.863:     - source: 'src_LogitechC920' (scene)
+06:43:00.863:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+06:43:00.863:     - source: 'prefab_TextAndAlertOverlays' (scene)
+06:43:00.863: - scene 'scene_SFV_PS4':
+06:43:00.863:     - source: 'image_RyuCriticalArt_BackAndWhite' (image_source)
+06:43:00.863:     - source: 'src_ElgatoS60' (scene)
+06:43:00.863:     - source: 'src_LogitechC920' (scene)
+06:43:00.863:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+06:43:00.863:     - source: 'prefab_TextAndAlertOverlays' (scene)
+06:43:00.863: - scene 'scene_GamePC':
+06:43:00.863:     - source: 'src_WindowedGame' (scene)
+06:43:00.863:     - source: 'src_LogitechC920' (scene)
+06:43:00.863:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+06:43:00.863:     - source: 'prefab_TextAndAlertOverlays' (scene)
+06:43:00.863: - scene 'scene_GameConsole':
+06:43:00.863:     - source: 'src_ElgatoS60' (scene)
+06:43:00.863:     - source: 'src_LogitechC920' (scene)
+06:43:00.863:     - source: 'prefab_TextAndAlertOverlays' (scene)
+06:43:00.863:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+06:43:00.863: - scene 'scene_WatchYouTube':
+06:43:00.863:     - source: 'src_MonitorBenQ' (scene)
+06:43:00.863: - scene 'scene_DualScreenSymetric':
+06:43:00.863:     - source: 'scene_BattleLoungeConsole' (scene)
+06:43:00.863:     - source: 'scene_BattleLoungePC' (scene)
+06:43:00.863:     - source: 'src_LogitechC920' (scene)
+06:43:00.863:     - source: 'prefab_TextAndAlertOverlays' (scene)
+06:43:00.863:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+06:43:00.863: - scene 'scene_DualScreenFocusPC':
+06:43:00.863:     - source: 'scene_BattleLoungePC' (scene)
+06:43:00.863:     - source: 'scene_BattleLoungeConsole' (scene)
+06:43:00.863:     - source: 'src_LogitechC920' (scene)
+06:43:00.863:     - source: 'prefab_TextAndAlertOverlays' (scene)
+06:43:00.863:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+06:43:00.863: - scene 'scene_DualScreenFocusConsole':
+06:43:00.863:     - source: 'scene_BattleLoungeConsole' (scene)
+06:43:00.863:     - source: 'scene_BattleLoungePC' (scene)
+06:43:00.863:     - source: 'src_LogitechC920' (scene)
+06:43:00.863:     - source: 'prefab_TextAndAlertOverlays' (scene)
+06:43:00.863:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+06:43:00.863: - scene 'scene_BattleLoungePC':
+06:43:00.863:     - source: 'src_StreetFighteVPC' (scene)
+06:43:00.863:     - source: 'txtConnectionInfoBattleLoungePC' (text_gdiplus)
+06:43:00.863: - scene 'scene_BattleLoungeConsole':
+06:43:00.863:     - source: 'src_ElgatoS60' (scene)
+06:43:00.863:     - source: 'txtConnectionInfoBattleLoungeConsole' (text_gdiplus)
+06:43:00.863: - scene 'prefab_TextAndAlertOverlays':
+06:43:00.863:     - source: 'txtDonationHypeValue' (text_gdiplus)
+06:43:00.863:         - filter: 'Scroll' (scroll_filter)
+06:43:00.863:     - source: 'textDonationHypeLabel' (text_gdiplus)
+06:43:00.863:     - source: 'browserBitJar' (browser_source)
+06:43:00.863:     - source: 'browserAlertBox' (browser_source)
+06:43:00.863:     - source: 'txtCurrentSong' (text_gdiplus)
+06:43:00.863:     - source: 'txtMusicNotes' (text_gdiplus)
+06:43:00.863:         - filter: 'Scroll' (scroll_filter)
+06:43:00.863:     - source: 'browserBitBossBattles1' (browser_source)
+06:43:00.863:     - source: 'prefab_SeattleStats' (scene)
+06:43:00.863:     - source: 'src_BrowserViewerCount' (scene)
+06:43:00.863:     - source: 'browserChatBox' (browser_source)
+06:43:00.863: - scene 'prefab_TextAndAlertOverlays_staticShouts':
+06:43:00.863:     - source: 'txtMostRecentFollowerValue' (text_gdiplus)
+06:43:00.863:     - source: 'txtMonthlyTopDonatorValue' (text_gdiplus)
+06:43:00.863:     - source: 'txtLatestDonation' (text_gdiplus)
+06:43:00.863: - scene 'prefab_SeattleStats':
+06:43:00.863:     - source: 'src_BrowserDateTime' (scene)
+06:43:00.863:     - source: 'src_BrowserWeather' (scene)
+06:43:00.863:     - source: 'src_BrowserWeather' (scene)
+06:43:00.863:     - source: 'colorSourceBlack' (color_source)
+06:43:00.863: - scene 'src_BrowserDateTime':
+06:43:00.863:     - source: 'browserBrowserDateTime' (browser_source)
+06:43:00.863: - scene 'src_BrowserViewerCount':
+06:43:00.863:     - source: 'browserSourceViewerCount' (browser_source)
+06:43:00.863: - scene 'src_BrowserWeather':
+06:43:00.863:     - source: 'browserWeather' (browser_source)
+06:43:00.863: - scene 'src_StreetFighteVPC':
+06:43:00.863:     - source: 'StreetFighterV' (window_capture)
+06:43:00.863: - scene 'src_ElgatoS60':
+06:43:00.863:     - source: 'source_ElgatoS60' (dshow_input)
+06:43:00.863: - scene 'src_MonitorAcer':
+06:43:00.863:     - source: 'source_AcerMonitor' (monitor_capture)
+06:43:00.863: - scene 'src_LogitechC920':
+06:43:00.863:     - source: 'source_Logitechc920' (dshow_input)
+06:43:00.863:         - filter: 'Chroma Key' (chroma_key_filter)
+06:43:00.863: - scene 'src_MonitorBenQ':
+06:43:00.863:     - source: 'source_MonitorBenQ' (monitor_capture)
+06:43:00.863: - scene 'src_WindowedGame':
+06:43:00.863:     - source: 'sourceWindowedGame' (game_capture)
+06:43:00.863: - scene 'src_FullScreenGame':
+06:43:00.863:     - source: 'source_FullScreenGame' (game_capture)
+06:43:00.864: ------------------------------------------------
+06:43:01.090: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+06:43:02.424: ---------------------------------
+06:43:02.424: [DShow Device: 'source_ElgatoS60'] settings updated: 
+06:43:02.424: 	video device: Elgato Game Capture HD
+06:43:02.424: 	video path: __elgato
+06:43:02.424: 	resolution: 1280x720
+06:43:02.424: 	fps: 60.00 (interval: 166666)
+06:43:02.424: 	format: UYVY
+06:43:02.424: 	using video device audio: yes
+06:43:02.424: 	sample rate: 48000
+06:43:02.424: 	channels: 2
+06:43:02.424: 	audio type: Capture
+07:16:49.247: User switched to scene 'prefab_TextAndAlertOverlays'
+07:18:43.754: User added source 'textDonationHypeLabel 2' (text_gdiplus) to scene 'prefab_TextAndAlertOverlays'
+07:18:55.321: User switched to scene 'prefab_TextAndAlertOverlays_staticShouts'
+07:18:56.456: User switched to scene 'prefab_TextAndAlertOverlays'
+07:19:02.739: User switched to scene 'prefab_TextAndAlertOverlays_staticShouts'
+07:19:10.770: User switched to scene 'prefab_TextAndAlertOverlays'
+07:20:15.520: User added scene 'prefab_SubscriptionHype'
+07:20:15.521: User switched to scene 'prefab_SubscriptionHype'
+07:20:21.598: User added source 'textDonationHypeLabel 3' (text_gdiplus) to scene 'prefab_SubscriptionHype'
+07:20:38.640: User switched to scene 'prefab_TextAndAlertOverlays'
+07:23:10.621: User Removed source 'textDonationHypeLabel 2' (text_gdiplus) from scene 'prefab_TextAndAlertOverlays'
+07:24:57.081: User switched to scene 'prefab_SubscriptionHype'
+07:25:12.380: User added source 'txtDonationHypeValue' (text_gdiplus) to scene 'prefab_SubscriptionHype'
+07:25:48.946: User Removed source 'txtDonationHypeValue' (text_gdiplus) from scene 'prefab_SubscriptionHype'
+07:25:53.206: User added source 'txtDonationHypeValue 2' (text_gdiplus) to scene 'prefab_SubscriptionHype'
+07:26:36.914: Source 'textDonationHypeLabel 3' renamed to 'txtSubscriptionHypeLabel'
+07:27:42.713: Source 'txtDonationHypeValue 2' renamed to 'txtSubscriptionHypeValue'
+07:32:13.578: User switched to scene 'prefab_TextAndAlertOverlays'
+07:32:29.735: User added source 'prefab_SubscriptionHype' (scene) to scene 'prefab_TextAndAlertOverlays'
+07:33:38.020: User added scene 'prefab_DonationHype'
+07:33:38.021: User switched to scene 'prefab_DonationHype'
+07:33:49.694: User switched to scene 'prefab_TextAndAlertOverlays'
+07:36:52.879: User switched to scene 'prefab_DonationHype'
+07:36:57.006: User added source 'textDonationHypeLabel 2' (text_gdiplus) to scene 'prefab_DonationHype'
+07:37:01.917: User switched to scene 'prefab_TextAndAlertOverlays'
+07:37:10.008: User switched to scene 'prefab_DonationHype'
+07:37:12.355: User added source 'txtDonationHypeValue' (text_gdiplus) to scene 'prefab_DonationHype'
+07:37:46.342: Source 'textDonationHypeLabel 2' renamed to 'txtDonationHypeLabel'
+07:38:54.213: User switched to scene 'prefab_TextAndAlertOverlays'
+07:40:12.515: User Removed source 'textDonationHypeLabel' (text_gdiplus) from scene 'prefab_TextAndAlertOverlays'
+07:40:17.504: User Removed source 'txtDonationHypeValue' (text_gdiplus) from scene 'prefab_TextAndAlertOverlays'

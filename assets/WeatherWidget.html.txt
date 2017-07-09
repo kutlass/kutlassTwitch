@@ -1,0 +1,5 @@
+<a href="http://www.accuweather.com/en/us/seattle-wa/98104/weather-forecast/351409" class="aw-widget-legal">
+<!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.
+-->
+</a><div id="awcc1498397442774" class="aw-widget-current"  data-locationkey="351409" data-unit="f" data-language="en-us" data-useip="false" data-uid="awcc1498397442774"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>

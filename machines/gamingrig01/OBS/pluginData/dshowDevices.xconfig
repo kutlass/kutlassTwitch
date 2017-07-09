@@ -1,0 +1,11 @@
+dshowDevices : {
+  \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083} : {
+    deviceName : Logitech HD Pro Webcam C920
+  }
+  \\?\usb#vid_0fd9&pid_004f#0a0fba3806#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c0340100021f} : {
+    deviceName : Elgato Helper Device (unavailable)
+  }
+  \\?\usb#vid_0fd9&pid_004f#0a0fba3806#{33d9a762-90c8-11d0-bd43-00a0c911ce86}\{6f814be9-9af6-43cf-9249-c0340100031f} : {
+    deviceName : Elgato Helper Device (unavailable)
+  }
+}
