@@ -1,0 +1,1059 @@
+20:43:12.283: CPU Name: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+20:43:12.283: CPU Speed: 4008MHz
+20:43:12.283: Physical Cores: 4, Logical Cores: 8
+20:43:12.283: Physical Memory: 32688MB Total, 26228MB Free
+20:43:12.283: Windows Version: 10.0 Build 14393 (revision: 1198; 64-bit)
+20:43:12.283: Running as administrator: false
+20:43:12.283: Aero is Enabled (Aero is always on for windows 8 and above)
+20:43:12.283: Portable mode: false
+20:43:12.292: OBS 19.0.3 (64bit, windows)
+20:43:12.293: ---------------------------------
+20:43:12.293: ---------------------------------
+20:43:12.293: audio settings reset:
+20:43:12.293: 	samples per sec: 44100
+20:43:12.293: 	speakers:        2
+20:43:12.310: ---------------------------------
+20:43:12.310: Initializing D3D11...
+20:43:12.310: Available Video Adapters: 
+20:43:12.311: 	Adapter 1: NVIDIA GeForce GTX 1080
+20:43:12.311: 	  Dedicated VRAM: 4094361600
+20:43:12.311: 	  Shared VRAM:    4253374464
+20:43:12.311: 	  output 1: pos={0, 0}, size={2560, 1440}, attached=true
+20:43:12.311: 	  output 2: pos={2560, 127}, size={1920, 1080}, attached=true
+20:43:12.313: Loading up D3D11 on adapter NVIDIA GeForce GTX 1080 (0)
+20:43:12.350: D3D11 loaded successfully, feature level used: 45056
+20:43:12.902: ---------------------------------
+20:43:12.902: video settings reset:
+20:43:12.902: 	base resolution:   1920x1080
+20:43:12.902: 	output resolution: 1280x720
+20:43:12.902: 	downscale filter:  Bicubic
+20:43:12.902: 	fps:               30/1
+20:43:12.902: 	format:            NV12
+20:43:12.904: Audio monitoring device:
+20:43:12.904: 	name: Default
+20:43:12.904: 	id: default
+20:43:12.904: ---------------------------------
+20:43:12.959: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+20:43:12.971: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+20:43:13.000: [AMF] Encountered Exception during AMF initialization: Unable to load 'amfrt64.dll', error code 126.
+20:43:13.000: Failed to initialize module 'enc-amf.dll'
+20:43:14.417: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libcef.dll' not found, loading of module failed
+20:43:14.430: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+20:43:14.480: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+20:43:14.512: Failed to load 'en-US' text for module: 'obs-browser.dll'
+20:43:14.512: [browser_source: 'Version: 1.29.0']
+20:43:14.569: NVENC supported
+20:43:15.095: Couldn't find VLC installation, VLC video source disabled
+20:43:15.138: No blackmagic support
+20:43:15.279: ---------------------------------
+20:43:15.279:   Loaded Modules:
+20:43:15.279:     win-wasapi.dll
+20:43:15.279:     win-mf.dll
+20:43:15.279:     win-dshow.dll
+20:43:15.279:     win-decklink.dll
+20:43:15.279:     win-capture.dll
+20:43:15.279:     vlc-video.dll
+20:43:15.279:     text-freetype2.dll
+20:43:15.279:     rtmp-services.dll
+20:43:15.279:     obs-x264.dll
+20:43:15.279:     obs-vst.dll
+20:43:15.279:     obs-transitions.dll
+20:43:15.279:     obs-text.dll
+20:43:15.279:     obs-qsv11.dll
+20:43:15.279:     obs-outputs.dll
+20:43:15.279:     obs-filters.dll
+20:43:15.279:     obs-ffmpeg.dll
+20:43:15.279:     obs-browser.dll
+20:43:15.279:     image-source.dll
+20:43:15.279:     frontend-tools.dll
+20:43:15.279:     enc-amf.dll
+20:43:15.279:     coreaudio-encoder.dll
+20:43:15.279: ==== Startup complete ===============================================
+20:43:15.296: All scene data cleared
+20:43:15.296: ------------------------------------------------
+20:43:15.322: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' initialized
+20:43:15.331: WASAPI: Device 'Microphone (Sennheiser 3D G4ME1)' initialized
+20:43:15.364: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+20:43:16.393: Failed to open file 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG': No such file or directory
+20:43:16.393: gs_image_file_init: Failed to load file 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG'
+20:43:16.393: [image_source: 'image_RyuCriticalArt_BackAndWhite'] failed to load texture 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG'
+20:43:16.448: warning: deprecated pixel format used, make sure you did set range correctly
+20:43:16.790: Switched to scene 'PROJECTOR'
+20:43:16.791: [game-capture: 'Terraria'] attempting to hook process: Terraria.exe
+20:43:16.892: [game-capture: 'Terraria'] using helper (compatibility hook)
+20:43:16.893: [game-capture: 'Terraria'] hook not loaded yet, retrying..
+20:43:17.097: ------------------------------------------------
+20:43:17.097: Loaded scenes:
+20:43:17.097: - scene 'PROJECTOR':
+20:43:17.098:     - source: 'game_StreetFighterV' (scene)
+20:43:17.098:     - source: 'game_Terraria' (scene)
+20:43:17.098:     - source: 'prefab_MiniProjector' (scene)
+20:43:17.098: - scene 'game_Terraria':
+20:43:17.098:     - source: 'Terraria' (game_capture)
+20:43:17.098:     - source: 'prefab_TextAndAlertOverlays' (scene)
+20:43:17.098:     - source: 'hardware_LogitechC920' (scene)
+20:43:17.098:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+20:43:17.098: - scene 'game_StreetFighterV':
+20:43:17.098:     - source: 'src_StreetFighterVPC' (scene)
+20:43:17.098:     - source: 'prefab_StreetFighterV_Training' (scene)
+20:43:17.098:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+20:43:17.098:     - source: 'prefab_TextAndAlertOverlays' (scene)
+20:43:17.098:     - source: 'hardware_LogitechC920' (scene)
+20:43:17.098: - scene 'scene_WatchYouTube':
+20:43:17.098:     - source: 'hardware_MonitorBenQ' (scene)
+20:43:17.098:     - source: 'src_WindowCapture' (scene)
+20:43:17.098: - scene 'scene_GamePC':
+20:43:17.098:     - source: 'prefab_MiniProjector' (scene)
+20:43:17.098:     - source: 'game_StreetFighterV' (scene)
+20:43:17.098: - scene 'scene_SFV_PC':
+20:43:17.098:     - source: 'src_StreetFighterVPC' (scene)
+20:43:17.098:     - source: 'src_WindowedGame' (scene)
+20:43:17.098:     - source: 'prefab_MiniProjector' (scene)
+20:43:17.098:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+20:43:17.098:     - source: 'prefab_TextAndAlertOverlays' (scene)
+20:43:17.098:     - source: 'hardware_LogitechC920' (scene)
+20:43:17.098: - scene 'scene_SFV_PS4':
+20:43:17.098:     - source: 'src_WindowCapture' (scene)
+20:43:17.098:     - source: 'hardware_ElgatoS60' (scene)
+20:43:17.098:     - source: 'image_RyuCriticalArt_BackAndWhite' (image_source)
+20:43:17.098:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+20:43:17.098:     - source: 'prefab_TextAndAlertOverlays' (scene)
+20:43:17.098:     - source: 'hardware_LogitechC920' (scene)
+20:43:17.098:     - source: 'prefab_MiniProjector' (scene)
+20:43:17.098: - scene 'scene_GameConsole':
+20:43:17.098:     - source: 'hardware_ElgatoS60' (scene)
+20:43:17.098:     - source: 'hardware_LogitechC920' (scene)
+20:43:17.098:     - source: 'prefab_TextAndAlertOverlays' (scene)
+20:43:17.098:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+20:43:17.098: - scene 'scene_DualScreenSymetric':
+20:43:17.098:     - source: 'scene_BattleLoungeConsole' (scene)
+20:43:17.098:     - source: 'scene_BattleLoungePC' (scene)
+20:43:17.098:     - source: 'hardware_LogitechC920' (scene)
+20:43:17.098:     - source: 'prefab_TextAndAlertOverlays' (scene)
+20:43:17.098:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+20:43:17.098: - scene 'scene_DualScreenFocusPC':
+20:43:17.098:     - source: 'scene_BattleLoungePC' (scene)
+20:43:17.098:     - source: 'scene_BattleLoungeConsole' (scene)
+20:43:17.098:     - source: 'hardware_LogitechC920' (scene)
+20:43:17.098:     - source: 'prefab_TextAndAlertOverlays' (scene)
+20:43:17.098:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+20:43:17.098: - scene 'scene_DualScreenFocusConsole':
+20:43:17.098:     - source: 'scene_BattleLoungeConsole' (scene)
+20:43:17.098:     - source: 'scene_BattleLoungePC' (scene)
+20:43:17.099:     - source: 'hardware_LogitechC920' (scene)
+20:43:17.099:     - source: 'prefab_TextAndAlertOverlays' (scene)
+20:43:17.099:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+20:43:17.099: - scene 'scene_BattleLoungePC':
+20:43:17.099:     - source: 'src_StreetFighterVPC' (scene)
+20:43:17.099:     - source: 'txtConnectionInfoBattleLoungePC' (text_gdiplus)
+20:43:17.099: - scene 'scene_BattleLoungeConsole':
+20:43:17.099:     - source: 'hardware_ElgatoS60' (scene)
+20:43:17.099:     - source: 'txtConnectionInfoBattleLoungeConsole' (text_gdiplus)
+20:43:17.099: - scene 'prefab_StreetFighterV_Training':
+20:43:17.099:     - source: 'src_StreetFighterVPC' (scene)
+20:43:17.099:     - source: 'src_StreetFighterVPC' (scene)
+20:43:17.099:     - source: 'src_StreetFighterVPC' (scene)
+20:43:17.099:     - source: 'src_StreetFighteVPC 2' (scene)
+20:43:17.099: - scene 'prefab_TextAndAlertOverlays':
+20:43:17.099:     - source: 'prefab_TransparentBlack' (scene)
+20:43:17.099:     - source: 'prefab_TransparentBlack' (scene)
+20:43:17.099:     - source: 'browserBitJar' (browser_source)
+20:43:17.099:     - source: 'browserAlertBox' (browser_source)
+20:43:17.099:     - source: 'txtCurrentSong' (text_gdiplus)
+20:43:17.099:     - source: 'browserBitBossBattles1' (browser_source)
+20:43:17.099:     - source: 'browserChatBox' (browser_source)
+20:43:17.099:     - source: 'prefab_SubscriptionHype' (scene)
+20:43:17.099:     - source: 'prefab_DonationHype' (scene)
+20:43:17.099:     - source: 'prefab_CheerHype' (scene)
+20:43:17.099:     - source: 'src_BrowserViewerCount' (scene)
+20:43:17.099: - scene 'prefab_TextAndAlertOverlays_staticShouts':
+20:43:17.099:     - source: 'prefab_TransparentBlack' (scene)
+20:43:17.099:     - source: 'txtMostRecentFollowerValue' (text_gdiplus)
+20:43:17.099:     - source: 'txtMonthlyTopDonatorValue' (text_gdiplus)
+20:43:17.099:     - source: 'txtLatestDonation' (text_gdiplus)
+20:43:17.099: - scene 'prefab_SeattleStats':
+20:43:17.099:     - source: 'src_BrowserDateTime' (scene)
+20:43:17.099:     - source: 'src_BrowserWeather' (scene)
+20:43:17.099:     - source: 'src_BrowserWeather' (scene)
+20:43:17.099:     - source: 'colorSourceBlackTop' (color_source)
+20:43:17.099: - scene 'src_BrowserDateTime':
+20:43:17.099:     - source: 'browserBrowserDateTime' (browser_source)
+20:43:17.099: - scene 'src_BrowserViewerCount':
+20:43:17.099:     - source: 'browserSourceViewerCount' (browser_source)
+20:43:17.099: - scene 'src_BrowserWeather':
+20:43:17.099:     - source: 'browserWeather' (browser_source)
+20:43:17.099: - scene 'src_StreetFighterVPC':
+20:43:17.099:     - source: 'StreetFighterV' (window_capture)
+20:43:17.099: - scene 'prefab_SubscriptionHype':
+20:43:17.099:     - source: 'txtSubscriptionHypeValue' (text_gdiplus)
+20:43:17.099:         - filter: 'Scroll' (scroll_filter)
+20:43:17.099:     - source: 'txtSubscriptionHypeLabel' (text_gdiplus)
+20:43:17.099:     - source: 'prefab_SubscriptionCount' (scene)
+20:43:17.099: - scene 'prefab_SubscriptionCount':
+20:43:17.099:     - source: 'colorSouceRed 2' (color_source)
+20:43:17.099:     - source: 'txtSubscriptionCount 2' (text_gdiplus)
+20:43:17.099: - scene 'prefab_DonationHype':
+20:43:17.099:     - source: 'txtDonationHypeValue' (text_gdiplus)
+20:43:17.099:         - filter: 'Scroll' (scroll_filter)
+20:43:17.099:     - source: 'txtDonationHypeLabel' (text_gdiplus)
+20:43:17.099: - scene 'prefab_CheerHype':
+20:43:17.099:     - source: 'txtCheerHypeValue' (text_gdiplus)
+20:43:17.099:         - filter: 'Scroll' (scroll_filter)
+20:43:17.099:     - source: 'txtCheerHypeLabel' (text_gdiplus)
+20:43:17.099: - scene 'prefab_Toolbox':
+20:43:17.099:     - source: 'txtMusicNotes 2' (text_gdiplus)
+20:43:17.099:         - filter: 'Scroll' (scroll_filter)
+20:43:17.099:     - source: 'source_Image_TheCommission_Fightstick 2' (image_source)
+20:43:17.099:     - source: 'Window Capture' (window_capture)
+20:43:17.099:     - source: 'Game Capture' (game_capture)
+20:43:17.099: - scene 'prefab_MiniProjector':
+20:43:17.099:     - source: 'source_Image_kutlasBlaze112' (image_source)
+20:43:17.099:     - source: 'source_Image_kutlasKappaNine112' (image_source)
+20:43:17.099:     - source: 'source_Image_kutlasRyu112' (image_source)
+20:43:17.099: - scene 'prefab_TransparentBlack':
+20:43:17.099:     - source: 'sourceColorBlack' (color_source)
+20:43:17.099: - scene 'hardware_MonitorAcer':
+20:43:17.099:     - source: 'source_AcerMonitor' (monitor_capture)
+20:43:17.099: - scene 'hardware_MonitorBenQ':
+20:43:17.099:     - source: 'source_MonitorBenQ' (monitor_capture)
+20:43:17.099: - scene 'hardware_ElgatoS60':
+20:43:17.099:     - source: 'source_ElgatoS60' (dshow_input)
+20:43:17.099: - scene 'hardware_LogitechC920':
+20:43:17.099:     - source: 'source_Logitechc920' (dshow_input)
+20:43:17.100:         - filter: 'Chroma Key' (chroma_key_filter)
+20:43:17.100: - scene 'src_WindowCapture':
+20:43:17.100:     - source: 'source_WindowCapture' (window_capture)
+20:43:17.100: - scene 'src_StreetFighteVPC 2':
+20:43:17.100:     - source: '__unnamed0000' (window_capture)
+20:43:17.100: - scene 'src_WindowedGame':
+20:43:17.100:     - source: 'sourceWindowedGame' (game_capture)
+20:43:17.100: - scene 'src_GameLibraryPC':
+20:43:17.100:     - source: 'Enter the Gungeon' (game_capture)
+20:43:17.100:     - source: 'Street Fighter V' (game_capture)
+20:43:17.100:     - source: 'Terraria' (game_capture)
+20:43:17.100: ------------------------------------------------
+20:43:17.204: ---------------------------------
+20:43:17.204: [DShow Device: 'source_Logitechc920'] settings updated: 
+20:43:17.204: 	video device: Logitech HD Pro Webcam C920
+20:43:17.204: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+20:43:17.204: 	resolution: 640x480
+20:43:17.204: 	fps: 30.00 (interval: 333333)
+20:43:17.204: 	format: I420
+20:43:18.141: ---------------------------------
+20:43:18.141: [DShow Device: 'source_ElgatoS60'] settings updated: 
+20:43:18.141: 	video device: Elgato Game Capture HD
+20:43:18.141: 	video path: __elgato
+20:43:18.141: 	resolution: 1280x720
+20:43:18.141: 	fps: 60.00 (interval: 166666)
+20:43:18.141: 	format: UYVY
+20:43:18.141: 	using video device audio: yes
+20:43:18.141: 	sample rate: 48000
+20:43:18.141: 	channels: 2
+20:43:18.141: 	audio type: Capture
+20:43:18.805: [game-capture: 'Terraria'] attempting to hook process: Terraria.exe
+20:43:18.839: [game-capture: 'Terraria'] Hooked DXGI
+20:43:18.907: [game-capture: 'Terraria'] d3d9 shared texture capture successful
+20:43:18.938: [game-capture: 'Terraria'] shared texture capture successful
+20:43:19.095: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+20:50:45.171: [game-capture: 'Terraria'] capture window no longer exists, terminating capture
+20:50:45.171: [game-capture: 'Terraria'] capture stopped
+20:51:14.672: [game-capture: 'Terraria'] attempting to hook process: Terraria.exe
+20:51:14.674: [game-capture: 'Terraria'] using helper (compatibility hook)
+20:51:14.675: [game-capture: 'Terraria'] hook not loaded yet, retrying..
+20:51:17.705: [game-capture: 'Terraria'] attempting to hook process: Terraria.exe
+20:51:17.806: [game-capture: 'Terraria'] d3d9 shared texture capture successful
+20:51:17.838: [game-capture: 'Terraria'] shared texture capture successful
+21:09:21.884: User switched to scene 'game_Terraria'
+21:11:20.160: User switched to scene 'PROJECTOR'
+21:11:23.971: [game-capture: 'Terraria'] capture stopped
+21:11:25.205: [game-capture: 'Terraria'] attempting to hook process: Terraria.exe
+21:11:25.238: [game-capture: 'Terraria'] shared texture capture successful
+21:11:30.404: [game-capture: 'Terraria'] capture stopped
+21:11:30.972: [game-capture: 'Terraria'] attempting to hook process: Terraria.exe
+21:11:31.004: [game-capture: 'Terraria'] shared texture capture successful
+21:11:31.938: [game-capture: 'Terraria'] capture stopped
+21:11:32.972: [game-capture: 'Terraria'] attempting to hook process: Terraria.exe
+21:11:33.004: [game-capture: 'Terraria'] shared texture capture successful
+21:15:16.804: [game-capture: 'Terraria'] capture window no longer exists, terminating capture
+21:15:16.805: [game-capture: 'Terraria'] capture stopped
+21:16:14.245: User added scene 'game_EnterTheGungeon'
+21:16:14.246: User switched to scene 'game_EnterTheGungeon'
+21:16:33.172: User switched to scene 'PROJECTOR'
+21:16:40.149: User added source 'game_EnterTheGungeon' (scene) to scene 'PROJECTOR'
+21:16:42.486: User switched to scene 'game_EnterTheGungeon'
+21:17:04.722: User switched to scene 'src_WindowCapture'
+21:17:14.754: User switched to scene 'src_StreetFighteVPC 2'
+21:17:14.754: User Removed scene 'src_WindowCapture'
+21:17:30.998: User switched to scene 'src_GameLibraryPC'
+21:21:39.422: User switched to scene 'game_EnterTheGungeon'
+21:21:52.156: User added source 'Enter the Gungeon' (game_capture) to scene 'game_EnterTheGungeon'
+21:22:25.704: [game-capture: 'Enter the Gungeon'] attempting to hook process: EtG.exe
+21:22:25.763: [game-capture: 'Enter the Gungeon'] using helper (compatibility hook)
+21:22:25.764: [game-capture: 'Enter the Gungeon'] hook not loaded yet, retrying..
+21:22:28.738: [game-capture: 'Enter the Gungeon'] attempting to hook process: EtG.exe
+21:22:29.838: [game-capture: 'Enter the Gungeon'] capture stopped
+21:22:32.771: [game-capture: 'Enter the Gungeon'] attempting to hook process: EtG.exe
+21:22:32.804: [game-capture: 'Enter the Gungeon'] shared texture capture successful
+21:24:06.971: User added source 'prefab_TextAndAlertOverlays' (scene) to scene 'game_EnterTheGungeon'
+21:24:27.096: User added source 'prefab_TextAndAlertOverlays_staticShouts' (scene) to scene 'game_EnterTheGungeon'
+21:24:46.244: User switched to scene 'src_GameLibraryPC'
+21:25:00.599: User switched to scene 'game_EnterTheGungeon'
+21:25:22.928: User switched to scene 'scene_GameConsole'
+21:25:23.271: [game-capture: 'Enter the Gungeon'] capture stopped
+21:25:29.613: User switched to scene 'PROJECTOR'
+21:25:29.639: [game-capture: 'Enter the Gungeon'] attempting to hook process: EtG.exe
+21:25:29.671: [game-capture: 'Enter the Gungeon'] shared texture capture successful
+21:25:35.081: User switched to scene 'game_EnterTheGungeon'
+21:25:38.100: User switched to scene 'game_Terraria'
+21:25:38.438: [game-capture: 'Enter the Gungeon'] capture stopped
+21:25:38.672: User switched to scene 'game_EnterTheGungeon'
+21:25:38.672: [game-capture: 'Enter the Gungeon'] attempting to hook process: EtG.exe
+21:25:38.705: [game-capture: 'Enter the Gungeon'] shared texture capture successful
+21:25:42.804: User switched to scene 'game_Terraria'
+21:25:43.138: [game-capture: 'Enter the Gungeon'] capture stopped
+21:26:10.854: User switched to scene 'game_StreetFighterV'
+21:26:15.248: User switched to scene 'game_EnterTheGungeon'
+21:26:15.271: [game-capture: 'Enter the Gungeon'] attempting to hook process: EtG.exe
+21:26:15.304: [game-capture: 'Enter the Gungeon'] shared texture capture successful
+21:29:02.185: User added source 'hardware_LogitechC920' (scene) to scene 'game_EnterTheGungeon'
+21:29:06.461: ---------------------------------
+21:29:06.461: [DShow Device: 'source_Logitechc920'] settings updated: 
+21:29:06.461: 	video device: Logitech HD Pro Webcam C920
+21:29:06.461: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&490d1c0&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+21:29:06.461: 	resolution: 640x480
+21:29:06.461: 	fps: 30.00 (interval: 333333)
+21:29:06.461: 	format: I420
+21:33:03.105: User switched to scene 'PROJECTOR'
+21:37:22.738: User added source 'prefab_SeattleStats' (scene) to scene 'PROJECTOR'
+21:38:02.267: User switched to scene 'game_EnterTheGungeon'
+21:38:14.619: User switched to scene 'PROJECTOR'
+21:38:19.194: User switched to scene 'game_Terraria'
+21:38:19.538: [game-capture: 'Enter the Gungeon'] capture stopped
+21:38:21.550: User switched to scene 'game_StreetFighterV'
+21:38:24.912: User switched to scene 'game_EnterTheGungeon'
+21:38:24.912: [game-capture: 'Enter the Gungeon'] attempting to hook process: EtG.exe
+21:38:24.938: [game-capture: 'Enter the Gungeon'] shared texture capture successful
+21:38:28.578: User switched to scene 'PROJECTOR'
+21:40:25.816: User switched to scene 'prefab_Toolbox'
+21:40:25.845: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:40:25.850: [game-capture: 'Game Capture'] using direct hook
+21:40:25.851: [game-capture: 'Game Capture'] Hooked to process: SoundCapture.exe
+21:40:25.851: [game-capture: 'Game Capture'] (half life scientist) everything..  seems to be in order
+21:40:26.171: [game-capture: 'Enter the Gungeon'] capture stopped
+21:40:42.182: User switched to scene 'prefab_MiniProjector'
+21:40:42.538: [game-capture: 'Game Capture'] capture stopped
+21:40:45.080: User switched to scene 'prefab_Toolbox'
+21:40:45.108: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:40:45.138: [game-capture: 'Game Capture'] capture stopped
+21:40:47.139: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:40:47.171: [game-capture: 'Game Capture'] capture stopped
+21:40:49.248: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:40:49.271: [game-capture: 'Game Capture'] capture stopped
+21:40:51.272: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:40:51.305: [game-capture: 'Game Capture'] capture stopped
+21:40:53.305: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:40:53.338: [game-capture: 'Game Capture'] capture stopped
+21:40:55.341: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:40:55.371: [game-capture: 'Game Capture'] capture stopped
+21:40:57.372: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:40:57.405: [game-capture: 'Game Capture'] capture stopped
+21:40:59.406: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:40:59.438: [game-capture: 'Game Capture'] capture stopped
+21:41:01.439: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:01.471: [game-capture: 'Game Capture'] capture stopped
+21:41:03.472: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:03.505: [game-capture: 'Game Capture'] capture stopped
+21:41:05.506: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:05.538: [game-capture: 'Game Capture'] capture stopped
+21:41:07.539: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:07.571: [game-capture: 'Game Capture'] capture stopped
+21:41:09.572: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:09.604: [game-capture: 'Game Capture'] capture stopped
+21:41:11.605: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:11.638: [game-capture: 'Game Capture'] capture stopped
+21:41:13.639: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:13.671: [game-capture: 'Game Capture'] capture stopped
+21:41:15.673: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:15.705: [game-capture: 'Game Capture'] capture stopped
+21:41:17.707: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:17.738: [game-capture: 'Game Capture'] capture stopped
+21:41:19.739: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:19.772: [game-capture: 'Game Capture'] capture stopped
+21:41:21.772: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:21.805: [game-capture: 'Game Capture'] capture stopped
+21:41:23.808: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:23.838: [game-capture: 'Game Capture'] capture stopped
+21:41:25.839: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:25.871: [game-capture: 'Game Capture'] capture stopped
+21:41:27.872: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:27.905: [game-capture: 'Game Capture'] capture stopped
+21:41:29.906: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:29.938: [game-capture: 'Game Capture'] capture stopped
+21:41:31.939: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:31.971: [game-capture: 'Game Capture'] capture stopped
+21:41:33.972: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:34.005: [game-capture: 'Game Capture'] capture stopped
+21:41:36.006: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:36.038: [game-capture: 'Game Capture'] capture stopped
+21:41:38.039: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:38.071: [game-capture: 'Game Capture'] capture stopped
+21:41:40.072: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:40.105: [game-capture: 'Game Capture'] capture stopped
+21:41:42.106: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:42.138: [game-capture: 'Game Capture'] capture stopped
+21:41:44.139: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:44.171: [game-capture: 'Game Capture'] capture stopped
+21:41:46.172: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:46.205: [game-capture: 'Game Capture'] capture stopped
+21:41:48.205: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:48.238: [game-capture: 'Game Capture'] capture stopped
+21:41:50.239: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:50.271: [game-capture: 'Game Capture'] capture stopped
+21:41:52.272: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:52.305: [game-capture: 'Game Capture'] capture stopped
+21:41:54.305: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:54.338: [game-capture: 'Game Capture'] capture stopped
+21:41:56.339: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:56.371: [game-capture: 'Game Capture'] capture stopped
+21:41:58.372: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:41:58.405: [game-capture: 'Game Capture'] capture stopped
+21:41:58.990: User added source 'source_BrowserNightBotSongRequest' (browser_source) to scene 'prefab_Toolbox'
+21:42:00.405: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:00.438: [game-capture: 'Game Capture'] capture stopped
+21:42:02.441: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:02.472: [game-capture: 'Game Capture'] capture stopped
+21:42:04.472: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:04.505: [game-capture: 'Game Capture'] capture stopped
+21:42:06.506: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:06.538: [game-capture: 'Game Capture'] capture stopped
+21:42:08.540: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:08.572: [game-capture: 'Game Capture'] capture stopped
+21:42:10.572: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:10.605: [game-capture: 'Game Capture'] capture stopped
+21:42:12.606: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:12.638: [game-capture: 'Game Capture'] capture stopped
+21:42:14.639: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:14.671: [game-capture: 'Game Capture'] capture stopped
+21:42:16.673: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:16.705: [game-capture: 'Game Capture'] capture stopped
+21:42:18.705: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:18.738: [game-capture: 'Game Capture'] capture stopped
+21:42:20.739: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:20.771: [game-capture: 'Game Capture'] capture stopped
+21:42:22.772: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:22.805: [game-capture: 'Game Capture'] capture stopped
+21:42:24.805: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:24.838: [game-capture: 'Game Capture'] capture stopped
+21:42:26.839: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:26.871: [game-capture: 'Game Capture'] capture stopped
+21:42:28.872: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:28.905: [game-capture: 'Game Capture'] capture stopped
+21:42:30.907: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:30.938: [game-capture: 'Game Capture'] capture stopped
+21:42:32.939: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:32.972: [game-capture: 'Game Capture'] capture stopped
+21:42:34.972: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:35.005: [game-capture: 'Game Capture'] capture stopped
+21:42:37.005: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:37.038: [game-capture: 'Game Capture'] capture stopped
+21:42:39.039: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:39.071: [game-capture: 'Game Capture'] capture stopped
+21:42:41.072: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:41.105: [game-capture: 'Game Capture'] capture stopped
+21:42:43.105: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:43.138: [game-capture: 'Game Capture'] capture stopped
+21:42:45.139: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:45.171: [game-capture: 'Game Capture'] capture stopped
+21:42:47.172: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:47.205: [game-capture: 'Game Capture'] capture stopped
+21:42:49.205: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:49.238: [game-capture: 'Game Capture'] capture stopped
+21:42:51.239: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:51.271: [game-capture: 'Game Capture'] capture stopped
+21:42:53.272: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:53.305: [game-capture: 'Game Capture'] capture stopped
+21:42:55.308: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:55.338: [game-capture: 'Game Capture'] capture stopped
+21:42:57.339: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:57.372: [game-capture: 'Game Capture'] capture stopped
+21:42:59.372: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:42:59.404: [game-capture: 'Game Capture'] capture stopped
+21:43:01.406: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:01.438: [game-capture: 'Game Capture'] capture stopped
+21:43:03.439: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:03.472: [game-capture: 'Game Capture'] capture stopped
+21:43:05.473: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:05.505: [game-capture: 'Game Capture'] capture stopped
+21:43:07.505: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:07.538: [game-capture: 'Game Capture'] capture stopped
+21:43:09.539: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:09.571: [game-capture: 'Game Capture'] capture stopped
+21:43:11.572: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:11.605: [game-capture: 'Game Capture'] capture stopped
+21:43:13.606: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:13.638: [game-capture: 'Game Capture'] capture stopped
+21:43:15.640: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:15.671: [game-capture: 'Game Capture'] capture stopped
+21:43:17.673: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:17.705: [game-capture: 'Game Capture'] capture stopped
+21:43:19.706: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:19.738: [game-capture: 'Game Capture'] capture stopped
+21:43:21.739: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:21.771: [game-capture: 'Game Capture'] capture stopped
+21:43:23.772: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:23.805: [game-capture: 'Game Capture'] capture stopped
+21:43:25.806: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:25.838: [game-capture: 'Game Capture'] capture stopped
+21:43:27.839: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:27.872: [game-capture: 'Game Capture'] capture stopped
+21:43:29.872: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:29.905: [game-capture: 'Game Capture'] capture stopped
+21:43:31.905: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:31.938: [game-capture: 'Game Capture'] capture stopped
+21:43:33.939: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:33.971: [game-capture: 'Game Capture'] capture stopped
+21:43:35.972: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:36.005: [game-capture: 'Game Capture'] capture stopped
+21:43:38.006: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:38.038: [game-capture: 'Game Capture'] capture stopped
+21:43:40.039: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:40.071: [game-capture: 'Game Capture'] capture stopped
+21:43:42.072: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:42.105: [game-capture: 'Game Capture'] capture stopped
+21:43:44.105: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:44.138: [game-capture: 'Game Capture'] capture stopped
+21:43:46.139: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:46.171: [game-capture: 'Game Capture'] capture stopped
+21:43:48.173: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:48.205: [game-capture: 'Game Capture'] capture stopped
+21:43:50.206: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:50.238: [game-capture: 'Game Capture'] capture stopped
+21:43:52.240: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:52.272: [game-capture: 'Game Capture'] capture stopped
+21:43:54.273: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:54.305: [game-capture: 'Game Capture'] capture stopped
+21:43:56.306: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:56.338: [game-capture: 'Game Capture'] capture stopped
+21:43:58.339: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:43:58.371: [game-capture: 'Game Capture'] capture stopped
+21:44:00.372: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:00.405: [game-capture: 'Game Capture'] capture stopped
+21:44:02.406: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:02.438: [game-capture: 'Game Capture'] capture stopped
+21:44:04.439: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:04.471: [game-capture: 'Game Capture'] capture stopped
+21:44:06.472: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:06.505: [game-capture: 'Game Capture'] capture stopped
+21:44:08.508: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:08.538: [game-capture: 'Game Capture'] capture stopped
+21:44:10.541: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:10.571: [game-capture: 'Game Capture'] capture stopped
+21:44:12.572: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:12.605: [game-capture: 'Game Capture'] capture stopped
+21:44:14.606: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:14.638: [game-capture: 'Game Capture'] capture stopped
+21:44:16.639: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:16.671: [game-capture: 'Game Capture'] capture stopped
+21:44:18.672: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:18.705: [game-capture: 'Game Capture'] capture stopped
+21:44:20.706: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:20.738: [game-capture: 'Game Capture'] capture stopped
+21:44:22.739: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:22.771: [game-capture: 'Game Capture'] capture stopped
+21:44:24.773: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:24.805: [game-capture: 'Game Capture'] capture stopped
+21:44:26.806: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:26.838: [game-capture: 'Game Capture'] capture stopped
+21:44:28.843: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:28.871: [game-capture: 'Game Capture'] capture stopped
+21:44:30.872: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:30.905: [game-capture: 'Game Capture'] capture stopped
+21:44:32.906: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:32.938: [game-capture: 'Game Capture'] capture stopped
+21:44:34.940: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:34.972: [game-capture: 'Game Capture'] capture stopped
+21:44:36.973: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:37.005: [game-capture: 'Game Capture'] capture stopped
+21:44:39.005: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:39.038: [game-capture: 'Game Capture'] capture stopped
+21:44:41.039: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:41.071: [game-capture: 'Game Capture'] capture stopped
+21:44:43.076: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:43.105: [game-capture: 'Game Capture'] capture stopped
+21:44:45.106: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:45.138: [game-capture: 'Game Capture'] capture stopped
+21:44:47.140: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:47.172: [game-capture: 'Game Capture'] capture stopped
+21:44:49.175: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:49.205: [game-capture: 'Game Capture'] capture stopped
+21:44:51.205: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:51.238: [game-capture: 'Game Capture'] capture stopped
+21:44:53.239: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:53.271: [game-capture: 'Game Capture'] capture stopped
+21:44:55.272: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:55.305: [game-capture: 'Game Capture'] capture stopped
+21:44:57.305: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:57.338: [game-capture: 'Game Capture'] capture stopped
+21:44:59.339: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:44:59.371: [game-capture: 'Game Capture'] capture stopped
+21:45:01.372: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:01.405: [game-capture: 'Game Capture'] capture stopped
+21:45:03.406: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:03.438: [game-capture: 'Game Capture'] capture stopped
+21:45:05.439: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:05.472: [game-capture: 'Game Capture'] capture stopped
+21:45:07.478: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:07.505: [game-capture: 'Game Capture'] capture stopped
+21:45:09.506: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:09.538: [game-capture: 'Game Capture'] capture stopped
+21:45:11.539: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:11.571: [game-capture: 'Game Capture'] capture stopped
+21:45:13.572: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:13.605: [game-capture: 'Game Capture'] capture stopped
+21:45:15.605: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:15.638: [game-capture: 'Game Capture'] capture stopped
+21:45:17.640: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:17.672: [game-capture: 'Game Capture'] capture stopped
+21:45:19.672: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:19.705: [game-capture: 'Game Capture'] capture stopped
+21:45:21.706: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:21.738: [game-capture: 'Game Capture'] capture stopped
+21:45:23.739: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:23.771: [game-capture: 'Game Capture'] capture stopped
+21:45:25.772: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:25.805: [game-capture: 'Game Capture'] capture stopped
+21:45:27.805: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:27.838: [game-capture: 'Game Capture'] capture stopped
+21:45:29.839: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:29.872: [game-capture: 'Game Capture'] capture stopped
+21:45:31.872: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:31.904: [game-capture: 'Game Capture'] capture stopped
+21:45:33.905: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:33.938: [game-capture: 'Game Capture'] capture stopped
+21:45:35.939: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:35.971: [game-capture: 'Game Capture'] capture stopped
+21:45:37.972: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:38.005: [game-capture: 'Game Capture'] capture stopped
+21:45:40.005: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:40.038: [game-capture: 'Game Capture'] capture stopped
+21:45:42.039: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:42.071: [game-capture: 'Game Capture'] capture stopped
+21:45:44.072: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:44.105: [game-capture: 'Game Capture'] capture stopped
+21:45:46.106: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:46.138: [game-capture: 'Game Capture'] capture stopped
+21:45:48.139: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:48.171: [game-capture: 'Game Capture'] capture stopped
+21:45:50.172: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:50.205: [game-capture: 'Game Capture'] capture stopped
+21:45:52.205: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:52.238: [game-capture: 'Game Capture'] capture stopped
+21:45:54.239: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:54.271: [game-capture: 'Game Capture'] capture stopped
+21:45:56.272: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:56.305: [game-capture: 'Game Capture'] capture stopped
+21:45:58.305: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:45:58.338: [game-capture: 'Game Capture'] capture stopped
+21:46:00.339: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:00.371: [game-capture: 'Game Capture'] capture stopped
+21:46:02.372: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:02.405: [game-capture: 'Game Capture'] capture stopped
+21:46:04.405: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:04.438: [game-capture: 'Game Capture'] capture stopped
+21:46:06.439: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:06.471: [game-capture: 'Game Capture'] capture stopped
+21:46:08.473: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:08.505: [game-capture: 'Game Capture'] capture stopped
+21:46:10.506: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:10.538: [game-capture: 'Game Capture'] capture stopped
+21:46:12.539: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:12.572: [game-capture: 'Game Capture'] capture stopped
+21:46:14.572: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:14.605: [game-capture: 'Game Capture'] capture stopped
+21:46:16.605: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:16.638: [game-capture: 'Game Capture'] capture stopped
+21:46:18.639: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:18.671: [game-capture: 'Game Capture'] capture stopped
+21:46:20.672: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:20.705: [game-capture: 'Game Capture'] capture stopped
+21:46:22.708: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:22.739: [game-capture: 'Game Capture'] capture stopped
+21:46:24.739: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:24.772: [game-capture: 'Game Capture'] capture stopped
+21:46:26.772: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:26.805: [game-capture: 'Game Capture'] capture stopped
+21:46:28.806: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:28.838: [game-capture: 'Game Capture'] capture stopped
+21:46:30.839: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:30.871: [game-capture: 'Game Capture'] capture stopped
+21:46:32.873: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:32.905: [game-capture: 'Game Capture'] capture stopped
+21:46:34.905: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:34.939: [game-capture: 'Game Capture'] capture stopped
+21:46:36.939: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:36.971: [game-capture: 'Game Capture'] capture stopped
+21:46:38.972: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:39.005: [game-capture: 'Game Capture'] capture stopped
+21:46:41.005: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:41.038: [game-capture: 'Game Capture'] capture stopped
+21:46:43.039: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:43.072: [game-capture: 'Game Capture'] capture stopped
+21:46:45.072: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:45.105: [game-capture: 'Game Capture'] capture stopped
+21:46:47.105: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:47.138: [game-capture: 'Game Capture'] capture stopped
+21:46:49.140: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:49.171: [game-capture: 'Game Capture'] capture stopped
+21:46:51.172: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:51.205: [game-capture: 'Game Capture'] capture stopped
+21:46:53.205: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:53.238: [game-capture: 'Game Capture'] capture stopped
+21:46:55.239: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:55.271: [game-capture: 'Game Capture'] capture stopped
+21:46:57.273: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:57.305: [game-capture: 'Game Capture'] capture stopped
+21:46:59.305: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:46:59.338: [game-capture: 'Game Capture'] capture stopped
+21:47:01.339: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:01.371: [game-capture: 'Game Capture'] capture stopped
+21:47:03.373: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:03.405: [game-capture: 'Game Capture'] capture stopped
+21:47:05.406: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:05.438: [game-capture: 'Game Capture'] capture stopped
+21:47:07.439: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:07.472: [game-capture: 'Game Capture'] capture stopped
+21:47:09.473: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:09.504: [game-capture: 'Game Capture'] capture stopped
+21:47:11.505: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:11.538: [game-capture: 'Game Capture'] capture stopped
+21:47:13.541: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:13.572: [game-capture: 'Game Capture'] capture stopped
+21:47:15.574: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:15.606: [game-capture: 'Game Capture'] capture stopped
+21:47:17.606: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:17.638: [game-capture: 'Game Capture'] capture stopped
+21:47:19.639: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:19.672: [game-capture: 'Game Capture'] capture stopped
+21:47:21.672: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:21.704: [game-capture: 'Game Capture'] capture stopped
+21:47:23.708: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:23.738: [game-capture: 'Game Capture'] capture stopped
+21:47:25.740: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:25.771: [game-capture: 'Game Capture'] capture stopped
+21:47:27.772: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:27.805: [game-capture: 'Game Capture'] capture stopped
+21:47:29.806: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:29.838: [game-capture: 'Game Capture'] capture stopped
+21:47:31.839: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:31.871: [game-capture: 'Game Capture'] capture stopped
+21:47:33.872: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:33.905: [game-capture: 'Game Capture'] capture stopped
+21:47:35.905: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:35.938: [game-capture: 'Game Capture'] capture stopped
+21:47:37.939: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:37.972: [game-capture: 'Game Capture'] capture stopped
+21:47:39.972: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:40.005: [game-capture: 'Game Capture'] capture stopped
+21:47:42.005: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:42.038: [game-capture: 'Game Capture'] capture stopped
+21:47:44.039: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:44.071: [game-capture: 'Game Capture'] capture stopped
+21:47:46.072: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:46.105: [game-capture: 'Game Capture'] capture stopped
+21:47:48.105: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:48.138: [game-capture: 'Game Capture'] capture stopped
+21:47:50.139: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:50.171: [game-capture: 'Game Capture'] capture stopped
+21:47:52.172: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:52.205: [game-capture: 'Game Capture'] capture stopped
+21:47:54.206: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:54.238: [game-capture: 'Game Capture'] capture stopped
+21:47:56.239: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:56.271: [game-capture: 'Game Capture'] capture stopped
+21:47:58.272: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:47:58.305: [game-capture: 'Game Capture'] capture stopped
+21:48:00.306: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:00.338: [game-capture: 'Game Capture'] capture stopped
+21:48:02.340: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:02.372: [game-capture: 'Game Capture'] capture stopped
+21:48:04.373: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:04.405: [game-capture: 'Game Capture'] capture stopped
+21:48:06.406: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:06.438: [game-capture: 'Game Capture'] capture stopped
+21:48:08.441: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:08.472: [game-capture: 'Game Capture'] capture stopped
+21:48:10.473: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:10.505: [game-capture: 'Game Capture'] capture stopped
+21:48:12.505: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:12.538: [game-capture: 'Game Capture'] capture stopped
+21:48:14.540: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:14.571: [game-capture: 'Game Capture'] capture stopped
+21:48:16.575: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:16.605: [game-capture: 'Game Capture'] capture stopped
+21:48:18.605: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:18.638: [game-capture: 'Game Capture'] capture stopped
+21:48:20.639: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:20.671: [game-capture: 'Game Capture'] capture stopped
+21:48:22.673: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:22.705: [game-capture: 'Game Capture'] capture stopped
+21:48:24.706: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:24.738: [game-capture: 'Game Capture'] capture stopped
+21:48:26.739: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:26.771: [game-capture: 'Game Capture'] capture stopped
+21:48:28.772: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:28.805: [game-capture: 'Game Capture'] capture stopped
+21:48:30.805: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:30.838: [game-capture: 'Game Capture'] capture stopped
+21:48:32.839: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:32.872: [game-capture: 'Game Capture'] capture stopped
+21:48:34.872: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:34.905: [game-capture: 'Game Capture'] capture stopped
+21:48:36.905: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:36.938: [game-capture: 'Game Capture'] capture stopped
+21:48:38.939: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:38.971: [game-capture: 'Game Capture'] capture stopped
+21:48:40.972: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:41.005: [game-capture: 'Game Capture'] capture stopped
+21:48:43.005: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:43.038: [game-capture: 'Game Capture'] capture stopped
+21:48:45.039: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:45.071: [game-capture: 'Game Capture'] capture stopped
+21:48:47.072: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:47.105: [game-capture: 'Game Capture'] capture stopped
+21:48:49.105: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:49.138: [game-capture: 'Game Capture'] capture stopped
+21:48:51.139: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:51.171: [game-capture: 'Game Capture'] capture stopped
+21:48:53.172: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:53.205: [game-capture: 'Game Capture'] capture stopped
+21:48:55.208: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:55.238: [game-capture: 'Game Capture'] capture stopped
+21:48:57.242: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:57.272: [game-capture: 'Game Capture'] capture stopped
+21:48:59.272: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:48:59.304: [game-capture: 'Game Capture'] capture stopped
+21:49:01.308: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:01.338: [game-capture: 'Game Capture'] capture stopped
+21:49:03.339: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:03.371: [game-capture: 'Game Capture'] capture stopped
+21:49:05.372: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:05.405: [game-capture: 'Game Capture'] capture stopped
+21:49:07.405: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:07.438: [game-capture: 'Game Capture'] capture stopped
+21:49:09.439: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:09.471: [game-capture: 'Game Capture'] capture stopped
+21:49:11.473: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:11.505: [game-capture: 'Game Capture'] capture stopped
+21:49:13.506: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:13.538: [game-capture: 'Game Capture'] capture stopped
+21:49:15.539: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:15.571: [game-capture: 'Game Capture'] capture stopped
+21:49:17.573: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:17.605: [game-capture: 'Game Capture'] capture stopped
+21:49:19.606: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:19.638: [game-capture: 'Game Capture'] capture stopped
+21:49:21.639: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:21.671: [game-capture: 'Game Capture'] capture stopped
+21:49:23.672: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:23.705: [game-capture: 'Game Capture'] capture stopped
+21:49:25.706: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:25.738: [game-capture: 'Game Capture'] capture stopped
+21:49:27.740: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:27.772: [game-capture: 'Game Capture'] capture stopped
+21:49:29.772: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:29.805: [game-capture: 'Game Capture'] capture stopped
+21:49:31.806: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:31.838: [game-capture: 'Game Capture'] capture stopped
+21:49:33.840: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:33.871: [game-capture: 'Game Capture'] capture stopped
+21:49:35.872: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:35.905: [game-capture: 'Game Capture'] capture stopped
+21:49:37.906: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:37.938: [game-capture: 'Game Capture'] capture stopped
+21:49:39.939: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:39.972: [game-capture: 'Game Capture'] capture stopped
+21:49:41.972: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:42.004: [game-capture: 'Game Capture'] capture stopped
+21:49:44.008: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:44.038: [game-capture: 'Game Capture'] capture stopped
+21:49:46.041: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:46.071: [game-capture: 'Game Capture'] capture stopped
+21:49:48.072: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:48.105: [game-capture: 'Game Capture'] capture stopped
+21:49:50.106: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:50.138: [game-capture: 'Game Capture'] capture stopped
+21:49:52.139: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:52.172: [game-capture: 'Game Capture'] capture stopped
+21:49:54.172: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:54.204: [game-capture: 'Game Capture'] capture stopped
+21:49:56.205: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:56.238: [game-capture: 'Game Capture'] capture stopped
+21:49:58.239: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:49:58.271: [game-capture: 'Game Capture'] capture stopped
+21:50:00.272: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:00.305: [game-capture: 'Game Capture'] capture stopped
+21:50:02.305: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:02.338: [game-capture: 'Game Capture'] capture stopped
+21:50:04.339: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:04.371: [game-capture: 'Game Capture'] capture stopped
+21:50:06.372: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:06.405: [game-capture: 'Game Capture'] capture stopped
+21:50:08.406: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:08.438: [game-capture: 'Game Capture'] capture stopped
+21:50:10.439: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:10.472: [game-capture: 'Game Capture'] capture stopped
+21:50:12.473: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:12.505: [game-capture: 'Game Capture'] capture stopped
+21:50:14.505: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:14.538: [game-capture: 'Game Capture'] capture stopped
+21:50:16.539: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:16.571: [game-capture: 'Game Capture'] capture stopped
+21:50:18.572: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:18.605: [game-capture: 'Game Capture'] capture stopped
+21:50:20.606: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:20.638: [game-capture: 'Game Capture'] capture stopped
+21:50:22.642: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:22.672: [game-capture: 'Game Capture'] capture stopped
+21:50:24.673: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:24.705: [game-capture: 'Game Capture'] capture stopped
+21:50:26.705: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:26.738: [game-capture: 'Game Capture'] capture stopped
+21:50:28.739: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:28.771: [game-capture: 'Game Capture'] capture stopped
+21:50:30.772: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:30.805: [game-capture: 'Game Capture'] capture stopped
+21:50:32.806: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:32.838: [game-capture: 'Game Capture'] capture stopped
+21:50:34.839: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:34.872: [game-capture: 'Game Capture'] capture stopped
+21:50:36.874: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:36.905: [game-capture: 'Game Capture'] capture stopped
+21:50:38.905: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:38.938: [game-capture: 'Game Capture'] capture stopped
+21:50:40.940: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:40.971: [game-capture: 'Game Capture'] capture stopped
+21:50:42.973: [game-capture: 'Game Capture'] attempting to hook process: SoundCapture.exe
+21:50:43.005: [game-capture: 'Game Capture'] capture stopped
+21:50:44.280: User switched to scene 'game_EnterTheGungeon'
+21:50:44.305: [game-capture: 'Enter the Gungeon'] attempting to hook process: EtG.exe
+21:50:44.338: [game-capture: 'Enter the Gungeon'] shared texture capture successful
+21:51:25.026: User switched to scene 'PROJECTOR'
+21:56:49.804: ---------------------------------
+21:56:49.805: [NVENC encoder: 'streaming_h264'] settings:
+21:56:49.805: 	rate_control: CBR
+21:56:49.805: 	bitrate:      2250
+21:56:49.805: 	cqp:          0
+21:56:49.805: 	keyint:       250
+21:56:49.805: 	preset:       default
+21:56:49.805: 	profile:      main
+21:56:49.805: 	level:        auto
+21:56:49.805: 	width:        1280
+21:56:49.805: 	height:       720
+21:56:49.805: 	2-pass:       true
+21:56:49.805: 	b-frames:     2
+21:56:49.805: 	GPU:          0
+21:56:49.805: 
+21:56:50.022: [CoreAudio AAC: 'Track1']: settings:
+21:56:50.022: 	mode:          AAC
+21:56:50.022: 	bitrate:       160
+21:56:50.022: 	sample rate:   44100
+21:56:50.022: 	cbr:           on
+21:56:50.022: 	output buffer: 1536
+21:56:50.022: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmp://live.twitch.tv/app...
+21:56:50.038: warning: Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+21:56:50.038: warning: Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+21:56:50.042: ==== Recording Start ===============================================
+21:56:50.043: [rtmp stream: 'adv_stream'] Interface: Intel(R) Ethernet Connection (2) I219-V (ethernet, 1000 mbps)
+21:56:51.346: [rtmp stream: 'adv_stream'] Connection to rtmp://live.twitch.tv/app successful
+21:56:51.347: ==== Streaming Start ===============================================
+01:14:30.904: [game-capture: 'Enter the Gungeon'] capture window no longer exists, terminating capture
+01:14:30.905: [game-capture: 'Enter the Gungeon'] capture stopped
+01:14:33.131: Output 'adv_ffmpeg_output': stopping
+01:14:33.131: Output 'adv_ffmpeg_output': Total encoded frames: 223382
+01:14:33.131: Output 'adv_ffmpeg_output': Total drawn frames: 355893
+01:14:33.131: Output 'adv_ffmpeg_output': Number of lagged frames due to rendering lag/stalls: 1168 (0.3%)
+01:14:33.131: ==== Recording Stop ================================================
+01:14:33.203: warning: 2 frames left in the queue on closing
+01:14:34.221: [rtmp stream: 'adv_stream'] User stopped the stream
+01:14:34.221: Output 'adv_stream': stopping
+01:14:34.221: Output 'adv_stream': Total encoded frames: 223415
+01:14:34.221: Output 'adv_stream': Total drawn frames: 355926
+01:14:34.221: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 1168 (0.3%)
+01:14:34.221: Output 'adv_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 355 (0.2%)
+01:14:34.223: ==== Streaming Stop ================================================
+01:14:35.848: ==== Shutting down ==================================================
+01:14:35.860: Switched to scene '(null)'
+01:14:38.243: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' Terminated
+01:14:38.251: WASAPI: Device 'Microphone (Sennheiser 3D G4ME1)' Terminated
+01:14:38.256: All scene data cleared
+01:14:38.256: ------------------------------------------------
+01:14:38.390: Freeing OBS context data
+01:14:38.466: == Profiler Results =============================
+01:14:38.466: run_program_init: 4917.59 ms
+01:14:38.466:  ┣OBSApp::AppInit: 18.342 ms
+01:14:38.466:  ┃ ┗OBSApp::InitLocale: 5.599 ms
+01:14:38.466:  ┗OBSApp::OBSInit: 4889.51 ms
+01:14:38.466:    ┣obs_startup: 4.839 ms
+01:14:38.466:    ┗OBSBasic::OBSInit: 4855.56 ms
+01:14:38.466:      ┣OBSBasic::InitBasicConfig: 0.252 ms
+01:14:38.466:      ┣OBSBasic::ResetAudio: 0.22 ms
+01:14:38.466:      ┣OBSBasic::ResetVideo: 611.101 ms
+01:14:38.466:      ┣OBSBasic::InitOBSCallbacks: 0.003 ms
+01:14:38.466:      ┣OBSBasic::InitHotkeys: 0.031 ms
+01:14:38.466:      ┣obs_load_all_modules: 2374.87 ms
+01:14:38.466:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 9.675 ms
+01:14:38.466:      ┃ ┣obs_init_module(enc-amf.dll): 0.487 ms
+01:14:38.466:      ┃ ┣obs_init_module(frontend-tools.dll): 1.088 ms
+01:14:38.466:      ┃ ┣obs_init_module(image-source.dll): 0.004 ms
+01:14:38.466:      ┃ ┣obs_init_module(obs-browser.dll): 0.042 ms
+01:14:38.466:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 38.722 ms
+01:14:38.466:      ┃ ┣obs_init_module(obs-filters.dll): 0.012 ms
+01:14:38.466:      ┃ ┣obs_init_module(obs-outputs.dll): 0.006 ms
+01:14:38.466:      ┃ ┣obs_init_module(obs-qsv11.dll): 253.124 ms
+01:14:38.466:      ┃ ┣obs_init_module(obs-text.dll): 0.325 ms
+01:14:38.466:      ┃ ┣obs_init_module(obs-transitions.dll): 0.006 ms
+01:14:38.466:      ┃ ┣obs_init_module(obs-vst.dll): 0.004 ms
+01:14:38.466:      ┃ ┣obs_init_module(obs-x264.dll): 0.001 ms
+01:14:38.466:      ┃ ┣obs_init_module(rtmp-services.dll): 0.213 ms
+01:14:38.466:      ┃ ┣obs_init_module(text-freetype2.dll): 0.236 ms
+01:14:38.466:      ┃ ┣obs_init_module(vlc-video.dll): 0.026 ms
+01:14:38.466:      ┃ ┣obs_init_module(win-capture.dll): 0.057 ms
+01:14:38.466:      ┃ ┣obs_init_module(win-decklink.dll): 1.748 ms
+01:14:38.466:      ┃ ┣obs_init_module(win-dshow.dll): 0.989 ms
+01:14:38.466:      ┃ ┣obs_init_module(win-mf.dll): 91.885 ms
+01:14:38.466:      ┃ ┣obs_init_module(win-wasapi.dll): 0.007 ms
+01:14:38.466:      ┃ ┗reset_win32_symbol_paths: 0.111 ms
+01:14:38.466:      ┣OBSBasic::ResetOutputs: 5.125 ms
+01:14:38.466:      ┣OBSBasic::CreateHotkeys: 0.208 ms
+01:14:38.466:      ┣OBSBasic::InitService: 2.857 ms
+01:14:38.466:      ┣OBSBasic::InitPrimitives: 1.192 ms
+01:14:38.466:      ┗OBSBasic::Load: 1810.72 ms
+01:14:38.466: obs_hotkey_thread(25 ms): min=0.002 ms, median=0.004 ms, max=28.727 ms, 99th percentile=0.045 ms, 99.9998% below 25 ms
+01:14:38.466: audio_thread(Audio): min=0 ms, median=0.972 ms, max=44.073 ms, 99th percentile=6.567 ms
+01:14:38.467:  ┗receive_audio: min=0.003 ms, median=0.374 ms, max=17.73 ms, 99th percentile=0.973 ms, 0.735363 calls per parent call
+01:14:38.467:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=1.421 ms, 99th percentile=0.002 ms
+01:14:38.467:    ┗do_encode: min=0.123 ms, median=0.371 ms, max=17.726 ms, 99th percentile=0.964 ms
+01:14:38.467:      ┗encode(Track1): min=0.118 ms, median=0.361 ms, max=17.618 ms, 99th percentile=0.928 ms
+01:14:38.467: obs_video_thread(33.3333 ms): min=0.188 ms, median=0.951 ms, max=1446.74 ms, 99th percentile=2.153 ms, 99.8658% below 33.333 ms
+01:14:38.467:  ┣tick_sources: min=0.001 ms, median=0.038 ms, max=1436.02 ms, 99th percentile=0.616 ms
+01:14:38.467:  ┣render_displays: min=0.001 ms, median=0.294 ms, max=11.948 ms, 99th percentile=0.754 ms
+01:14:38.467:  ┗output_frame: min=0.184 ms, median=0.587 ms, max=22.225 ms, 99th percentile=1.195 ms
+01:14:38.467:    ┣gs_context(video->graphics): min=0.068 ms, median=0.408 ms, max=21.955 ms, 99th percentile=0.913 ms
+01:14:38.467:    ┃ ┣render_video: min=0.017 ms, median=0.029 ms, max=10.056 ms, 99th percentile=0.103 ms
+01:14:38.467:    ┃ ┃ ┣render_main_texture: min=0.002 ms, median=0.01 ms, max=9.943 ms, 99th percentile=0.046 ms
+01:14:38.467:    ┃ ┃ ┣render_output_texture: min=0.003 ms, median=0.007 ms, max=1.697 ms, 99th percentile=0.029 ms
+01:14:38.467:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.007 ms, max=1.265 ms, 99th percentile=0.028 ms
+01:14:38.467:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.002 ms, max=1.12 ms, 99th percentile=0.005 ms
+01:14:38.467:    ┃ ┣download_frame: min=0 ms, median=0.002 ms, max=21.871 ms, 99th percentile=0.005 ms
+01:14:38.467:    ┃ ┗gs_flush: min=0.015 ms, median=0.371 ms, max=12.896 ms, 99th percentile=0.839 ms
+01:14:38.467:    ┗output_video_data: min=0.109 ms, median=0.17 ms, max=3.034 ms, 99th percentile=0.365 ms
+01:14:38.467: video_thread(video): min=0 ms, median=1.312 ms, max=7.655 ms, 99th percentile=2.362 ms
+01:14:38.467:  ┗receive_video: min=0 ms, median=0.663 ms, max=5.815 ms, 99th percentile=1.28 ms, 0.730472 calls per parent call
+01:14:38.467:    ┗do_encode: min=0.393 ms, median=0.662 ms, max=5.814 ms, 99th percentile=1.278 ms
+01:14:38.467:      ┗encode(streaming_h264): min=0.387 ms, median=0.644 ms, max=5.79 ms, 99th percentile=1.257 ms
+01:14:38.467: =================================================
+01:14:38.467: == Profiler Time Between Calls ==================
+01:14:38.467: obs_hotkey_thread(25 ms): min=24.581 ms, median=25.067 ms, max=79.307 ms, 99.0081% within ±2% of 25 ms (0% lower, 0.991852% higher)
+01:14:38.467: obs_video_thread(33.3333 ms): min=2.347 ms, median=33.333 ms, max=1446.75 ms, 99.639% within ±2% of 33.333 ms (0.180418% lower, 0.180623% higher)
+01:14:38.467: =================================================
+01:14:38.637: Number of memory leaks: 71
