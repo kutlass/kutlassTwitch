@@ -317,10 +317,94 @@
             "name": "src_GameLibraryPC"
         },
         {
-            "name": "scene_Gungeon"
+            "name": "game_EnterTheGungeon"
+        },
+        {
+            "name": "scene_StandardOverlay"
         }
     ],
     "sources": [
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.prefab_TextAndAlertOverlays": [],
+                "libobs.hide_scene_item.prefab_TextAndAlertOverlays_staticShouts": [],
+                "libobs.show_scene_item.prefab_TextAndAlertOverlays": [],
+                "libobs.show_scene_item.prefab_TextAndAlertOverlays_staticShouts": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "scene_StandardOverlay",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 2,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "name": "prefab_TextAndAlertOverlays_staticShouts",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "name": "prefab_TextAndAlertOverlays",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
         {
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
@@ -339,7 +423,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "scene_Gungeon",
+            "name": "game_EnterTheGungeon",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -439,14 +523,18 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.game_StreetFighterV": [],
                 "libobs.hide_scene_item.game_Terraria": [],
+                "libobs.hide_scene_item.hardware_ElgatoS60": [],
                 "libobs.hide_scene_item.prefab_MiniProjector": [],
                 "libobs.hide_scene_item.prefab_SeattleStats": [],
                 "libobs.hide_scene_item.scene_Gungeon": [],
+                "libobs.hide_scene_item.scene_StandardOverlay": [],
                 "libobs.show_scene_item.game_StreetFighterV": [],
                 "libobs.show_scene_item.game_Terraria": [],
+                "libobs.show_scene_item.hardware_ElgatoS60": [],
                 "libobs.show_scene_item.prefab_MiniProjector": [],
                 "libobs.show_scene_item.prefab_SeattleStats": [],
-                "libobs.show_scene_item.scene_Gungeon": []
+                "libobs.show_scene_item.scene_Gungeon": [],
+                "libobs.show_scene_item.scene_StandardOverlay": []
             },
             "id": "scene",
             "mixers": 0,
@@ -458,7 +546,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 6,
+                "id_counter": 9,
                 "items": [
                     {
                         "align": 5,
@@ -515,6 +603,84 @@
                     {
                         "align": 5,
                         "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 6,
+                        "name": "game_EnterTheGungeon",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 8,
+                        "name": "hardware_ElgatoS60",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 9,
+                        "name": "scene_StandardOverlay",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
                             "x": 1920.0,
                             "y": 1080.0
                         },
@@ -550,37 +716,11 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 6,
-                        "name": "scene_Gungeon",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
                         "id": 5,
                         "name": "prefab_SeattleStats",
                         "pos": {
-                            "x": 0.0,
-                            "y": 56.0
+                            "x": 1158.0,
+                            "y": 981.0
                         },
                         "rot": 0.0,
                         "scale": {
@@ -1814,7 +1954,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/kutlass/Desktop/session_subscribers.txt",
+                "file": "C:/Projects/kutlassTwitch/machines/gamingrig01/StreamLabels/session_subscribers.txt",
                 "font": {
                     "face": "Arial",
                     "flags": 1,
@@ -2520,7 +2660,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "color": 16733695,
-                "file": "C:/Users/kutlass/Desktop/most_recent_donator.txt",
+                "file": "C:/Projects/kutlassTwitch/machines/gamingrig01/StreamLabels/most_recent_donator.txt",
                 "font": {
                     "face": "Arial",
                     "flags": 1,
@@ -3346,7 +3486,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/kutlass/Desktop/all_time_top_donators.txt",
+                "file": "C:/Projects/kutlassTwitch/machines/gamingrig01/StreamLabels/all_time_top_donators.txt",
                 "font": {
                     "face": "Arial",
                     "flags": 1,
@@ -3377,7 +3517,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "color": 65280,
-                "file": "C:/Users/kutlass/Desktop/most_recent_follower.txt",
+                "file": "C:/Projects/kutlassTwitch/machines/gamingrig01/StreamLabels/most_recent_follower.txt",
                 "font": {
                     "face": "Arial",
                     "flags": 1,
@@ -3408,7 +3548,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "color": 16776960,
-                "file": "C:/Users/kutlass/Desktop/monthly_top_donator.txt",
+                "file": "C:/Projects/kutlassTwitch/machines/gamingrig01/StreamLabels/monthly_top_donator.txt",
                 "font": {
                     "face": "Arial",
                     "flags": 1,
@@ -5192,7 +5332,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/kutlass/Desktop/session_subscriber_count.txt",
+                "file": "C:/Projects/kutlassTwitch/machines/gamingrig01/StreamLabels/session_subscriber_count.txt",
                 "font": {
                     "face": "Arial",
                     "flags": 1,
@@ -5356,7 +5496,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/kutlass/Desktop/all_time_top_cheerers.txt",
+                "file": "C:/Projects/kutlassTwitch/machines/gamingrig01/StreamLabels/all_time_top_cheerers.txt",
                 "font": {
                     "face": "Arial",
                     "flags": 1,
