@@ -99,8 +99,8 @@
         "sync": 0,
         "volume": 0.51199990510940552
     },
-    "current_program_scene": "game_OverwatchPC",
-    "current_scene": "game_OverwatchPC",
+    "current_program_scene": "PROJECTOR",
+    "current_scene": "PROJECTOR",
     "current_transition": "Fade",
     "modules": {
         "auto-scene-switcher": {
@@ -324,9 +324,149 @@
         },
         {
             "name": "scene_StandardOverlay"
+        },
+        {
+            "name": "scene_KutopianFightStickSlideShow"
         }
     ],
     "sources": [
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "txtKutopianFightStickSlideShow",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color": 16777215,
+                "font": {
+                    "face": "Comic Sans MS",
+                    "flags": 1,
+                    "size": 36,
+                    "style": ""
+                },
+                "outline": true,
+                "outline_color": 0,
+                "text": "Kutopian Fightsticks!!"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.imageSlideShow_KutopianFightStickSlideShow": [],
+                "libobs.hide_scene_item.txtKutopianFightStickSlideShow": [],
+                "libobs.show_scene_item.imageSlideShow_KutopianFightStickSlideShow": [],
+                "libobs.show_scene_item.txtKutopianFightStickSlideShow": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "scene_KutopianFightStickSlideShow",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 2,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "name": "imageSlideShow_KutopianFightStickSlideShow",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "name": "txtKutopianFightStickSlideShow",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 724.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 7.3884615898132324,
+                            "y": 7.3888888359069824
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "slideshow",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "imageSlideShow_KutopianFightStickSlideShow",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "files": [
+                    {
+                        "value": "C:/Projects/kutlassTwitch/assets/FightStickSlideShow"
+                    }
+                ],
+                "randomize": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
         {
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
@@ -718,6 +858,7 @@
                 "libobs.hide_scene_item.hardware_ElgatoS60": [],
                 "libobs.hide_scene_item.prefab_MiniProjector": [],
                 "libobs.hide_scene_item.prefab_SeattleStats": [],
+                "libobs.hide_scene_item.scene_KutopianFightStickSlideShow": [],
                 "libobs.hide_scene_item.scene_StandardOverlay": [],
                 "libobs.hide_scene_item.scene_WatchYouTube": [],
                 "libobs.show_scene_item.game_EnterTheGungeon": [],
@@ -726,6 +867,7 @@
                 "libobs.show_scene_item.hardware_ElgatoS60": [],
                 "libobs.show_scene_item.prefab_MiniProjector": [],
                 "libobs.show_scene_item.prefab_SeattleStats": [],
+                "libobs.show_scene_item.scene_KutopianFightStickSlideShow": [],
                 "libobs.show_scene_item.scene_StandardOverlay": [],
                 "libobs.show_scene_item.scene_WatchYouTube": []
             },
@@ -739,7 +881,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 10,
+                "id_counter": 11,
                 "items": [
                     {
                         "align": 5,
@@ -791,7 +933,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -817,7 +959,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -935,11 +1077,37 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
+                        "id": 11,
+                        "name": "scene_KutopianFightStickSlideShow",
+                        "pos": {
+                            "x": 817.0,
+                            "y": 107.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.1588541716337204,
+                            "y": 0.15925925970077515
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
                         "id": 5,
                         "name": "prefab_SeattleStats",
                         "pos": {
-                            "x": 1522.0,
-                            "y": 913.0
+                            "x": 1717.0,
+                            "y": 968.0
                         },
                         "rot": 0.0,
                         "scale": {
@@ -1005,7 +1173,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 5,
+                "id_counter": 6,
                 "items": [
                     {
                         "align": 5,
@@ -1048,8 +1216,8 @@
                         "id": 4,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
-                            "x": 3.0,
-                            "y": 829.0
+                            "x": 386.0,
+                            "y": -104.0
                         },
                         "rot": 0.0,
                         "scale": {
@@ -4754,8 +4922,8 @@
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.42553192377090454,
-                            "y": 0.42533937096595764
+                            "x": 0.48772504925727844,
+                            "y": 0.48868778347969055
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -4775,7 +4943,7 @@
                         "id": 1,
                         "name": "txtMostRecentFollowerValue",
                         "pos": {
-                            "x": 548.0,
+                            "x": 552.0,
                             "y": 284.0
                         },
                         "rot": 0.0,
@@ -4789,11 +4957,11 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 862.0,
+                            "y": 67.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -4801,13 +4969,13 @@
                         "id": 2,
                         "name": "txtMonthlyTopDonatorValue",
                         "pos": {
-                            "x": 570.0,
-                            "y": 23.0
+                            "x": 559.0,
+                            "y": 160.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": -33.0,
-                            "y": 33.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -5766,10 +5934,12 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Game Capture": [],
                 "libobs.hide_scene_item.Window Capture": [],
+                "libobs.hide_scene_item.imageSlideShow_KutopianFightStickSlideShow": [],
                 "libobs.hide_scene_item.source_Image_TheCommission_Fightstick 2": [],
                 "libobs.hide_scene_item.txtMusicNotes 2": [],
                 "libobs.show_scene_item.Game Capture": [],
                 "libobs.show_scene_item.Window Capture": [],
+                "libobs.show_scene_item.imageSlideShow_KutopianFightStickSlideShow": [],
                 "libobs.show_scene_item.source_Image_TheCommission_Fightstick 2": [],
                 "libobs.show_scene_item.txtMusicNotes 2": []
             },
@@ -5783,7 +5953,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 7,
+                "id_counter": 8,
                 "items": [
                     {
                         "align": 5,
@@ -5814,8 +5984,8 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
+                            "x": 1391.0,
+                            "y": 494.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 2,
@@ -5826,8 +5996,8 @@
                         "id": 3,
                         "name": "source_Image_TheCommission_Fightstick 2",
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 454.0,
+                            "y": 28.0
                         },
                         "rot": 0.0,
                         "scale": {
@@ -5866,8 +6036,8 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
+                            "x": 1586.0,
+                            "y": 668.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 2,
@@ -5877,6 +6047,32 @@
                         "crop_top": 0,
                         "id": 7,
                         "name": "Game Capture",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 8,
+                        "name": "imageSlideShow_KutopianFightStickSlideShow",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
