@@ -933,7 +933,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -959,7 +959,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1080,13 +1080,13 @@
                         "id": 11,
                         "name": "scene_KutopianFightStickSlideShow",
                         "pos": {
-                            "x": 817.0,
-                            "y": 107.0
+                            "x": 1132.0,
+                            "y": 343.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.1588541716337204,
-                            "y": 0.15925925970077515
+                            "x": 0.140625,
+                            "y": 0.14074073731899261
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1106,8 +1106,8 @@
                         "id": 5,
                         "name": "prefab_SeattleStats",
                         "pos": {
-                            "x": 1717.0,
-                            "y": 968.0
+                            "x": 737.0,
+                            "y": 922.0
                         },
                         "rot": 0.0,
                         "scale": {
