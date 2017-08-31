@@ -1,0 +1,436 @@
+10:31:52.699: CPU Name: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+10:31:52.699: CPU Speed: 4008MHz
+10:31:52.699: Physical Cores: 4, Logical Cores: 8
+10:31:52.699: Physical Memory: 32688MB Total, 23051MB Free
+10:31:52.699: Windows Version: 10.0 Build 15063 (revision: 296; 64-bit)
+10:31:52.699: Running as administrator: false
+10:31:52.699: Aero is Enabled (Aero is always on for windows 8 and above)
+10:31:52.700: Portable mode: false
+10:31:52.714: OBS 19.0.3 (64bit, windows)
+10:31:52.714: ---------------------------------
+10:31:52.715: ---------------------------------
+10:31:52.715: audio settings reset:
+10:31:52.715: 	samples per sec: 44100
+10:31:52.715: 	speakers:        2
+10:31:52.716: ---------------------------------
+10:31:52.716: Initializing D3D11...
+10:31:52.716: Available Video Adapters: 
+10:31:52.717: 	Adapter 1: NVIDIA GeForce GTX 1080
+10:31:52.717: 	  Dedicated VRAM: 4072669184
+10:31:52.717: 	  Shared VRAM:    4253374464
+10:31:52.717: 	  output 1: pos={0, 0}, size={2560, 1440}, attached=true
+10:31:52.717: 	  output 2: pos={2560, 14}, size={1920, 1080}, attached=true
+10:31:52.719: Loading up D3D11 on adapter NVIDIA GeForce GTX 1080 (0)
+10:31:53.284: D3D11 loaded successfully, feature level used: 45056
+10:31:53.943: ---------------------------------
+10:31:53.943: video settings reset:
+10:31:53.943: 	base resolution:   1920x1080
+10:31:53.943: 	output resolution: 960x540
+10:31:53.943: 	downscale filter:  Bicubic
+10:31:53.943: 	fps:               60/1
+10:31:53.943: 	format:            NV12
+10:31:53.945: Audio monitoring device:
+10:31:53.945: 	name: Default
+10:31:53.945: 	id: default
+10:31:53.946: ---------------------------------
+10:31:53.947: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+10:31:53.956: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+10:31:53.961: [AMF] Encountered Exception during AMF initialization: Unable to load 'amfrt64.dll', error code 126.
+10:31:53.961: Failed to initialize module 'enc-amf.dll'
+10:31:53.974: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libcef.dll' not found, loading of module failed
+10:31:53.975: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+10:31:53.975: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+10:31:53.975: Failed to load 'en-US' text for module: 'obs-browser.dll'
+10:31:53.975: [browser_source: 'Version: 1.29.0']
+10:31:53.981: NVENC supported
+10:31:54.382: Couldn't find VLC installation, VLC video source disabled
+10:31:54.393: No blackmagic support
+10:31:54.564: ---------------------------------
+10:31:54.564:   Loaded Modules:
+10:31:54.564:     win-wasapi.dll
+10:31:54.564:     win-mf.dll
+10:31:54.564:     win-dshow.dll
+10:31:54.564:     win-decklink.dll
+10:31:54.564:     win-capture.dll
+10:31:54.564:     vlc-video.dll
+10:31:54.564:     text-freetype2.dll
+10:31:54.564:     rtmp-services.dll
+10:31:54.564:     obs-x264.dll
+10:31:54.564:     obs-vst.dll
+10:31:54.564:     obs-transitions.dll
+10:31:54.564:     obs-text.dll
+10:31:54.564:     obs-qsv11.dll
+10:31:54.564:     obs-outputs.dll
+10:31:54.564:     obs-filters.dll
+10:31:54.564:     obs-ffmpeg.dll
+10:31:54.564:     obs-browser.dll
+10:31:54.564:     image-source.dll
+10:31:54.564:     frontend-tools.dll
+10:31:54.564:     enc-amf.dll
+10:31:54.564:     coreaudio-encoder.dll
+10:31:54.564: ==== Startup complete ===============================================
+10:31:54.582: All scene data cleared
+10:31:54.582: ------------------------------------------------
+10:31:54.615: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' initialized
+10:31:54.618: WASAPI: Device 'Microphone (Sennheiser 3D G4ME1)' initialized
+10:31:54.643: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+10:32:00.195: Failed to open file 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG': No such file or directory
+10:32:00.195: gs_image_file_init: Failed to load file 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG'
+10:32:00.195: [image_source: 'image_RyuCriticalArt_BackAndWhite'] failed to load texture 'C:/Users/kutlass/Pictures/Ryu_CriticalArt_EyesClosed_BlackAndWhite.JPG'
+10:32:00.289: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:00.289: warning: Warning: data is not aligned! This can lead to a speedloss
+10:32:00.346: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:00.361: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:00.420: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:00.476: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:00.481: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:00.487: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:00.502: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:00.537: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:00.570: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:00.573: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:00.591: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:00.610: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:00.620: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:00.975: warning: deprecated pixel format used, make sure you did set range correctly
+10:32:01.119: [game-capture: 'Gears of War 4'] attempting to hook process: GearGame.exe
+10:32:01.123: [game-capture: 'Gears of War 4'] using direct hook
+10:32:01.145: Switched to scene 'PROJECTOR'
+10:32:01.161: ------------------------------------------------
+10:32:01.161: Loaded scenes:
+10:32:01.161: - scene 'PROJECTOR':
+10:32:01.161:     - source: 'scene_WatchYouTube' (scene)
+10:32:01.161:     - source: 'hardware_ElgatoS60' (scene)
+10:32:01.161:     - source: 'game_Terraria' (scene)
+10:32:01.161:     - source: 'game_EnterTheGungeon' (scene)
+10:32:01.161:     - source: 'scene_StandardOverlay' (scene)
+10:32:01.161:     - source: 'game_DarkSoulsIII' (scene)
+10:32:01.161:     - source: 'game_GuiltyGearXrd' (scene)
+10:32:01.161:     - source: 'game_WorldOfWarcraft' (scene)
+10:32:01.161:     - source: 'game_OverwatchPC' (scene)
+10:32:01.161:     - source: 'game_DiabloIII' (scene)
+10:32:01.161:     - source: 'game_StreetFighterV' (scene)
+10:32:01.161:     - source: 'scene_KutopianFightStickSlideShow' (scene)
+10:32:01.161:     - source: 'game_Destiny2' (scene)
+10:32:01.161:     - source: 'game_GearsOfWar4' (scene)
+10:32:01.161:     - source: 'prefab_SeattleStats' (scene)
+10:32:01.161:     - source: 'prefab_MiniProjector' (scene)
+10:32:01.161: - scene 'game_Destiny2':
+10:32:01.161:     - source: 'Destiny 2' (window_capture)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.161:     - source: 'source_Logitechc920' (dshow_input)
+10:32:01.161:         - filter: 'Chroma Key' (chroma_key_filter)
+10:32:01.161: - scene 'game_DiabloIII':
+10:32:01.161:     - source: 'Diablo III' (game_capture)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.161: - scene 'game_WorldOfWarcraft':
+10:32:01.161:     - source: 'World of Warcraft' (game_capture)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.161: - scene 'game_OverwatchPC':
+10:32:01.161:     - source: 'Overwatch PC' (game_capture)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.161:     - source: 'hardware_LogitechC920' (scene)
+10:32:01.161:     - source: 'Overwatch PC' (game_capture)
+10:32:01.161: - scene 'game_DarkSoulsIII':
+10:32:01.161:     - source: 'Dark Souls III' (game_capture)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.161:     - source: 'hardware_LogitechC920' (scene)
+10:32:01.161: - scene 'game_GearsOfWar4':
+10:32:01.161:     - source: 'Gears of War 4' (game_capture)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.161: - scene 'game_Terraria':
+10:32:01.161:     - source: 'Terraria' (game_capture)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.161:     - source: 'hardware_LogitechC920' (scene)
+10:32:01.161: - scene 'game_GuiltyGearXrd':
+10:32:01.161:     - source: 'Guilty Gear Xrd - REVELATOR' (game_capture)
+10:32:01.161:     - source: 'prefab_TransparentBlack 2' (scene)
+10:32:01.161:     - source: 'prefab_TransparentBlack' (scene)
+10:32:01.161:     - source: 'prefab_CheerHype' (scene)
+10:32:01.161:     - source: 'prefab_SubscriptionHype' (scene)
+10:32:01.161:     - source: 'prefab_DonationHype' (scene)
+10:32:01.161:     - source: 'browserChatBox' (browser_source)
+10:32:01.161:     - source: 'browserBitJar' (browser_source)
+10:32:01.161:     - source: 'browserBitBoss' (browser_source)
+10:32:01.161:     - source: 'browserAlertBox' (browser_source)
+10:32:01.161: - scene 'game_StreetFighterV':
+10:32:01.161:     - source: 'src_StreetFighterVPC' (scene)
+10:32:01.161:     - source: 'prefab_StreetFighterV_Training' (scene)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.161:     - source: 'hardware_LogitechC920' (scene)
+10:32:01.161: - scene 'game_FinalFantasyXV':
+10:32:01.161:     - source: 'source_ElgatoS60' (dshow_input)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.161:     - source: 'hardware_LogitechC920' (scene)
+10:32:01.161: - scene 'game_EnterTheGungeon':
+10:32:01.161:     - source: 'Enter the Gungeon' (game_capture)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.161:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.161: - scene 'scene_WatchYouTube':
+10:32:01.161:     - source: 'hardware_MonitorBenQ' (scene)
+10:32:01.161:     - source: 'src_WindowCapture' (scene)
+10:32:01.162: - scene 'scene_GamePC':
+10:32:01.162:     - source: 'prefab_MiniProjector' (scene)
+10:32:01.162:     - source: 'game_StreetFighterV' (scene)
+10:32:01.162: - scene 'scene_SFV_PC':
+10:32:01.162:     - source: 'src_StreetFighterVPC' (scene)
+10:32:01.162:     - source: 'src_WindowedGame' (scene)
+10:32:01.162:     - source: 'prefab_MiniProjector' (scene)
+10:32:01.162:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.162:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.162:     - source: 'hardware_LogitechC920' (scene)
+10:32:01.162: - scene 'scene_SFV_PS4':
+10:32:01.162:     - source: 'src_WindowCapture' (scene)
+10:32:01.162:     - source: 'hardware_ElgatoS60' (scene)
+10:32:01.162:     - source: 'image_RyuCriticalArt_BackAndWhite' (image_source)
+10:32:01.162:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.162:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.162:     - source: 'hardware_LogitechC920' (scene)
+10:32:01.162:     - source: 'prefab_MiniProjector' (scene)
+10:32:01.162: - scene 'scene_GameConsole':
+10:32:01.162:     - source: 'hardware_ElgatoS60' (scene)
+10:32:01.162:     - source: 'hardware_LogitechC920' (scene)
+10:32:01.162:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.162:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.162: - scene 'scene_DualScreenSymetric':
+10:32:01.162:     - source: 'scene_BattleLoungeConsole' (scene)
+10:32:01.162:     - source: 'scene_BattleLoungePC' (scene)
+10:32:01.162:     - source: 'hardware_LogitechC920' (scene)
+10:32:01.162:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.162:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.162: - scene 'scene_DualScreenFocusPC':
+10:32:01.162:     - source: 'scene_BattleLoungePC' (scene)
+10:32:01.162:     - source: 'scene_BattleLoungeConsole' (scene)
+10:32:01.162:     - source: 'hardware_LogitechC920' (scene)
+10:32:01.162:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.162:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.162: - scene 'scene_DualScreenFocusConsole':
+10:32:01.162:     - source: 'scene_BattleLoungeConsole' (scene)
+10:32:01.162:     - source: 'scene_BattleLoungePC' (scene)
+10:32:01.162:     - source: 'hardware_LogitechC920' (scene)
+10:32:01.162:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.162:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.162: - scene 'scene_BattleLoungePC':
+10:32:01.162:     - source: 'src_StreetFighterVPC' (scene)
+10:32:01.162:     - source: 'txtConnectionInfoBattleLoungePC' (text_gdiplus)
+10:32:01.162: - scene 'scene_BattleLoungeConsole':
+10:32:01.162:     - source: 'hardware_ElgatoS60' (scene)
+10:32:01.162:     - source: 'txtConnectionInfoBattleLoungeConsole' (text_gdiplus)
+10:32:01.162: - scene 'prefab_StreetFighterV_Training':
+10:32:01.162:     - source: 'src_StreetFighterVPC' (scene)
+10:32:01.162:     - source: 'src_StreetFighterVPC' (scene)
+10:32:01.162:     - source: 'src_StreetFighterVPC' (scene)
+10:32:01.162:     - source: 'src_StreetFighteVPC 2' (scene)
+10:32:01.162: - scene 'prefab_TextAndAlertOverlays':
+10:32:01.162:     - source: 'prefab_TransparentBlack' (scene)
+10:32:01.162:     - source: 'prefab_TransparentBlack' (scene)
+10:32:01.162:     - source: 'browserBitJar' (browser_source)
+10:32:01.162:     - source: 'browserAlertBox' (browser_source)
+10:32:01.162:     - source: 'txtCurrentSong' (text_gdiplus)
+10:32:01.162:     - source: 'browserChatBox' (browser_source)
+10:32:01.162:     - source: 'prefab_SubscriptionHype' (scene)
+10:32:01.162:     - source: 'prefab_CheerHype' (scene)
+10:32:01.162:     - source: 'prefab_DonationHype' (scene)
+10:32:01.162:     - source: 'browserBitBoss' (browser_source)
+10:32:01.162:     - source: 'src_BrowserViewerCount' (scene)
+10:32:01.162: - scene 'prefab_TextAndAlertOverlays_staticShouts':
+10:32:01.162:     - source: 'prefab_TransparentBlack' (scene)
+10:32:01.162:     - source: 'txtMostRecentFollowerValue' (text_gdiplus)
+10:32:01.162:     - source: 'txtMonthlyTopDonatorValue' (text_gdiplus)
+10:32:01.162:     - source: 'txtLatestDonation' (text_gdiplus)
+10:32:01.162: - scene 'prefab_SeattleStats':
+10:32:01.162:     - source: 'src_BrowserDateTime' (scene)
+10:32:01.162:     - source: 'src_BrowserWeather' (scene)
+10:32:01.162:     - source: 'src_BrowserWeather' (scene)
+10:32:01.162:     - source: 'colorSourceBlackTop' (color_source)
+10:32:01.162: - scene 'src_BrowserDateTime':
+10:32:01.162:     - source: 'browserBrowserDateTime' (browser_source)
+10:32:01.162: - scene 'src_BrowserViewerCount':
+10:32:01.162:     - source: 'browserSourceViewerCount' (browser_source)
+10:32:01.162: - scene 'src_BrowserWeather':
+10:32:01.162:     - source: 'browserWeather' (browser_source)
+10:32:01.162: - scene 'src_StreetFighterVPC':
+10:32:01.162:     - source: 'StreetFighterV' (window_capture)
+10:32:01.162: - scene 'prefab_SubscriptionHype':
+10:32:01.162:     - source: 'txtSubscriptionHypeValue' (text_gdiplus)
+10:32:01.162:         - filter: 'Scroll' (scroll_filter)
+10:32:01.162:     - source: 'txtSubscriptionHypeLabel' (text_gdiplus)
+10:32:01.162:     - source: 'prefab_SubscriptionCount' (scene)
+10:32:01.162: - scene 'prefab_SubscriptionCount':
+10:32:01.162:     - source: 'colorSouceRed 2' (color_source)
+10:32:01.162:     - source: 'txtSubscriptionCount 2' (text_gdiplus)
+10:32:01.162: - scene 'prefab_DonationHype':
+10:32:01.162:     - source: 'txtDonationHypeValue' (text_gdiplus)
+10:32:01.162:         - filter: 'Scroll' (scroll_filter)
+10:32:01.162:     - source: 'txtDonationHypeLabel' (text_gdiplus)
+10:32:01.162: - scene 'prefab_CheerHype':
+10:32:01.162:     - source: 'txtCheerHypeValue' (text_gdiplus)
+10:32:01.162:         - filter: 'Scroll' (scroll_filter)
+10:32:01.162:     - source: 'txtCheerHypeLabel' (text_gdiplus)
+10:32:01.162: - scene 'prefab_Toolbox':
+10:32:01.162:     - source: 'txtMusicNotes 2' (text_gdiplus)
+10:32:01.162:         - filter: 'Scroll' (scroll_filter)
+10:32:01.162:     - source: 'source_Image_TheCommission_Fightstick 2' (image_source)
+10:32:01.162:     - source: 'Window Capture' (window_capture)
+10:32:01.162:     - source: 'Game Capture' (game_capture)
+10:32:01.162:     - source: 'imageSlideShow_KutopianFightStickSlideShow' (slideshow)
+10:32:01.162: - scene 'prefab_MiniProjector':
+10:32:01.162:     - source: 'source_Image_kutlasBlaze112' (image_source)
+10:32:01.162:     - source: 'source_Image_kutlasKappaNine112' (image_source)
+10:32:01.162:     - source: 'source_Image_kutlasRyu112' (image_source)
+10:32:01.162: - scene 'prefab_TransparentBlack':
+10:32:01.162:     - source: 'sourceColorBlack' (color_source)
+10:32:01.162: - scene 'src_WindowCapture':
+10:32:01.162:     - source: 'source_WindowCapture' (window_capture)
+10:32:01.162: - scene 'src_StreetFighteVPC 2':
+10:32:01.162:     - source: '__unnamed0000' (window_capture)
+10:32:01.162: - scene 'src_WindowedGame':
+10:32:01.162:     - source: 'sourceWindowedGame' (game_capture)
+10:32:01.162: - scene 'scene_StandardOverlay':
+10:32:01.162:     - source: 'prefab_TextAndAlertOverlays_staticShouts' (scene)
+10:32:01.162:     - source: 'prefab_TextAndAlertOverlays' (scene)
+10:32:01.162: - scene 'scene_KutopianFightStickSlideShow':
+10:32:01.162:     - source: 'imageSlideShow_KutopianFightStickSlideShow' (slideshow)
+10:32:01.162:     - source: 'txtKutopianFightStickSlideShow' (text_gdiplus)
+10:32:01.162: - scene 'hardware_MonitorAcer':
+10:32:01.162:     - source: 'source_AcerMonitor' (monitor_capture)
+10:32:01.162: - scene 'hardware_MonitorBenQ':
+10:32:01.162:     - source: 'source_MonitorBenQ' (monitor_capture)
+10:32:01.162: - scene 'hardware_ElgatoS60':
+10:32:01.162:     - source: 'source_ElgatoS60' (dshow_input)
+10:32:01.162: - scene 'hardware_LogitechC920':
+10:32:01.162:     - source: 'source_Logitechc920' (dshow_input)
+10:32:01.162:         - filter: 'Chroma Key' (chroma_key_filter)
+10:32:01.162: - scene 'prefab_TransparentBlack 2':
+10:32:01.162:     - source: '__unnamed0000' (window_capture)
+10:32:01.162: - scene 'src_GameLibraryPC':
+10:32:01.162:     - source: 'Enter the Gungeon' (game_capture)
+10:32:01.162:     - source: 'Street Fighter V' (game_capture)
+10:32:01.162:     - source: 'Terraria' (game_capture)
+10:32:01.162:     - source: 'Overwatch PC' (game_capture)
+10:32:01.162:     - source: 'Dark Souls III' (game_capture)
+10:32:01.162:     - source: 'Guilty Gear Xrd - REVELATOR' (game_capture)
+10:32:01.162:     - source: 'Diablo III' (game_capture)
+10:32:01.162:     - source: 'World of Warcraft' (game_capture)
+10:32:01.162:     - source: 'Destiny 2' (window_capture)
+10:32:01.162:     - source: 'Gears of War 4' (game_capture)
+10:32:01.162: ------------------------------------------------
+10:32:01.282: [game-capture: 'Gears of War 4'] shared texture capture successful
+10:32:03.713: ---------------------------------
+10:32:03.713: [DShow Device: 'source_ElgatoS60'] settings updated: 
+10:32:03.713: 	video device: Elgato Game Capture HD
+10:32:03.713: 	video path: __elgato
+10:32:03.713: 	resolution: 1280x720
+10:32:03.713: 	fps: 60.00 (interval: 166666)
+10:32:03.713: 	format: UYVY
+10:32:03.713: 	using video device audio: yes
+10:32:03.713: 	sample rate: 48000
+10:32:03.713: 	channels: 2
+10:32:03.713: 	audio type: Capture
+10:32:44.612: [game-capture: 'Gears of War 4'] shared texture capture successful
+10:32:46.762: [game-capture: 'Gears of War 4'] capture window no longer exists, terminating capture
+10:32:46.763: [game-capture: 'Gears of War 4'] capture stopped
+10:33:45.537: User switched to scene 'src_GameLibraryPC'
+10:38:57.576: User added source 'GearsOfWar4_WindowCapture' (window_capture) to scene 'src_GameLibraryPC'
+10:47:54.255: User Removed source 'Gears of War 4' (game_capture) from scene 'src_GameLibraryPC'
+10:47:59.238: User Removed source 'GearsOfWar4_WindowCapture' (window_capture) from scene 'src_GameLibraryPC'
+10:50:00.544: User added source 'GearsOfWar4' (monitor_capture) to scene 'src_GameLibraryPC'
+10:51:11.435: User switched to scene 'hardware_MonitorAcer'
+10:51:19.558: User switched to scene 'game_GuiltyGearXrd'
+10:51:20.039: User switched to scene 'game_OverwatchPC'
+10:51:24.537: User switched to scene 'game_GearsOfWar4'
+10:51:27.563: [game-capture: 'Gears of War 4'] attempting to hook process: GearGame.exe
+10:51:27.566: [game-capture: 'Gears of War 4'] using direct hook
+10:51:27.679: [game-capture: 'Gears of War 4'] shared texture capture successful
+10:51:37.001: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+10:51:58.199: User switched to scene 'src_GameLibraryPC'
+10:51:58.529: [game-capture: 'Gears of War 4'] capture stopped
+10:52:19.089: User switched to scene 'game_GearsOfWar4'
+10:52:19.096: [game-capture: 'Gears of War 4'] attempting to hook process: GearGame.exe
+10:52:19.116: [game-capture: 'Gears of War 4'] shared texture capture successful
+10:52:22.129: [game-capture: 'Gears of War 4'] capture stopped
+10:52:24.063: [game-capture: 'Gears of War 4'] attempting to hook process: GearGame.exe
+10:52:24.079: [game-capture: 'Gears of War 4'] shared texture capture successful
+10:53:00.401: User Removed source 'Gears of War 4' (game_capture) from scene 'game_GearsOfWar4'
+10:53:00.401: [game-capture: 'Gears of War 4'] capture stopped
+10:53:32.249: User added source 'hardware_MonitorAcer' (scene) to scene 'game_GearsOfWar4'
+10:58:43.521: User switched to scene 'PROJECTOR'
+10:59:26.762: User switched to scene 'game_DarkSoulsIII'
+10:59:31.560: User switched to scene 'hardware_MonitorAcer'
+11:01:07.576: ==== Shutting down ==================================================
+11:01:07.588: Switched to scene '(null)'
+11:01:10.061: WASAPI: Device 'Speakers (Sennheiser 3D G4ME1)' Terminated
+11:01:10.065: WASAPI: Device 'Microphone (Sennheiser 3D G4ME1)' Terminated
+11:01:10.066: All scene data cleared
+11:01:10.066: ------------------------------------------------
+11:01:10.124: Freeing OBS context data
+11:01:10.210: == Profiler Results =============================
+11:01:10.210: run_program_init: 8624.44 ms
+11:01:10.210:  ┣OBSApp::AppInit: 23.218 ms
+11:01:10.210:  ┃ ┗OBSApp::InitLocale: 9.959 ms
+11:01:10.210:  ┗OBSApp::OBSInit: 8587.04 ms
+11:01:10.210:    ┣obs_startup: 1.001 ms
+11:01:10.210:    ┗OBSBasic::OBSInit: 8544.93 ms
+11:01:10.210:      ┣OBSBasic::InitBasicConfig: 0.363 ms
+11:01:10.210:      ┣OBSBasic::ResetAudio: 0.295 ms
+11:01:10.211:      ┣OBSBasic::ResetVideo: 1230.31 ms
+11:01:10.211:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+11:01:10.211:      ┣OBSBasic::InitHotkeys: 0.033 ms
+11:01:10.211:      ┣obs_load_all_modules: 618.423 ms
+11:01:10.211:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 6.585 ms
+11:01:10.211:      ┃ ┣obs_init_module(enc-amf.dll): 0.502 ms
+11:01:10.211:      ┃ ┣obs_init_module(frontend-tools.dll): 1.932 ms
+11:01:10.211:      ┃ ┣obs_init_module(image-source.dll): 0.005 ms
+11:01:10.211:      ┃ ┣obs_init_module(obs-browser.dll): 0.039 ms
+11:01:10.211:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 0.404 ms
+11:01:10.211:      ┃ ┣obs_init_module(obs-filters.dll): 0.014 ms
+11:01:10.211:      ┃ ┣obs_init_module(obs-outputs.dll): 0.008 ms
+11:01:10.211:      ┃ ┣obs_init_module(obs-qsv11.dll): 330.415 ms
+11:01:10.211:      ┃ ┣obs_init_module(obs-text.dll): 0.353 ms
+11:01:10.211:      ┃ ┣obs_init_module(obs-transitions.dll): 0.006 ms
+11:01:10.211:      ┃ ┣obs_init_module(obs-vst.dll): 0.003 ms
+11:01:10.211:      ┃ ┣obs_init_module(obs-x264.dll): 0.002 ms
+11:01:10.211:      ┃ ┣obs_init_module(rtmp-services.dll): 0.336 ms
+11:01:10.211:      ┃ ┣obs_init_module(text-freetype2.dll): 0.053 ms
+11:01:10.211:      ┃ ┣obs_init_module(vlc-video.dll): 0.049 ms
+11:01:10.211:      ┃ ┣obs_init_module(win-capture.dll): 0.074 ms
+11:01:10.211:      ┃ ┣obs_init_module(win-decklink.dll): 2.652 ms
+11:01:10.211:      ┃ ┣obs_init_module(win-dshow.dll): 1.426 ms
+11:01:10.211:      ┃ ┣obs_init_module(win-mf.dll): 154.198 ms
+11:01:10.211:      ┃ ┣obs_init_module(win-wasapi.dll): 0.007 ms
+11:01:10.211:      ┃ ┗reset_win32_symbol_paths: 0.101 ms
+11:01:10.211:      ┣OBSBasic::ResetOutputs: 5.699 ms
+11:01:10.211:      ┣OBSBasic::CreateHotkeys: 0.219 ms
+11:01:10.211:      ┣OBSBasic::InitService: 2.896 ms
+11:01:10.211:      ┣OBSBasic::InitPrimitives: 0.264 ms
+11:01:10.211:      ┗OBSBasic::Load: 6589.4 ms
+11:01:10.211: obs_hotkey_thread(25 ms): min=0.002 ms, median=0.005 ms, max=26.381 ms, 99th percentile=0.271 ms, 99.9986% below 25 ms
+11:01:10.211: audio_thread(Audio): min=0 ms, median=0.046 ms, max=28.581 ms, 99th percentile=0.289 ms
+11:01:10.211: obs_video_thread(16.6667 ms): min=0.198 ms, median=2.465 ms, max=6487.23 ms, 99th percentile=25.003 ms, 97.7914% below 16.667 ms
+11:01:10.211:  ┣tick_sources: min=0.001 ms, median=1.664 ms, max=6476.67 ms, 99th percentile=11.66 ms
+11:01:10.211:  ┣render_displays: min=0 ms, median=0.184 ms, max=15.018 ms, 99th percentile=0.99 ms
+11:01:10.211:  ┗output_frame: min=0.141 ms, median=0.523 ms, max=117.435 ms, 99th percentile=20.812 ms
+11:01:10.211:    ┣gs_context(video->graphics): min=0.079 ms, median=0.427 ms, max=117.246 ms, 99th percentile=20.617 ms
+11:01:10.211:    ┃ ┣render_video: min=0.014 ms, median=0.035 ms, max=32.925 ms, 99th percentile=0.374 ms
+11:01:10.211:    ┃ ┃ ┣render_main_texture: min=0.002 ms, median=0.011 ms, max=9.793 ms, 99th percentile=0.079 ms
+11:01:10.211:    ┃ ┃ ┣render_output_texture: min=0.002 ms, median=0.009 ms, max=2.593 ms, 99th percentile=0.059 ms
+11:01:10.211:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.008 ms, max=3.717 ms, 99th percentile=0.053 ms
+11:01:10.211:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.002 ms, max=32.89 ms, 99th percentile=0.273 ms
+11:01:10.211:    ┃ ┣download_frame: min=0 ms, median=0.002 ms, max=117.131 ms, 99th percentile=20.392 ms
+11:01:10.211:    ┃ ┗gs_flush: min=0.014 ms, median=0.339 ms, max=68.785 ms, 99th percentile=1.206 ms
+11:01:10.211:    ┗output_video_data: min=0.052 ms, median=0.088 ms, max=5.984 ms, 99th percentile=0.302 ms
+11:01:10.211: video_thread(video): min=0 ms, median=0.001 ms, max=1.722 ms, 99th percentile=0.003 ms
+11:01:10.211: =================================================
+11:01:10.211: == Profiler Time Between Calls ==================
+11:01:10.211: obs_hotkey_thread(25 ms): min=24.585 ms, median=25.067 ms, max=58.127 ms, 96.6528% within ±2% of 25 ms (0% lower, 3.34719% higher)
+11:01:10.211: obs_video_thread(16.6667 ms): min=0.908 ms, median=16.667 ms, max=6487.24 ms, 93.3% within ±2% of 16.667 ms (3.30718% lower, 3.39287% higher)
+11:01:10.211: =================================================
+11:01:10.406: Number of memory leaks: 61

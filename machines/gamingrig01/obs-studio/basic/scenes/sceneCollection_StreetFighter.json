@@ -73,10 +73,10 @@
             "device_id": "{0.0.0.00000000}.{d9f2424c-0cf1-4716-b0e9-fc5df0bd60ce}"
         },
         "sync": 0,
-        "volume": 0.074087999761104584
+        "volume": 0.17561599612236023
     },
-    "current_program_scene": "game_OverwatchPC",
-    "current_scene": "game_OverwatchPC",
+    "current_program_scene": "PROJECTOR",
+    "current_scene": "PROJECTOR",
     "current_transition": "Fade",
     "modules": {
         "auto-scene-switcher": {
@@ -182,10 +182,19 @@
             "saved_projectors": ""
         }
     ],
-    "scaling_mode": 0,
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
     "scene_order": [
         {
             "name": "PROJECTOR"
+        },
+        {
+            "name": "game_GearsOfWar4"
+        },
+        {
+            "name": "game_Destiny2"
         },
         {
             "name": "game_DiabloIII"
@@ -329,6 +338,273 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
+            "hotkeys": {},
+            "id": "monitor_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "GearsOfWar4",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "capture_cursor": false,
+                "monitor": 0
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.hardware_MonitorAcer": [],
+                "libobs.hide_scene_item.prefab_TextAndAlertOverlays": [],
+                "libobs.show_scene_item.hardware_MonitorAcer": [],
+                "libobs.show_scene_item.prefab_TextAndAlertOverlays": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "game_GearsOfWar4",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 3,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 3,
+                        "locked": false,
+                        "name": "hardware_MonitorAcer",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "locked": false,
+                        "name": "prefab_TextAndAlertOverlays",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Destiny 2": [],
+                "libobs.hide_scene_item.prefab_TextAndAlertOverlays": [],
+                "libobs.hide_scene_item.prefab_TextAndAlertOverlays_staticShouts": [],
+                "libobs.hide_scene_item.source_Logitechc920": [],
+                "libobs.show_scene_item.Destiny 2": [],
+                "libobs.show_scene_item.prefab_TextAndAlertOverlays": [],
+                "libobs.show_scene_item.prefab_TextAndAlertOverlays_staticShouts": [],
+                "libobs.show_scene_item.source_Logitechc920": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "game_Destiny2",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 4,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Destiny 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 4,
+                        "locked": false,
+                        "name": "prefab_TextAndAlertOverlays_staticShouts",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "locked": false,
+                        "name": "prefab_TextAndAlertOverlays",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 3,
+                        "locked": false,
+                        "name": "source_Logitechc920",
+                        "pos": {
+                            "x": 457.0,
+                            "y": 805.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.57187497615814209,
+                            "y": 0.57291668653488159
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Destiny 2",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "window": "Destiny 2:Tiger D3D Window:destiny2.exe"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.World of Warcraft": [],
@@ -363,6 +639,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "World of Warcraft",
                         "pos": {
                             "x": 0.0,
@@ -389,6 +666,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 0.0,
@@ -415,6 +693,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": 192.0,
@@ -521,6 +800,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "Dark Souls III",
                         "pos": {
                             "x": 0.0,
@@ -547,6 +827,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": 217.0,
@@ -573,6 +854,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 0.0,
@@ -599,6 +881,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "hardware_LogitechC920",
                         "pos": {
                             "x": 943.0,
@@ -710,6 +993,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "imageSlideShow_KutopianFightStickSlideShow",
                         "pos": {
                             "x": 0.0,
@@ -736,6 +1020,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "txtKutopianFightStickSlideShow",
                         "pos": {
                             "x": 0.0,
@@ -759,7 +1044,13 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
+            "hotkeys": {
+                "SlideShow.NextSlide": [],
+                "SlideShow.PlayPause": [],
+                "SlideShow.PreviousSlide": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": []
+            },
             "id": "slideshow",
             "mixers": 0,
             "monitoring_type": 0,
@@ -822,6 +1113,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "Overwatch PC",
                         "pos": {
                             "x": 0.0,
@@ -848,6 +1140,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": 283.0,
@@ -859,7 +1152,7 @@
                             "y": 0.66481482982635498
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -874,6 +1167,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 0.0,
@@ -900,6 +1194,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
+                        "locked": false,
                         "name": "hardware_LogitechC920",
                         "pos": {
                             "x": 1108.0,
@@ -926,10 +1221,11 @@
                         "crop_right": 2323,
                         "crop_top": 0,
                         "id": 7,
+                        "locked": false,
                         "name": "Overwatch PC",
                         "pos": {
-                            "x": 1344.0,
-                            "y": 970.0
+                            "x": 1293.0,
+                            "y": 985.0
                         },
                         "rot": 0.0,
                         "scale": {
@@ -1006,6 +1302,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": 0.0,
@@ -1032,6 +1329,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 0.0,
@@ -1089,6 +1387,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "Enter the Gungeon",
                         "pos": {
                             "x": 0.0,
@@ -1115,6 +1414,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": 0.0,
@@ -1141,6 +1441,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 0.0,
@@ -1167,9 +1468,12 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.game_DarkSoulsIII": [],
+                "libobs.hide_scene_item.game_Destiny2": [],
                 "libobs.hide_scene_item.game_DiabloIII": [],
                 "libobs.hide_scene_item.game_EnterTheGungeon": [],
+                "libobs.hide_scene_item.game_GearsOfWar4": [],
                 "libobs.hide_scene_item.game_GuiltyGearXrd": [],
+                "libobs.hide_scene_item.game_OverwatchPC": [],
                 "libobs.hide_scene_item.game_StreetFighterV": [],
                 "libobs.hide_scene_item.game_Terraria": [],
                 "libobs.hide_scene_item.game_WorldOfWarcraft": [],
@@ -1180,9 +1484,12 @@
                 "libobs.hide_scene_item.scene_StandardOverlay": [],
                 "libobs.hide_scene_item.scene_WatchYouTube": [],
                 "libobs.show_scene_item.game_DarkSoulsIII": [],
+                "libobs.show_scene_item.game_Destiny2": [],
                 "libobs.show_scene_item.game_DiabloIII": [],
                 "libobs.show_scene_item.game_EnterTheGungeon": [],
+                "libobs.show_scene_item.game_GearsOfWar4": [],
                 "libobs.show_scene_item.game_GuiltyGearXrd": [],
+                "libobs.show_scene_item.game_OverwatchPC": [],
                 "libobs.show_scene_item.game_StreetFighterV": [],
                 "libobs.show_scene_item.game_Terraria": [],
                 "libobs.show_scene_item.game_WorldOfWarcraft": [],
@@ -1203,7 +1510,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 16,
+                "id_counter": 19,
                 "items": [
                     {
                         "align": 5,
@@ -1218,6 +1525,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 10,
+                        "locked": false,
                         "name": "scene_WatchYouTube",
                         "pos": {
                             "x": 0.0,
@@ -1243,85 +1551,8 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 3,
-                        "name": "game_Terraria",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 1,
-                        "name": "game_StreetFighterV",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 6,
-                        "name": "game_EnterTheGungeon",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
                         "id": 8,
+                        "locked": false,
                         "name": "hardware_ElgatoS60",
                         "pos": {
                             "x": 0.0,
@@ -1347,7 +1578,62 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
+                        "id": 3,
+                        "locked": false,
+                        "name": "game_Terraria",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 6,
+                        "locked": false,
+                        "name": "game_EnterTheGungeon",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
                         "id": 9,
+                        "locked": false,
                         "name": "scene_StandardOverlay",
                         "pos": {
                             "x": 0.0,
@@ -1374,6 +1660,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 12,
+                        "locked": false,
                         "name": "game_DarkSoulsIII",
                         "pos": {
                             "x": 0.0,
@@ -1400,6 +1687,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 13,
+                        "locked": false,
                         "name": "game_GuiltyGearXrd",
                         "pos": {
                             "x": 0.0,
@@ -1426,6 +1714,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 16,
+                        "locked": false,
                         "name": "game_WorldOfWarcraft",
                         "pos": {
                             "x": 0.0,
@@ -1451,7 +1740,35 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
+                        "id": 17,
+                        "locked": false,
+                        "name": "game_OverwatchPC",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
                         "id": 15,
+                        "locked": false,
                         "name": "game_DiabloIII",
                         "pos": {
                             "x": 0.0,
@@ -1477,34 +1794,9 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 11,
-                        "name": "scene_KutopianFightStickSlideShow",
-                        "pos": {
-                            "x": 484.0,
-                            "y": 896.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.140625,
-                            "y": 0.14074073731899261
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 4,
-                        "name": "prefab_MiniProjector",
+                        "id": 1,
+                        "locked": false,
+                        "name": "game_StreetFighterV",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1529,7 +1821,89 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
+                        "id": 11,
+                        "locked": false,
+                        "name": "scene_KutopianFightStickSlideShow",
+                        "pos": {
+                            "x": 484.0,
+                            "y": 896.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.140625,
+                            "y": 0.14074073731899261
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 18,
+                        "locked": false,
+                        "name": "game_Destiny2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 19,
+                        "locked": false,
+                        "name": "game_GearsOfWar4",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
                         "id": 5,
+                        "locked": false,
                         "name": "prefab_SeattleStats",
                         "pos": {
                             "x": 1742.0,
@@ -1542,6 +1916,33 @@
                         },
                         "scale_filter": "disable",
                         "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 4,
+                        "locked": false,
+                        "name": "prefab_MiniProjector",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
                     }
                 ]
             },
@@ -1614,6 +2015,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "Terraria",
                         "pos": {
                             "x": 0.0,
@@ -1640,6 +2042,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": 386.0,
@@ -1666,6 +2069,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 347.0,
@@ -1692,6 +2096,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "hardware_LogitechC920",
                         "pos": {
                             "x": 1100.0,
@@ -1768,6 +2173,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "__unnamed0000",
                         "pos": {
                             "x": 0.0,
@@ -1823,6 +2229,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "src_StreetFighterVPC",
                         "pos": {
                             "x": 0.0,
@@ -1849,6 +2256,7 @@
                         "crop_right": 98,
                         "crop_top": 177,
                         "id": 3,
+                        "locked": false,
                         "name": "src_StreetFighterVPC",
                         "pos": {
                             "x": 1693.0,
@@ -1875,6 +2283,7 @@
                         "crop_right": 1711,
                         "crop_top": 302,
                         "id": 4,
+                        "locked": false,
                         "name": "src_StreetFighterVPC",
                         "pos": {
                             "x": 786.0,
@@ -1901,6 +2310,7 @@
                         "crop_right": 1657,
                         "crop_top": 180,
                         "id": 5,
+                        "locked": false,
                         "name": "src_StreetFighteVPC 2",
                         "pos": {
                             "x": 1258.0,
@@ -1970,6 +2380,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "src_StreetFighterVPC",
                         "pos": {
                             "x": 0.0,
@@ -1996,6 +2407,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "prefab_StreetFighterV_Training",
                         "pos": {
                             "x": 0.0,
@@ -2022,6 +2434,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 5,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": 295.0,
@@ -2048,6 +2461,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 0.0,
@@ -2074,6 +2488,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
+                        "locked": false,
                         "name": "hardware_LogitechC920",
                         "pos": {
                             "x": 1042.0,
@@ -2151,16 +2566,20 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Dark Souls III": [],
+                "libobs.hide_scene_item.Destiny 2": [],
                 "libobs.hide_scene_item.Diablo III": [],
                 "libobs.hide_scene_item.Enter the Gungeon": [],
+                "libobs.hide_scene_item.GearsOfWar4": [],
                 "libobs.hide_scene_item.Guilty Gear Xrd - REVELATOR": [],
                 "libobs.hide_scene_item.Overwatch PC": [],
                 "libobs.hide_scene_item.Street Fighter V": [],
                 "libobs.hide_scene_item.Terraria": [],
                 "libobs.hide_scene_item.World of Warcraft": [],
                 "libobs.show_scene_item.Dark Souls III": [],
+                "libobs.show_scene_item.Destiny 2": [],
                 "libobs.show_scene_item.Diablo III": [],
                 "libobs.show_scene_item.Enter the Gungeon": [],
+                "libobs.show_scene_item.GearsOfWar4": [],
                 "libobs.show_scene_item.Guilty Gear Xrd - REVELATOR": [],
                 "libobs.show_scene_item.Overwatch PC": [],
                 "libobs.show_scene_item.Street Fighter V": [],
@@ -2177,7 +2596,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 8,
+                "id_counter": 14,
                 "items": [
                     {
                         "align": 5,
@@ -2192,6 +2611,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "Enter the Gungeon",
                         "pos": {
                             "x": 0.0,
@@ -2218,6 +2638,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "Street Fighter V",
                         "pos": {
                             "x": 0.0,
@@ -2244,6 +2665,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "Terraria",
                         "pos": {
                             "x": 0.0,
@@ -2270,6 +2692,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "Overwatch PC",
                         "pos": {
                             "x": 0.0,
@@ -2296,6 +2719,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 5,
+                        "locked": false,
                         "name": "Dark Souls III",
                         "pos": {
                             "x": 0.0,
@@ -2322,6 +2746,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
+                        "locked": false,
                         "name": "Guilty Gear Xrd - REVELATOR",
                         "pos": {
                             "x": 0.0,
@@ -2348,6 +2773,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 7,
+                        "locked": false,
                         "name": "Diablo III",
                         "pos": {
                             "x": 0.0,
@@ -2374,7 +2800,62 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 8,
+                        "locked": false,
                         "name": "World of Warcraft",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 11,
+                        "locked": false,
+                        "name": "Destiny 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 14,
+                        "locked": false,
+                        "name": "GearsOfWar4",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -2448,6 +2929,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "source_WindowCapture",
                         "pos": {
                             "x": -166.0,
@@ -2524,6 +3006,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "sourceColorBlack",
                         "pos": {
                             "x": 0.0,
@@ -2695,6 +3178,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "source_Image_kutlasBlaze112",
                         "pos": {
                             "x": 1243.0,
@@ -2721,6 +3205,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "source_Image_kutlasKappaNine112",
                         "pos": {
                             "x": 325.0,
@@ -2747,6 +3232,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 7,
+                        "locked": false,
                         "name": "source_Image_kutlasRyu112",
                         "pos": {
                             "x": 796.0,
@@ -2832,6 +3318,7 @@
                         "crop_right": 2551,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "txtDonationHypeValue",
                         "pos": {
                             "x": 356.0,
@@ -2858,6 +3345,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "txtDonationHypeLabel",
                         "pos": {
                             "x": 0.0,
@@ -2998,6 +3486,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "txtSubscriptionHypeValue",
                         "pos": {
                             "x": 226.0,
@@ -3024,6 +3513,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "txtSubscriptionHypeLabel",
                         "pos": {
                             "x": 0.0,
@@ -3050,6 +3540,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
+                        "locked": false,
                         "name": "prefab_SubscriptionCount",
                         "pos": {
                             "x": 207.0,
@@ -3061,7 +3552,7 @@
                             "y": 0.034259259700775146
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     }
                 ]
             },
@@ -3146,6 +3637,7 @@
                         "crop_right": 396,
                         "crop_top": 43,
                         "id": 1,
+                        "locked": false,
                         "name": "browserSourceViewerCount",
                         "pos": {
                             "x": 0.0,
@@ -3224,6 +3716,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "src_BrowserDateTime",
                         "pos": {
                             "x": -38.0,
@@ -3250,6 +3743,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "src_BrowserWeather",
                         "pos": {
                             "x": 752.27655029296875,
@@ -3276,6 +3770,7 @@
                         "crop_right": 1302,
                         "crop_top": 0,
                         "id": 5,
+                        "locked": false,
                         "name": "src_BrowserWeather",
                         "pos": {
                             "x": -21.0,
@@ -3302,6 +3797,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
+                        "locked": false,
                         "name": "colorSourceBlackTop",
                         "pos": {
                             "x": -41.0,
@@ -3378,6 +3874,7 @@
                         "crop_right": 331,
                         "crop_top": 30,
                         "id": 6,
+                        "locked": false,
                         "name": "browserBrowserDateTime",
                         "pos": {
                             "x": 0.0,
@@ -3433,6 +3930,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "hardware_MonitorBenQ",
                         "pos": {
                             "x": 0.0,
@@ -3459,6 +3957,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "src_WindowCapture",
                         "pos": {
                             "x": 0.0,
@@ -3533,6 +4032,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "source_MonitorBenQ",
                         "pos": {
                             "x": 0.0,
@@ -3672,6 +4172,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "StreetFighterV",
                         "pos": {
                             "x": 0.0,
@@ -3738,6 +4239,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "scene_BattleLoungeConsole",
                         "pos": {
                             "x": 937.0,
@@ -3764,6 +4266,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "scene_BattleLoungePC",
                         "pos": {
                             "x": 0.0,
@@ -3790,6 +4293,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "hardware_LogitechC920",
                         "pos": {
                             "x": 240.0,
@@ -3816,6 +4320,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 5,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 0.0,
@@ -3842,6 +4347,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": 670.0,
@@ -3958,6 +4464,7 @@
                         "crop_right": 97,
                         "crop_top": 46,
                         "id": 1,
+                        "locked": false,
                         "name": "source_Logitechc920",
                         "pos": {
                             "x": -108.0,
@@ -4011,6 +4518,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "source_ElgatoS60",
                         "pos": {
                             "x": 0.0,
@@ -4095,7 +4603,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 27,
+                "id_counter": 28,
                 "items": [
                     {
                         "align": 5,
@@ -4110,6 +4618,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 25,
+                        "locked": false,
                         "name": "prefab_TransparentBlack",
                         "pos": {
                             "x": 0.0,
@@ -4136,6 +4645,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 24,
+                        "locked": false,
                         "name": "prefab_TransparentBlack",
                         "pos": {
                             "x": 0.0,
@@ -4162,6 +4672,7 @@
                         "crop_right": 267,
                         "crop_top": 0,
                         "id": 5,
+                        "locked": false,
                         "name": "browserBitJar",
                         "pos": {
                             "x": 1376.0,
@@ -4188,6 +4699,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 7,
+                        "locked": false,
                         "name": "browserAlertBox",
                         "pos": {
                             "x": 550.0,
@@ -4214,6 +4726,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 8,
+                        "locked": false,
                         "name": "txtCurrentSong",
                         "pos": {
                             "x": 92.0,
@@ -4240,6 +4753,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 15,
+                        "locked": false,
                         "name": "browserChatBox",
                         "pos": {
                             "x": 1093.0,
@@ -4266,10 +4780,38 @@
                         "crop_right": 959,
                         "crop_top": 0,
                         "id": 17,
+                        "locked": false,
                         "name": "prefab_SubscriptionHype",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 28,
+                        "locked": false,
+                        "name": "prefab_CheerHype",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1033.0
                         },
                         "rot": 0.0,
                         "scale": {
@@ -4292,6 +4834,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 18,
+                        "locked": false,
                         "name": "prefab_DonationHype",
                         "pos": {
                             "x": 961.0,
@@ -4313,20 +4856,21 @@
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
-                        "crop_bottom": 1027,
+                        "crop_bottom": 0,
                         "crop_left": 0,
-                        "crop_right": 390,
+                        "crop_right": 0,
                         "crop_top": 0,
-                        "id": 19,
-                        "name": "prefab_CheerHype",
+                        "id": 26,
+                        "locked": false,
+                        "name": "browserBitBoss",
                         "pos": {
-                            "x": 3.0,
-                            "y": 1037.091552734375
+                            "x": 960.0,
+                            "y": 993.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.86614584922790527,
-                            "y": 0.86619716882705688
+                            "x": 1.2150000333786011,
+                            "y": 1.2150000333786011
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -4344,41 +4888,16 @@
                         "crop_right": 0,
                         "crop_top": 396,
                         "id": 14,
+                        "locked": false,
                         "name": "src_BrowserViewerCount",
                         "pos": {
-                            "x": 1016.0,
-                            "y": 915.0
+                            "x": 942.0,
+                            "y": 970.0
                         },
                         "rot": 0.0,
                         "scale": {
                             "x": 0.24644549190998077,
                             "y": 0.24496644735336304
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 26,
-                        "name": "browserBitBoss",
-                        "pos": {
-                            "x": 1120.0,
-                            "y": 988.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -4550,6 +5069,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "hardware_ElgatoS60",
                         "pos": {
                             "x": 0.0,
@@ -4576,6 +5096,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "hardware_LogitechC920",
                         "pos": {
                             "x": 678.0,
@@ -4602,6 +5123,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 0.0,
@@ -4628,6 +5150,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": 0.0,
@@ -4688,6 +5211,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 13,
+                        "locked": false,
                         "name": "prefab_MiniProjector",
                         "pos": {
                             "x": 0.0,
@@ -4714,6 +5238,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 15,
+                        "locked": false,
                         "name": "game_StreetFighterV",
                         "pos": {
                             "x": 0.0,
@@ -4767,6 +5292,7 @@
                         "crop_right": 0,
                         "crop_top": 43,
                         "id": 1,
+                        "locked": false,
                         "name": "source_AcerMonitor",
                         "pos": {
                             "x": 0.0,
@@ -4867,6 +5393,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "hardware_ElgatoS60",
                         "pos": {
                             "x": 0.0,
@@ -4893,6 +5420,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "txtConnectionInfoBattleLoungeConsole",
                         "pos": {
                             "x": 664.0,
@@ -4953,6 +5481,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "src_StreetFighterVPC",
                         "pos": {
                             "x": 0.0,
@@ -4979,6 +5508,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "txtConnectionInfoBattleLoungePC",
                         "pos": {
                             "x": 960.0,
@@ -5108,6 +5638,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "scene_BattleLoungePC",
                         "pos": {
                             "x": 0.0,
@@ -5134,6 +5665,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "scene_BattleLoungeConsole",
                         "pos": {
                             "x": 1324.0,
@@ -5160,6 +5692,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "hardware_LogitechC920",
                         "pos": {
                             "x": 0.0,
@@ -5186,6 +5719,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 0.0,
@@ -5212,6 +5746,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 5,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": 301.0,
@@ -5278,6 +5813,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "scene_BattleLoungeConsole",
                         "pos": {
                             "x": 348.0,
@@ -5304,6 +5840,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "scene_BattleLoungePC",
                         "pos": {
                             "x": 0.0,
@@ -5330,6 +5867,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "hardware_LogitechC920",
                         "pos": {
                             "x": -32.0,
@@ -5356,6 +5894,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 0.0,
@@ -5382,6 +5921,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 5,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": 0.0,
@@ -5441,6 +5981,7 @@
                         "crop_right": 346,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "prefab_TransparentBlack",
                         "pos": {
                             "x": 529.0,
@@ -5467,6 +6008,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "txtMostRecentFollowerValue",
                         "pos": {
                             "x": 552.0,
@@ -5493,6 +6035,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "txtMonthlyTopDonatorValue",
                         "pos": {
                             "x": 548.0,
@@ -5519,6 +6062,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "txtLatestDonation",
                         "pos": {
                             "x": 552.0,
@@ -5584,6 +6128,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 7,
+                        "locked": false,
                         "name": "src_WindowCapture",
                         "pos": {
                             "x": 0.0,
@@ -5610,6 +6155,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "hardware_ElgatoS60",
                         "pos": {
                             "x": 0.0,
@@ -5636,6 +6182,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "image_RyuCriticalArt_BackAndWhite",
                         "pos": {
                             "x": 0.0,
@@ -5662,6 +6209,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": -294.0,
@@ -5688,6 +6236,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 5,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 0.0,
@@ -5714,6 +6263,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "hardware_LogitechC920",
                         "pos": {
                             "x": 995.0,
@@ -5740,6 +6290,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
+                        "locked": false,
                         "name": "prefab_MiniProjector",
                         "pos": {
                             "x": 0.0,
@@ -5835,6 +6386,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "sourceWindowedGame",
                         "pos": {
                             "x": 0.0,
@@ -5929,6 +6481,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "src_StreetFighterVPC",
                         "pos": {
                             "x": 0.0,
@@ -5955,6 +6508,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 7,
+                        "locked": false,
                         "name": "src_WindowedGame",
                         "pos": {
                             "x": 0.0,
@@ -5981,6 +6535,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
+                        "locked": false,
                         "name": "prefab_MiniProjector",
                         "pos": {
                             "x": 512.0,
@@ -6007,6 +6562,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": -282.0,
@@ -6033,6 +6589,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 0.0,
@@ -6059,6 +6616,7 @@
                         "crop_right": 146,
                         "crop_top": 82,
                         "id": 2,
+                        "locked": false,
                         "name": "hardware_LogitechC920",
                         "pos": {
                             "x": 1720.0,
@@ -6112,6 +6670,7 @@
                         "crop_right": 192,
                         "crop_top": 3,
                         "id": 2,
+                        "locked": false,
                         "name": "browserWeather",
                         "pos": {
                             "x": 0.0,
@@ -6192,6 +6751,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "colorSouceRed 2",
                         "pos": {
                             "x": 0.0,
@@ -6218,6 +6778,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "txtSubscriptionCount 2",
                         "pos": {
                             "x": 0.0,
@@ -6324,6 +6885,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "txtCheerHypeValue",
                         "pos": {
                             "x": 214.0,
@@ -6350,6 +6912,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "txtCheerHypeLabel",
                         "pos": {
                             "x": 0.0,
@@ -6494,6 +7057,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "txtMusicNotes 2",
                         "pos": {
                             "x": 0.0,
@@ -6520,6 +7084,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "source_Image_TheCommission_Fightstick 2",
                         "pos": {
                             "x": 454.0,
@@ -6546,6 +7111,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
+                        "locked": false,
                         "name": "Window Capture",
                         "pos": {
                             "x": 231.0,
@@ -6572,6 +7138,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 7,
+                        "locked": false,
                         "name": "Game Capture",
                         "pos": {
                             "x": 0.0,
@@ -6598,6 +7165,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 8,
+                        "locked": false,
                         "name": "imageSlideShow_KutopianFightStickSlideShow",
                         "pos": {
                             "x": 0.0,
@@ -6766,6 +7334,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "source_ElgatoS60",
                         "pos": {
                             "x": 0.0,
@@ -6792,6 +7361,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": 290.0,
@@ -6818,6 +7388,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 0.0,
@@ -6844,6 +7415,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 5,
+                        "locked": false,
                         "name": "hardware_LogitechC920",
                         "pos": {
                             "x": 913.0,
@@ -6940,6 +7512,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "Guilty Gear Xrd - REVELATOR",
                         "pos": {
                             "x": 0.0,
@@ -6966,6 +7539,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 11,
+                        "locked": false,
                         "name": "prefab_TransparentBlack 2",
                         "pos": {
                             "x": 0.0,
@@ -6992,6 +7566,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 10,
+                        "locked": false,
                         "name": "prefab_TransparentBlack",
                         "pos": {
                             "x": 0.0,
@@ -7018,6 +7593,7 @@
                         "crop_right": 824,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "prefab_CheerHype",
                         "pos": {
                             "x": 0.0,
@@ -7044,6 +7620,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "prefab_SubscriptionHype",
                         "pos": {
                             "x": 0.0,
@@ -7070,6 +7647,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "prefab_DonationHype",
                         "pos": {
                             "x": 1037.0,
@@ -7096,6 +7674,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 5,
+                        "locked": false,
                         "name": "browserChatBox",
                         "pos": {
                             "x": 1076.0,
@@ -7122,6 +7701,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
+                        "locked": false,
                         "name": "browserBitJar",
                         "pos": {
                             "x": 1437.0,
@@ -7148,6 +7728,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 7,
+                        "locked": false,
                         "name": "browserBitBoss",
                         "pos": {
                             "x": 1120.0,
@@ -7174,6 +7755,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 9,
+                        "locked": false,
                         "name": "browserAlertBox",
                         "pos": {
                             "x": 433.0,
@@ -7227,6 +7809,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "__unnamed0000",
                         "pos": {
                             "x": 0.0,
@@ -7284,6 +7867,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "Diablo III",
                         "pos": {
                             "x": 0.0,
@@ -7310,6 +7894,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays",
                         "pos": {
                             "x": 0.0,
@@ -7336,6 +7921,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "prefab_TextAndAlertOverlays_staticShouts",
                         "pos": {
                             "x": 269.0,

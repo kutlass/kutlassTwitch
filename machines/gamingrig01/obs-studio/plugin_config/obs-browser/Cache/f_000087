@@ -1,0 +1,2289 @@
+// ----------------------------------------------------- //
+// -------------------- VARIABLES ---------------------- //
+// ----------------------------------------------------- //
+
+// Demo Mode
+var demoMode = false;
+
+// Channel ID
+var channelId = "";
+var channelName = "";
+
+// Settings
+var sound = false;
+var hideAvtr = false;
+
+// Boss vars
+var nextBoss = "nifty255";
+
+// Timeout and Interval handlers
+var imgRemove = null;
+var frstDelay = null;
+var animDelay = null;
+var shakeStop = null;
+var hitShStop = null;
+
+// State indicators
+var isDelayed = false;
+var shaking = false;
+var lossShowing = false;
+var refill = false;
+var preload = true;
+var finalBlow = false;
+var persistence = false;
+
+// Animation timing
+var lastFrame = 0;
+var thisFrame = 0;
+
+// Mode variables
+var currentMode = "";
+
+// Name scroll
+var scrollInterval = 5000;
+var resetInterval = 1000;
+var scrollDelay = null;
+var resetDelay = null;
+
+// Hit label offset
+var lossOffset = 0;
+
+// Shake intensity
+var shakeIntensity = 1000;
+
+// HP settings
+var hpType = "overkill";
+var hpMult = 1;
+var hpAmnt = 1000;
+var hpIncr = 100;
+var dontIncr = true;
+var bossHeal = false;
+
+// HP variables
+var healthStack = [
+	{
+		name: "HP",
+		instantHp: 0,
+		displayHp: 0,
+		maxHp: 0,
+		hpPerIncrement: 0,
+		remainder: 0
+	},
+	{
+		name: "Armor",
+		instantHp: 0,
+		displayHp: 0,
+		maxHp: 0,
+		hpPerIncrement: 0,
+		remainder: 0
+	}
+];
+var loss = 0;
+var topOnlyLoss = 0;
+var allHealth = 0;
+var overkill = null;
+var progressIncrements = 0;
+
+// Critical hit variables
+var inCritBanner = false;
+
+// Subscriber variables
+var includeSubs = false;
+var resubMultiplier = 0.25;
+
+// Streamlabs variables
+var slToken = "";
+var slRefresh = "";
+var slLastId = "";
+var slStarted = false;
+var slStartTime = 0;
+
+// Gather variables
+var gatherId = "";
+var gaLastId = "";
+var gaStarted = false;
+var gaStartTime = 0;
+var bitBossPosted = false;
+var bitBossToPost = "";
+
+// Platform-agnostic Donation variables
+var dequeueStarted = false;
+var tipQueue = [];
+
+// Skin variables
+var skin = "classic";
+
+// Defeat Banner variables
+var animDefeatBanner = "";
+var animDefeatActive = false;
+var animDefeatTimer = null;
+
+// Titan Banner variables
+var animBannerActive = false;
+var animTitanTimer = null;
+
+// Increment Mode variables
+var incrementMode = false;
+var increments = 0;
+var hpPerIncrement = 0;
+var remainder = 0;
+
+// Element containers
+var counter;
+var avatarimg;	
+
+// Bits gifs
+
+// 1 bit
+var bits1 = [
+	"http://i.imgur.com/axWaf1G.gif",
+	"http://i.imgur.com/vrkWxrQ.gif",
+	"http://i.imgur.com/T2RFqm3.gif",
+	"http://i.imgur.com/bIUYT4E.gif"
+];
+
+// 100 bits
+var bits100 = [
+	"http://i.imgur.com/qIGLfo8.gif",
+	"http://i.imgur.com/AxTcMpu.gif",
+	"http://i.imgur.com/ueYVt9V.gif",
+	"http://i.imgur.com/p8Wxr0m.gif"
+];
+
+// 1000 bits
+var bits1000 = [
+	"http://i.imgur.com/TQPP9xT.gif",
+	"http://i.imgur.com/bvG9kkm.gif",
+	"http://i.imgur.com/QRI0GE5.gif",
+	"http://i.imgur.com/JpuqYpk.gif"
+];
+
+// 5000 bits
+var bits5000 = [
+	"http://i.imgur.com/A6EIUy1.gif",
+	"http://i.imgur.com/ddgxLpl.gif",
+	"http://i.imgur.com/DBjwiB3.gif",
+	"http://i.imgur.com/Btlkt1D.gif"
+];
+
+// 10000 bits
+var bits10000 = [
+	"http://i.imgur.com/koNnePN.gif",
+	"http://i.imgur.com/0HU0GFx.gif",
+	"http://i.imgur.com/f8aQMPt.gif",
+	"http://i.imgur.com/LCYgixP.gif"
+];
+
+// Heal
+var heal = "http://i.imgur.com/fOvRfRk.gif";
+
+
+
+// ----------------------------------------------------- //
+// ----------------------- SETUP ----------------------- //
+// ----------------------------------------------------- //
+
+function StartSetup() {
+	
+	counter = $("#hp");
+	avatarimg = $("#avatar");
+	
+	for (var i = 0; i < healthStack.length; i++)
+	{
+		$("#health-"+i.toString()).css("width", "0%");
+		$("#hitdelay-"+i.toString()).css("width", "0%");
+	}
+	
+	try
+	{
+		parseCookies();
+		
+		var protocol = window.location.href.split(":")[0];
+		var host = document.location.href.split("//")[1].split("/")[0];
+		var isDev = (host == "staging.bitbossbattles.io" || host == "local.bitbossbattles.io:5000");
+
+		// If the widget is not running from URL parameters, the widget was likely launched from the Launcher Page.
+		if (GetUrlParameter("token") == null && GetUrlParameter("userid") == null)
+		{
+			// Get the OAuth token.
+			oauth = getCookie("auth", "");
+
+			// Get the Streamlabs token.
+			slRefresh = getCookie("refrsl", "");
+			
+			// Get subscriber settings.
+			includeSubs = (getCookie("includesubs", "") == "true");
+			resubMultiplier = parseFloat(getCookie("resubmult", "0.25"));
+
+			// Get the user ID.
+			channelId = getCookie("userid", "");
+
+			// If the auth token wasn't found, error out.
+			if (oauth == "") { $("body").html("<h1 style='color: red;'>ERR. NO AUTH (COOKIE).</h1>"); return; }
+
+			// Get the sound setting.
+			sound = (getCookie("sound", "") == "true");
+						
+			// Set the volume.
+			gainNode.gain.value = parseInt(getCookie("volume", "100")) / 100;
+
+			// Determine the background mode.
+			if (getCookie("trans", "") == "true") { $(".allcontainer").css("background-color", "rgba(0,0,0,0)"); }
+			if (getCookie("chroma", "") == "true") { $(".allcontainer").css("background-color", "#00f"); }
+
+			// Get HP settings.
+			hpType = getCookie("hpMode", "overkill");
+			hpMult = parseInt(getCookie("hpMult", "1"));
+			hpAmnt = parseInt(getCookie((hpType != "constant" ? "hpInit" : "hpAmnt"), hpAmnt.toString()));
+			hpIncr = parseInt(getCookie("hpIncr", "100"));
+
+			// Get Boss Heal setting.
+			bossHeal = (getCookie("bossheal", "") == "true");
+
+			// Get hidden avatar setting.
+			hideAvtr = (getCookie("hideavtr", "") == "true");
+
+			// Apply color settings.
+			if (getCookie("trans", "") != "true" && getCookie("chroma", "") != "true") { $("#mainbg").css("background-color", getCookie("colorbg", "#222222")); }
+			$("#background").css("background-color", getCookie("colorhb", "red"));
+			$("#hitdelay-0").css("background-color", getCookie("colorhm", "orange"));
+			$("#health-0").css("background-color", getCookie("colorhf", "green"));
+			$("#boss").css("color", getCookie("colortx", "white"));
+			$("#losscont").css("color", getCookie("colortx", "white"));
+			$("#hp").css("color", getCookie("colortx", "white"));
+			$("#attackercontainer").css("color", getCookie("colortx", "white"));
+			
+			persistence = (getCookie("persistent", "false") == "true");
+
+			FinishSetup();
+		}
+		// Else, the widget is running from the URL given on the Launcher Page.
+		else
+		{
+			if (GetUrlParameter("rev") == null) { $("body").html("<h1 style='color: red;'>CRITICAL UPDATE!<br>RE-COPY LINK.</h1>"); return; }
+
+			if (protocol != "https" && !isDev) { $("body").html("<h1 style='color: red;'>NOT HTTPS! RE-COPY LINK.</h1>"); return; }
+
+			$.get("./rev", function(response) {
+
+				if (response.revision > parseInt(GetUrlParameter("rev")) || 0)
+				{
+					$("body").html("<h1 style='color: red;'>UPDATE! RE-COPY LINK.</h1>");
+					return;
+				}
+
+				oauth = GetUrlParameter("token");
+				channelId = GetUrlParameter("userid");
+
+				if (GetUrlParameter("sl") != "")
+				{
+					slRefresh = getCookie("refrsl", "");
+				}
+
+				if (slRefresh == "")
+				{
+					slRefresh = GetUrlParameter("sl");
+				}
+
+				// Error out the widget if no OAuth token is found.
+				if (oauth == "") { $("body").html("<h1 style='color: red;'>ERR. NO AUTH (URL).<br>RE-COPY LINK.</h1>"); return; }
+
+				// If the user ID wasn't found, error out.
+				if (channelId == null || channelId == "") { $("body").html("<h1 style='color: red;'>ERR. NO USER ID.<br>RE-COPY LINK."); return; }
+
+				// Obtain settings from the server.
+				$.get("./settings/" + channelId, function(response) {
+
+					if (response.error)
+					{ $("body").html("<h1 style='color: red;'>ERR. CAN'T GET SETTINGS.<br>PLEASE REFRESH.</h1>"); return; }
+					
+					// Get subscriber settings.
+					includeSubs = response.includeSubs;
+					resubMultiplier = response.resubMult;
+
+					// Get the sound setting.
+					sound = response.sound;
+
+					// Set the volume.
+					gainNode.gain.value = response.volume / 100;
+
+					// Determine the background mode.
+					if (response.trans) { $(".allcontainer").css("background-color", "rgba(0,0,0,0)"); }
+					if (response.chroma) { $(".allcontainer").css("background-color", "#00f"); }
+
+					// Get HP settings.
+					hpType = response.hpMode;
+					hpMult = response.hpMult;
+					hpAmnt = (hpType != "constant" ? response.hpInit : response.hpAmnt);
+					hpIncr = response.hpIncr;
+
+					// Get Boss Heal setting.
+					bossHeal = response.bossHealing;
+
+					// Get hidden avatar setting.
+					hideAvtr = response.avtrHidden;
+
+					// Apply color settings.
+					if (!response.trans && !response.chroma) { $("#mainbg").css("background-color", response.colorBg); }
+					$("#background").css("background-color", response.colorHb);
+					$("#hitdelay-0").css("background-color", response.colorHm);
+					$("#health-0").css("background-color", response.colorHf);
+					$("#boss").css("color", response.colorTx);
+					$("#losscont").css("color", response.colorTx);
+					$("#hp").css("color", response.colorTx);
+					$("#attackercontainer").css("color", response.colorTx);
+					
+					// Start the crit promo banner, if set to show.
+					if (response.critPromoTimer > 0)
+					{
+						setInterval(function() {
+							
+							if (!IgnoreTransaction() && !animBannerActive && !animDefeatActive)
+							{
+								$("#defeatcontainer").append("<img id='defeatimg' src='./images/crit_static/" + GetRandomInt(0, 4).toString() + ".png'>")
+								$("#defeatimg").on("load", function() {
+
+									$("#defeatactionlabel").html("");
+									$("#defeatnamelabel").html("");
+									$("#defeatcontainer").stop().animate({ top: "0%" }, 500);
+
+									setTimeout(function() {
+
+										$("#defeatcontainer").stop().animate({ top: "-100%" }, 500, function() {
+
+											$("#defeatimg").remove();
+											animBannerActive = false;
+										});
+									}, 4500);
+									
+									animBannerActive = true;
+								});
+							}
+						}, 60000 * response.critPromoTimer);
+					}
+					
+					persistence = response.persistence;
+
+					FinishSetup();
+				});
+			})
+		}
+	}
+	catch (e)
+	{
+		var err = e.name+": "+e.message;
+		
+		$("body").html("<div>Error! Copy this entire page, create a Pastebin, and tweet it @Nifty255.<br>"+err+"<br><p style='padding-left: 10px;'>"+e.stack.substring(err.length+1).replace("<", "&lt;").replace(">", "&gt;").replace(/\n/g, "<br>")+"</p></div>");
+	}
+}
+
+function FinishSetup() {
+
+	// If the Hidden Avatar setting is true,
+	if (hideAvtr)
+	{
+		// Hide the image container.
+		$("#imgcontainer").css("display", "none");
+
+		// Remove the 70px adjustment from the health container.
+		$("#infocontainer").css("width", "100%");
+	}
+
+	// Set skin settings.
+	skin = GetUrlParameter("skin");
+	switch (skin)
+	{
+		case "hearthstone":
+		{
+			incrementMode = true;
+			increments = 10;
+			break;
+		}
+		case "overwatch":
+		{
+			incrementMode = true;
+			increments = 8;
+			break;
+		}
+		case "starcraft":
+		{
+			incrementMode = true;
+			increments = 10;
+			break;
+		}
+	}
+	
+	// Perform cookie upgrade if old health cookies exist.
+	if (cookieExists("maxHp")) { setCookie({ name: "maxHp0", newValue: getCookie("maxHp", "") }); deleteCookie("maxHp"); }
+	if (cookieExists("currentHp")) { setCookie({ name: "currentHp0", newValue: getCookie("currentHp", "") }); deleteCookie("currentHp"); }
+	
+	// Set the mode from the cookie if it exists.
+	currentMode = getCookie("currentMode", "");
+
+	// Set up health from cookies if they exist.
+	for (var i = 0; i < healthStack.length; i++)
+	{
+		var cookieMax = parseInt(getCookie("maxHp" + i.toString(), "0"));
+		var cookieCurrent = Math.min(parseInt(getCookie("currentHp" + i.toString(), "0")), cookieMax);
+
+		if (cookieMax != 0)
+		{
+			healthStack[i].maxHp = cookieMax;
+			
+			if (cookieCurrent == 0) { cookieCurrent = cookieMax; }
+			healthStack[i].instantHp = cookieCurrent;
+		}
+	}
+
+	// If no health was set due to nonexistant cookies,
+	if (healthStack[0].maxHp == 0)
+	{
+		// Set health from default.
+		healthStack[0].maxHp = hpAmnt;
+		healthStack[0].instantHp = hpAmnt;
+		
+		// If persistence is on,
+		if (persistence)
+		{
+			// Set new default health in the cookies.
+			setCookie({ name: "maxHp0", newValue: hpAmnt.toString() });
+			setCookie({ name: "currentHp0", newValue: hpAmnt.toString() });
+		}
+	}
+	
+	// Set the Progressive Mode increment counter if the cookie exists.
+	progressIncrements = parseInt(getCookie("progressIncrements", "0"));
+
+	// Get the current boss and their current HP, if the cookies exist.
+	nextBoss = getCookie("currentBoss", "");
+
+	$.ajax({
+		url: "https://api.twitch.tv/kraken/user",
+		type: "GET",
+		beforeSend: function(xhr)
+		{
+			xhr.setRequestHeader('Accept', "application/vnd.twitchtv.v5+json");
+			xhr.setRequestHeader('Authorization', "OAuth " + oauth);
+			xhr.setRequestHeader('Client-ID', twitchClientId);
+		},
+		success: function(data) {
+			
+			channelName = data.name;
+
+			if (nextBoss == "")
+			{
+				nextBoss = data.name;
+				if (persistence) { setCookie({ name: "currentBoss", newValue: nextBoss }); }
+			}
+
+			// Connect to Twitch's PubSub system.
+			Connect("wss://pubsub-edge.twitch.tv", function() {
+
+				// Initiate getting the next boss.
+				GetNewBoss();
+
+				// Listen for bits events using the streamer's channel ID and OAuth token.
+				Listen("channel-bitsevents." + channelId, oauth, ProcessBits, function(error) {
+
+					$("body").html("<h1 style='color: red;'>ERR. FAILED BITS LISTEN.</h1><p>" + error + "</p>");
+				});
+
+				// If the streamer wants to include subscribers, listen for subscriber events using the streamer's channel ID and OAuth token.
+				if (includeSubs) { Listen("channel-subscribe-events-v1." + channelId, oauth, ProcessSubs); }
+			});
+
+			$.post("./analytics/base/" + channelId,
+			{
+				username: data.name,
+				email: data.email,
+				partner: data.partnered,
+				usingSubs: includeSubs,
+				skin: skin
+			}, function (res) { if (res == "success") { } });
+		},
+		error: function(data) {
+
+			$("body").html("<h1 style='color: red;'>ERR. FAILED STREAMER GET.</h1>");
+			console.log("https://api.twitch.tv/kraken/users/" + channelId);
+		}
+	});
+
+	// If a refresh token has been provided,
+	if (slRefresh != "" && slRefresh != null)
+	{
+		// Get a new access token.
+		GetNewAccessToken();
+
+		// Get a new access token every subsequent 50 minutes.
+		setInterval(GetNewAccessToken, 1000*60*50);
+	}
+
+	// Get the streamer's Gather user status to initiate the Gather donations system.
+	GetGatherID();
+}
+
+
+
+// ----------------------------------------------------- //
+// -------------------- TITAN MODE --------------------- //
+// ----------------------------------------------------- //
+
+// Transitions to Titan Mode.
+function TransitionToTitan(data) {
+	
+	if (!IgnoreTransaction())
+	{
+		preload = true;
+		
+		currentMode = "titan";
+
+		$("#defeatcontainer").append("<img id='defeatimg' src='./images/titan_anims/transform.gif?a=" + Math.random() + "'>");
+		$("#defeatimg").on("load", function() {
+
+			$("#defeatactionlabel").html($("#name").html() + " is");
+			$("#defeatnamelabel").html("now a Titan!");
+			$("#defeatcontainer").stop().animate({ top: "0%" }, 500);
+
+			animTitanTimer = setTimeout(function() {
+
+				$("#defeatcontainer").stop().animate({ top: "-100%" }, 500, function() {
+
+					$("#defeatimg").remove();
+					animBannerActive = false;
+
+					healthStack[0].instantHp = healthStack[0].maxHp;
+
+					healthStack[1].instantHp = data.armor;
+					healthStack[1].maxHp = data.armor;
+
+					healthStack[1].hpPerIncrement = Math.floor(healthStack[1].maxHp / increments);
+					healthStack[1].remainder = healthStack[1].maxHp  % increments;
+
+					if (persistence)
+					{
+						setCookie({ name: "currentMode", newValue: "titan" });
+						setCookie({ name: "currentHp0", newValue: healthStack[0].instantHp.toString() });
+						setCookie({ name: "maxHp1", newValue: data.armor.toString() });
+						setCookie({ name: "currentHp1", newValue: data.armor.toString() });
+					}
+
+					preload = false;
+					refill = true;
+
+					// Update the current HP of the boss.
+					if (gatherId != "")
+					{
+						var stackData = [
+
+							{ currentHp: healthStack[0].instantHp, maxHp: healthStack[0].maxHp },
+							{ currentHp: healthStack[1].instantHp, maxHp: healthStack[1].maxHp }
+						];
+
+						$.ajax({
+
+							url: "https://" + gatherApiBaseUrl + "/api/influencers/" + gatherId + "/bitboss/info?bbb_twitch_token=" + oauth,
+							method: "PATCH",
+							dataType: 'json',
+							contentType: 'application/json',
+							data: JSON.stringify({ bbb_boss_bars: stackData }),
+							success: function(data) {}
+						});
+					}
+				});
+			}, 5250);
+		});
+	}
+}
+
+// End Titan Mode.
+function EndTitan() {
+	
+	preload = true;
+	
+	currentMode = "";
+	
+	$("#defeatcontainer").append("<img id='defeatimg' src='./images/titan_anims/deflate.gif?a=" + Math.random() + "'>");
+	$("#defeatimg").on("load", function() {
+
+		$("#defeatactionlabel").html("Titan Mode");
+		$("#defeatnamelabel").html("has ended!");
+		$("#defeatcontainer").stop().animate({ top: "0%" }, 500, function() {
+			
+			healthStack[1].instantHp = -1;
+			healthStack[1].displayHp = -1;
+			healthStack[1].maxHp = -1;
+
+			healthStack[1].hpPerIncrement = 0;
+			healthStack[1].remainder = 0;
+
+			if (persistence)
+			{
+				setCookie({ name: "currentMode", newValue: "" });
+				setCookie({ name: "maxHp1", newValue: (-1).toString() });
+				setCookie({ name: "currentHp1", newValue: (-1).toString() });
+			}
+			
+			// Update the current HP of the boss.
+			if (gatherId != "")
+			{
+				var stackData = [
+
+					{ currentHp: healthStack[0].instantHp, maxHp: healthStack[0].maxHp },
+					{ currentHp: healthStack[1].instantHp, maxHp: healthStack[1].maxHp }
+				];
+
+				$.ajax({
+
+					url: "https://" + gatherApiBaseUrl + "/api/influencers/" + gatherId + "/bitboss/info?bbb_twitch_token=" + oauth,
+					method: "PATCH",
+					dataType: 'json',
+					contentType: 'application/json',
+					data: JSON.stringify({ bbb_boss_bars: stackData }),
+					success: function(data) {}
+				});
+			}
+			
+			if (incrementMode)
+			{
+				$(".armor > .tick").css("opacity", "0");
+			}
+			else
+			{
+				$("#hitdelay-1").css("width", "0%");
+			}
+			
+			counter.html((skin == "overwatch" ? "" : (healthStack[0].name + ": ")) + Math.floor(healthStack[0].displayHp).toLocaleString("en-US") + " / " + healthStack[0].maxHp.toLocaleString("en-US"));
+			
+			animTitanTimer = setTimeout(function() {
+
+				$("#defeatcontainer").stop().animate({ top: "-100%" }, 500, function() {
+
+					$("#defeatimg").remove();
+					animTitanActive = false;
+
+					preload = false;
+				});
+			}, 2500);
+		});
+	});
+}
+
+// Process a Gather item/currency damage event.
+function ProcessGatherDamage(data) {
+	
+	// Validate data integrity.
+	if (!data) { return; }
+	if (!data.attacker) { return; }
+	if (!data.amount) { return; }
+
+	// If the nextBoss variable is empty, then no transition is taking place.
+	if (!IgnoreTransaction() && currentMode == "titan")
+	{
+		// Get information about the user who cheered.
+		GetUserInfo(data.attacker, function(info) {
+
+			// Reset the attacker display.
+			$("#attackerdisplay").css({
+
+				"opacity": "0"
+			});
+
+			// If the attacker is not the current Bit Boss, and there is armor to damage,
+			if (info.displayName != $("#name").html() && healthStack[1].instantHp > 0)
+			{
+				// Strike the Bit Boss.
+				Strike(Math.abs(data.amount), data.attacker, info.displayName, "gather");
+			}
+			
+			var transactionData = {
+				
+				channelId: channelId,
+				channelName: channelName,
+				contributorId: info.userId,
+				contributorName: data.attacker,
+				type: "gather-nomoney",
+				amount: data.amount,
+				createdAt: new Date().getTime()
+			};
+			
+			$.post("./analytics/transaction", { transaction: JSON.stringify(transactionData) }, function (res) { if (res == "success") { } });
+		});
+	}
+}
+
+// Process a Gather regeneration event.
+function ProcessGatherRegen(data) {
+
+	// If the nextBoss variable is empty, then no transition is taking place.
+	if (!IgnoreTransaction() && currentMode == "titan")
+	{
+		Regenerate(data.amount);
+	}
+}
+
+// Process a Gather animation banner event.
+function ProcessGatherAnim(data) {
+	
+	if (!data) { return; }
+	if (!data.action) { return; }
+	if (!data.target) { return; }
+	
+	if (!IgnoreTransaction() && currentMode == "titan")
+	{
+		var text = "";
+
+		switch(data.action)
+		{
+			case "eat":
+				text = "ate ";
+				break;
+			case "slaughter":
+				text = "slaughtered ";
+				break;
+			case "stomp":
+				text = "stomped on ";
+				break;
+			case "gift":
+				text = "gave a gift to ";
+				break;
+		}
+
+		if (healthStack[0].instantHp > 0)
+		{
+			$("#defeatcontainer").append("<img id='defeatimg' src='./images/titan_anims/" + data.action + ".gif?a=" + Math.random() + "'>")
+			$("#defeatimg").on("load", function() {
+
+				$("#defeatactionlabel").html("Titan " + $("#name").html());
+				$("#defeatnamelabel").html(text + data.target + ".");
+				$("#defeatcontainer").stop().animate({ top: "0%" }, 500);
+
+				animTitanTimer = setTimeout(function() {
+
+					$("#defeatcontainer").stop().animate({ top: "-100%" }, 500, function() {
+
+						$("#defeatimg").remove();
+						animBannerActive = false;
+					});
+				}, 5000);
+			});
+
+			animBannerActive = true;
+		}
+	}
+}
+
+
+
+// ----------------------------------------------------- //
+// -------------- TRANSACTION PROCESSING --------------- //
+// ----------------------------------------------------- //
+
+// PubSub Message Callback. Processes bits events.
+function ProcessBits(message) {
+
+	// Validate data integrity.
+	if (!message) { return; }
+	if (!message.user_name) { return; }
+	if (!message.bits_used) { return; }
+	if (!message.chat_message) { return; }
+	
+	if (!IgnoreTransaction())
+	{
+		// Get information about the user who cheered.
+		GetUserInfo(message.user_name, function(info) {
+
+			// Reset the attacker display.
+			$("#attackerdisplay").css({
+
+				"opacity": "0"
+			});
+			
+			// Create the cheermote regex which will determine which cheermotes were used.
+			var cheermoteReg = /(?:^|\s)((cheer|bday|kappa|trihard|kreygasm|4head|swiftrage|notlikethis|failfish|vohiyo|pjsalt|mrdestructoid|muxy|streamlabs|bitboss)(\d+))(?:$|\s)/gi;
+			// Create the match container for looping.
+			var match;
+			
+			// Create an array for tracking which cheermotes were used.
+			var cheermotes = [];
+			// Create a tracker for how many bits were from the "bitbossX" cheermote.
+			var amountBitBoss = 0;
+			// Create a critical hit chance for calculation later.
+			var critChance = 0;
+			// Create a critical hit modifier in the range of 120% - 250%
+			var critMod = GetRandomInt(120, 250) / 100;
+			
+			while ((match = cheermoteReg.exec(message.chat_message)) != null)
+			{
+				cheermotes.push(match[1]);
+				
+				if (/bitboss/i.test(match[2]))
+				{
+					var thisAmount = parseInt(match[3]);
+					amountBitBoss += thisAmount;
+				}
+			}
+			
+			// Calculate the crit chance based on "bitbossX" cheermote milestone reached.
+			if (amountBitBoss == 0) { critChance = 0; }
+			else if (amountBitBoss < 100) { critChance = 0.2; }
+			else if (amountBitBoss < 1000) { critChance = 0.4; }
+			else if (amountBitBoss < 5000) { critChance = 0.6; }
+			else if (amountBitBoss < 10000) { critChance = 0.8; }
+			else { critChance = 1; }
+
+			// If the attacker is the current Bit Boss,
+			if (info.displayName == $("#name").html())
+			{
+				// If the Boss Heal setting is on, then heal. If not, do nothing.
+				if (bossHeal)
+				{
+					Heal(message.bits_used, info.displayName);
+				}
+			}
+			// Else, the attacker is not the current Bit Boss.
+			else
+			{
+				// If the random number generated is within the crit chance,
+				if (Math.random() < critChance)
+				{
+					inCritBanner = true;
+					
+					$("#defeatcontainer").append("<img id='defeatimg' src='./images/crit_anims/crit.gif?a=" + Math.random() + "'>");
+					$("#defeatimg").on("load", function() {
+
+						$("#defeatactionlabel").html("BitBoss Cheermote");
+						$("#defeatnamelabel").html(Math.floor(critMod * 100).toString() + "&#37; crit!");
+						$("#defeatcontainer").stop().animate({ top: "0%" }, 500, function() {
+							
+							setTimeout(function() {
+								
+								$("#defeatcontainer").stop().animate({ top: "-100%" }, 500, function() {
+									
+									inCritBanner = false;
+									
+									$("#defeatimg").remove();
+									
+									// Strike the Bit Boss with additional critical hit damage.
+									Strike(message.bits_used + Math.floor(amountBitBoss * (critMod - 1)), message.user_name, info.displayName);
+								});
+							}, 4000);
+						});
+					});
+				}
+				else
+				{
+					// Strike the Bit Boss.
+					Strike(message.bits_used, message.user_name, info.displayName);
+				}
+			}
+			
+			var transactionData = {
+				
+				channelId: channelId,
+				channelName: channelName,
+				contributorId: info.userId,
+				contributorName: message.user_name,
+				type: "twitch-bits",
+				cheermotes: cheermotes,
+				amount: message.bits_used,
+				amountBitBoss: amountBitBoss,
+				critChance: critChance,
+				critMod: critMod,
+				createdAt: new Date().getTime()
+			};
+
+			$.post("./analytics/transaction", { transaction: JSON.stringify(transactionData) }, function (res) { if (res == "success") { } });
+		});
+	}
+}
+
+// PubSub Message Callback. Processes subscriber events.
+function ProcessSubs(message) {
+
+	// Validate data integrity.
+	if (!message) { return; }
+	if (!message.user_name) { return; }
+	if (!message.sub_plan) { return; }
+	if (!message.months) { return; }
+	
+	if (!IgnoreTransaction())
+	{
+		// Get information about the user who cheered.
+		GetUserInfo(message.user_name, function(info) {
+
+			// Reset the attacker display.
+			$("#attackerdisplay").css({
+
+				"opacity": "0"
+			});
+
+			// Calculate the initial amount of HP to damage or heal by.
+			var amount = 0;
+
+			if (message.sub_plan == "Prime" || message.sub_plan == "1000")
+			{
+				amount = 500;
+			}
+			else if (message.sub_plan == "2000")
+			{
+				amount = 1000;
+			}
+			else if (message.sub_plan == "3000")
+			{
+				amount = 2500;
+			}
+			else
+			{
+				return;
+			}
+
+			// Add additional damage/healing based on the resub multiplier.
+			amount += amount * (message.months - 1) * resubMultiplier;
+
+			// If the attacker is the current Bit Boss,
+			if (info.displayName == $("#name").html())
+			{
+				// If the Boss Heal setting is on, then heal. If not, do nothing.
+				if (bossHeal)
+				{
+					Heal(amount, info.displayName, "sub");
+				}
+			}
+			// Else, the attacker is not the current Bit Boss.
+			else
+			{
+				// Strike the Bit Boss.
+				Strike(amount, message.user_name, info.displayName, "sub");
+			}
+
+			var transactionData = {
+				
+				channelId: channelId,
+				channelName: channelName,
+				contributorId: info.userId,
+				contributorName: data.attacker,
+				type: "twitch-sub",
+				amount: data.amount,
+				createdAt: new Date().getTime()
+			};
+
+			$.post("./analytics/transaction", { transaction: JSON.stringify(transactionData) }, function (res) { if (res == "success") { } });
+		});
+	}
+}
+
+// Donation Message Callback. Processes donation events.
+function ProcessDonation(donation) {
+	
+	if (!IgnoreTransaction())
+	{
+		// Get information about the user who cheered.
+		GetUserInfo(donation.name, function(info) {
+
+			// Reset the attacker display.
+			$("#attackerdisplay").css({
+
+				"opacity": "0"
+			});
+
+			// If the attacker is the current Bit Boss,
+			if (info.displayName == $("#name").html())
+			{
+				// If the Boss Heal setting is on, then heal. If not, do nothing.
+				if (bossHeal)
+				{
+					Heal(Math.floor(donation.amount * 100), info.displayName, "donation");
+				}
+			}
+			// Else, the attacker is not the current Bit Boss.
+			else
+			{
+				// Strike the Bit Boss.
+				Strike(Math.floor(donation.amount * 100), donation.name, info.displayName, "donation");
+			}
+
+			var transactionData = {
+				
+				channelId: channelId,
+				channelName: channelName,
+				contributorId: info.userId,
+				contributorName: data.attacker,
+				type: donation.platform + "-donation",
+				amount: Math.floor(donation.amount * 100),
+				createdAt: new Date().getTime()
+			};
+
+			$.post("./analytics/transaction", { transaction: JSON.stringify(transactionData) }, function (res) { if (res == "success") { } });
+		});
+	}
+}
+
+
+
+// ----------------------------------------------------- //
+// -------------------- BOSS ACTION -------------------- //
+// ----------------------------------------------------- //
+
+// Heals the Bit Boss by the given amount.
+function Regenerate(amount) {
+	
+	if (!IgnoreTransaction() && (healthStack[0].instantHp < healthStack[0].maxHp || (healthStack[1].instantHp > 0 && healthStack[1].instantHp < healthStack[1].maxHp)))
+	{
+		// Hide the username if using the Hearthstone skin.
+		if (skin == "hearthstone" || skin == "overwatch") { $("#boss").css("visibility", "hidden"); }
+
+		// Sets the attacker display.
+		$("#attackerdisplay").html("<img id='cheerimg' src='./images/gather.gif'>" + $("#name").html() + " regenerates!");
+		$("#attackerdisplay").stop().animate({ "opacity": "1" }, 1000, "linear", function() {
+			setTimeout(function() {
+				$("#attackerdisplay").css("opacity", "0");
+				$("#attackerdisplay").html("&nbsp;");
+
+				// Show the username if using the Hearthstone skin.
+				if (skin == "hearthstone" || skin == "overwatch") { $("#boss").css("visibility", "inherit"); }
+			}, 1000);
+		});
+
+		// Remove the current strike gif if it exists.
+		$("#strikeimg").remove();
+		if (imgRemove != null) { clearTimeout(imgRemove); }
+
+		// Removes the heal amount from the current damage counter.
+		loss -= amount;
+		
+		var stackData = IssueChange("return", persistence);
+
+		// Update the current HP of the boss.
+		if (gatherId != "")
+		{
+			$.ajax({
+				
+				url: "https://" + gatherApiBaseUrl + "/api/influencers/" + gatherId + "/bitboss/info?bbb_twitch_token=" + oauth,
+				method: "PATCH",
+				dataType: 'json',
+				contentType: 'application/json',
+				data: JSON.stringify({ bbb_boss_bars: stackData }),
+				success: function(data) {}
+			});
+		}
+
+		// Reset and start the initial delay.
+		isDelayed = true;
+		if (animDelay != null) { clearTimeout(animDelay); }
+		if (frstDelay != null) { clearTimeout(frstDelay); }
+		frstDelay = setTimeout(PerformEffects, 1000);
+	}
+}
+
+// Heals the Bit Boss by the given amount.
+function Heal(amount, display, type) {
+	
+	if (!IgnoreTransaction() && healthStack[0].instantHp < healthStack[0].maxHp)
+	{
+		// Determine the highest bits milestone in the cheer.
+		var milestone = "";
+		if (amount < 100) { milestone = "1"; }
+		else if (amount < 1000) { milestone = "100"; }
+		else if (amount < 5000) { milestone = "1000"; }
+		else if (amount < 10000) { milestone = "5000"; }
+		else { milestone = "10000"; }
+
+		// The associated bits gif is the default to use.
+		var gif = "https://d3aqoihi2n8ty8.cloudfront.net/actions/cheer/light/animated/" + milestone + "/1.gif?a=" + Math.random();
+
+		// Change the gif if the type is a donation or a subscription.
+		if (type == "donation") { gif = "./images/dollar.gif"; }
+		else if (type == "sub") { gif = "./images/twitch.gif"; }
+
+		// Hide the username if using the Hearthstone skin.
+		if (skin == "hearthstone" || skin == "overwatch") { $("#boss").css("visibility", "hidden"); }
+
+		// Sets the attacker display.
+		$("#attackerdisplay").html("<img id='cheerimg' src='" + gif + "'>" + display + " heals!");
+		$("#attackerdisplay").stop().animate({ "opacity": "1" }, 1000, "linear", function() {
+			setTimeout(function() {
+				$("#attackerdisplay").css("opacity", "0");
+				$("#attackerdisplay").html("&nbsp;");
+
+				// Show the username if using the Hearthstone skin.
+				if (skin == "hearthstone" || skin == "overwatch") { $("#boss").css("visibility", "inherit"); }
+			}, 1000);
+		});
+
+		// Remove the current strike gif if it exists.
+		$("#strikeimg").remove();
+		if (imgRemove != null) { clearTimeout(imgRemove); }
+
+		// Removes the heal amount from the current damage counter.
+		loss -= amount;
+		
+		var stackData = IssueChange("return", persistence);
+
+		// Update the current HP of the boss.
+		if (gatherId != "")
+		{
+			$.ajax({
+				
+				url: "https://" + gatherApiBaseUrl + "/api/influencers/" + gatherId + "/bitboss/info?bbb_twitch_token=" + oauth,
+				method: "PATCH",
+				dataType: 'json',
+				contentType: 'application/json',
+				data: JSON.stringify({ bbb_boss_bars: stackData }),
+				success: function(data) {}
+			});
+		}
+		
+		// Disable the periodic titan animation if it is active.
+		if (animBannerActive)
+		{
+			$("#defeatcontainer").stop().animate({ top: "-100%" }, 500, function() {
+				
+				$("#defeatimg").remove();
+				animBannerActive = false;
+			});
+		}
+
+		// Reset and start the initial delay.
+		isDelayed = true;
+		if (animDelay != null) { clearTimeout(animDelay); }
+		if (frstDelay != null) { clearTimeout(frstDelay); }
+		frstDelay = setTimeout(PerformEffects, 1000);
+	}
+}
+
+// Strikes the Bit Boss, damaging them by the given amount.
+function Strike(amount, attacker, display, type) {
+	
+	if (!IgnoreTransaction())
+	{
+		// Determine the highest bits milestone in the cheer.
+		var milestone = "";
+		if (amount < 100) { milestone = "1"; }
+		else if (amount < 1000) { milestone = "100"; }
+		else if (amount < 5000) { milestone = "1000"; }
+		else if (amount < 10000) { milestone = "5000"; }
+		else { milestone = "10000"; }
+
+		// The associated bits gif is the default to use.
+		var gif = "https://d3aqoihi2n8ty8.cloudfront.net/actions/cheer/light/animated/" + milestone + "/1.gif?a=" + Math.random();
+
+		// Change the gif if the type is a donation or a subscription.
+		if (type == "donation") { gif = "./images/dollar.gif"; }
+		else if (type == "gather") { gif = "./images/gather.gif"; }
+		else if (type == "sub") { gif = "./images/twitch.gif"; }
+
+		// Hide the username if using the Hearthstone skin.
+		if (skin == "hearthstone" || skin == "overwatch") { $("#boss").css("visibility", "hidden"); }
+
+		// Sets the attacker display.
+		$("#attackerdisplay").html("<img id='cheerimg' src='" + gif + "'>" + display + " attacks!");
+		$("#attackerdisplay").stop().animate({ "opacity": "1" }, 1000, "linear", function() {
+			setTimeout(function() {
+				$("#attackerdisplay").css("opacity", "0");
+				$("#attackerdisplay").html("&nbsp;");
+
+				// Show the username if using the Hearthstone skin.
+				if (skin == "hearthstone" || skin == "overwatch") { $("#boss").css("visibility", "inherit"); }
+			}, 1000);
+		});
+
+		// Get a random strike image based on the highest cheer milestone.
+		var imgToUse = "";
+		if (amount < 100) { imgToUse = bits1[GetRandomInt(0, bits1.length - 1)]; }
+		else if (amount < 1000) { imgToUse = bits100[GetRandomInt(0, bits100.length - 1)]; }
+		else if (amount < 5000) { imgToUse = bits1000[GetRandomInt(0, bits1000.length - 1)]; }
+		else if (amount < 10000) { imgToUse = bits5000[GetRandomInt(0, bits5000.length - 1)]; }
+		else { imgToUse = bits10000[GetRandomInt(0, bits10000.length - 1)]; }
+
+		// Play a random strike sound if sound is enabled.
+		if (sound) { hits[GetRandomInt(0, hits.length - 1)].play(); }
+
+		// Remove the current strike gif if it exists and create a new one.
+		$("#strikeimg").remove();
+		if (imgRemove != null) { clearTimeout(imgRemove); }
+		avatarimg.after('<img id="strikeimg" src="' + imgToUse + '?a=' + Math.random() + '"/>');
+		imgRemove = setTimeout(function() { $("#strikeimg").remove(); }, 1000);
+
+		// Adds the strike amount to the current loss counter.
+		loss += amount;
+
+		// If the damage type is an item, which only affects the top of the health stack,
+		if (type == "gather")
+		{
+			// Determine the actual loss from the top.
+			topOnlyLoss = Math.min(healthStack[healthStack.length - 1].instantHp, amount);
+
+			// Subtract the excess top-only loss back from the total loss.
+			loss -= amount - topOnlyLoss;
+		}
+
+		// Aggregate all HP to see if the loss eliminates all of it.
+		allHealth = 0;
+		for (var i = 0; i < healthStack.length; i++)
+		{
+			allHealth += healthStack[i].instantHp;
+		}
+
+		// If the current boss's total HP after the loss is zero or less,
+		if (allHealth - loss <= 0)
+		{
+			// Set the next boss for transition.
+			nextBoss = attacker;
+			
+			// Enable the Final Blow state.
+			finalBlow = true;
+
+			// Set the HP counter to show the final blow.
+			counter.html("Final Blow: " + display);
+
+			var stackData = null;
+
+			// Update the current boss.
+			if (persistence) { setCookie({ name: "currentBoss", newValue: nextBoss }); }
+
+			// If the current mode is Overkill,
+			if (hpType == "overkill")
+			{
+				// Calculate the overkill amount.
+				overkill = Math.max((loss - allHealth) * hpMult, 100);
+
+				// Update the HP cookies based on the overkill amount and the multiplier.
+				if (persistence)
+				{
+					setCookie({ name: "currentHp", newValue: overkill.toString() });
+					setCookie({ name: "maxHp", newValue: overkill.toString() });
+					
+					stackData = [
+						{ currentHp: overkill, maxHp: overkill },
+						{ currentHp: -1, maxHp: -1 }
+					];
+				}
+			}
+			// If the current mode is Overkill Plus,
+			else if (hpType == "strength")
+			{
+				// Calculate the overkill amount.
+				overkill = Math.max(amount, 100);
+
+				// Update the HP cookies based on the overkill plus amount and the multiplier.
+				if (persistence)
+				{
+					setCookie({ name: "currentHp", newValue: overkill.toString() });
+					setCookie({ name: "maxHp", newValue: overkill.toString() });
+					
+					stackData = [
+						{ currentHp: overkill, maxHp: overkill },
+						{ currentHp: -1, maxHp: -1 }
+					];
+				}
+			}
+			// Else, if the current mode is Progressive,
+			else if (hpType == "progress")
+			{
+				progressIncrements++;
+				
+				overkill = hpAmnt + progressIncrements * hpIncr;
+				
+				// Update the HP cookies based on the increment setting.
+				if (persistence)
+				{
+					setCookie({ name: "currentHp", newValue: overkill.toString() });
+					setCookie({ name: "maxHp", newValue: overkill.toString() });
+					setCookie({ name: "progressIncrements", newValue: progressIncrements.toString() });
+					
+					stackData = [
+						{ currentHp: overkill, maxHp: overkill },
+						{ currentHp: -1, maxHp: -1 }
+					];
+				}
+			}
+			// Else, the current mode is Constant.
+			else
+			{
+				overkill = hpAmnt;
+				
+				// Update the HP cookies based on the default amount.
+				if (persistence)
+				{
+					setCookie({ name: "currentHp", newValue: hpAmnt.toString() });
+					setCookie({ name: "maxHp", newValue: hpAmnt.toString() });
+					
+					stackData = [
+						{ currentHp: hpAmnt, maxHp: hpAmnt },
+						{ currentHp: -1, maxHp: -1 }
+					];
+				}
+			}
+
+			if (gatherId != "")
+			{
+				$.ajax({
+
+					url: "https://" + gatherApiBaseUrl + "/api/influencers/" + gatherId + "/bitboss/info?bbb_twitch_token=" + oauth,
+					method: "PATCH",
+					dataType: 'json',
+					contentType: 'application/json',
+					data: JSON.stringify({ bbb_boss_name: attacker, bbb_boss_bars: stackData }),
+					success: function(data) {}
+				});
+			}
+			
+			if (currentMode == "titan")
+			{
+				currentMode = "";
+				AnimateDefeatBanner("titan-defeat", attacker);
+			}
+			else if (animDefeatBanner != "")
+			{
+				AnimateDefeatBanner(animDefeatBanner, attacker);
+			}
+		}
+		// Else, the boss will have HP left over after calculation.
+		else
+		{
+			var stackData = IssueChange("return", persistence);
+
+			if (gatherId != "")
+			{
+				$.ajax({
+
+					url: "https://" + gatherApiBaseUrl + "/api/influencers/" + gatherId + "/bitboss/info?bbb_twitch_token=" + oauth,
+					method: "PATCH",
+					dataType: 'json',
+					contentType: 'application/json',
+					data: JSON.stringify({ bbb_boss_bars: stackData }),
+					success: function(data) {}
+				});
+			}
+		}
+		
+		// Disable the periodic titan animation if it is active.
+		if (animBannerActive)
+		{
+			$("#defeatcontainer").stop().animate({ top: "-100%" }, 500, function() {
+				
+				$("#defeatimg").remove();
+				animBannerActive = false;
+			});
+		}
+
+		// Reset and start the initial delay.
+		isDelayed = true;
+		if (animDelay != null) { clearTimeout(animDelay); }
+		if (frstDelay != null) { clearTimeout(frstDelay); }
+		frstDelay = setTimeout(PerformEffects, 1000);
+	}
+}
+
+
+
+// ----------------------------------------------------- //
+// ------------------ BOSS FINALIZING ------------------ //
+// ----------------------------------------------------- //
+
+// Performs heal/strike effects after the initial delay.
+// All heals and strikes which occur before the initial delay can finish are grouped together into one PerformEffects pass.
+function PerformEffects() {
+
+	// Finalize the loss.
+	IssueChange("code");
+
+	// If the resulting loss after all grouped heals and strikes is zero, no effects need to be performed.
+	if (loss == 0) { return; }
+	// Else, if the loss is positive, perform damage effects.
+	else if (loss > 0)
+	{
+		// Play a random hit sound if sound is enabled.
+		if (sound) { damage[GetRandomInt(0, damage.length - 1)].play(); }
+
+		// Reset and start the hit amount label's animation.
+		lossOffset = 20;
+		lossShowing = true;
+		$("#loss").html("-" + loss.toString());
+		$("#loss").css({
+
+			"-webkit-transform": "translateY(" + lossOffset.toString() + "px)",
+			"-ms-transform": "translateY(" + lossOffset.toString() + "px)",
+			"transform": "translateY(" + lossOffset.toString() + "px)",
+			"visibility": "visible"
+		});
+
+		// Reset the hit amount label's hide delay.
+		if (hitShStop != null) { clearTimeout(hitShStop); }
+		// Reset the avatar shake effect's stop delay.
+		if (shakeStop != null) { clearTimeout(shakeStop); }
+
+		// Reset the avatar shake effect.
+		shaking = true;
+		shakeIntensity = 1000;
+
+		// Set the delayed (yellow) health bar animation delay.
+		animDelay = setTimeout(function() {
+
+			isDelayed = false;
+		}, 1000);
+
+		// Set the avatar shake effect's stop delay.
+		shakeStop = setTimeout(function() {
+
+			shaking = false;
+			avatarimg.css({
+
+				"-webkit-transform": "translate(0px,0px)",
+				"-ms-transform": "translate(0px,0px)",
+				"transform": "translate(0px,0px)"
+			});
+		}, 1000);
+
+		// Reset the loss counter.
+		loss = 0;
+	}
+	// Else, if the loss is negative, perform heal effects.
+	else if (loss < 0)
+	{
+		// Reset and start the hit amount label's animation.
+		lossOffset = 20;
+		lossShowing = true;
+		$("#loss").html("+" + Math.abs(loss).toString());
+		$("#loss").css({
+
+			"-webkit-transform": "translateY(" + lossOffset.toString() + "px)",
+			"-ms-transform": "translateY(" + lossOffset.toString() + "px)",
+			"transform": "translateY(" + lossOffset.toString() + "px)",
+			"visibility": "visible"
+		});
+
+		// Create the heal gif.
+		avatarimg.after('<img id="strikeimg" src="' + heal + '?a=' + Math.random() + '"/>');
+		imgRemove = setTimeout(function() { $("#strikeimg").remove(); }, 1000);
+
+		// Reset the hit amount label's hide delay.
+		if (hitShStop != null) { clearTimeout(hitShStop); }
+		// Reset the avatar shake effect's stop delay.
+		if (shakeStop != null) { clearTimeout(shakeStop); }
+
+		// Reset the avatar shake effect.
+		shaking = false;
+		avatarimg.css({
+
+			"-webkit-transform": "translate(0px,0px)",
+			"-ms-transform": "translate(0px,0px)",
+			"transform": "translate(0px,0px)"
+		});
+
+		// Set the delayed (yellow) health bar animation delay.
+		animDelay = setTimeout(function() {
+
+			isDelayed = false;
+		}, 1000);
+
+		// Reset the loss counter.
+		loss = 0;
+	}
+}
+
+
+
+// ----------------------------------------------------- //
+// ------------------- BOSS UTILITY -------------------- //
+// ----------------------------------------------------- //
+
+// Issue the current loss to the health stack. Saves according to the issue type.
+function IssueChange(issueType, alsoCookie) {
+  
+  //Temporary logging to identify issues
+  console.log('Issue Loss issueType', issueType);
+  console.log('Issue Loss alsoCookie', alsoCookie);
+  
+	// Create a temporary loss variable to subtract from.
+	var tempLoss = loss;
+	
+	// Create a temporary health stack to return if needed.
+	var tempStack = [{},{}];
+	
+	console.log('tempStack', tempStack);
+	console.log('healthStack', healthStack);
+
+	// Iterate through the health stack backwards.
+	for (var i = healthStack.length - 1; i >= 0; i--)
+	{
+		// If this part of the stack has HP left, 
+		if (healthStack[i].instantHp > 0)
+		{
+			// Get the actual amount of loss on this stack part.
+			var tempSubLoss = 0;
+			
+			if (tempLoss > 0)
+			{
+				tempSubLoss = Math.min(tempLoss, healthStack[i].instantHp);
+			}
+			else if (tempLoss < 0)
+			{
+				tempSubLoss = Math.max(tempLoss, healthStack[i].instantHp - healthStack[i].maxHp);
+			}
+			
+			// Subtract the actual loss amount from this stack part and then save based on the issue type.
+			switch(issueType)
+			{
+				// Save to cookies.
+				case "cookie":
+				{
+					setCookie({ name: "currentHp" + i.toString(), newValue: (healthStack[i].instantHp - tempSubLoss).toString() });
+					break;
+				}
+				// Return to the caller.
+				case "return":
+				{
+				  
+					tempStack[i].currentHp = healthStack[i].instantHp - tempSubLoss;
+					tempStack[i].maxHp = healthStack[i].maxHp;
+					if (alsoCookie) { setCookie({ name: "currentHp" + i.toString(), newValue: (healthStack[i].instantHp - tempSubLoss).toString() }); }
+					
+					for (var j = i - 1; j >= 0; j--)
+					{
+						tempStack[j].currentHp = healthStack[j].instantHp;
+						tempStack[j].maxHp = healthStack[j].maxHp;
+					}
+					
+					break;
+				}
+				// Save to the code.
+				case "code":
+				{
+					healthStack[i].instantHp -= tempSubLoss;
+					break;
+				}
+			}
+
+			// Subtract the actual loss from this stack part from the total loss.
+			tempLoss -= tempSubLoss;
+
+			// If the total loss is zero,
+			if (tempLoss == 0)
+			{
+				// All loss has been saved to the stack. Break the loop.
+				break;
+			}
+		}
+	}
+	
+	if (issueType == "return")
+	{
+		return tempStack;
+	}
+}
+
+// Performs a single shake step.
+function Shake(obj, intensity) {
+
+	// Calculate this step's new offset.
+	var x = Math.floor((Math.random() - 0.5) * 7) * (shakeIntensity / 1000);
+	var y = Math.floor((Math.random() - 0.5) * 7) * (shakeIntensity / 1000);
+
+	// Apply the new offset.
+	for (var i = 0; i < obj.length; i++)
+	{
+		obj[i].css({
+
+			"-webkit-transform": "translate(" + x.toString() + "px," + y.toString() + "px)" + (obj[i].attr("id") == "healthcontainer" ? (skin == "paragon" ? " skewX(-45)" : (skin == "csgo" ? " skewX(-15)" : "")) : ""),
+			"-ms-transform": "translate(" + x.toString() + "px," + y.toString() + "px)" + (obj[i].attr("id") == "healthcontainer" ? (skin == "paragon" ? " skewX(-45)" : (skin == "csgo" ? " skewX(-15)" : "")) : ""),
+			"transform": "translate(" + x.toString() + "px," + y.toString() + "px)" + (obj[i].attr("id") == "healthcontainer" ? (skin == "paragon" ? " skewX(-45)" : (skin == "csgo" ? " skewX(-15)" : "")) : "")
+		});
+	}
+}
+
+// Creates the explosion effect on the current boss's avatar, and begins the boss transition chain.
+function Explode() {
+  console.log('Calling Explode');
+  
+	// Enable preload and disable final blow.
+	preload = true;
+	finalBlow = false;
+
+	// Plays the explosion sound if sound is enabled.
+	if (sound) { explosions[0].play(); }
+
+	// Create the explosion gif.
+	avatarimg.after(skin == "paragon" ? '<div id="explodeimg"></div>' : '<img id="explodeimg" src="http://i.imgur.com/m9Ajapt.gif?a='+Math.random()+'"/>');
+
+	// Fade out the current boss's avatar. When finished, remove the explosion gif and get the next boss.
+	avatarimg.animate({opacity: 0}, 1000, "linear", function() {
+
+		$("#explodeimg").remove();
+		GetNewBoss();
+	});
+}
+
+// Gets the next boss.
+function GetNewBoss() {
+  console.log('Calling GetNewBoss');
+  
+	// Ensure that a boss is in line to get.
+	if (nextBoss == "") { return; }
+  
+  console.log('Calling GetUserInfo with nextBoss ', nextBoss);
+  
+	// Get the next boss's info.
+	GetUserInfo(nextBoss, function(info) {
+    
+    console.log('Inside the GetUserInfo function with info', info);
+    
+		// Set the next boss's avatar image, or set as default if they don't have one.
+		avatarimg.attr("src", (info.logo == null ? "https://static-cdn.jtvnw.net/jtv_user_pictures/xarth/404_user_70x70.png" : info.logo));
+		// Once the new avatar is loaded, begin the remaining transition steps.
+		avatarimg.on('load', function() {
+		
+		  console.log('In the avatarimg loaded function');
+			
+			// If overkill is assigned to, assign the initial amount to it.
+			if (overkill != null)
+			{
+				// Set the new HP amount based on the new health held in overkill.
+				healthStack[0].instantHp = healthStack[0].maxHp = overkill;
+			}
+
+			hpPerIncrement = Math.floor(hpAmnt / increments);
+			remainder = hpAmnt % increments;
+			
+			healthStack[0].hpPerIncrement = Math.floor(healthStack[0].maxHp / increments);
+			healthStack[0].remainder = healthStack[0].maxHp % increments;
+
+			if (currentMode == "titan")
+			{
+				healthStack[1].hpPerIncrement = Math.floor(healthStack[1].maxHp / increments);
+				healthStack[1].remainder = healthStack[1].maxHp % increments;
+			}
+
+			// Set the name and test labels to the new boss's display name.
+			$("#name").html(info.displayName);
+			$("#test").html(info.displayName);
+
+			// Reset the name scroll animation.
+			$("#name").stop().css("margin-left", "0px");
+			if (scrollDelay != null) { clearTimeout(scrollDelay); }
+			if (resetDelay != null) { clearTimeout(resetDelay); }
+			scrollDelay = null;
+			resetDelay = null;
+
+			// Enable refill and disable preload.
+			refill = true;
+			preload = false;
+
+			// Begin the avatar fade in.
+			avatarimg.css("opacity", "0");
+			avatarimg.animate({ opacity: 1 }, 1000, "linear");
+			avatarimg.off('load');
+
+			if (skin == "starcraft")
+			{
+				EnableRandomRace();
+			}
+
+			if (!bitBossPosted && gatherId != "")
+			{
+				var stackData = [
+					{ currentHp: healthStack[0].instantHp, maxHp: healthStack[0].maxHp },
+					(currentMode == "titan" ? { currentHp: healthStack[1].instantHp, maxHp: healthStack[1].maxHp } : { currentHp: -1, maxHp: -1 })
+				];
+
+				$.ajax({
+
+					url: "https://" + gatherApiBaseUrl + "/api/influencers/" + gatherId + "/bitboss/info?bbb_twitch_token=" + oauth,
+					method: "PATCH",
+					dataType: 'json',
+					contentType: 'application/json',
+					data: JSON.stringify({ bbb_boss_name: nextBoss, bbb_boss_bars: stackData }),
+					success: function(data) {}
+				});
+			}
+			else
+			{
+				bitBossToPost = nextBoss;
+			}
+		});
+	});
+}
+
+// Gets user information from Twitch using the given username, and then fires the given callback.
+function GetUserInfo(username, callback) {
+
+	// Ensure both a username and a callback were provided.
+	if (username == "") { return; }
+	if (!callback) { return; }
+
+	// Obtain the user information from Twitch.
+	$.ajax({
+		url: "https://api.twitch.tv/kraken/users/" + username + "?client_id=" + twitchClientId,
+		type: "GET",
+		beforeSend: function(xhr)
+		{
+			xhr.setRequestHeader('Accept', "application/vnd.twitchtv.v3+json");
+		},
+		success: function(data) {
+
+			callback({ userId: data._id, displayName: data.display_name, logo: data.logo });
+		},
+		error: function(data) {
+
+			// If the error is due to an unknown username,
+			if ((data.responseJSON.status == 404 && data.responseJSON.message == "User \"" + username + "\" was not found") ||
+				(data.responseJSON.status == 422 && data.responseJSON.message == "User \"" + username + "\" is unavailable"))
+			{
+				callback({ userId: null, displayName: username, logo: null });
+			}
+			// Else, error out.
+			else
+			{
+				// Log the error and response.
+				console.log("Error: " + data.responseJSON.error + ". " + data.responseJSON.message);
+				$("body").html("<h1 style='color: red;'>ERR. FAILED USER GET.</h1>");
+			}
+		}
+	});
+}
+
+
+
+// ----------------------------------------------------- //
+// --------------- STREAMLABS FUNCTIONS ---------------- //
+// ----------------------------------------------------- //
+
+// Gets a new access token for Streamlabs.
+function GetNewAccessToken() {
+
+	// Post the request.
+	$.post("./slauth", { userid: channelId, slToken: slRefresh, refresh: "true" }, function(res) {
+
+		// If there was no error,
+		if (!res.error)
+		{
+			// Assign the new tokens.
+			slToken = res.token;
+			slRefresh = res.refresh;
+
+			// Store the refresh token in cookies.
+			setCookie({ name: "refrsl", newValue: res.refresh });
+
+			// If the Streamlabs fetch timer isn't yet started,
+			if (!slStarted)
+			{
+				// Set the flag to true.
+				slStarted = true;
+
+				// Set the start time to now.
+				slStartTime = new Date().getTime();
+
+				// Create the donations fetch interval for 15 seconds.
+				setInterval(GetLatestDonationsSL, 15000);
+
+				// Create the donations queue interval for 1 second if not already started.
+				if (!dequeueStarted) { setInterval(DequeueDonation, 1000); dequeueStarted = true; }
+			}
+		}
+	});
+}
+
+// Gets the last 10 SL donations after the current ID, if it is set.
+function GetLatestDonationsSL() {
+
+	// Request the last 10 donations, supplying a last ID if it is set.
+	$.get("https://streamlabs.com/api/v1.0/donations?access_token="+slToken+"&verified=1&limit=10&currency=USD"+(slLastId != "" ? "&after="+slLastId : ""), function(res) {
+
+		for (var i = (res.data.length - 1); i >= 0; i--)
+		{
+			if (slLastId == "")
+			{
+				var created = res.data[i].created_at;
+
+				if (created > slStartTime)
+				{
+					tipQueue.push({ platform: "streamlabs", name: res.data[i].name.toLowerCase(), amount: parseFloat(res.data[i].amount), time: created });
+				}
+			}
+			else
+			{
+				tipQueue.push({ platform: "streamlabs", name: res.data[i].name.toLowerCase(), amount: parseFloat(res.data[i].amount), time: created });
+			}
+
+			if (i == 0)
+			{
+				slLastId = res.data[i].donation_id;
+			}
+		}
+	});
+}
+
+
+
+// ----------------------------------------------------- //
+// ----------------- GATHER FUNCTIONS ------------------ //
+// ----------------------------------------------------- //
+
+// Gets the streamer's Gather ID.
+function GetGatherID() {
+
+	// Request the ID.
+	$.get("./gatherid?id="+channelId, function(res) {
+
+		// Return (preventing Gather donation inclusion).
+		if (res.error) { return; }
+
+		// Set the ID.
+		gatherId = res.id || "";
+		
+		if (gatherId != "")
+		{
+			ConnectGatherSocket(gatherId, TransitionToTitan, ProcessGatherDamage, ProcessGatherRegen, ProcessGatherAnim, EndTitan);
+		}
+
+		// Give Gather the current Bit Boss.
+		if (!bitBossPosted && bitBossToPost != "")
+		{
+			var stackData = [
+				{ currentHp: healthStack[0].instantHp, maxHp: healthStack[0].maxHp },
+				(currentMode == "titan" ? { currentHp: healthStack[1].instantHp, maxHp: healthStack[1].maxHp } : { currentHp: -1, maxHp: -1 })
+			];
+			
+			$.ajax({
+
+				url: "https://" + gatherApiBaseUrl + "/api/influencers/" + gatherId + "/bitboss/info?bbb_twitch_token=" + oauth,
+				method: "PATCH",
+				dataType: 'json',
+				contentType: 'application/json',
+				data: JSON.stringify({ bbb_boss_name: bitBossToPost, bbb_boss_bars: stackData }),
+				success: function(data) {}
+			});
+			bitBossPosted = true;
+		}
+
+		// If the Gather fetch timer isn't yet started,
+		if (!gaStarted)
+		{
+			// Set the flag to true.
+			gaStarted = true;
+
+			// Set the start time to now.
+			gaStartTime = new Date().getTime();
+
+			// Create the donations fetch interval for 15 seconds, if the ID is not empty.
+			if (gatherId != "") { setInterval(GetLatestDonationsGA, 15000); }
+
+			// Create the donations queue interval for 1 second if not already started.
+			if (!dequeueStarted) { setInterval(DequeueDonation, 1000); dequeueStarted = true; }
+		}
+	});
+}
+
+// Gets the last 10 donations after the current ID, if it is set.
+function GetLatestDonationsGA() {
+
+	// Request the last 10 donations, supplying a last ID if it is set.
+	$.get("https://" + gatherApiBaseUrl + "/api/influencers/" + gatherId + "/last_donations?bbb_twitch_token=" + oauth + (gaLastId != "" ? "&after_id="+gaLastId : ""), function(res) {
+
+		for (var i = (res.donations.length - 1); i >= 0; i--)
+		{
+			if (gaLastId == "")
+			{
+				var created = new Date(res.donations[i].time).getTime();
+
+				if (created > gaStartTime)
+				{
+					tipQueue.push({ platform: "gather", name: res.donations[i].name, amount: parseFloat(res.donations[i].amount), time: created });
+				}
+			}
+			else
+			{
+				tipQueue.push({ platform: "gather", name: res.donations[i].name, amount: parseFloat(res.donations[i].amount), time: created });
+			}
+
+			if (i == 0)
+			{
+				gaLastId = res.donations[i]._id.$oid;
+			}
+		}
+	});
+}
+
+
+
+// ----------------------------------------------------- //
+// ----------------- DONATION UTILITY ------------------ //
+// ----------------------------------------------------- //
+
+// Dequeues a donation and feeds it into the bits system.
+function DequeueDonation() {
+
+	// If the queue isn't empty,
+	if (tipQueue.length > 0)
+	{
+		var firstIndex = 0;
+
+		for (var i = 1; i < tipQueue.length; i++)
+		{
+			if (tipQueue[i].time < tipQueue[firstIndex].time)
+			{
+				firstIndex = i;
+			}
+		}
+
+		var firstDonation = tipQueue[firstIndex];
+		tipQueue.splice(firstIndex, 1);
+
+		ProcessDonation(firstDonation);
+	}
+}
+
+
+
+// ----------------------------------------------------- //
+// ------------------- MISC UTILITY -------------------- //
+// ----------------------------------------------------- //
+
+// Gets a random integer between the min (inclusive) and max (inclusive).
+function GetRandomInt(min, max) {
+
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Gets a parameter from the URL.
+function GetUrlParameter(sParam) {
+
+	var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+		sURLVariables = sPageURL.split('&'),
+		sParameterName,
+		i;
+
+	for (i = 0; i < sURLVariables.length; i++) {
+		sParameterName = sURLVariables[i].split('=');
+
+		if (sParameterName[0] === sParam) {
+			return sParameterName[1] === undefined ? null : sParameterName[1];
+		}
+	}
+}
+
+// Animates the defeat banner.
+function AnimateDefeatBanner(banner, victor) {
+	
+	if (animBannerActive)
+	{
+		animBannerActive = false;
+		$("#defeatcontainer").stop().css("top", "-100%");
+		$("#defeatimg").remove();
+	}
+
+	animDefeatActive = true;
+
+	$("#defeatcontainer").append("<img id='defeatimg' src='./images/defeat_anims/" + banner + ".gif?a=" + Math.random() + "'>");
+	$("#defeatimg").on("load", function() {
+		
+		$("#defeatactionlabel").html("Final Blow: ");
+		$("#defeatnamelabel").html(victor);
+		$("#defeatcontainer").stop().animate({ top: "0%" }, 500);
+	});
+}
+
+// Enables a random race on the Starcraft skin
+function EnableRandomRace() {
+	
+	var randomSkin = Math.floor(Math.random() * 3);
+	var raceToEnable = "";
+
+	switch(randomSkin)
+	{
+		case 0:
+			raceToEnable = "terran";
+			break;
+		case 1:
+			raceToEnable = "zerg";
+			break;
+		default:
+			raceToEnable = "protoss";
+			break;
+	}
+
+	$(".showing").removeClass("showing");
+	$("." + raceToEnable).addClass("showing");
+}
+
+// Returns true if an incoming transaction should be ignored, or false otherwise.
+function IgnoreTransaction() {
+	
+	return (preload || refill || inCritBanner || finalBlow);
+}
+
+
+
+// ----------------------------------------------------- //
+// -------------------- UPDATE LOOP -------------------- //
+// ----------------------------------------------------- //
+
+// The main Draw function.
+function Update(deltaTime) {
+
+	if (refill)
+	{
+		for (var i = 0; i < healthStack.length; i++)
+		{
+			if (healthStack[i].instantHp != 0)
+			{
+				if (healthStack[i].displayHp < healthStack[i].instantHp)
+				{
+					healthStack[i].displayHp = Math.min(healthStack[i].instantHp, healthStack[i].displayHp + (healthStack[i].maxHp * deltaTime));
+
+					counter.html((skin == "overwatch" ? "" : (healthStack[i].name + ": ")) + Math.floor(healthStack[i].displayHp).toLocaleString("en-US") + " / " + healthStack[i].maxHp.toLocaleString("en-US"));
+
+					if (incrementMode)
+					{
+						var currentInc = Math.ceil((healthStack[i].displayHp / (healthStack[i].maxHp - healthStack[i].remainder)) * increments);
+
+						if (currentInc <= increments)
+						{
+							var opacity = (healthStack[i].displayHp - Math.floor((healthStack[i].displayHp / (healthStack[i].maxHp - healthStack[i].remainder)) * increments) * healthStack[i].hpPerIncrement) / healthStack[i].hpPerIncrement;
+							
+							if (opacity == 0 && healthStack[i].displayHp == currentInc * healthStack[i].hpPerIncrement)
+							{
+								opacity = 1;
+							}
+							
+							$("#t-" + i.toString() + "-" + currentInc.toString()).css("opacity", opacity.toString());
+							$("#t-" + i.toString() + "-" + (currentInc-1).toString()).css("opacity", "1");
+						}
+						else
+						{
+							$("#t" + (currentInc-1).toString()).css("opacity", "1");
+						}
+					}
+					else
+					{
+						$("#health-"+i.toString()).css("width", ((healthStack[i].displayHp / healthStack[i].maxHp) * 100).toString() + "%");
+						$("#hitdelay-"+i.toString()).css("width", ((healthStack[i].displayHp / healthStack[i].maxHp) * 100).toString() + "%");
+						
+						if (i == healthStack.length - 1)
+						{
+							Shake([avatarimg, $("#healthcontainer")], 250);
+						}
+					}
+
+					break;
+				}
+				else if (i == healthStack.length - 1 || healthStack[i + 1].instantHp == 0)
+				{
+					refill = false;
+					nextBoss = "";
+					
+					avatarimg.css({
+						
+						"-webkit-transform": "translate(0px,0px)",
+						"-ms-transform": "translate(0px,0px)",
+						"transform": "translate(0px,0px)"
+					});
+					
+					$("#healthcontainer").css({
+						
+						"-webkit-transform": "translate(0px,0px)" + (skin == "paragon" ? " skewX(-45)" : (skin == "csgo" ? " skewX(-15)" : "")),
+						"-ms-transform": "translate(0px,0px)" + (skin == "paragon" ? " skewX(-45)" : (skin == "csgo" ? " skewX(-15)" : "")),
+						"transform": "translate(0px,0px)" + (skin == "paragon" ? " skewX(-45)" : (skin == "csgo" ? " skewX(-15)" : ""))
+					});
+
+					if (animDefeatActive)
+					{
+						$("#defeatcontainer").stop().animate({ top: "-100%" }, 500, function() {
+
+							$("#defeatimg").remove();
+							animDefeatActive = false;
+						});
+					}
+
+					break;
+				}
+			}
+		}
+	}
+	else if (!preload)
+	{
+		for (var i = healthStack.length - 1; i >= 0; i--)
+		{
+			if (healthStack[i].displayHp > healthStack[i].instantHp)
+			{
+				if (!isDelayed) { healthStack[i].displayHp = Math.max(healthStack[i].instantHp, healthStack[i].displayHp - ((healthStack[i].maxHp / 5) * deltaTime)); }
+				
+				if (healthStack[i].displayHp == 0 && i > 0) { i--; }
+        
+        //Adding logging to find out what is going on
+        console.log('healthStack ' + i,healthStack);
+        
+				counter.html((skin == "overwatch" ? "" : (healthStack[i].name + ": ")) + Math.floor(healthStack[i].displayHp).toLocaleString("en-US") + " / " + healthStack[i].maxHp.toLocaleString("en-US"));
+
+				if (incrementMode)
+				{
+					var currentInc = Math.ceil((healthStack[i].displayHp / (healthStack[i].maxHp - healthStack[i].remainder)) * increments);
+
+					if (currentInc <= increments)
+					{
+						var opacity = (healthStack[i].displayHp - Math.floor((healthStack[i].displayHp / (healthStack[i].maxHp - healthStack[i].remainder)) * increments) * healthStack[i].hpPerIncrement) / healthStack[i].hpPerIncrement;
+						
+						if (opacity == 0 && healthStack[i].displayHp == currentInc * healthStack[i].hpPerIncrement)
+						{
+							opacity = 1;
+						}
+						
+						$("#t-" + i.toString() + "-" + currentInc.toString()).css("opacity", opacity.toString());
+						if (currentInc < increments) { $("#t-" + i.toString() + "-" + (currentInc+1).toString()).css("opacity", "0"); }
+					}
+				}
+				else
+				{
+					$("#health-"+i.toString()).css("width", ((healthStack[i].instantHp / healthStack[i].maxHp) * 100).toString() + "%");
+					$("#hitdelay-"+i.toString()).css("width", ((healthStack[i].displayHp / healthStack[i].maxHp) * 100).toString() + "%");
+				}
+
+				if (i == 0 && healthStack[i].displayHp == 0)
+				{
+					console.log('healthStack before Explode',healthStack);
+					console.log('refill before Explode',refill);
+					Explode();
+				}
+
+				break;
+			}
+			else if (healthStack[i].displayHp < healthStack[i].instantHp)
+			{
+				if (!isDelayed) { healthStack[i].displayHp = Math.min(healthStack[i].instantHp, healthStack[i].displayHp + ((healthStack[i].maxHp / 5) * deltaTime)); }
+
+				counter.html((skin == "overwatch" ? "" : (healthStack[i].name + ": ")) + Math.floor(healthStack[i].displayHp).toLocaleString("en-US") + " / " + healthStack[i].maxHp.toLocaleString("en-US"));
+
+				if (incrementMode)
+				{
+					var currentInc = Math.ceil((healthStack[i].displayHp / (healthStack[i].maxHp - healthStack[i].remainder)) * increments);
+
+					if (currentInc <= increments)
+					{
+						if (currentInc <= increments)
+						{
+							$("#t-" + i.toString() + "-" + currentInc.toString()).css("opacity", ((healthStack[i].displayHp - Math.floor((healthStack[i].displayHp / (healthStack[i].maxHp - healthStack[i].remainder)) * increments) * healthStack[i].hpPerIncrement) / healthStack[i].hpPerIncrement).toString());
+							$("#t-" + i.toString() + "-" + (currentInc-1).toString()).css("opacity", "1");
+						}
+						else
+						{
+							$("#t" + (currentInc-1).toString()).css("opacity", "1");
+						}
+					}
+				}
+				else
+				{
+					$("#health-"+i.toString()).css("width", ((healthStack[i].displayHp / healthStack[i].maxHp) * 100).toString() + "%");
+					$("#hitdelay-"+i.toString()).css("width", ((healthStack[i].displayHp / healthStack[i].maxHp) * 100).toString() + "%");
+				}
+
+				break;
+			}
+			else if (healthStack[i].instantHp == 0)
+			{
+				$("#health-"+i.toString()).css("width", ((healthStack[i].instantHp / healthStack[i].maxHp) * 100).toString() + "%");
+				$("#hitdelay-"+i.toString()).css("width", ((healthStack[i].displayHp / healthStack[i].maxHp) * 100).toString() + "%");
+			}
+		}
+	}
+
+	// If the avatar state is shaking,
+	if (shaking)
+	{
+		// Reduce the intensity
+		shakeIntensity = Math.max(0, shakeIntensity - 16);
+
+		// Perform a shake step.
+		Shake([avatarimg], shakeIntensity);
+	}
+
+	// If the hit amount label's offset is greater than zero,
+	if (lossOffset > 0)
+	{
+		// Decrement the label's offset at a rate of 20 pixels per second.
+		lossOffset = Math.max(0, lossOffset - (20 / (1000/60)));
+
+		// Apply the new loss offset.
+		$("#loss").css({
+
+			"-webkit-transform": "translateY(" + lossOffset.toString() + "px)",
+			"-ms-transform": "translateY(" + lossOffset.toString() + "px)",
+			"transform": "translateY(" + lossOffset.toString() + "px)"
+		});
+	}
+	// Else, if the label is still showing,
+	else if (lossShowing)
+	{
+		// Set the hide delay to half a second.
+		lossShowing = false;
+		hitShStop = setTimeout(function() {
+
+			// After the delay, hide the label.
+			$("#loss").css("visibility", "hidden");
+		}, 500);
+	}
+
+	// Name Scroll
+
+	// Get the width of the current name, and the width of the scollable area.
+	var nameWidth = $("#test").width();
+	var scrollWidth = $("#scroll").width();
+
+	// If the name is longer than the scrollable area,
+	if (nameWidth > scrollWidth)
+	{
+		// If the scroll delay is disabled,
+		if (scrollDelay == null)
+		{
+			// Set a new scroll delay.
+			scrollDelay = setTimeout(function() {
+
+				// After the delay, set the delay tracker to something other than null until later.
+				scrollDelay = -1;
+
+				// Animate the scroll. When finished scrolling, perform additional action.
+				$("#name").stop().animate({"marginLeft": "-" + (nameWidth - scrollWidth).toString() + "px"}, 1000, "linear", function() {
+
+					// Set a new reset delay.
+					resetDelay = setTimeout(function() {
+
+						// After the delay, reset the scroll to zero and disable the scroll delay to restart the cycle.
+						$("#name").css("margin-left", "0px");
+						scrollDelay = null;
+					}, resetInterval);
+				});
+			}, scrollInterval);
+		}
+	}
+}
+
+
+
+// ----------------------------------------------------- //
+// -------------------- ENTRY POINT -------------------- //
+// ----------------------------------------------------- //
+
+// Entry point.
+$(document).ready(function () {
+	
+	StartSetup();
+	
+	thisFrame = new Date().getTime();
+	
+	// Animation loop
+	setInterval(function() {
+		
+		lastFrame = thisFrame;
+		thisFrame = new Date().getTime();
+		
+		var delta = Math.min(thisFrame - lastFrame, 250);
+		
+		Update(delta / 1000);
+		
+	}, (1000/60));
+	
+	Fake("topic", ProcessBits);
+	
+	$("#fake").click(function() {
+		InterpretMessage({ data: '{"type":"MESSAGE","data":{"topic":"topic","message":"{\\"user_name\\":\\"kappa\\",\\"bits_used\\":1000,\\"context\\":\\"cheer\\"}"}}' });
+	});
+});
