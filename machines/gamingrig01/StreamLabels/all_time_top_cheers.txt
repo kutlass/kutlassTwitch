@@ -1,1 +1,1 @@
-musclehands: 5000, Bloodstock13: 1600, r3dc0bra: 1500, 0verhated: 1000, FrenchWaffleCrisp: 1000, musclehands: 1000, 0verhated: 1000, Nyktheras: 717, 0verhated: 700, Nyktheras: 600
+musclehands: 5000, Bloodstock13: 1600, r3dc0bra: 1500, 0verhated: 1000, FrenchWaffleCrisp: 1000, musclehands: 1000, 0verhated: 1000, frenchwafflecrisp: 990, frenchwafflecrisp: 800, Nyktheras: 717
